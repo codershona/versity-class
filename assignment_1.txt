@@ -1,3 +1,4 @@
+# CS 1101 Programming Fundamentals - AY2021-T1
 Part 1 (ANSWER) : 
  When I try to print   2++2 string I get 4 Output In my console. Which is using two addition arithmetic operators. This does not need any quotation mark as it is python operators. Second, 2--2 string operators result is also 4 same output as is has two Subtraction Arithmetic Operators. Thirdly,  by running this 2+-2 the output is 0 because here is one addition operators  and another one is subtraction operators. Fourthly, by running this 2-+2 the output is 0 . Here first one is subtraction and another one is addition. 
 
