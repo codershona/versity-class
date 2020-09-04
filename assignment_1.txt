@@ -1,0 +1,60 @@
+Part 1 (ANSWER) : 
+ When I try to print   2++2 string I get 4 Output In my console. Which is using two addition arithmetic operators. This does not need any quotation mark as it is python operators. Second, 2--2 string operators result is also 4 same output as is has two Subtraction Arithmetic Operators. Thirdly,  by running this 2+-2 the output is 0 because here is one addition operators  and another one is subtraction operators. Fourthly, by running this 2-+2 the output is 0 . Here first one is subtraction and another one is addition. 
+
+ 2++2
+4
+ 2--2
+4
+ 2+-2
+0
+ 2-+2
+0
+ 
+ *  If I use leading zeros are OK, as in 02 in my math notation, it maybe looks like this 02 + 02 + 02.  When i might try to run this it will cause syntax invalid error. 
+
+
+
+ 02 + 02 + 02
+  File "<stdin>", line 1
+    02 + 02 + 02
+     ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+ 
+
+
+ * If I have two values with no operator and a space in between them is this case it maybe look like this 22 and if I run is my output will be 22. Because this values does not have any space or arithmetic operator between them. As a result, the result would be the same two value will show without having any statement.   
+
+ 22
+22
+  Part 2 (ANSWER) :
+
+    Describing my first Python experiment and my explanation are given below. 
+
+     print("Eight is greater than three!")
+ Output: Eight is greater than three!
+     Here I had added quotation marks and bracket correctly and print those strings. So here is no error showing me and i got my output correctly.
+
+
+
+   My Second Python Experiment and explanation are given below :
+
+ if 9 > 7:
+...  print("Nine is greater than Seven!")  
+... 
+Nine is greater than Seven!
+ Here if 9 syntax is greater than 7 syntax  it would print :
+Nine is greater than Seven!
+
+      
+
+ My Third Python Experiment and explanation are given below :
+
+ if 7 < 9:
+...         print("Seven is smaller than Nine!") 
+... 
+Seven is smaller than Nine!
+ Here if 7 is smaller than 9 the syntax would be print Seven is smaller than Nine!. As this method is called Python Indentation
+which suggest to use the spaces at the beginning of a code line.  Besides this, in other programming languages the indentation in code is for readability only, the indentation in python 3 is necessary to use indentation to indicate a block of code.
+
+
+
