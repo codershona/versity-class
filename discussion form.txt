@@ -1,0 +1,37 @@
+According my Python Interpreter , because of eac statement, I had copy the output into my Discussion Assignment. My explanation are given below :
+
+
+
+  1)  If i try to run this   print 'Hello, World!' , it will show the error ( File "<stdin>", line 1
+
+    print 'Hello, World!'
+
+    ^
+
+IndentationError: unexpected indent)
+
+  So, In this case if I run print("Hello, World!") my output would be Hello, World! which is correct output. 
+
+  2)  When I run this into my console 1/2 my output is 0.5. This output did not cause any error or debugging because 1 is divide into 2 which result is 0.5 .
+
+
+
+ 3)  When I run in my python console type(1/2) , my output is <class 'float'> which is correct and without causing any errors or bugs.
+
+ 4)  By trying to run this, print(01)  this causes error into my console .  File "<stdin>", line 1
+
+    print(01)
+
+           ^
+
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+
+ 1/(2/3)
+
+
+
+Because I did not add any Quotation marks . So when i put Quotation mark   print("01")  my output is 01 which is correct.
+
+
+
+ 5)   By running this into console, 1/(2/3)  the output is  1.5 , which is correct and does not cause any error.
