@@ -1,0 +1,121 @@
+Week 1: Unit 1 - Welcome to University of the People
+
+Week 2: Unit 2 - University of the People Educational Methods
+
+Week 3: Unit 3- Academic Integrity and Ethical Conduct
+
+Week 4: Unit 4 - What is Critical Thinking and Why is it Important?
+
+Week 5: Unit 5 - Self-Directed Learning
+
+Week 6: Unit 6 - Study Skills and Note Taking
+
+Week 7: Unit 7 - Time and Stress Management
+
+Week 8: Unit 8 - Test Preparation and Final Reflection
+
+Week 9: Unit 9 - Course Review and Final Exam
+
+Course Schedule and Topics:
+
+This course will cover the following topics in eight learning sessions, with one Unit per week. The Final Exam will take place during Week/Unit 9 (UoPeople time).
+
+Week 1: Unit 1 - Introduction and Fundamental Concepts
+
+Week 2: Unit 2 -Variables, Expressions, Statements, and Functions
+
+Week 3: Unit 3 - Conditionals and Recursion
+
+Week 4: Unit 4 - Functions and Return Values
+
+Week 5: Unit 5- Iteration and Strings
+
+Week 6: Unit 6 - Lists
+
+Week 7: Unit 7 - Dictionaries and Tuples
+
+Week 8: Unit 8 - Files
+
+Week 9: Unit 9 -Final Exam
+
+
+
+Learning Guide:
+
+The following is an outline of how this course will be conducted, with suggested best practices for students.
+
+Unit 1: Introduction and Fundamental Concepts
+
+Read through the Learning Guide and the Reading Assignment.
+Download and install a working Python 3 environment (not required for PythonAnywhere users). Refer to the Software Requirements/Installation section of the Syllabus.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Unit 2: Variables, Expressions, Statements, and Functions
+
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete and submit the Programming Assignment.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Unit 3: Conditionals and Recursion 
+
+Peer-assess Unit 2 Programming Assignment.
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Take the Graded Quiz.
+Unit 4: Functions and Return Values
+
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete and submit the Programming Assignment.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Unit 5: Iteration and Strings
+
+Peer-assess Unit 4 Programming Assignment.
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete and submit the Programming Assignment.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Unit 6: Lists
+
+Peer-assess Unit 5 Programming Assignment.
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Take the Graded Quiz.
+Unit 7: Dictionaries and Tuples
+
+Read through the Learning Guide and the Reading Assignment.
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete and submit the Programming Assignment.
+Complete an entry in the Learning Journal.
+Take the Self-Quiz.
+Unit 8: Files
+
+Peer assess Unit 7 Programming Assignment
+Read the Learning Guide and Reading Assignments
+Complete the Discussion Assignment by posting in the Discussion Forum.
+Respond to three of your fellow classmates’ posts in the Discussion Forum.
+Complete an entry in the Learning Journal.
+Read the Unit 9 Learning Guide carefully for instructions on the Final Exam.
+Take the Self-Quiz.
+Take the Review Quiz.
+Complete and submit the anonymous Course Evaluation.
+Unit 9: Course Review and Final Exam
+
+Read the Learning Guide and take the Review Quiz, if you haven't already done so
+Prepare for, take, and submit the Final Exam
+The Final Exam will take place during the Thursday and Sunday of Week/Unit 9 (UoPeople time); exact dates, times, and other details will be provided accordingly by your instructor
