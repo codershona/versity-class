@@ -1,3 +1,158 @@
 # UNIT 2: Variables, Expressions, Statements, and Functions
 
+Create your own Python code examples that demonstrate each of the following. Do not copy examples from the book or any other source. Try to be creative with your examples to demonstrate that you invented them yourself.
+
+Example 1: Define a function that takes an argument. Call the function. Identify what code is the argument and what code is the parameter.
+
+ANSWER: Example 1(ANSWER): Defining a function that takes an argument as well as calls the function, the code of  argument, and the code of  parameter  are given below:
+
+   In the beginning, def is a keyword which is followed by functions names and parentheses ( ( ) ). It is called function blocks. Parentheses have actually defined any input parameters or arguments. In the string of function, there is an optional statement which could be the first statement of the docstring. A colon (:) and is indented always express code blocks for the function. A return None has no arguments which are the same as a return statement.  For Example, syntax,  
+
+   def function1():
+  print ("I am working on assesments") 
+ Here, def function1(): is a function definition and I am printing the function output which is "I am working on assessments". In my example, function(): is a function call. 
+
+  To call a Function, I could explain the parameters which might be included within the function and structures the blocks of code. 
+
+
+
+#!/usr/bin/python
+def function1( str ):
+   "I learning to call a function!"
+   print (str)
+   return;
+function1("I am a student of UOP")
+function1("I am working on discussion forum assessments")
+
+
+
+  As a result, the code would show this result as an output of my code:
+
+   I am a student of UOP
+I am working on discussion forum assessments
+
+
+   The code of argument and parameters are identifying by using function arguments. For example, The argument is a value that helps to pass the functions as well as, PArameter is an argument and a function side.
+
+def function1(a, b):
+        print(a*b)
+function1(3, 9)
+  If I run this in my console this result is,
+
+27
+ 
+    Here function1(a,b) is declaring the arguments, and funtion1(3,9) is the passing arguments and the output result is 27.
+
+
+
+Example 2: Call your function from Example 1 three times with different kinds of arguments: a value, a variable, and an expression. Identify which kind of argument is which. 
+
+ANSWER: Example 2(ANSWER): Calling my function from Example 1 of arguments such as a value, a variable, and an expression. Trying to identify the argument of each example which are given below:
+
+
+def print1(a, b=0):
+        return a*b
+print(print1(5))
+  So in this case, the result would be,
+
+   0
+ 
+Here, 0 is the default value of the argument which presents (b = 0), suppose when we try to call the print1 function it would show 0 because of (5 * 0). Because a has no default values and b has its default value. That means if we want to declare a default value for an argument that might be assigning a value in the function. Besides this, the print1 function also assigning a value to a thus, by working on the value of b = 0. As a result, the print1 of a*b is equal to 0.
+ 
+
+
+
+
+
+Example 3: Create a function with a local variable. Show what happens when you try to use that variable outside the function. Explain the results.
+
+ANSWER: Example 3(ANSWER): Creating a function with a local variable which is giving below:  
+
+  A local variable is a variable that declares inside the body of the function and in the local scope which is known as a local variable.  
+
+   For Instance, if we try to access the local variable outside the scope here is my method,
+
+  
+
+def local():
+    a = "local1"
+
+
+local()
+print(a)
+
+
+ In the console, this error would show,
+
+  Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    print(a)
+NameError: name 'a' is not defined
+
+
+   Which means would cause an error because we are trying to access the local variable a which is a global scope on the other hand local variable only works inside into local() or local scope. On the other side if we try to access and declare a variable inside the function to create a local variable this method would work:
+
+  
+
+def local():
+    b = "printitwell"
+    print(b)
+local()
+ And the result in the console would be :
+
+  printitwell
+ 
+
+
+  Because here b was the global variable, as well as I, want to add it inside the local().
+
+
+
+
+
+Example 4: Create a function that takes an argument. Give the function parameter a unique name. Show what happens when you try to use that parameter name outside the function. Explain the results.
+
+ANSWER: Example 4(ANSWER): Creating a function that takes an argument and explaining it in below:
+
+  As, a parameter has the same unique name for example, 'Jenny' which has a variable that defined outside. Besides this function defined outside variable by using its reference in only one value which passing in the parameter. As a result, parameters would be using its variables on the same name on its own function. 
+
+
+
+firstname = "Jenny"
+def solid1(firstname):
+  print("What are you doing, " + firstname + "?")
+solid1("John") 
+print(firstname)
+
+
+As a result, this output shows in the console:
+
+
+What are you doing, John?
+Jenny
+ 
+
+Example 5: Show what happens when a variable defined outside a function has the same name as a local variable inside a function. Explain what happens to the value of each variable as the program runs.
+
+
+ANSWER:  Example 5:(ANSWER):  In the beginning, explaining the value of each variable which runs as the program is given below:
+
+  Global value is used to explain and declared the outside of a function which we need to use them inside of the function.
+
+def d():  
+    print(a)
+a = "I am a CS student"
+d()
+Which come output in console: 
+
+I am a CS student
+ 
+As a result, the function uses a global variable a.  Beside this variable explains a string "I am a CS student" before It shows a function d(). This would be the only statement in d() which "print a" in the statement because there is no local a and the value from the global a would be used.
+
+
+
+
+
+
+
 
