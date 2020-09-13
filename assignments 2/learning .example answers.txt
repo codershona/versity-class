@@ -1,0 +1,67 @@
+Learning Journal Unit 2
+
+Part 1
+
+The volume of a sphere is 4/3πr3, where π has the value of "pi" given in Section 2.1 of your textbook. Write a function called print_volume (r) that takes an argument for the radius of the sphere, and prints the volume of the sphere.
+
+Call your print_volume function three times with different values for radius.
+
+Include all of the following in your Learning Journal:
+
+The code for your print_volume function.
+The inputs and outputs to three calls of your print_volume.
+
+
+
+ANSWER:  CHANGE IT
+
+Last answer with an error, I'm sorry
+
+def print_volume(r):
+    from math import pi
+    return print((4 / 3) * pi * (r ** 3))
+
+
+print_volume(1)
+print_volume(2)
+print_volume(3)
+
+
+
+Part 2
+
+Write your own function that illustrates a feature that you learned in this unit. The function must take at least one argument. The function should be your own creation, not copied from any other source. Do not copy a function from your textbook or the Internet.
+
+Include all of the following in your Learning Journal:
+
+The code for the function that you invented.
+The inputs and outputs to three calls of your invented function.
+A description of what feature(s) your function illustrates.  
+
+
+
+ANSWER:
+
+
+CHANGE IT PLEASE PLAGARISM:
+
+the second part of the condition is very strange
+
+def sin_us(x):
+    from math import sin, cos, tan
+    print(sin(x), cos(x), tan(x), end='\n')
+    return None
+The function accepts the angle and calculates, as well as prints the sine, cosine, and tangent of the entered angle
+
+
+
+def print_volume(radius):
+     volume = 0
+     volume = radius **3 #This make the radius cubed
+     volume *= 4/3
+     return volume
+
+#While this can be reduced to fewer lines, I wrote it out so that you can see my logic.
+
+Side note: The 4/3 may produce a floating point error which use can avoid by importing Decimal from decimal (a module) and wrapping the 4/3 in the Decimal call function ( Decimal(‘4/3’) )
+
