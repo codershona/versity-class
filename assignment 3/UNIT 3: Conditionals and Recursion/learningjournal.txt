@@ -76,6 +76,43 @@ BLAST OFF!
 
     Thirdly, number = int(number) defines the number which is going to convert the string. As a result, if the count_down function is it will provide the same output and if the count_up is a negative number it will also give the same output. In this case, there is no difference between count_up and count_down function that might help to call the function as well as 0 and both functions will print "BLAST OFF!".
 
-  ANSWER: 2: 
+  ANSWER: 2:Firstly, I am going to write a coding method for my program which is given below:
 
+code1 = input("Please write your local country code: ") 
+code1 = int(code1) 
+print("+1")
+  The output would be:
 
+Please write your local country code 1
++1
+ 
+    Secondarily, the third line of my code is printing a +1 country code which has the value of its code1 variable that might need to be converted into an integer. So, by mistake if you write any words or sentence in "number" place you will get an error that is given below: 
+
+  Please write your local country code s
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    code1 = int(code1) 
+ValueError: invalid literal for int() with base 10: 's'
+ 
+      In my third point,  This causing runtime error because a number can not ever able to convert into any words or sentences. This logical error is a kind of program which will crash and console and detailed the error to fix it.   
+
+   Fourthly, If we want to fix any kind of error in our code you must need to check our code errors or handle the exception. We need to check the syntax of our code, run the code to check the runtime error. and the logical errors which are also difficult to fix.
+
+ 
+try: 
+   country_code = int(country_code) 
+   print("+02") 
+except: 
+   print("Please check again before writing3!!!!") 
+try: 
+    case1 = input("Write your country code number: ") 
+    case2 = int(case1) 
+    print("Your country number has been added successfully!!!!", case2) 
+except ValueError: 
+    print("OOPs! please write your country code????") 
+ The output is :
+
+Please check again before writing3!!!!
+Write your country code number: +22
+Your country number has been added successfully!!!! 22
+ 
