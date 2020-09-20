@@ -24,7 +24,7 @@ Provide the following.
 The code of your program.
 Output for the following input: a positive number, a negative number, and zero.
 An explanation of your choice for what to call for input of zero.
-2. Write your own unique Python program that has a runtime error. Do not copy the program from your textbook or the Internet. Provide the following.
+2. Write your own unique Python program that has a rWrite a new recursive function countup that expects a negative argument and counts “up” from that numbeuntime error. Do not copy the program from your textbook or the Internet. Provide the following.
 
 The code of your program.
 Output demonstrating the runtime error, including the error message.
@@ -33,4 +33,6 @@ An explanation of how to fix the error.
 
 
 
-answer: 
+ANSWER 1: In the begining, writing a new recursive function countup that expects a negative argument and counts “up” from that number.
+
+
