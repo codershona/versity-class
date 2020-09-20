@@ -33,6 +33,49 @@ An explanation of how to fix the error.
 
 
 
-ANSWER 1: In the begining, writing a new recursive function countup that expects a negative argument and counts “up” from that number.
+ANSWER 1:     In the beginning, writing a new recursive function count up that expects a negative argument and counts “up” from that number. I am going to discuss recursion which I had to follow according to my textbook. Recursion is one kind of function which legal to call another function. That means when a function process of executing and calls itself is recursive is known as Recursion.  
+
+import sys
+
+def count_down(x):
+  if x <= 1:
+    print("BLAST OFF!")
+  else:
+    print(x)
+    count_down(x-1)
+
+def count_up(y):
+  if y >= 2:
+    print("BLAST OFF!")
+  else:
+    print(y)
+    count_up(y+1)
+if sys.version_info[0] == 3:
+  number = input('Please write down number here ')
+else:
+  number = input('Please write down number here ')
+number = int(number)
+if number > 2:
+  count_down(number)
+elif number < 4:
+  count_up(number)
+else:
+  print("BLAST OFF!")
+
+In here the output would be :
+
+Please write down number here 3
+3
+2
+BLAST OFF!
+ 
+    First of all, by importing sys will allow me to access the module of variables through interpreter also the functions mainly perform strongly as an interpreter. 'sys' means System specific of the Parameters and Functions.
+  In my method, def count_down is a function that prints blastoff. Besides, if the x defines less than or equal to 1. That means it would be less than or equal to true this logic be if which is the left operand is less than as equal to the right. Otherwise, if it else statements it will print x variables. 
+
+   Secondly, count_down defines the execute function of begins with y which is greater than or equal to 2. This is called python comparison operators. 
+
+    Thirdly, number = int(number) defines the number which is going to convert the string. As a result, if the count_down function is it will provide the same output and if the count_up is a negative number it will also give the same output. In this case, there is no difference between count_up and count_down function that might help to call the function as well as 0 and both functions will print "BLAST OFF!".
+
+  ANSWER: 2: 
 
 
