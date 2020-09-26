@@ -1,0 +1,106 @@
+Part 1
+
+Section 6.2 of your textbook describes incremental development. Do the exercise at the end of that section:
+
+As an exercise, use incremental development to write a function called hypotenuse that returns the length of the hypotenuse of a right triangle given the lengths of the other two legs as arguments. Record each stage of the development process as you go. (Downey, 2015)
+
+After the final stage of development, print the output of hypotenuse(3, 4) and two other calls to hypotenuse with different arguments.
+
+Include all of the following in your Learning Journal:
+
+An explanation of each stage of development, including code and any test input and output.
+The output of hypotenuse(3,4).
+The output of two additional calls to hypotenuse with different arguments.
+
+Part 2
+
+Invent your own function that does some useful computation of your choosing. Do not copy the function from somewhere else. Use incremental development, and record each stage of the development process as you go. Finally, print output that demonstrates that the function works as you intended.
+
+Include all of the following in your Learning Journal:
+
+An explanation of each stage of development, including code and any test input and output.
+The output of three calls to your function with different arguments.
+
+
+
+Part 3
+
+Describe your experience so far with peer assessment of Discussion Assignments.
+
+How do you feel about the feedback and ratings you have received from your peers?
+How do you think your peers feel about the feedback you provided them? And the ratings you gave them?
+Reference:  
+
+Downey, A. (2015). Think Python: How to think like a computer scientist. Needham, Massachusetts: Green Tree Press. 
+
+
+
+ANSWER:            Part 1 Answer:
+
+            In the beginning, I want to explain about Increment development. Increment development is a kind of tricks that we use to avoid the debugging of any kind of large and complex program as well as by incrementing write code and test it to make sure that all new code works exactly what we expect. These tricks we use in our daily life. In our textbook, there is an exercise that we usually use to incremental development that helps to write a function called hypotenuse that returns the length of the hypotenuse of a right triangle given the lengths of the other two legs as arguments.
+
+
+
+     In my code, I am going to explain each stage of development by including code and any test input and output, that is given below:
+
+def hypotenuse(side1, side2): 
+    return (side1**2+ side2**2)**(1/2) 
+       In my method, there is a function that has 2 arguments with a corner that has a first side and second side gradually. In Accordance with the Pythagorean theorem,  the hypotenuse has the requisite qualities for the square root of the sum as well as the squares of the sides. 
+
+def hypotenuse(side1, side2): 
+    return (side1**2+ side2**2)**(1/2) 
+
+print("My first range '1', the corner might have '3' side and '4' side, the output is :",hypotenuse(3,4))
+print("I am looking for output 5 !!!")
+print("My second range is going to be '1', that might have corner with '12' side and '5', the outcome is going to be:",hypotenuse(12,5))
+print("My output is 13 !!!!")
+print("My third range is going to be '1', the corner might have corners with '20' side and '21' side, the output is:",hypotenuse(20,21))
+print("I am guessing the output must be 29 !!!")
+
+      Here is my console output :
+
+My first range '1', the corner might have '3' side and '4' side, the output is : 5.0
+I am looking for output 5 !!!
+My second range is going to be '1', that might have corner with '12' side and '5', the outcome is going to be: 13.0
+My output is 13 !!!!
+My third range is going to be '1', the corner might have corners with '20' side and '21' side, the output is: 29.0
+I am guessing the output must be 29 !!!
+ 
+    In my method, the output of hypotenuse(3,4) is going to be 5.0 which we are imagining might be 5. On the other hand, the output of two additional calls to hypotenuse with different arguments is going to be 13.0 and another one is 29.0 but we are respectively expecting 13 and 29, because we had print my second range 1 that had a corner with 12 and 5 sides, on the other side, by printing my third range we had a corner with 20 and 21 sides. 
+
+
+
+     Part 2 Answer: 
+
+     In my first point,  I am going to invent my own function by using incremental development as well as recording each stage of the development process which is given below:
+
+     
+
+from math import pi
+def distance(b):
+    b = float(b)
+    return (pi*((b/2)**2))
+
+print(distance(10))
+print(distance(20))
+print(distance(30))
+   Here is my console output: 
+
+78.53981633974483
+314.1592653589793
+706.8583470577034
+ 
+
+   In my method, I am going to explain each stage of development and including code and any test input and output. In my work first of all I had set up the simple function that is going to compute the area of the distance with the particular side of the length. If we think, this side of length has b which is equal to  pi*(b/2)^2 as we know that pi is not a native variable, besides this, we could able to find the pi in the math module which is going to import in advance. 
+
+  In my second point, I am going to demonstrate the output of three calls to my own function with different arguments. In my first argument, I am printing distance 10 which output is 78.53981633974483, but I am expecting 78. In my second argument, by printing distance length 20 my output is 314.1592653589793, but I am looking for 314. On the other hand, my third argument is distance 30 which results is 706.8583470577034, but I am expecting 706 as an output. 
+
+
+
+   Part 3 ANSWER:  
+
+     In the bud, I am going to write my experience with the peer assessment which I already had worked on in my previous units and assessments. By receiving feedback and rating from my peers I happy and in some cases sad also. Because peer feedback and rating always helps a student to enhance the quality of learning. But In my case, some peers give negative feedback intentionally without reading all the hard work of a student. He or she might not think and read the assessments fully and review the negative comments and low points which I think is really an unfair manner. Very rare this situation happens. If a student has any assessment mistakes or fault they should need to explain with details that what were the mistakes the student makes and how could he or she improve it. The student should not randomly give a review without reading any assessment. In my opinion, the university should also concern about these activities and take steps for this kind of negative situation.
+
+
+
+    In my second point, I think when I provide my feedback to my peers he or she should read everything and works more the best they were working on their assessment. If my peer do any mistakes in his assessment, I just need to explain clearly with detail and what he should need to improve the gain knowledge from those mistakes. I also could suggest some blogs which might help my peers to learn more from the mistakes. I should not discourage him. I need to encourage my upper to write more clearly with a proper explanation and help each other with good communication and manners. As well as I should rate him overall good and could improve better to encourage him to write a more excellent assessment. 
