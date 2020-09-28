@@ -1,0 +1,62 @@
+Section 6.9 of your textbook ("Debugging") lists three possibilities to consider if a function is not working.
+
+Describe each possibility in your own words.
+
+Define "precondition" and "postcondition" as part of your description.
+
+Create your own example of each possibility in Python code. List the code for each example, along with sample output from trying to run it.
+
+
+ANSWER:
+    
+    To begin with, debugging is used to identify and remove the errors from code and detect and remove those errors. If smaller functions are broken by a large program and then build a natural checkpoint is called debugging. In some cases, if the function does not work properly, it is also possible to take into account. I am going to describe each possibility which is given below:
+
+If the arguments of the functions are getting with something any erroneous it means it is outdone which is called precondition. In this case, it needs to be true to start a function to work perfectly and correctly.
+ If the functions are false and it is crossed then it is called postcondition. In this case, it needs a function when it finishes and then gives a guarantee of the function true.
+If there is any mistake with the return value or it has been used wrongly that is called sub-routines. It is an invariant which something is always true in the particular point inside the piece of code. 
+   
+num = [4.8, 5.8, 9.0, -0.009, 9.9]
+equal = 0.0
+for x in num:
+    assert x > 0.0, 'Data should only contain positive values'
+    equal += x
+print ('equal is :', equal)
+  If we try to run this method there is going to cause the errors which are:
+Traceback (most recent call last):
+  File "main.py", line 4, in <module>
+    assert x > 0.0, 'Data should only contain positive values'
+AssertionError: Data should only contain positive values
+ 
+
+     Here this code is called assertion which halts the loop encounters with a value that is not positive. 
+
+def nor_rec(rectangle):
+    assert len(rectangle) == 4, 'This must have 4 contains'
+    a0, c0, a1, c1 = rectangle
+    assert a0 < a1, 'Invalid A coordinates'
+    assert c0 < c1, 'Invalid C coordinates'
+    ba = a1 - c0
+    bd = a1 - c0
+    if dx > dy:
+        scaled = float(ba) / bd
+        upper_a, upper_c = 1.0, scaled
+    else:
+        scaled = float(ba) / bd
+        upper_a, upper_c = scaled, 1.0
+    assert 0 < upper_a <= 1.0, 'Calculated upper A coordinate invalid'
+    assert 0 < upper_c <= 1.0, 'Calculated upper C coordinate invalid'
+    return (0, 0, upper_x, upper_y)
+print nor_rec( (0.0, 1.0, 2.0) )
+
+      Here if we try to run this line 2, 4, and 5 will be caught some invalid input which is called preconditions. 
+
+But if we try to print this method:
+
+print nor_rec( (4.0, 2.0, 1.0, 5.0) )
+    This would show us the incorrect result which is called post-conditions. Because we can see some bugs.
+print nor_rec( (0.0, 0.0, 5.0, 1.0) )
+     This would catch errors again and return the wrong value. In this case, e need to debug our code and check our bugs to correct. 
+
+
+     
+     

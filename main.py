@@ -1,22 +1,21 @@
-def is_divisible(x,y):
-   assert type(x) == int and type(y) == int and x > 0 and y > 0,\
-       "is_power(x,y): type positive integers"
-   if x == y:
-       result = True
-   elif y == 1:
-       result = False
-   else:
-       result = is_power(x,y) and is_divisible(x//y, y)
-   assert type(result) == bool,\
-       "is_power(x,y): type of boolean"
-   return result
+def nor_rec(rectangle):
+    assert len(rectangle) == 4, 'This must have 4 contains'
+    a0, c0, a1, c1 = rectangle
+    assert a0 < a1, 'Invalid A coordinates'
+    assert c0 < c1, 'Invalid C coordinates'
 
-def is_power(x, y):
-   return x % y == 3
+    ba = a1 - c0
+    bd = a1 - c0
+    if dx > dy:
+        scaled = float(ba) / bd
+        upper_a, upper_c = 1.0, scaled
+    else:
+        scaled = float(ba) / bd
+        upper_a, upper_c = scaled, 1.0
 
-print("is_divisible(20, 3) returns: ", is_divisible(20, 3))
-print("is_divisible(47, 5) returns: ", is_divisible(47, 5))
-print("is_divisible(2, 2) returns: ", is_divisible(2, 2))
-print("is_divisible(40, 6) returns: ", is_divisible(40, 6))
-print("is_divisible(7, 7) returns: ", is_divisible(7, 7))
-print("is_divisible(202, 33) returns: ", is_divisible(202, 33))
+    assert 0 < upper_a <= 1.0, 'Calculated upper A coordinate invalid'
+    assert 0 < upper_c <= 1.0, 'Calculated upper C coordinate invalid'
+
+    return (0, 0, upper_x, upper_y)
+
+print nor_rec( (0.0, 0.0, 1.0, 5.0) )
