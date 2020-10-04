@@ -1,0 +1,79 @@
+What is the output of the Python method call below?
+
+"bib".find('b', 1, 2)
+
+Answer: -1
+
+What output will the following Python commands produce?
+
+n = 10000
+count = 0
+while n:
+    count = count + 1
+    n = n // 10
+print (count)
+ANSWER: a. 5
+
+
+What does Python function subroutine do?
+
+def subroutine( n ):
+    while n > 0:
+        print (n,)
+        n = n - 1
+
+ANSWER: Counts from n down to 1 and displays each number
+
+
+
+The following Python code illustrates what programming concept?
+
+bruce = 5
+print (bruce,)
+bruce = 7
+print (bruce)
+ANSWER: a. Reassignment
+
+
+The following Python code succeeds in modifying the first character of the string to “Y”.
+
+fred = "Hello"
+fred[0] = "Y"
+
+ANSWER: False
+
+
+A Python loop where the terminating condition is never achieved is called _______.
+ANSWER: a. an infinite loop
+
+
+The statements inside of a Python loop are known as the ____ of the loop.
+
+ANSWER: a. body
+
+
+What output will the following statements produce using Python in interactive mode?
+
+>>> n = 2
+>>> n = n + 5
+>>> n
+
+ANSWER: a. 7
+
+
+A Python string is a sequence of characters. You can access the string characters with the _______.
+
+ANSWER: e. [] operator
+
+
+What output will the following Python program produce?
+
+n = 10
+while n != 1:
+    print (n,)
+    if n % 2 == 0: # n is even
+        n = n // 2
+    else: # n is odd
+        n = n * 3 + 1
+
+ANSWER: a. 10 5 16 8 4 2
