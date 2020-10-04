@@ -43,3 +43,158 @@ Does the my_sqrt function compute values that are almost identical to math.sqrt 
 
 ANSWER: 
 
+  In the beginning, I am going to demonstrate the square root from Section 7.5 in a function named my_sqrt that takes an as a parameter. My code is given below:
+
+import math
+def my_sqrt(a):
+    x = a/2
+    while True:
+        est_root = (x + a/x) / 2.0
+        if est_root == x:
+            return est_root
+            break
+        x = est_root
+def square_root(types_of_a):
+    list1a = "a"
+    list1b = "my_sqrt(a)"
+    list1c = "math.sqrt(a)"
+    list1d = "diff"
+    list2a = "-"
+    list2b = "---------"
+    list2c = "------------"
+    list2d = "----"
+    space1 = " "
+    space2 = " " * 3
+    space3 = ""
+    print(list1a, space1, list1b, space2, list1c, space3, list1d)
+    print(list2a, space1, list2b, space2, list2c, space3, list2d)
+    for a in types_of_a:
+        column1 = float(a)
+        column2 = my_sqrt(a)
+        column3 = math.sqrt(a)
+        column4 = abs(my_sqrt(a) - math.sqrt(a))
+        print(column1, "{:<13f}".format(column2), "{:<13f}".format(column3), column4)
+square_root(range(1,12))
+square_root((1,5))
+square_root((1,3))
+square_root(range(1,9))
+
+
+   The output is given below:
+
+a   my_sqrt(a)     math.sqrt(a)  diff
+-   ---------     ------------  ----
+1.0 1.000000      1.000000      0.0
+2.0 1.414214      1.414214      2.220446049250313e-16
+3.0 1.732051      1.732051      0.0
+4.0 2.000000      2.000000      0.0
+5.0 2.236068      2.236068      0.0
+6.0 2.449490      2.449490      0.0
+7.0 2.645751      2.645751      0.0
+8.0 2.828427      2.828427      4.440892098500626e-16
+9.0 3.000000      3.000000      0.0
+10.0 3.162278      3.162278      4.440892098500626e-16
+11.0 3.316625      3.316625      0.0
+a   my_sqrt(a)     math.sqrt(a)  diff
+-   ---------     ------------  ----
+1.0 1.000000      1.000000      0.0
+5.0 2.236068      2.236068      0.0
+a   my_sqrt(a)     math.sqrt(a)  diff
+-   ---------     ------------  ----
+1.0 1.000000      1.000000      0.0
+3.0 1.732051      1.732051      0.0
+a   my_sqrt(a)     math.sqrt(a)  diff
+-   ---------     ------------  ----
+1.0 1.000000      1.000000      0.0
+2.0 1.414214      1.414214      2.220446049250313e-16
+3.0 1.732051      1.732051      0.0
+4.0 2.000000      2.000000      0.0
+5.0 2.236068      2.236068      0.0
+6.0 2.449490      2.449490      0.0
+7.0 2.645751      2.645751      0.0
+8.0 2.828427      2.828427      4.440892098500626e-16
+ 
+
+
+   Here, the first column presents a number which is a.  Secondly, the column is the square root of a computed with my_sqrt. Thirdly, the column is the square root computed by math.sqrt. Fourthly, the column is the absolute value of the difference between the two estimates.
+
+
+
+
+
+ANSWER 2:   I am going to write a function named test_sqrt that prints a table like the following using a while loop, where "diff" is the absolute value of the difference between my_sqrt(a) and math.sqrt(a). My method is given below:
+
+import math
+def square_root(x):
+  tol = 0.00001
+  est = 0.1
+  while True:
+    est= (est + float(x) / est) / 2.0
+    differ = abs(float(x) - est ** 2.0)
+    if differ <= tol:
+      break
+
+  diff = abs(math.sqrt(float(x))- est)
+  print("a = ",x, " | square_root(a) = ", est, " | math.sqrt(a) = ", math.sqrt(float(x)), " | diff = ", diff)
+x = 1
+while(x<=25):
+  square_root(x)
+  x+=1
+
+  The output and result in the console are going to be:
+
+
+a =  1  | my_sqrt(a) =  1.0000000000139897  | math.sqrt(a) =  1.0  | diff =  1.3989698288696673e-11
+a =  2  | my_sqrt(a) =  1.4142136001158034  | math.sqrt(a) =  1.4142135623730951  | diff =  3.77427082920434e-08
+a =  3  | my_sqrt(a) =  1.7320508075693641  | math.sqrt(a) =  1.7320508075688772  | diff =  4.869438186005937e-13
+a =  4  | my_sqrt(a) =  2.000000000029843  | math.sqrt(a) =  2.0  | diff =  2.984279490192421e-11
+a =  5  | my_sqrt(a) =  2.2360679780006203  | math.sqrt(a) =  2.23606797749979  | diff =  5.008304881926051e-10
+a =  6  | my_sqrt(a) =  2.449489746831718  | math.sqrt(a) =  2.449489742783178  | diff =  4.0485401697765155e-09
+a =  1  | square_root(a) =  1.0000000000139897  | math.sqrt(a) =  1.0  | diff =  1.3989698288696673e-11
+a =  2  | square_root(a) =  1.4142136001158034  | math.sqrt(a) =  1.4142135623730951  | diff =  3.77427082920434e-08
+a =  3  | square_root(a) =  1.7320508075693641  | math.sqrt(a) =  1.7320508075688772  | diff =  4.869438186005937e-13
+a =  4  | square_root(a) =  2.000000000029843  | math.sqrt(a) =  2.0  | diff =  2.984279490192421e-11
+a =  5  | square_root(a) =  2.2360679780006203  | math.sqrt(a) =  2.23606797749979  | diff =  5.008304881926051e-10
+a =  6  | square_root(a) =  2.449489746831718  | math.sqrt(a) =  2.449489742783178  | diff =  4.0485401697765155e-09
+a =  1  | square_root(a) =  1.0000000000139897  | math.sqrt(a) =  1.0  | diff =  1.3989698288696673e-11
+a =  2  | square_root(a) =  1.4142136001158034  | math.sqrt(a) =  1.4142135623730951  | diff =  3.77427082920434e-08
+a =  3  | square_root(a) =  1.7320508075693641  | math.sqrt(a) =  1.7320508075688772  | diff =  4.869438186005937e-13
+a =  4  | square_root(a) =  2.000000000029843  | math.sqrt(a) =  2.0  | diff =  2.984279490192421e-11
+a =  5  | square_root(a) =  2.2360679780006203  | math.sqrt(a) =  2.23606797749979  | diff =  5.008304881926051e-10
+a =  6  | square_root(a) =  2.449489746831718  | math.sqrt(a) =  2.449489742783178  | diff =  4.0485401697765155e-09
+a =  1  | square_root(a) =  1.0000000000139897  | math.sqrt(a) =  1.0  | diff =  1.3989698288696673e-11
+a =  2  | square_root(a) =  1.4142136001158034  | math.sqrt(a) =  1.4142135623730951  | diff =  3.77427082920434e-08
+a =  3  | square_root(a) =  1.7320521062406589  | math.sqrt(a) =  1.7320508075688772  | diff =  1.2986717816687587e-06
+a =  4  | square_root(a) =  2.000000000029843  | math.sqrt(a) =  2.0  | diff =  2.984279490192421e-11
+a =  5  | square_root(a) =  2.2360679780006203  | math.sqrt(a) =  2.23606797749979  | diff =  5.008304881926051e-10
+a =  6  | square_root(a) =  2.449489746831718  | math.sqrt(a) =  2.449489742783178  | diff =  4.0485401697765155e-09
+a =  1  | square_root(a) =  1.0000000000139897  | math.sqrt(a) =  1.0  | diff =  1.3989698288696673e-11
+a =  2  | square_root(a) =  1.4142136001158034  | math.sqrt(a) =  1.4142135623730951  | diff =  3.77427082920434e-08
+a =  3  | square_root(a) =  1.7320521062406589  | math.sqrt(a) =  1.7320508075688772  | diff =  1.2986717816687587e-06
+a =  4  | square_root(a) =  2.000000000029843  | math.sqrt(a) =  2.0  | diff =  2.984279490192421e-11
+a =  5  | square_root(a) =  2.2360679780006203  | math.sqrt(a) =  2.23606797749979  | diff =  5.008304881926051e-10
+a =  6  | square_root(a) =  2.449489746831718  | math.sqrt(a) =  2.449489742783178  | diff =  4.0485401697765155e-09
+a =  7  | square_root(a) =  2.645751331727991  | math.sqrt(a) =  2.6457513110645907  | diff =  2.0663400324139047e-08
+a =  8  | square_root(a) =  2.8284272019656944  | math.sqrt(a) =  2.8284271247461903  | diff =  7.721950412431511e-08
+a =  9  | square_root(a) =  3.000000230911258  | math.sqrt(a) =  3.0  | diff =  2.3091125811447455e-07
+a =  10  | square_root(a) =  3.1622782450701044  | math.sqrt(a) =  3.1622776601683795  | diff =  5.849017248316102e-07
+a =  11  | square_root(a) =  3.316626094495872  | math.sqrt(a) =  3.3166247903554  | diff =  1.3041404720581795e-06
+a =  12  | square_root(a) =  3.4641016151387527  | math.sqrt(a) =  3.4641016151377544  | diff =  9.983125437429408e-13
+a =  13  | square_root(a) =  3.605551275467305  | math.sqrt(a) =  3.605551275463989  | diff =  3.3160141299504176e-12
+a =  14  | square_root(a) =  3.741657386783617  | math.sqrt(a) =  3.7416573867739413  | diff =  9.675815704213164e-12
+a =  15  | square_root(a) =  3.872983346232766  | math.sqrt(a) =  3.872983346207417  | diff =  2.5349056187451424e-11
+a =  16  | square_root(a) =  4.00000000006065  | math.sqrt(a) =  4.0  | diff =  6.065015156764275e-11
+a =  17  | square_root(a) =  4.123105625751984  | math.sqrt(a) =  4.123105625617661  | diff =  1.3432366330334844e-10
+a =  18  | square_root(a) =  4.24264068739766  | math.sqrt(a) =  4.242640687119285  | diff =  2.7837554483767235e-10
+a =  19  | square_root(a) =  4.358898944085297  | math.sqrt(a) =  4.358898943540674  | diff =  5.446230133543395e-10
+a =  20  | square_root(a) =  4.472135956012792  | math.sqrt(a) =  4.47213595499958  | diff =  1.01321262491183e-09
+a =  21  | square_root(a) =  4.5825756967591325  | math.sqrt(a) =  4.58257569495584  | diff =  1.8032926263344962e-09
+a =  22  | square_root(a) =  4.690415762909419  | math.sqrt(a) =  4.69041575982343  | diff =  3.0859892419243806e-09
+a =  23  | square_root(a) =  4.795831528412456  | math.sqrt(a) =  4.795831523312719  | diff =  5.099736632985241e-09
+a =  24  | square_root(a) =  4.898979493734353  | math.sqrt(a) =  4.898979485566356  | diff =  8.167996945473988e-09
+a =  25  | square_root(a) =  5.000000012719289  | math.sqrt(a) =  5.0  | diff =  1.271928873336492e-08
+ 
+
+
+
+
