@@ -1,21 +1,18 @@
-lists_string = 'apple orange grape pomegranate blueberry blackcherry strawberry banana pear avacado custardapple apricot almond peanuts cashew chestnut ambrella argan'
+'''Nesting the list'''
+numbers_of_list = [1,2,3,4,[5,6],7]
 
-'''Adding a string to item list'''
-items_list = lists_string.split()
+'''*this is a operator elements'''
+thislist = ['pineapple','jackfruit','cherry']*3
 
-'''Removing orange from items lists'''
-items_list.remove('orange')
-items_list.pop(-1)
-del items_list[1]
+'''Listing the slices'''
+this_slice = thislist[4:6]
 
-'''Accessing the sort items list'''
-items_list.sort()
+'''this is a += operator method'''
+thislist += ['grapes', 'banana']
 
-'''Creating and adding those items elements'''
-items_list.append('atemoya')
-items_list.insert(5,'babaco')
-items_list.extend(['bacuri', 'dates'])
-
-'''Listing to String'''
-access_string = ' '.join(items_list)
-print(access_string)
+'''Listing the filter'''
+boolean = [True, False, False, True]
+list(filter(None,boolean))
+x = [4, 5, 7, 6, 12, 14]
+x = x.append(27)
+print(x)
