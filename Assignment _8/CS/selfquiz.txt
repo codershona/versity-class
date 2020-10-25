@@ -1,0 +1,92 @@
+What is the output from the following interactive Python statement?
+
+>>> '%d' % (0.1)
+
+
+ANSWER: a. '0'
+
+Which of the following Python statements runs without error?
+
+ANSWER:  All of the above
+
+
+Consider the following Python program.
+
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+
+What is word?
+
+
+ANSWER:   A list of words
+
+
+Consider the following Python program.
+
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+
+What does the program loop over?
+
+
+ANSWER: Lines in a file
+
+What is the output from the following interactive Python statement?
+
+>>> '%g %d' % (0.1)
+
+ANSWER: e. TypeError: not enough arguments for format string
+
+
+
+Consider the following Python program.
+
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+
+What is line?
+
+
+ANSWER: d. A string that may have a newline
+
+What is the output of the following Python program?
+
+try:
+    fin = open('answer.txt')
+    fin.write('Yes')
+except:
+    print('No')
+print('Maybe')
+
+ANSWER: e. No
+Maybe
+
+What is the output from the following interactive Python statement?
+
+>>> '%g' % '0.1'
+
+
+ANSWER: c. TypeError: float argument required, not str
+
+
+What is the output of the Python code below?
+
+ print('%d + %d + %d = %d' % (1, 2, 3, 1+2+3))
+
+
+
+ANSWER: d. 1 + 2 + 3 = 6
+
+
+What is the output from the following interactive Python statement?
+
+>>> '%g' % (0.1)
+
+
+ANSWER: b. '0.1'
