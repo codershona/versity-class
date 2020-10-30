@@ -1,5 +1,2 @@
-try:
- X = 23
- X = X + ' 3 '
-except TypeError:
- print('type error')
+mylist = [1, 4, 2, 3]
+mylist.append(5)

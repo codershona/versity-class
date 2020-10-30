@@ -1,0 +1,304 @@
+What does function subroutine do?
+
+def subroutine( n ):
+  while n > 0:
+      print (n,)
+      n -= 1
+
+ANSWER: Counts from n down to 1 and displays each number
+
+Which of the following types are allowed for Python dictionary keys?
+
+ANSWER: tuple
+
+What output will the following code produce?
+
+n = 10
+while n != 1:
+    print (n,end=' ')
+    if n % 2 == 0:        # n is even
+        n = n // 2
+    else:                # n is odd
+        n = n * 3 + 1
+
+
+ANSWER: a. 10 5 16 8 4 2
+
+
+What output will the following python commands produce:
+
+x = 5
+if x % 2 == 0:
+    print (x)
+else:
+    print (x, x%2)
+
+
+
+ANSWER: b. 5 1
+
+
+Learning to debug can be frustrating, but it is a valuable skill that is useful for many activities beyond programming.
+
+ANSWER: True
+
+What is the output of the following Python statements?
+
+def recurse(a):
+    if (a == 0):
+        print(a)
+    else:
+        recurse(a) 
+
+recurse(1)
+
+
+ANSWER: d. RuntimeError: maximum recursion depth exceeded
+
+
+: To create a new object that has the same value as an existing object is know as creating an alias.
+
+
+ANSWER: False
+
+Given a Python dictionary d and a value v, it is efficient to find the corresponding key: d[k] = v.
+
+ANSWER: False
+
+What is Python’s response to the command: type(0.123)
+
+
+ANSWER: a. <class 'float'>
+
+
+What is the output of the following Python program?
+
+try:
+    fin = open('answer.txt')
+    fin.write('Yes')
+except:
+    print('No')
+print('Maybe')
+
+
+ANSWER: e. No
+Maybe
+
+
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+
+result = dict()
+for key in d:
+    val = d[key]
+    if val not in inverse:
+        result[val] = [key]
+    else:
+        result[val].append(key)
+
+ANSWER: b. an inverted dictionary
+
+
+What is the output of the following Python program?
+
+index = "Ability is a poor man's wealth".find("W")
+print(index)
+
+
+ANSWER: d. -1
+
+
+
+String objects are modified with string slices.
+
+
+ANSWER: False
+
+
+What is the output of the following statements?
+
+pi = int(3.14159)
+print (pi)
+
+
+ANSWER: a. 3
+
+For the Python program below, will there be any output, and will the program terminate?
+
+while True:
+
+    while 1 > 0:
+
+        break
+
+    print("Got it!")
+
+    break
+
+
+ANSWER: c. Yes and yes
+
+
+What output will the following code produce?
+
+mylist = [ [2,4,1], [1,2,3], [2,3,5] ]
+a=0
+b=0
+total = 0
+while a <= 2:
+    while b < 2:
+        total += mylist[a][b]
+        b += 1
+    a += 1
+    b = 0 
+print (total)
+
+
+ANSWER: a. 14
+
+
+What is the output of the Python code below?
+
+my_list = [3, 2, 1]
+print(my_list.sort())
+
+
+ANSWER: None
+
+
+A loop where the terminating condition is never achieved is called an _______
+
+ANSWER: a. infinite loop
+
+
+The elements of a list are immutable.
+
+
+ANSWER: False
+
+What output will the following code produce?
+
+print ("%s %d %f" % (5, 5, 5))
+
+
+ANSWER: a. 5 5 5.000000
+
+
+When a Python function is called, inside the function, the arguments are assigned to variables called parameters.
+
+ANSWER: True
+
+What is the output of the following Python program?
+
+mylist = [ [2,4,1], [1,2,3], [2,3,5] ]
+total = 0
+for sublist in mylist:
+    total += sum(sublist)
+print(total)
+
+
+ANSWER:  b. 23
+
+
+
+Which one of the following Python expressions has the value 10?
+
+ANSWER: a. 8 ^ 2
+
+Which one of the following Python expressions has the value 64?
+
+ANSWER: b. 8 ** 2
+
+
+Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are this kind of languages.	Answer 1
+formal language
+
+Any one of the languages that people speak that evolved naturally.	Answer 2
+natural language
+
+
+An error that does not occur until the program has started to execute but that prevents the program from continuing.	Answer 3
+runtime error
+
+
+An error in a program that makes it do something other than what the programmer intended.	Answer 4
+semantic error
+
+
+The meaning of a program.	Answer 5
+semantics
+
+
+The structure of a program.	Answer 6
+syntax
+
+
+An error in a program that makes it impossible to parse — and therefore impossible to interpret.	Answer 7
+syntax error
+
+
+One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.	Answer 8
+token
+
+
+
+
+Match concepts with their definition.
+An error in a program.	Answer 1
+bug
+
+The process of finding and removing any of the three kinds of programming errors.	Answer 2
+debugging
+
+Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are this kind of languages.	Answer 3
+formal language
+
+A programming language like Python that is designed to be easy for humans to read and write.	Answer 4
+high-level language
+
+A program that reads another program and executes it.	Answer 5
+interpreter
+
+A programming language that is designed to be easy for a computer to execute; also called machine language or assembly language.	Answer 6
+low-level language
+
+
+Any one of the languages that people speak that evolved naturally.	Answer 7
+natural language
+
+
+To examine a program and analyse the syntactic structure.	Answer 8
+parse
+
+
+A property of a program that can run on more than one kind of computer.	Answer 9
+portability
+
+
+An instruction that causes the Python interpreter to display a value on the screen.	Answer 10
+print statement
+
+The process of formulating a problem, finding a solution, and expressing the solution.	Answer 11
+problem solving
+
+
+a sequence of instructions that specifies to a computer actions and computations to be performed.	Answer 12
+program
+
+
+A program stored in a file (usually one that will be interpreted).	Answer 13
+script
+
+
+One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.	Answer 14
+token
+
+
+The structure of a program.	Answer 15
+syntax
+
+
+
+
+
+
