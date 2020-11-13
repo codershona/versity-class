@@ -1,0 +1,36 @@
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+The full line of code is which of the following?
+
+ANSWER: e. a statement
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+Which one of the following does NOT describe '"Hello, World!"'?
+
+ANS: a. a declaration
+
+ Consider the following Java program:
+
+
+1 public class HelloWorld {
+2     // My first program!
+3     public static void main(String[] args) {
+4         System.out.println("Hello, World!");
+5     }
+6 }
+
+What is on line 1?
+
+
+ANS: a. a variable declaration
+
+Which of the following is NOT a valid identifier in Java?
+
+ANS: c. public
+
+
+What does a Java compiler do?
+
+ANS: 

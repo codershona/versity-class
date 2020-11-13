@@ -1,0 +1,88 @@
+Download the Unit 1 Programming Assignment.
+https://my.uopeople.edu/pluginfile.php/1017314/mod_workshop/instructauthors/CS%201102%20%E2%80%93%20Unit%201%20Programming%20Assignment.pdf
+
+
+
+The assignment will be assessed using the following criteria:
+
+Does the submission include the file "SuperPower.java"?
+Does the file include a public class called "SuperPower"?
+Does the class include a public method called "main"?
+Is the "main" method static?
+Does the main method have a String assignment statement that uses "JOptionPane.showInputDialog"?
+Does the main method have a statement that uses "JOptionPane.showMessageDialog"?
+Does the program convert the String from "JOptionPane.showInputDialog" using the "toUpperCase" method?
+Does the submission include a screenshot that shows an Input dialog that asks, "What is your superpower?"
+Does the submission include a screenshot that shows a Message dialog stating "<power> TO THE RESCUE!", where "<power>" is the input converted to upper case?
+
+
+ANSWER:
+
+
+
+
+
+    In the beginning, this was my logic which I had created that is given below: 
+
+import javax.swing.JOptionPane;
+public class SuperPower
+{
+   public static void main(String[] args) {
+       String power;
+       power = JOptionPane.showInputDialog("What is your super power?");
+       power = power.toUpperCase();
+      /** JOptionPane.showMessageDialog(null, power); **/
+      JOptionPane.showMessageDialog(null,"SUPER POWERS TO THERESCUE!");
+   }
+}
+
+
+     
+
+   Does the submission include the file "SuperPower.java"?
+
+ANSWER:  I had added my logic in my submission which you can check in my file SuperPower.java.
+
+
+  Does the file include a public class called "SuperPower"?
+
+ ANSWER: I had added my logic in my submission which you can check in my statement public class SuperPower. 
+
+
+    Does the class include a public method called "main"?
+
+ANSWER:  Please Check my statement public static void main(String[] args).
+
+
+      Is the "main" method static?
+
+ANSWER:  I had added the "main" method as static please check my file statement main(String[] args).
+
+
+     Does the main method have a String assignment statement that uses "JOptionPane.showInputDialog"?
+
+ANSWER: Please check my statement of  String power;  power = JOptionPane.showInputDialog("What is your super power?"); .
+
+
+   Does the main method have a statement that uses "JOptionPane.showMessageDialog"?
+
+ANSWER: I had write the statement JOptionPane.showMessageDialog(null,"SUPER POWERS TO THERESCUE!"); .
+
+
+  Does the program convert the String from "JOptionPane.showInputDialog" using the "toUpperCase" method?
+
+ANSWER:  I had created this logic JOptionPane.showInputDialog("What is your super power?");.
+
+    Does the submission include a screenshot that shows an Input dialog that asks, "What is your superpower?"
+
+ ANSWER: I had also Added my screenshot please check my png file.
+
+
+
+
+    Does the submission include a screenshot that shows a Message dialog stating "<power> TO THE RESCUE!", where "<power>" is the input converted to upper case?
+
+
+
+ANSWER: Yes I had run my logic and got the message is the screenshot.
+
