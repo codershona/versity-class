@@ -1,0 +1,17 @@
+Week 1: Unit 1 - Introduction to Programming
+
+Week 2: Unit 2 - Control Structures
+
+Week 3: Unit 3 - Static Methods and Member Variables
+
+Week 4: Unit 4 - Objects and Classes
+
+Week 5: Unit 5 - Inheritance, Polymorphism, and Interfaces
+
+Week 6: Unit 6 - Event Handling with Graphical User Interfaces
+
+Week 7: Unit 7 - Arrays and ArrayLists
+
+Week 8: Unit 8 - Practice
+
+Week 9: Unit 9 - Final Exam

@@ -1,0 +1,22 @@
+Week 1: Unit 1 - Introduction
+
+Week 2: Unit 2 - Sampling and Data Structures
+
+Week 3: Unit 3 - Descriptive Statistics
+
+Week 4: Unit 4 - Probability
+
+Week 5: Unit 5 - Random Variables
+
+Week 6: Unit 6 - The Normal Random Variable
+
+Week 7: Unit 7 - The Sampling Distribution
+
+Week 8: Unit 8 - Overview and Integration
+
+Week 9: Unit 9 - Final Exam
+
+
+R Programming Console: Students can access their computer’s R programming console for complex calculations during this exam. 
+Open book: Students can read the course textbook and PDF notes for the class, which contain examples of R commands. 
+Calculator use: Students are only allowed to use a basic calculator for the final exam. Calculators on the cell phone, iPad or similar devices are not allowed.
