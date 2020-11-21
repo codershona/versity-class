@@ -1,0 +1,50 @@
+What is the relative frequency of direct hits that were category 2 hurricanes?
+
+
+ANS:a. 0.2637
+
+The relative frequency of direct hits that were AT LEAST a category 3 storm is Answer
+. (The numerical answer that you provide should be of the form "0.xxxx", with four digits to the right of the zero.)
+
+ANS:  0.9231
+
+
+The relative frequency that flossed 6 times per week is:
+
+ANS: 0.0500
+
+The relative frequency that flossed at least once a week is:
+
+ANS: 0.9333
+
+The sample size is:
+
+
+ANS: 8
+
+The frequency of production series where there are 4 malfunctioning products is:
+
+ANS: 16
+
+The frequency of production series where there are less than 7 malfunctioning products is:
+
+ANS: 70
+
+The number of variables is:
+
+ANS: 7
+
+The type of the variable "id" is
+
+ANS: a. numeric
+
+The type of the variable "sex" is:
+
+ANS: a factor
+
+The type of the variable "diastolic" is:
+
+ANS: a number
+
+
+
