@@ -1,0 +1,83 @@
+In a do-while loop, how many times does the continuation condition run (if the loop has no break, return, or System.exit calls)?
+
+
+ANS: b.At least once, at the end of each iteration.
+
+Which of the following keywords is useful for getting out of an infinite loop?
+
+ANS: break
+
+
+
+In a for loop, how many times does the initialization run?
+
+ANS:c. Exactly once.
+
+Consider the following block of Java code. How many times will it output "Hello"?
+for (int i = 1; I < 10; i++) ;
+{
+    System.out.println("Hello");
+}
+
+
+ANS: 1
+
+Consider the following block of Java code. How many times will it output "Hello"?
+for (int i = 1; i < 10; i++)
+{
+    System.out.println("Hello");
+}
+
+ANS: 9
+
+
+In a while loop, how many times does the continuation condition run?
+
+ANS: a. At least once, at the beginning of each iteration.
+
+
+Which one of the following types is not allowed for the expression in a switch statement?
+
+
+ANS: float
+
+
+Consider the following class definition. Which variables can be used in the missing "println" expression on line 8?
+
+
+1  public class PrintStuff
+2  {
+3      public static void main()
+4      {
+6          {
+7              int i = -1;
+8              System.out.println(_____);
+9          }
+10         int j = 1;
+11         for (j = 0; j < 10; j++) {
+12             System.out.println(_____);
+13         }
+14         {
+15             int k;
+16             for (k = 0; k < 10; k++) {
+17                System.out.println(_____);
+18             }
+19         }
+20        System.out.println(_____);
+21     }
+22 }
+
+a. Only "i"
+
+
+Which of the following keywords is useful for processing lists of menu options?
+
+ANS: d. switch
+
+
+Assume "test" is a boolean variable. Which of the following expressions is equivalent to "test == true"?
+
+
+ANS: test
+
+

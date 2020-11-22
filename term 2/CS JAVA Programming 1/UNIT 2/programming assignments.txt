@@ -1,0 +1,124 @@
+In this assignment, you will write a program that asks the user a quiz question and prompts them for an answer until they get the question correct. This program will be the basis for future Programming Assignments in this course.
+
+These instructions assume you are using the Eclipse IDE on your own computer. You may use a different Java environment as long as you can provide your Java code and screenshots for your assignment submission.
+
+Download the Unit 2 Programming Assignment instructions.
+
+Upload the following for your Programming Assignment submission.
+
+Quiz.java
+Screenshot showing the input dialog with the quiz question
+Screenshot showing the message dialog for the correct answer
+Screenshot showing the message dialog for a valid but incorrect answer
+Screenshot showing the message dialog for an invalid answer
+Your assignment will be graded by your peers using the following criteria. 
+
+Does the submission include the file "Quiz.java"?
+Does the file include a public class called "Quiz" with a public static method called "main"?
+Does the main method have one or more String assignment statements that create a multiple-choice question String?
+Does the main method have a String assignment statement that records the answer to the quiz question, where the question is an argument to the method "JOptionPane.showInputDialog"?
+Does the main method convert the answer String using the "toUpperCase" method?
+Does the main method display a message indicating that the answer is correct when the answer matches a particular String ("A", "B", "C", "D", or "E")?
+Does the main method display a message indicating that the answer is incorrect when the answer matches particular Strings ("A", "B", "C", "D", or "E", but not the correct choice)?
+Does the main method display a message indicating that the answer is invalid when the answer does not match any of the expected Strings ("A", "B", "C", "D", or "E")?
+Does the main method continue to ask the quiz question until the answer is deemed correct?
+
+
+ANSWER:
+
+
+Does the submission include the file "Quiz.java"?
+ ANSWER: Yes I had included the submission of the Quiz.java please check the attachment which is given below.
+
+Does the file include a public class called "Quiz" with a public static method called "main"?
+ANSWER:  Please check the statement I had include in the class called "Quiz" with a public static method called "main" in the file.
+
+Does the main method have one or more String assignment statements that create a multiple-choice question String?
+ANSWER: I had written the main method that has one or more String assignment statements that create a multiple-choice question String, Please check the statement.
+Does the main method have a String assignment statement that records the answer to the quiz question, where the question is an argument to the method "JOptionPane.showInputDialog"?
+ANSWER: Please check the attachment where I had been written the main method have a String assignment statement that records the answer to the quiz question, where the question is an argument to the method "JOptionPane.showInputDialog".
+
+
+Does the main method convert the answer String using the "toUpperCase" method?
+ANSWER: Please check my solution in the submission file about the main method convert the answer String using the "toUpperCase" method.
+
+
+Does the main method display a message indicating that the answer is correct when the answer matches a particular String ("A", "B", "C", "D", or "E")?
+ANSWER: Please check the submission below and the screenshots also.
+
+
+Does the main method display a message indicating that the answer is incorrect when the answer matches particular Strings ("A", "B", "C", "D", or "E", but not the correct choice)?
+ANSWER: Please check the submission below and the screenshots also.
+Does the main method display a message indicating that the answer is invalid when the answer does not match any of the expected Strings ("A", "B", "C", "D", or "E")?
+ANSWER: Please check the submission below and the screenshots also.
+Does the main method continue to ask the quiz question until the answer is deemed correct?
+ANSWER: Please check the submission below and the screenshots also.
+
+
+
+Notes: Download my attachment submission file and run " java Quiz.app" to check the quiz.
+
+
+
+My method again I had written here also:
+
+ import javax.swing.JOptionPane;
+public class Quiz {
+    public static void main(String[] args) {
+int x = 0;
+    String[] quizQuestion = {"What is this week assignment?", "What is the Control Structures?", "What is the introduction fo programming?"};
+    int score = 0;
+    String correct = "This is correct";
+    String incorrect = "This answer is incorrect";
+    String playerAnswerString = " ";
+    playerAnswerString.toUpperCase();
+    char playerAnswer = playerAnswerString.charAt(0);
+    JOptionPane.showMessageDialog(null, "Please read caerfully!");
+    JOptionPane.showMessageDialog(null, "Select the right answers");
+    for(x = 0; x < 3; x++)
+    {
+     JOptionPane.showMessageDialog(null, quizQuestion[x]);
+        if(x==0)
+        {
+            playerAnswerString = JOptionPane.showInputDialog(null, "A = JAVA, B = PYTHON, C = JAVASCRIPT");
+            System.out.println(playerAnswerString+"   "+playerAnswer);
+            if(playerAnswerString.equals("A"))
+            {
+                JOptionPane.showMessageDialog(null, correct);
+                score++;
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, incorrect);
+            }
+        }
+        if(x==1)
+        {
+            playerAnswerString = JOptionPane.showInputDialog(null, "A = JAVA, B = PYTHON, C = JAVASCRIPT");
+            if(playerAnswerString.equals("B"))
+            {
+                JOptionPane.showMessageDialog(null, correct);
+                score++;
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, incorrect);
+            }
+        }
+        if(x==2)
+        {
+            playerAnswerString = JOptionPane.showInputDialog(null, "A = JAVA, B = PYTHON, C = JAVASCRIPT");
+            if(playerAnswerString.equals("C"))
+            {
+                JOptionPane.showMessageDialog(null, correct);
+                score++;
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, incorrect);
+            }
+        }
+    }
+        JOptionPane.showMessageDialog(null, "You scored " + score + "/3.");
+    }
+}
