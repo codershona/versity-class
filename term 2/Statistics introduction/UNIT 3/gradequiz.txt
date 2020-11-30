@@ -1,0 +1,77 @@
+There are 16 questions on this quiz.  You will see a small group of questions at a time.
+ 
+Consider the following study: Marketing researchers Dominique and Huong wanted to know the following: “What percent of customers wear rain jackets at Seattle Food Store each day?” In an attempt to answer that question, Dominique and Huong designed a study. They called the store manager and arranged to collect data for 20 days. The researchers collected data for 4 hours each day for 20 days and counted the total number of shoppers who did and did not wear a rain jacket.  The average number of customers per day who wore a rain jacket during the sample period was 32.
+ 
+The population in this study was (read each answer and select the best one):
+c. All shoppers at the Seattle Food Store. Correct
+ 
+The sample in this survey was:
+b. The people who were observed shopping at the Seattle Food Store during the study. Correct
+ 
+How would you describe the possibility that the sample was biased (read all answers and select the best one):
+Select one:
+c. There could be bias because the selected days might not be representative of all the days (such as changing weather). Correct
+ 
+Use this information for the next four questions: Researchers wanted to know about a standardized test that was used across the country.  To get an estimate of the answer, they collected data from two classrooms of students who completed the test.
+ 
+Scores from Classroom A:
+ 
+8, 6, 9, 9, 8, 7, 8, 9, 10, 8, 10, 5, 4, 10, 9, 9
+ 
+Scores from Classroom B:
+ 
+9, 8, 7, 8, 9, 10, 9, 10, 7, 8, 10, 9, 9, 4, 6, 3
+ 
+The set of all scores on the standardized test across the country is:
+d. the population Correct
+ 
+When all the scores for the two classrooms are added and divided by the number of observations, the resulting value is a:
+Select one:
+a. a statistic Correct
+ 
+What is the mean score in Group A?
+c. 8.0625 Correct
+ 
+Load data for Group B into an R object called B, then run this command:
+ 
+barplot(table(B))
+ 
+What does the bar on the right represent?
+e. Three students received a score of 10 on the quiz. Correct
+ 
+The count of people who flossed three times per day is:
+Select one:
+d. 9 Correct
+ 
+The cumulative relative frequency of those who flossed 0 to 2 times per day is:
+Select one:
+c. .6750 Correct
+ 
+Use this information for the next six questions:
+ 
+category <- c('a', 'g', 'd', 'a', 'd', 'g', 'g', 'd')
+ 
+speed    <- c(60, 83.3,  71, 64.4,  75,  90,  87,  73)
+ 
+The data type of the category object is:
+b. factor Correct
+ 
+The data type of the speed object is:
+Select one:
+a. numeric Correct
+ 
+What is the mean of the category object?
+e. none of the above Correct
+ 
+What is the mean of speed (rounded to 1 decimal place)?
+a. 75.5 Correct
+ 
+What is the sample standard deviation of the speed data  (rounded to 1 decimal place)?
+c. 10.6 Correct
+ 
+What is the minimum value of the speed data:
+b. 60.0 Correct
+ 
+What is the mean of the number of pairs of shoes that the students owned?
+Select one:
+a. 3.0 Correct

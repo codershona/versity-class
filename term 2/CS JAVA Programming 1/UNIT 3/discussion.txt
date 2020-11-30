@@ -1,0 +1,40 @@
+
+Discuss the concept of parameters. What are parameters for? What is the difference between formal parameters and actual parameters? Give an example in Java code that illustrates formal parameters and actual parameters.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+
+ANSWER: 
+
+  In the beginning, I am going to discuss the concept of parameters. Parameters are numerical or other measurable factors that will form by one of the sets which always defines a system or sets the conditions of its operation. For example, if a transmission ever not let be downshift unless the speed is within the lower gears parameters. It is basically used for giving some external data for a method. Usually, a former parameter is a kind of variable that has a function definition since it also has an actual parameter that was an actual input of a function call. Here, the parameter has a function of definition that has a formal one. Besides this, the next variable which has been passed in the method is called an actual parameter.
+
+The example of formal and actual parameters has been illustrated which is given below:
+
+public class Method {
+    public static void method(int FormalParameter)
+    public static void main(String[] args)
+    {
+        int ActualParameter = 7;
+        method(ActualParameter);
+    }
+}
+
+
+   The difference between formal parameters and actual parameters were given below:
+
+The actual parameters are a kind of parameter that always appears in the function calls. 
+The formal parameters basically appear in the function declaration in the parameters. 
+The actual parameters represent the values which always passed to the function when it is been called.
+The formal parameters always show the variables which give definitions of the function which usually receives the values of the function which is been called. 
+
+
+
+
+
+
+References,
+
+Gentleman, R., & Ihaka, R. (2000). Java and Dylan. Journal of Computational and Graphical Statistics, 9(3), 452-458. doi:10.2307/1390939
+
+Gentleman, Robert, and Ross Ihaka. “Java and Dylan.” Journal of Computational and Graphical Statistics, vol. 9, no. 3, 2000, pp. 452–458. JSTOR, www.jstor.org/stable/1390939. Accessed 30 Nov. 2020.

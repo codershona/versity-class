@@ -1,0 +1,47 @@
+In Figure A you will find box plots for three sets of data. In Figure B are the histograms for the same sets of data, but in a different order. Associate each box plot with its relative histogram.
+ Figure A:
+
+
+ ANS: Histogram b, a, c
+
+
+ Consider the box plots in Figure A. Which of the data has a smaller inter-quartile range (IQR)?
+
+
+
+Figure A
+
+ANS: a. Box plot 3
+
+
+For the next 3 question deal with the following data:
+11.9, 11.0, 12.4, 16.9, 16.3, 13.3, 9.1, 17.0, 11.0, 9.3, 25.3, 17.4, 17.4
+
+
+The median is equal to:
+
+
+ANS: b. 13.3
+
+
+The largest value in the data is an outlier:
+
+ANS: false
+
+
+The smallest value in the data is an outlier:
+Select one:
+a. false
+
+
+
+Create an R data frame with the name "ex.2" that contains the data in the file "ex2.csv" (Select the file name to download it).
+
+Compute the standard deviation of each of the numeric variables. Among the following, the variable with the largest standard deviation is:
+
+
+ANS: d. diastolic
+
+
+
+
