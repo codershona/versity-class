@@ -1,0 +1,37 @@
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+* when you completed each step in the Learning Guide during the week,
+
+* any problems or unexpected events that occurred during the week (including problems understanding new or old material), and
+
+* any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+a) What does the symbol x-bar represent?
+
+b) What does the Greek letter mu (μ) represent as it was used in this week's lessons?
+
+c) What is the difference between x-bar and mu?
+
+3. Mean
+
+a) Many people already know how to find the mean (average) of a sample of data by "adding all the numbers and dividing by the number of values in the dataset."  Read Chapter 4, and then describe, in your own words, another method of finding the mean by using the sample space (list of possible values) and probabilities (the technique is in the book).  Create a list of seven, 2-digit numbers (with no duplicates) and another set of seven probabilities (with no duplicates).  The probabilities must add to 1.
+
+Open R, and manually enter those numbers and their corresponding probabilities to calculate the mean using only addition and multiplication (in other words, enter only the numbers, the plus sign, and the * for multiplication, like on the bottom of Yakir, 2011, p. 57).  Paste all the R output into your learning journal.
+
+b) Describe in your own words what your calculation is doing and what the answer means.
+
+
+
+
+
+ANSWER:
+
+

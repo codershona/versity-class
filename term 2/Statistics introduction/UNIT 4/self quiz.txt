@@ -1,0 +1,83 @@
+The median age in this sample was:
+
+A: 35.00
+
+The variance of the diastolic blood pressure in this sample was:
+
+A: 171.6469
+
+The standard deviation of the difference between the systolic and diastolic blood pressures was: Answer
+ANSWER: 3.950757
+ (Hint: Observe that the difference "pop.2$systolic - pop.2$diastolic" produces the difference between the two types of blood pressure for all the members in the population.)
+
+
+ The largest BMI value in this sample was:
+
+ A: 46.23199
+
+ The probability that someone sampled from this data will have normal blood pressure is:
+
+ A: 0.67659
+
+ Mark the following statement as either TRUE or FALSE: The standard deviation of the difference between the systolic and diastolic blood pressures is equal to the difference between the standard deviation of systolic blood pressure and the standard deviation of diastolic blood pressure 
+ Answer: False
+
+
+ P(Y < 5) equals
+
+ A: 0.51
+
+ P(Y not an integer) equals
+
+ A: 0.36
+
+
+ E(Y) equals
+
+
+ A: 4.92
+
+
+
+ The standard deviation of Y is equal to
+
+
+ A: 2.093705
+
+
+
+
+ E(X) is equal to
+
+
+ A: 5
+
+
+ The variance of X is equal to
+
+ A: 6.66667
+
+
+ The standard deviation of X is equal to
+
+ A: 2.581989
+
+
+ Suppose that you are offered the following "deal." An impartial person selects an integer between 1 and 9 at random and you try to guess beforehand which number will be selected. If you guess wrong then you pay $1 and if you guess right then you win $10. Call the outcome of the game your "gain." (Note that if you pay money then your gain is negative.)
+
+
+ In this game your probability of winning is
+
+ A: b. Smaller than your probability of losing.
+
+
+ The expected gain in this game is
+
+ A: 0.2222222
+
+ 
+.
+
+
+
+
