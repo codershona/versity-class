@@ -34,4 +34,50 @@ b) Describe in your own words what your calculation is doing and what the answer
 
 ANSWER:
 
+    ANSWER 1: At the beginning, this week I had complete unit 4 which was about Probability. I had worked on discussion assignments at first as last I had some problems with my discussion posts. I had learned how to write carefully and check my assignment with a plagiarism checker. In the discussion post, my assignment was about random variables. How can I use random variables and I had cited some of my own examples. After that, I had a complete a written assignment in there had to answer 21 quiz questions. The quizzes were about the data, random variables, and the population. After writing my peer assessments I had complete self-quizzes and learn many things. I re-attempt the self-quiz and practice more questions. This week I had a problem with understanding random variables but after studying a lot of materials I had able to learn how the random variables actually work. Finally, there was a noteworthy matter which could be affected my performance in class was using a plagiarism checker before submitting the work was most important for my assessment. Besides I had researched a lot on how to avoid plagiarism and complete my assessments very carefully. 
+
+
+
+ANSWER 2: I am going to write vocabulary and R functions and demonstrating them which is given below:
+
+A) Generally, the symbol x-bar illustrates the sample which usually defines a sample mean. Usually, this defines the mean or maybe average of the represented data that might be a segment of a sample of the entire population. We could also be calculated by distributing the total sum from all the values which are consisted of the sample with a lot of numbers in a sample. 
+
+
+
+B) In my second answer, I am going to demonstrate the Greek letter mu (μ) which actually represent as it was used in this week's lessons that might be the same for the x-bar but it actually divided by the total population of the mean as the x-bar is called the mean of a sample data. We can also compute by allotting with the sum of entire values in a population with the number of weighing. 
+
+
+
+C) Here I am going to demonstrate the difference between x-bar and mu. Usually, x-bar and mu are different factors which are calculated by the proper same value by excepting a few of those values also. Here the mu formula is explained by capital letters which always weighed with the values in the x-bars. But if we add whole values in the sample set it might be divided by the amount of those values. As a result, we can represent the average mean for the sample set and we also can shows with population set also. This is necessary because this method always individualizes with few differences in the values by comparing with calculating the variance as well as the standard deviation of the population set.
+
+
+
+ANSWER 3: In my third answer I am going to demonstrate mean calculation. 
+
+ A) In my logic, I am going to cite the uses of values and probabilities.  Suppose,
+
+
+
+ value : 20,21,22,23,24,25,26
+ Probability = 0.13 0.14 0.35 0.15 0.18 0.20 0.09
+
+
+    If we calculate the mean from the sample data for using the value and the probability by assessing the sum of the values and
+
+covered by every value so that each value could be multiplied by the probability. Finally, the values are compiled to show the mean. 
+
+a <- c(20,21,22,23,24,25,26)
+b <- c(0.13,0.14,0.35,0.15,0.18,0.20,0.09)
+person <- a*b
+sum(person)
+
+  Here my console result:
+
+[1] 28.35
+
+
+
+
+B) If I multiply with a*b as well as I also had been added the total values altogether which shows me a mean result pf 28.35 and in this case, in the R console I had to multiply the separate value with a and b.  As a result, it gives the sum of the function which factored by the individual value simultaneously.
+
 
