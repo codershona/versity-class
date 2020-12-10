@@ -1,0 +1,46 @@
+The Learning Journal is a tool for self-reflection on the learning process. The Learning Journal will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did.
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful.
+Describe your feelings and attitudes.
+Describe what you learned.
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources. 
+
+
+ANSWER:
+
+
+    In the beginning, this week I had studied the learning guide at first and try to understand Java Objects and Classes. I had also completed the self-quizzes and study the materials also. I had also re-attempt the self-quiz again to practice. I had read chapter 4 for objects and classes again and again since it was quite detailed that's why it needs for me to understand twice. I had also completed a supplementary exercise yesterday. After that, I had completed a programming assignment where this week I need to submit two files which were Quiz.java and Multiple-choice question.java, and also attach screenshots of the quizzes. Here I need to complete two java quiz logic. One of the files was quite hard to understand but after researching the learning materials I had able to complete the assessments. After completing the programming assignment I had started working on the discussion posts. I had described the concepts of the java class and objects with examples. Then I submit my work on the discussion forum and then I had reviewed my peer's work. Besides this, I also graded the unit 3 programming assessment of my peer works also. 
+
+   
+
+   When I was completing the assignment my reactions were very excited because I had learned about java objects and class before working on this course and I also knew how the objects and classes actually work. 
+
+   I also had received some of my peer reviews from the discussion posts and I was very happy that my peers had liked my concepts that I had demonstrated in my assignments. It was very helpful for me that I had able to understand my logic with my peers clearly. My feelings were I had realized that I am improving my programming skills. Besides this, I always learn new things from my mistakes. Everybody makes mistakes so we all need to learn from our mistakes. 
+
+
+
+   In my second point of view, Completing the multiple-choice question programming assignment had surprised me. Because last assessments I had worked on only the quiz.java file but this week there are two files need to create different logic. It was also quite interesting. It also felt particularly challenging. Completing the same things but need to use different logics and functions to create my own quiz. As a result, I must say, programming skills are improving day by day, and writing a learning journal also helping me to write tracks of my daily work. By using my self-reflection and becoming a self-learner I am able to realize that it is helping me to be more confident to solve technical problems. By applying the ideas and concepts gained to my own experience I am able to implement my own thoughts and view. 
+
+
+
+   In my third point of the view, finally, I am going to describe one important thing that I am currently thinking about in relation to the activity is researching more learning material and learning new things help me to gather more knowledge about the Java Programming language.
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.7
+
