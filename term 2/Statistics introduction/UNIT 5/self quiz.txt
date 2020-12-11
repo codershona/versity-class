@@ -1,0 +1,154 @@
+Approximately 85% of statistics students do their homework in time for it to be collected and graded. Let X be the number students that submit their homework in time out of a statistics class of 70 students. The following 4 questions refer to this X. (The answer may be rounded up to 3 decimal places of the actual value.)
+
+
+The sample space of X is:
+
+A: b. The integers between (and including) 0 and 70.
+
+
+The probability that less than 60 of the 70 students will do their homework on time is:
+
+
+A:  0.4842268
+
+
+
+The expectation of X is:
+
+A: 59.5
+
+The standard deviation of X is:
+
+
+A: 2.987474
+
+
+In Chapter 1 it was claimed that when tossing a fair coin 4 times it is quite likely to not obtain 2 heads and 2 tails. However, when tossing a fair coin 4,000 times one should expect to obtain number of tails in the range between 1940 and 2060. Let us compare the situation for 2 versus 2,000 coins. Let X be the number of heads when tossing a fair coin 2 times and let Y be the number of heads when tossing a fair coin 2,000 times. (The answer may be rounded up to 3 decimal places of the actual value).
+
+
+
+P( X = 1) is equal to
+
+A: 0.5
+
+P(X is not equal to 1) is
+
+
+A: 0.5
+
+
+P(Y = 1,000) is equal to
+
+A: 0.01783901
+
+P(Y is not equal to 1,000) is
+
+
+A: 0.982161
+
+
+P(940 ≤ Y ≤ 1,060) is equal to
+
+
+A: 0.9927
+
+
+E(X) is equal to
+
+
+A: 1
+
+
+
+The standard deviation of X is equal to
+
+
+A: 0.707
+
+
+
+E(Y) is equal to
+
+
+A: 1,000
+
+
+
+The standard deviation of Y is equal to
+
+
+A:  22.36068
+
+
+
+Meiosisis the process in which a diploid cell that contains two copies of the genetic material produces an haploid cell with only one copy (sperms and eggs). The resulting molecule of genetic material is linear molecule that is composed of consecutive segments: a segment that originated from one of the two copies followed by a segment from the other copy and vice versa. The border points between segments are called points of crossover. The Haldane model for crossovers states that the number of crossovers between two loci on the genome has a Poisson(λ) distribution. Assume that the expected number of crossovers between two loci in a fixed period of time is 2.25.The next 3 questions refer to this model for crossovers. (The answer may be rounded up to 3 decimal places of the actual value.)
+
+
+
+The probability of obtaining exactly 4 crossovers between the two loci is
+
+
+A:  0.1125528
+
+
+The probability of obtaining at least 4 crossovers between the two loci is
+
+A:  0.1905669
+
+
+A recombination between two loci occurs if the number of crossovers is odd. The probability of recombination between the two loci is, approximately, equal to Answer
+4
+ (Compute the probability of recombination approximately using the function "dpois". Ignore odd values larger than 9)
+
+
+
+A:  0.4944251
+
+
+The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between 0 and 17 minutes, inclusive. The next 3 questions refer to this waiting time. (The answer may be rounded up to 3 decimal places of the actual value.)
+
+
+The probability that a person waits fewer than 12.5 minutes is
+
+A: 0.7352941
+
+
+The expectation of the waiting time is
+
+
+A: 8.5
+
+
+The standard deviation of the waiting time is
+
+
+A: 4.907477
+
+
+
+Let X be amount of time (in minutes) a postal clerk spends with his/her customer. Assume that X has an Exponential(λ) distribution and that E(X) = 7 minutes. The next 3 questions refer to this waiting time. (The answer may be rounded up to 3 decimal places of the actual value.)
+
+
+The rate λ is equal to
+
+
+A:  0.1428571
+
+
+
+The probability that a clerk spends between four to five minutes with a randomly selected customer is
+
+
+A:  0.07517646
+
+
+The probability that a clerk spends more than 10 minutes with a customer is
+
+
+
+A: 0.239651
+
+
+
+
+
