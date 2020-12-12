@@ -1,0 +1,131 @@
+Learning Journal Unit 5
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+   * when you completed each step in the Learning Guide during the week,
+
+   * any problems or unexpected events that occurred during the week (including
+
+      problems understanding new or old material), and
+
+   * any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+We are now covering material that is not common knowledge, and it is now very important to include citations when you use an idea from another source (book, Internet, etc).  Be sure to add a citation and reference entry for the definition questions below.
+
+a) What is an exponential distribution (include an APA citation)? ___________________________
+
+b) When would you use an exponential distribution? ________________________
+
+c) What is a binomial distribution (include an APA citation)?_______________________
+
+d) When would you use a binomial distribution? ___________________
+
+3. Task
+
+Run these commands in R, then use your own words to describe what the resulting numbers represent.  You can get some information about the functions by using the help commands in R (such as ?pbinom to get information about the pbinom() command in R):
+
+a) pbinom(q=5, size=10, prob=1/6)
+
+b)
+
+n=10
+p=.5
+x=9
+pbinom(x, n, p)
+
+c) punif(5, min=1, max=10) - punif(4, min=1, max=10)
+
+
+
+ANSWER:
+
+  ANSWER 1: At the beginning, this week I had study unit 5 which was about random variables. I had complete discussion posts at first which were about discrete and continuous random variables. There I had illustrated the examples of the Binomial and the Poisson as well as the Uniform and the Exponential variables. I had described the definitions and explain the examples which were created by my own ideas and thoughts. After that, I had a complete self-quiz where I had been write twenty-one questions answers.
+
+  In my second point of view, I had no problem this week understanding random variables v\because before writing my assessments I had to study all the learning material which gave me a clear idea and understanding of the random variables chapter. 
+
+ As a result, writing more assessment is helping to improve my performance and I am able to understand that I am learning day by day. By completing every week the assessment as a self-learner I am having a well understanding of statistics. 
+
+
+
+ ANSWER 2:   I am going to write the vocabulary and R functions which have been demonstrated below,
+
+a) The exponential distribution is also called a negative exponential, which is a distribution with the probability that illustrates the Poisson point system that differs from an event that happens without break in an average rate. 
+
+References,
+
+Exponential distribution. (2020, December 11), In Wikipedia.https://en.wikipedia.org/wiki/Exponential_distribution
+
+
+
+
+b) Basically the exponential distribution is used very frequently with an amount of time up to certain specific events that arrived. For illustrate, if the amount of the time was from immediately till the end of the earthquake which happens is called exponential distribution. 
+
+
+
+References,
+
+Exponential distribution. (2020, December 11), In Wikipedia.https://en.wikipedia.org/wiki/Exponential_distribution
+
+
+
+
+c) The binomial distribution is a kind of parameter that had n as well as p which given the number of "SUCCESS" in a syntax of n which was a sequel of independent experiments. 
+
+
+
+References,
+
+Binomial distribution. (2020, December 4), In Wikipedia.https://en.wikipedia.org/wiki/Binomial_distribution
+
+
+
+
+
+d) The binomial distribution is used in the model which always allows us to calculate the probability to imagine that a specified number of "SUCCESS" where the system often repeats with a specific number of times. For example, in a set of sales products the profits of the sell could be more which will be "SUCCESS" and the loses could be defined as "FAILURE".
+
+
+
+References,
+
+Binomial distribution. (2020, December 4), In Wikipedia.https://en.wikipedia.org/wiki/Binomial_distribution
+
+
+
+
+
+ ANSWER 3:  I am going to demonstrate the results of the numbers represent. 
+
+a) I am going run this command in R console and let me check the answer,
+
+   The output will be,
+
+[1] 0.9975618
+ Explanation,  Here the function would be pbinom() which always returns the cumulative probability which has the size of a parameter with n(10) and the probability of the success is 1/6. 
+
+
+
+b) I am going run this command in R console and let me check the answer,
+   The output will be,
+
+[1] 0.9990234
+Explanation, here the function has the same value to determine the cumulative probability distribution value which not only has the binomial distribution but also has the value with the x, n, as well as p individually, consists with. 
+
+
+
+c) Finally, I am going run this command in R console and let me check the answer,
+   The output will be,
+
+
+[1] 0.1111111
+
+
+
+
+
