@@ -10,3 +10,80 @@ When forming your answer to this question you may give an example of a situation
 
 ANSWER:
 
+     In the beginning, there are random variables which are two types of discrete random variables which are called the Binomial and the Poisson. On the other side, there were two types of continuous random variables which are called the Uniform and the Exponential. 
+
+   As the Binomial discrete random variables are always used for the definition of the two possible results which has been repeated several times. I am going to describe one of the sequels of "SUCCESS" as well as "FAILURE". If the "SUCCESS" has each trial with the number of "a"  that shows a larger than 0 as well as smaller than 1 variable. But there has "m" a number which showcases the repeat trials and the probability of the "SUCCESS". In this case, the real number of the trials could be "SUCCESS" as a result of the Random Variables which are defined as Binomial Random Variables. 
+
+   For example, if we consider that, we are a shop owner and we sell 20 oranges per day. Each orange has a "HEAD" side which we could imagine as "SUCCESS" and a "DOWN" side which we could imagine as "FAILURE". For the lightweight oranges, there is a probability with a "HEAD" of 1/2. As if there is A is the total number of the "HEAD" then it would be A ~ Binomial(20, 0.5), where m is equal to 20 and the number of the trial is 0.7. As a result, here the probability of the "SUCCESS" is each trial.
+
+  The example has been demonstrated below,
+
+dbinom(c(11,33,55,77,99),20,0.7) 
+My Console output, 
+
+[1] 0.06536957 0.00000000 0.00000000 0.00000000 0.00000000
+
+
+Explanation,  if we try to observe the example, we had a function apropos to enumerate the probability which has the Binomial that makes odd values in a sample of the space that also could be created with expression "c(11,33,55,77,99)"  as well as it would also serve the input in the first of argument which is "dbinom" function.  Here the other arguments are "20" as well as "0.7" gradually.  Besides this, the output also has the function of the same length in the first argument which would be equal to the Binomial Probabilities of the value.  
+
+   
+
+    The Poisson discrete random variables also applied as a total number which was nearly an instance of the rare event. This distribution has often applied a model of the number of the period of the time which enter with the ability. 
+
+   My example is given below,
+
+y <- 0:20
+dpois(y,4)
+  Here is my console output,
+
+ [1] 1.831564e-02 7.326256e-02 1.465251e-01 1.953668e-01 1.953668e-01
+ [6] 1.562935e-01 1.041956e-01 5.954036e-02 2.977018e-02 1.323119e-02
+[11] 5.292477e-03 1.924537e-03 6.415123e-04 1.973884e-04 5.639669e-05
+[16] 1.503912e-05 3.759779e-06 8.846539e-07 1.965898e-07 4.138732e-08
+[21] 8.277464e-09
+ Another example, 
+
+y <- 0:20
+dpois(y,4)
+ppois(y,6)
+Here is my console output,
+
+ [1] 1.831564e-02 7.326256e-02 1.465251e-01 1.953668e-01 1.953668e-01
+ [6] 1.562935e-01 1.041956e-01 5.954036e-02 2.977018e-02 1.323119e-02
+[11] 5.292477e-03 1.924537e-03 6.415123e-04 1.973884e-04 5.639669e-05
+[16] 1.503912e-05 3.759779e-06 8.846539e-07 1.965898e-07 4.138732e-08
+[21] 8.277464e-09
+ [1] 0.002478752 0.017351265 0.061968804 0.151203883 0.285056500 0.445679641
+ [7] 0.606302782 0.743979760 0.847237494 0.916075983 0.957379076 0.979908036
+[13] 0.991172516 0.996371507 0.998599646 0.999490902 0.999825123 0.999943083
+[19] 0.999982403 0.999994820 0.999998545
+
+
+   Explanation, if we imagine that, λ equal to 4 with the function of the Poisson Distribution, and this function has a range which was between 0 and 20. We can now observe that the probabilities values are 7 which was very small. On the other hand, the cumulative of the probabilities has y equal to 6 with the value of 7 in the output of ppois(y,6) that has nearly 0.9799. Here, the 6 is larger than the distributed value of 0.002. 
+
+     The Uniform continuous random variable has defined as the model of the measurements which might have the value of the shown interval of all the values and has the interval equally in it to happen. 
+
+   The example has been illustrated below,
+
+dunif(0:20,6,9)
+  The console output is,
+
+ [1] 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.3333333
+ [8] 0.3333333 0.3333333 0.3333333 0.0000000 0.0000000 0.0000000 0.0000000
+[15] 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+
+
+ Explanation, here we could observe that [6, 9] is the over of the interval with the Uniform distributions. It has a density of the function that shows the computed with “dunif” value. 
+
+
+
+  The Exponential continuous random variables are defined as the model of the time which was used often between the events. The example has been demonstrated below,
+
+pexp(4,0.7) - pexp(6,0.7)
+The output is given below,
+
+[1] -0.04581449
+  Explanation, if we assume that, the Y ~ Expontetial is (0.7). The function is computed with 'pexp'  which is a cumulative probability. In this case, the random variable in the interval value is [4,6]. SO we can say that there is a difference between the probability \Prob(Y < 6) which has the area left of 6 as well as probability \Prob(Y < 4) which has the area left of 4.
+
+
+
