@@ -5,3 +5,110 @@ Your Discussion should be at least 250 words in length, but not more than 750 wo
 
 ANSWER:
 
+  In the beginning, I am going to demonstrate the examples which were showing how "super" and "this" are useful with inheritance in Java. 
+
+  In Java, the super keywords are always applied for understanding the methods of the parent classes which was often familiar to the method of the current classes. The super keyword was also a reserved keyword where we could not be able to use as an identifier. This keyword is also used to invoke the method and constructors as well as applied in the instance and static members. 
+
+Here I am illustrating my example,
+
+public class Users {
+    // instance variable
+    int y = 20;
+ 
+    // static variable
+    static int x = 30;
+ 
+    void Names()
+    {
+        this.y = 400;
+ 
+        System.out.println(y);
+        this.x = 300;
+ 
+        System.out.println(x);
+        System.out.println(y);
+    }
+ 
+    public static void main(String[] args)
+    {
+        new Users().Names();
+    }
+}
+
+
+My console output,
+
+400
+300
+400
+
+
+On the other hand, in Java, this keyword was always applied to reserved the keywords where anyone can not be used this method as an identifier. Basically, it was used for current classes to notice the static members. The "this" keyword is directed in the variable which was a current class as well as invoked in the current class constructor. This method also could able to pass on an argument in both method calls as well as in constructor calls also and return into current class instances. 
+
+My example has been given below,
+
+public class Users {
+    int x = 20;
+    static int y = 50;
+ 
+    void Main()
+    {
+        this.x = 300;
+ 
+        System.out.println(x);
+        this.y = 900;
+ 
+        System.out.println(y);
+    }
+ 
+    public static void main(String[] args)
+    {
+        new Users().Main();
+    }
+}
+My console output,
+
+300
+900
+
+
+
+
+ In my third point of view,  we can use this() and super() keyword methods which need to be the first statement in the block of the constructor that needs to be observed. In this case, we can not use them altogether in a similar constructor because both have the first statement in the block which has a proper execution. For example, if we try to run this example we would get errors because we used the same this() and super() method keywords.
+
+public class Person {
+    Person() { System.out.println("How many persons are there?"); }
+}
+ 
+class Sales extends Person {
+    Sales() {System.out.println("How many sales he does?");}
+ 
+    Sales(String names)
+    {
+        super(); // constructor of class Sale
+        this();
+        System.out.println("Sales of the product is " + names);
+    }
+}
+ 
+public class JPG {
+    public static void main(String args[])
+    {
+        Sales sale = new Sales("Mangoes");
+    }
+}
+
+
+Here are my console results shows me error for using both constructor keywords,
+
+/Person.java:11: error: call to this must be first statement in constructor
+        this();
+
+
+
+
+
+
+
+
+
