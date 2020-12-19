@@ -1,0 +1,80 @@
+According to some study, the height for Northern European adult males is normally distributed with an average of 181 centimeter and a standard deviation of 7.3 centimeter. Suppose such an adult male is randomly chosen. Let X be height of that person. The next 3 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value.
+
+The probability that the person is between 160 and 170 centimeters is
+
+
+Answer:
+
+0.0635,0.1093
+
+Step-by-step explanation:
+
+Given that according to some study, the height for Northern European adult males is normally distributed with an average of 181 centimeter and a standard deviation of 7.3 centimeter.
+
+Suppose such an adult male is randomly chosen.
+
+Let X be height of that person.
+
+X is N*(171,7.3)
+
+a) The probability that the person is between 160 and 170 centimeters is
+
+=
+
+Take any std normal table where prob are given from 0 to 3
+
+Since symmetrical we take the prob for 1.51 and 2.88 and find the difference
+
+= 0.4980-0.4345
+
+=0.0635
+
+
+
+2. The probability that the person is higher than 190 centimeter is
+
+A: 
+= 0.5-value corresponding to 1.23
+
+= 0.5-0.3907
+
+=0.1093
+
+
+
+
+The middle 60% of heights fall between what two values?
+
+
+A: c. (174.9, 187.1)
+
+The distribution of X is Normal(181,(7.3)2). The central region that contains 60% ofthe distribution is the region between the 0.2-percentile and the 0.8-percentile>qnorm(0.2,181,7.3) [1] 174.8562 > qnorm(0.8,181,7.3) [1] 187.1438
+
+
+
+Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5 mile lap (in a 7 lap race) with a standard deviation of 2.28 seconds . The distribution of her race times is normally distributed. We are interested in one of her randomly selected laps. The next 4 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value:
+
+
+The proportion (a number between 0 and 1) of her laps that are completed in less than 125 seconds is
+Answer: 0.01942418
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The Probability of beingless or equal than 125 is> pnorm(125,129.71,2.28) [1] 0.01942418
+
+
+The fastest 10% of her laps are completed under how many seconds?
+Answer: 126.7881
+
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The fastest 10% of thelaps are completed under the 0.1-percentile of the given probability. This percentileis> qnorm(0.1,129.71,2.28) [1] 126.7881
+
+
+
+
+The middle 90% of her laps are from a seconds to b seconds. Then a is equal to
+Answer: 125.9597
+
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The central region thatcontains 90% is [a,b], where a is equal to the 0.05-percentile of the distribution>qnorm(0.05,129.71,2.28) [1] 125.9597
+
+
+
