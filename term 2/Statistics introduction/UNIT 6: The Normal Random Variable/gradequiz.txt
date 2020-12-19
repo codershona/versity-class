@@ -1,0 +1,148 @@
+The missing probability value is:
+A: c. .22
+
+P(Y < 3) is equal to:
+A: d. .37
+
+The expectation of Y, E(Y), is:
+
+Select one: d. 5.45
+
+
+The standard deviation of Y (rounded to two decimal places) is:
+A: c. 4.71
+
+
+Information: Random variable Z represents the number of successes observed in 500 repetitions of an experiment that has a probability of success of .4 (i.e. the chance of success is 40% for each of the 500 independent experiments). Using this information, determine the following values for the next 5 questions:
+
+P(Z = 240), in other words, the probability that there were EXACTLY 240 successes in the 500 trials (round your answer to 2 decimal places):
+
+A: a. .00
+
+P(Z ≤ 240),  in other words, the probability that Z is less than or equal to 240 (rounded to two decimal places) is:
+
+
+A: e. 1.00
+
+P(220 ≤ Z ≤ 260) is (choose the best answer):
+
+A: a. .04
+
+
+The expected number of successes (the expectation) is:
+
+A: c. 200
+
+
+The population standard deviation of Z is:
+
+A: b. 10.95
+
+
+There is a total of 20 questions on this quiz.  You are at the half-way point.
+
+Let X be the amount of time (in minutes) a postal clerk spends with his or her customer. Assume that X has an exponential distribution and that the expectation is: E(X) = 5 minutes (meaning the expected amount of time spent with a customer is 5 minutes). The next 3 questions refer to this waiting time.
+
+
+The rate (λ) is equal to:
+
+A: b. .20
+
+
+
+The probability that a clerk spends between four and five minutes with a randomly selected customer (rounded to two decimal places) is:
+
+A: e. .08
+
+
+
+
+The probability that a clerk spends MORE than 10 minutes with a customer is:
+
+
+A: b. .14
+
+
+
+
+
+There are two Poisson distributions: A and B.  The distributions are used to model the number of successes in experiments A and B respectively. The expectation of A is 11 and the Expectation of B is 13.
+
+Remember that the Poisson distribution is a discrete distribution, so you have to be careful of the difference between “less than or equal to” versus “less than” (and similar distinctions).
+
+
+What is the variance of distribution A?
+
+A: e. the expectation
+
+
+
+What is the probability of getting exactly 13 successes in experiment B?
+
+A: b. .11
+
+
+
+What would be the probability of getting MORE THAN 15 successes in a experiment B?
+
+
+A: a. .24
+
+
+
+Which R command would give us an estimate of the width of the range of the middle 90% of observations for distribution A (i.e. find the top and bottom value in the central 90% and find the difference between those two numbers).
+
+
+A: c. qpois(.95, 11) - qpois(.05, 11)
+
+
+
+The patient recovery time from a particular surgical procedure is normally distributed with a mean of 6.8 days and a standard deviation of 1.7 days. The next 4 questions correspond to this information.
+
+
+What is the probability that recovery time is less than 7 days?
+
+A: d. .55
+
+
+
+What is the z-score for a patient who takes 7 days to recover? (Choose the closest possibility.)
+
+
+A: a. 0.12
+
+
+What is the probability of spending more than 3 days in recovery? (Choose the closest possibility.)
+
+A: e. .99
+
+
+
+The 90th percentile for recovery times is?
+
+A: d. 9.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
