@@ -1,0 +1,170 @@
+Quizzes and graded assignments in MATH1280 are NOT group projects. Please answer the questions and do not share the questions or answers with others or accept advance access to questions or answers from others.
+
+1) The first task is to review some information that might be useful later:
+
+a) Write a brief definition of the word "quartile" as we have used it in previous weeks. Be sure to provide a citation: _____________________________.
+
+b) Write a brief definition of the word "quantile" as it might be used in statistics. Be sure to provide a citation (do not cut and paste... use your own words to summarize what you discovered): ________________________________.
+
+c) From within interactive R, enter the command shown below (the command shows a help page for the pbinom command).  Provide a very brief description of the arguments that are passed to the pbinom() command ("arguments" in computer programming are the options that you give to a function so that the function can calculate what you want it to).  Note that one of the arguments is lower.tail = TRUE, and because there is a value assigned to it with the equals sign, it means that if you do not enter a new value for lower.tail, it will be set to TRUE by default.  Do not type the ">" into R, it is the command prompt:
+
+> ?pbinom
+
+2) You can use the dbinom() command (function) in R to determine the probability of getting 0 heads when you flip a fair coin four times (the probability of getting heads is 0.5):
+
+   dbinom(0, size=4, prob=0.5)
+
+Find the equivalent values for getting 1, 2, 3, or 4 heads when you flip the coin four times.  TIP: after you run the first dbinom() command, press the up arrow and make a small change and run it again.
+
+probability of getting  exactly 1 head: _______
+
+probability of getting exactly 2 heads: _______
+
+probability of getting exactly 3 heads: _______
+
+probability of getting exactly 4 heads: _______
+
+3) Use the pbinom() function in R to show the cumulative probability of getting 0, 1, 2, 3, or 4 heads when you flip the coin 4 times (this is the same as finding the probability than the value is less than or equal to 0, 1, 2, 3, or 4.)
+
+probability of getting no more than 0 heads: ____
+
+probability of getting no more than 1 head: _____
+
+probability of getting no more than 2 heads:_____
+
+probability of getting no more than 3 heads: ____
+
+probability of getting no more than 4 heads: ____
+
+4) The following R command will show the probability of exactly 6 successes in an experiment that has 10 trials in which the probability of success for each trial is 0.5:
+
+dbinom(6, size=10, prob=0.5)
+(True/False)____________
+
+5) Read Yakir (2011, pp. 68-69) carefully to review the meaning of the pbinom function (related to tests that a value will be “equal to” versus “less than or equal to” a criterion value).  What is the probability of getting fewer than 2 heads when you flip a fair coin 3 times (round to 2 decimal places) ?  ______
+
+6) What is the probability of getting no more than 3 heads when you flip a fair coin 5 times (be sure to understand the wording differences between this question and the previous one—round to 2 decimal places)? ________
+
+---------------------------------------------------
+
+Information
+
+The exponential distribution is a continuous distribution.  The main R functions that we will use for the exponential distribution are pexp() and qexp().   Here is an example of the pexp() function.  Leaves are falling from a tree at a rate of 10 leaves per minute.  The rate is 10, or we can say that lambda = 10 (meaning 10 leaves fall per minute).  The leaves do not fall like clockwork, so the time between leaves falling varies.  If the time between leaves falling can be modeled with an exponential distribution, then the probability that the time between leaves falling will be less than 5 seconds (which is 5/60 of a minute) would be:
+
+(note: this is an explanation of how pexp() works, you will answer a different question below)
+
+   pexp(5/60, rate=10)
+
+which is about 0.565 (meaning that the probability is a bit higher than 50% that the next time-span between leaves falling will be less than 5 seconds).
+
+For tasks 7-12, assume that the time interval between customers entering your store can be modeled using an exponential distribution. You know that you have an average of 4 customers per minute, so the rate is 4, or you can say that lambda = 4  according to Yakir (2011, p. 79-80). 
+
+It is easiest to keep everything in the original units of measurement (minutes), but you can also translate that to seconds because a rate of “4 customers per minute” is the same as “4 customer per 60 seconds,” and you can divide each number by 4 to get a rate of “1 customer per 15 seconds” or a rate of “1/15 customers per second.”
+
+7) What is the expectation for the time interval between customers entering the store?  Be sure to specify the units of measurement in your answer (see Yakir, 2011, pp. 79-80).  Round to 3 decimal places: ___________________
+
+8) What is the variance of the the time interval?  Be sure to specify the units of measurement in your answer. Round to 3 decimal places:_________________
+
+9) The pexp() function is introduced at the bottom of Yakir, 2011, p. 79, and there are some tips above.  What is the probability that the time interval between customers entering the store will be less than 15.5 seconds. Be sure to enter values so that everything is in the same unit of measurement.  Be sure to specify the units of measurement in your answer.  Round your answer to 3 decimal places: _________________.
+
+10) What is the probability that the time interval between customers entering the store will be between 10.7 seconds and 40.2 seconds (see Yakir (2011, p. 79-80)?________
+
+11) The qexp() function in R allows you to enter a probability, and it will tell you the criterion value (“cutoff point”) that corresponds to that probability value (e.g., if you enter .05 it tells you the cutoff point below which 5% of the values in the distribution fall).
+
+What value of x would be the criterion value (cut-off point) for the top 5% of time intervals (Round to 3 decimal places, and include the units of measurement)? _______
+
+---------------------------------
+
+12) Describe in your own words the meaning of the number that the following R command produces (you are asked to interpret the resulting number so that we understand what that number means).
+
+pexp(1.2, rate=3)
+
+---------------------------------
+
+Information
+
+You have now had practice with the binomial distribution and the exponential distribution.  The approach to solving problems for the normal distribution is similar to that for the exponential function, but obviously you use different R functions (usually pnorm() or qnorm()).
+
+For the following three exercises, assume that you have a normally distributed random variable, called A, with a mean of  7, and a population standard  deviation of 3.
+
+13) What is the probability that a randomly selected value from variable A will be greater than 9 (see Yakir, 2011 p. 88-89, 100)?_______
+
+14) What value of variable A would be the cutoff point (criterion value) for identifying the lowest 4% of values in variable A (use the qnorm function)?____________
+
+15) What is the probability that a randomly selected value from variable A will be more than one standard deviation above its mean (there are couple ways to solve this, one way is to use the standard normal distribution, Yakir, 2011, p. 90-91) ?________________
+
+
+
+
+
+ANSWER:
+
+
+ANSWER 1:
+
+a)  Here I had ranked the number which was a sample of a list that defines a smallest to largest as well as I need to divide those into four quarters. Secondly, each quarter has been considered as a quartile. In the second quartile the median has (Q2) as well as the first quartile has (Q1) that was in the middle value within the lower value or in the median. On the other hand, the third quartile had (Q3) with the middle value within the median and the higher value. Because the comparing of these numbers would be two numbers which need to qualify for the rules and the average was been taken into. (Published in 2011, Yakir).
+
+b) As, I had learned that the quartile was the same concept with quartiles which was divided by the data into the quarters and I am now dividing those data within equal groups that need to contain a similar number of the data of the elements from a sample. Here, the groups could be in any size as long as the value were needs to be equal probabilities. 
+
+  For instance, we could able to divide the data into 10 quartiles and while there I need to add 10 data elements altogether.  So I need to divide those into 10 quartiles that would be the mean with each quantile which will contain only 1 element as well as the same concept of the 100 data elements in the whole sample. After that, I need to divide the sample into 10 quantiles that would be mean that each quantile with 10 data elements. If there was a link between quantiles and quartiles then it would be divided with the data into 4 quantiles which were similar to the quartile. (Published in 2011, Yakir).
+
+
+
+c) Here the, pbinom(n, size, prob, lower.tail = TRUE and the log.n = FALSE).  If there is 5 argument which could able to pass into the pbinom function and the function would need to provide the cumulative the distribution of the function which was the binomial. In my second argument, the sample of the size needs a trial and success probability that has parameters with the binomial distribution(BIM(n, p)), in the respects of, the first argument needs to be the value which was n and the Q(N <= n) was the cumulative distribution function. For instance, while I need to know about the {Q(N<=3)} which the R console shows pbinom(3, x, p) and the last two was the optional arguments. In a words, I can say that the first was true for the cumulative distribution function which defines the specific value {Q(N<=3)}, as well as the results, was false that was not (Q(N < n)) and the log of the argument also presented the false while it had the probabilities that have not provided as log(n).
+
+
+
+ANSWER 2: 
+
+The probability of getting exactly 1 head:  which was 0.25.
+
+The probability of getting exactly 2 heads:  which was 0.375
+
+The probability of getting exactly 3 heads:  which was 0.25
+
+The probability of getting exactly 4 heads:  which was 0.0625
+
+
+
+ANSWER 3: 
+
+The probability of getting no more than 0 heads: which was 0.0625
+
+The probability of getting no more than 1 head: which was 0.3125
+
+The probability of getting no more than 2 heads: which was 0.6875
+
+The probability of getting no more than 3 heads: which was 0.9375
+
+The probability of getting no more than 4 heads: which was 1.000
+
+
+
+ANSWER 4:  TRUE
+
+
+
+ANSWER 5: Here the probability of getting fewer than 2 heads when you flip a fair coin 3 times which has round to 2 decimal places that will be 0.50 or 0.5.
+
+
+
+ANSWER 6: Here the probability of getting no more than 3 heads when you flip a fair coin 5 times will be 0.8125. 
+
+ANSWER 7: The round to 3 decimal places will be 0.250 minutes per customer who would be entering into the store.
+
+ANSWER 8: The round to 3 decimal places will be 0.0625.
+
+ANSWER 9:  The round to 3 decimal places will be 0.6441811.
+
+ANSWER 10: The probability that the time interval between customers entering the store will be between 10.7 seconds and 40.2 seconds will be  0.421445.
+
+ANSWER 11: The value of x would be the criterion value will be 0.7489331.
+
+ANSWER 12: The number that the following R command produces 0.9726763.
+
+ANSWER 13: The probability that a randomly selected value from variable A will be greater than 9 will be 0.2524925.
+
+ANSWER 14: The value of variable A would be the cutoff point will be 3.759042.
+
+ANSWER 15: The one way is to use the standard normal distribution will be 0.1586553.
+
