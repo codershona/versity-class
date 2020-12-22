@@ -1,0 +1,55 @@
+The Learning Journal is a tool for self-reflection on the learning process. The Learning Journal will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did.
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful.
+Describe your feelings and attitudes.
+Describe what you learned.
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources. 
+
+
+ANSWER: 
+
+   In the beginning, this week I had studied in unit 6 in event handling with Graphical User Interfaces chapter. I had a complete self-quiz at first because this week I had to give a graded quiz and I practice self-quiz for the graded quiz. After practicing self-quiz I start to prepare for the graded quiz and study some resources. Then I began to attempt my final grade quiz and finally, I had achieved 100/100 and the exam time was 1 hour to complete 20 multiple choices. I was so happy because in week 3 I had got 70/100 and this week I had achieved 100.100 and the question was very interesting and by giving the exam I also had to learn more new things. After quitely finish my exam I start working on discussion posts as this week I do not have any programming assignment. I am very disappointed with my last programming assignments as some of my peers failed me and gave me hard work zero which I think was intentional.  
+
+   When I was completing my discussion posts I had given all explanations clearly which was about the java program. My reaction was quite confused because when  I was working on the discussion assignment I was thinking about how I can able to give a clear explanation of the java code and describe the tests of the code behavior. Then I finish my assignment after researching some of the blogs on the internet and add references. 
+
+ In my discussion posts, I had got some positive feedback from my peers and they also inspire me to write the references after finishing the assignments. It was a well feeling when some of the peers really give well feedback on my hard work which really motivated me to write more good assignments.  
+
+   I had learned that you just need to check the assignments or any peer's work carefully and give feedback on his or her hard work. Without checking any work the peer must not provide random marks and random comments.  Because we all work hard to create a good assignment and we must check the mistakes. I am very sad to say that some of the peers do not check the programming assignments and gave false and random comments and ratings which our university authority should take actions for this type of work. 
+
+   When I was checking my previous programming assignments last week I was surprised that some of my peers failed in my programming assignments. They just randomly give me comments and ratings without checking my submission. I felt really sad that I just informed my instructors about my situation. 
+
+   This week's unit 6 grade quiz was very challenging for me and because last grade quiz I was just able to give only 14 correct answers. But on this grade quiz, I had able to give 20 out of 20 correct answers. I had recognized that I am improving my coding skills day by day. As a self-learner, I am gaining problem-solving skills and  I am now able to understand the basics of Java. I had applied my own idea and concepts in the discussion posts explanation on the code test behavior. 
+
+   
+
+     Finally, I want to describe the important thing which was related to my activity is collaboration. I think every peer need to collaborate with each other to learn new things from each other. If we do not support and cooperate with each other we would not able to learn to improve our collaboration skills which are important for our professional life. As we all need to work with a team. If we face a team conflict we would not gain any positive skills which are going to prosper our life. By working in peer assignment in our university it actually teaches us how to collaborate with peers. But sometimes I am very sad that some peers do not collaborate and do not seem happy if other peers work hard and make good marks. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.7
+
+
+
+
+
+
+
+
+
+
+
