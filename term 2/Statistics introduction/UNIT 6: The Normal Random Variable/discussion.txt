@@ -1,0 +1,21 @@
+Mathematical models are used as tools to describe reality. These models are supposed to characterize the important features of the analyzed phenomena and provide insight. The normal distribution is an example of a random variable that is widely used by researchers to model real data.
+
+Researchers often model real observations using the normal distribution, but sometimes the real distribution is a bit different from the perfect, normal distribution. List some reasons why researchers might make approximations like this and describe at least one situation when researchers should not use this approximation.
+
+When forming your answer to this question you may give an example of a situation from your own field of interest for which a random variable can serve as a model.
+
+
+
+ANSWER:
+
+ In the beginning, the mathematical model was always used as the tools to give a reality of the description and these models were being characterized for the necessity to analyze the phenomena which need to be provided. Here the normal distribution usually illustrates a random variable that was used for the researchers for the model of data. If we want to use the normal distribution it needs to identify the uncommon events as well as we also need to calculate the probabilities. Basically, a mathematical model needs a smooth bell-formed curve to use for the demonstration of data distributions as this model called a normal distribution. Because it can able to measure different types of a common pattern. 
+
+   For instance, if we imagine that, one standard had a deviation for every side of the mean. While there is a random variable which was N it has a normal distribution with the mean will be 20(mean = 20) as well as the standard deviation would be equal to 4. Now, we could be composed that μ = 20 as well as σ = 4.  Here, we could able to presume that, the mean which was μ = 20 was static that it was in the middle of the normal curve and the other was the two arrows with the value of 1 that was a standard deviation on every side of the mean. At my first point, the value of 1 could be a standard deviation which will be lower than the mean that would be recited by (μ − σ) as well as the mean of μ = 20 and the standard deviation of σ = 4 which always illustrate the situation of 20 - 4 = 16. In my second point of view, if the 1 is the standard deviation which is greater than the mean that would be (μ + σ) because the μ = 20 as well as σ = 4 which narrate that 20 + 4 = 24. Here, we could notice that, if we try to show the area with the probabilities with N variables that will be between 7 as well as 22. 
+
+
+
+  Finally, if the researchers always do statistical tests we could set to help and think that the normal distribution is not valid and if we compare the sample of the mean with the actual means it will show the normal distribution of the population which was the sampling of the distribution either known as normal that will be enough tests in the sample means. 
+
+
+
+

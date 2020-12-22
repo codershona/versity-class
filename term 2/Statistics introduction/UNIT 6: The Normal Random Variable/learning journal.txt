@@ -1,0 +1,92 @@
+Learning Journal Unit 6
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+   * when you completed each step in the Learning Guide during the week,
+
+   * any problems or unexpected events that occurred during the week (including
+
+      problems understanding new or old material), and
+
+   * any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions (be sure to include an APA citation)
+
+a) What is a normal distribution? _________________
+
+b) What does the pnorm() function do?_________________________
+
+3. Task
+
+If you know the mean and standard deviation of a normally distributed population, and somebody asks you questions about the highest 1% and lowest 1% of numbers in that population, what could you tell them? Pick your own values for the mean and standard deviation and then answer the question for those values. Choose one of these R functions to answer the question: dnorm(), pnorm(), qnorm(), rnorm().
+
+
+
+
+ANSWER:
+
+In the beginning, this week I had study unit 6 which was about the normal of the random variables. At first, I had to complete the graded quiz and self-quiz. Before giving the grade quiz exam I had to finish the self-quiz and practice it for the graded quiz. I am so happy that this week's grade quiz I had to achieve 100/100 was my all sixteen multiple-choice was right. Now currently I am taking some preparation for the week 8-grade quiz exam. This week My grade quiz exam was about 1 hour 30 minutes. Then, I starting working on a written assignment which was a kind of peer assignment. I had able to write all the task answers in the assignments and submitted my work. After that, I had complete the discussion posts and receive some of my peer's review. Finally, now I had started writing my learning journal.
+
+  In my second point of view, I had some problems completing the discussion posts. Because the question was a bit hard to understand and I had to study and research the topic as I need to submit it in my virtual classroom. I had researched a lot and also read some blogs which were related to this topic. Finally, I was able to understand the concepts and write my answers. 
+
+  In my third point of view, this week my exam was very well and nothing had an effect on my performance and I had able to understand all the assignment questions. 
+
+
+
+   Secondarily, I am going to demonstrate the vocabulary as well as  the R function which has been illustrated below,
+
+  a) The normal distribution actually means a function that has to show the distribution of the numerous random variables as asymmetrical for the bell-shaped graph of sample data. 
+
+   For instance, if anyone in the profession has a statistical underpinning on the empirical experiment which has the easiest and that is based on the normal distribution that could also skew the distribution in the ask for the observation. 
+
+
+
+References,
+
+"Normal Distribution," Wikipedia, last modified on October 30, 2020, https://simple.wikipedia.org/wiki/Normal_distribution
+
+
+
+b) The pnorm() function actually used for the parameters which are Q, the mean as well as the standard deviation in the R function. The symbol is (q, sd, or mean). These symbols actually do the calculation of the probability of the random variable in the distribution of the mean and less than sd which defines as standard deviation. 
+
+ I am giving an example which is given below,
+
+pnorm(q=2,mean=3,sd=6)
+
+
+My output of the console is,
+
+[1] 0.4338162
+
+Explanation, in my example, the probability has a normal distribution that has a mean equal to 3 that was less than the parameter q, and here we could say that the probability was defined as the cumulative distribution which had q as a function. 
+
+
+
+References,
+
+"Normal Distribution," Wikipedia, last modified on October 30, 2020, https://simple.wikipedia.org/wiki/Normal_distribution
+
+
+
+
+  I am now going to illustrate the task of number 3. 
+
+While I had realized that the mean, as well as the standard deviation (sd), was the normal distribution by the population. If anyone asks me a population which about the question regarding the highest 1% as well as the lowest 1% of the number. I could able to tell that, the function qnorm() in the R function has N normal distributed random variables with the mean equal to 80, the standard deviation (sd) will be 6 as well as the (N < 82). Here the 82 was a boundary value which has the area with a normal density of the curve near 82. 
+
+qnorm(0.82,mean=80,sd=6)
+Here is my console output,
+
+[1] 85.49219
+
+ Explanation, here the value will be 85.49219 that was on the 95 percentile which might be 95% of the value of the entire population. It also hs the normally distributed the mean equal to 80 and the standard deviation was 6 would be kept under the 85.49219. If I try to pick a random variable which was N from a population data then it would be P(N < 85.49219) = 0.82.
+
+
+
+References,
+
+"Normal Distribution," Wikipedia, last modified on October 30, 2020, https://simple.wikipedia.org/wiki/Normal_distribution
