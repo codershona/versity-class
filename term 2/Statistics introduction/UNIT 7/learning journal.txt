@@ -1,0 +1,68 @@
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+* when you completed each step in the Learning Guide during the week,
+
+* any problems or unexpected events that occurred during the week (including problems understanding new or old material), and
+
+* any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+a) What is a sampling distribution (include an APA citation)?   _________
+
+b) What is the Law of Large Numbers?________
+
+3) Describe in your own words (do not directly quote any source) the difference between the distribution of a sample and the sampling distribution.  Use an example in which the original population has a binomial distribution.  You will probably use concepts from the book or another source, so be sure to cite any concepts that come from such sources (even if you paraphrase).
+
+
+
+ANSWER:
+
+  In the beginning, I am going to discuss what I did this week. This week was about unit 7 which was the sampling distribution chapter. I had to complete first the self-quiz and practice by re-attempting the self-quiz again. After that, I had submitted my discussion posts into my virtual classroom and I also give feedback and graded my peer-written assignments. Hopefully, this week I did not face any problems and I had understood the sampling distribution chapter by studying a lot. I had realized that my performance was well in m classroom. This week I had a positive learning efficiency which had helped me to focus on my classwork. As a self-learner, I had maintained the time management to complete my classwork on time. 
+
+
+
+In my second point of view, I am going to illustrate the vocabulary of the R functions which is given below,
+
+a) The sampling distribution is a kind of graph which represent statistically the sample of the data. Suppose, the mean, the range, the mean of the right value of the deviation, the standard deviation which is also defined as a sample, the sample with the variance, and the variance with the unbiased calculation are the sampling distribution. 
+
+For instance, we have a graph that had a data set as well as also observe the shape with a normal distribution that has 200 scores this is called the mean. Here the probability distributions have a difference this does not work including a single set of those numbers. So, we can now understand that we are having a behavior of different statistics with many numbers of the set. 
+
+So, we can say that a sampling distribution is also called finite statistical sample distribution which has the probability distribution that was showing as a random sample within statistic. 
+
+
+
+References,
+
+Sampling Distribution, Published on 5 December, (2020), https://en.wikipedia.org/wiki/Sampling_distribution.
+
+
+
+b) In statistically, laws of their large numbers is a kind of theorem that illustrates the outcome of the performance of the equivalent research of a huge number of times. According to the probability theory, there is a middling result of a large number of the experiment that could also expect as the value that would also overlook to closer expected value with many tests with a good performance. Laws of the large number abbreviation is LLN. 
+
+
+
+For Instance, if implement the Monte Carlo methods and concepts in LLN, where this concept has a wide class of computational algorithms that depends on the repetition of random sampling to reach numerical outcomes. The richer number of duplications was the better that was nearly bend to be. Here the argument was about the method's important because sometimes this method could also be more hard and critical to use the other way to deal with anything. 
+
+
+
+References,
+
+Law fo the large numbers, Published on 29 November, (2020), https://en.wikipedia.org/wiki/Law_of_large_numbers
+
+
+
+
+
+In my third point of view, I am going to discuss the difference within the distribution of a sample as well as the sampling distribution. 
+
+The Sampling distribution is a kind of sample with the statistical probability distribution and this sample distribution has a random sample. This distribution had the data from the sample.
+
+On the other hand, the sample of distribution has the probabilistic of the distribution with the observation of the sample.  This distribution also had statistics from many different samples. 
+
