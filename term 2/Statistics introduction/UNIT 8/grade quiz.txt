@@ -1,0 +1,115 @@
+InformationFlag question
+Information text
+Recall that the population average of the heights in the file "pop1.csv" is μ = 170.035. Using simulations we found that the probability of the sample average of the height falling within 1 centimeter of the population average is approximately equal to 0.626. From the simulations we also got that the standard deviation of the sample average is (approximately) equal to 1.122. In the next 3 questions you are asked to apply the Normal approximation to the distribution of the sample average using this information. The answer may be rounded up to 3 decimal places of the actual value:
+Question 1IncorrectMark 0.00 out of 1.00Flag question
+Question text
+Using the Normal approximation, the probability that sample average of the heights falls within 1 centimeter of the population average is
+Answer: 
+Feedback
+The correct answer is: 0.6272133
+Question 2CorrectMark 1.00 out of 1.00Flag question
+Question text
+Using the Normal approximation we get that the central region that contains 95% of the distribution of the sample average is of the form 170.035 ± z · 1.122. The value of z is
+Answer: 
+Feedback
+The correct answer is: 1.959964
+Question 3CorrectMark 1.00 out of 1.00Flag question
+Question text
+Using the Normal approximation, the probability that sample average of the heights is less than 168 is
+Answer: 
+Feedback
+The correct answer is: 0.03486
+Question 4CorrectMark 1.00 out of 1.00Flag question
+Question text
+According to the Internal Revenue Service, the average length of time for an individual to complete (record keep, learn, prepare, copy, assemble and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is 2 hours. Suppose we randomly sample 36 taxpayers and compute their average time to completing the forms. Then the probability that the average is more than 11 hours is approximately equal to (The answer may be rounded up to 3 decimal places of the actual value.) 
+Answer
+ .
+Feedback
+The correct answer is: 0.07926984
+InformationFlag question
+Information text
+Suppose that a category of world class runners are known to run a marathon (26 miles) in an expectation of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. In the next 3 questions you are asked to apply the Normal approximation to the distribution of the sample average using this information. The answer may be rounded up to 3 decimal places of the actual value:
+Question 5IncorrectMark 0.00 out of 1.00Flag question
+Question text
+The probability that the runner will average between 142 and 146 minutes in these 49 marathons is
+Answer: 
+Feedback
+The correct answer is: 0.6246553
+Question 6CorrectMark 1.00 out of 1.00Flag question
+Question text
+The 0.80-percentile for the average of these 49 marathons is
+Answer: 
+Feedback
+The correct answer is: 146.6832
+Question 7CorrectMark 1.00 out of 1.00Flag question
+Question text
+The median of the average running time is
+Answer: 
+Feedback
+The correct answer is: 145
+Question 8CorrectMark 1.00 out of 1.00Flag question
+Question text
+The time to wait for a particular rural bus is distributed uniformly from 0 to 75 minutes. 100 riders are randomly sampled and their waiting times are measured. The 90th percentile of the average waiting time (in minutes) for a sample of 100 riders is (approximately):
+Select one:
+a. 315.0
+b. 40.3  
+c. 38.5
+d. 65.2
+Feedback
+The correct answer is: 40.3
+InformationFlag question
+Information text
+A switching board receives a random number of phone calls. The expected number of calls is 5.3 per minute. Assume that the distribution of the number of calls is Poisson. The average number of calls per minute is recorded by counting the total number of calls received in one hour, divided by 60, the number of minutes in an hour. In the next 4 questions you are asked to apply the Normal approximation to the distribution of the sample average using this information. The answer may be rounded up to 3 decimal places of the actual value:
+Question 9CorrectMark 1.00 out of 1.00Flag question
+Question text
+The expectation of the average is
+Answer: 
+Feedback
+The correct answer is: 5.3
+Question 10CorrectMark 1.00 out of 1.00Flag question
+Question text
+The standard deviation of the average is
+Answer: 
+Feedback
+The correct answer is: 0.2972092
+Question 11CorrectMark 1.00 out of 1.00Flag question
+Question text
+The probability that the average is less than 5
+Answer: 
+Feedback
+The correct answer is: 0.1563938
+Question 12CorrectMark 1.00 out of 1.00Flag question
+Question text
+The probability that number of calls in a random minute is less than 5 is 
+Answer
+ . (Note, the question is with respect to a random minute, and not the average.)
+Feedback
+The correct answer is: 0.3895182
+InformationFlag question
+Information text
+It is claimed that the expected length of time some computer part may work before requiring a reboot is 2 months. In order to examine this claim 80 identical parts are set to work. Assume that the distribution of the length of time the part can work (in months) is Exponential. In the next 4 questions you are asked to apply the Normal approximation to the distribution of the average of the 80 parts that are examined. The answer may be rounded up to 3 decimal places of the actual value:
+Question 13CorrectMark 1.00 out of 1.00Flag question
+Question text
+The expectation of the average is
+Answer: 
+Feedback
+The correct answer is: 2
+Question 14IncorrectMark 0.00 out of 1.00Flag question
+Question text
+The standard deviation of the average is
+Answer: 
+Feedback
+The correct answer is: 0.2236068
+Question 15CorrectMark 1.00 out of 1.00Flag question
+Question text
+The central region that contains 90% of the distribution of the average is of the form E(X) ± c, where E(X) is the expectation of the sample average. The value of c is
+Answer: 
+Feedback
+The correct answer is: 0.3678005
+Question 16CorrectMark 1.00 out of 1.00Flag question
+Question text
+The probability that the average is more than 2.5 months is
+Answer: 
+Feedback
+The correct answer is: 0.01267366
+
