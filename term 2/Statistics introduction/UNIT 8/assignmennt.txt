@@ -1,0 +1,231 @@
+Assignment Unit 8
+Quizzes and graded assignments in MATH1280 are NOT group projects. Please
+answer the questions and do not share the questions or answers with others or
+accept advance access to questions or answers from others.
+Estimating the Expectation
+A measurement follows the normal distribution with a
+standard deviation of 15 and an unknown expectation μ. You
+can consider that measurement to be the "original"
+distribution. Two statisticians propose two distinct ways to
+estimate the unknown quantity μ with the aid of a sample of
+size 36. They will do that by evaluating two different
+SAMPLING DISTRIBUTIONS to determine which method is
+better. There are two statisticians involved in this task:
+statistician "A" and statistician "B." Statistician A proposes to
+use the sampling distribution of the sample average as an
+estimate. Statistician B proposes to use the sampling
+distribution of the sample median instead. In order to choose
+between the two options they agree to prefer the statistic that
+has a smaller variance (with respect to the sampling
+distribution). Tasks 1-9 refer to this problem of comparing the
+two statistics to each other.
+Normal Approximation of the Sampling Distribution of a Sum
+Suppose that the expected number of phone calls that are handel by a switchboard
+in each second is 5.35. Assume that the distribution of the number of phone calls
+per second follows the Poisson distribution. Tasks 10-12 refer to this information.
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Submitting the Assignment
+For the assignment you should complete 12 tasks. Tasks 1-9
+refer to the information associated with the estimating the
+expectation and Tasks 10-12 refer to the application of the
+Normal approximation of the sampling distribution of a sum.
+This assignment has the format of a quiz and it is computer graded. The tasks are
+described in the Form titled "Assignment Unit 8". The answer to each task involves
+the selection of the right choice (in a multiple choice question) or the entering of a
+numerical value at the designated location.
+Notice: Unlike the Quizzes, you will not be given a chance to correct a wrong
+answer after submitting the assignment. Hence, we recommend that you check
+your answers carefully before submitting the assignment.
+Estimating the Expectation
+A measurement follows the normal distribution with a standard deviation of 15 and
+an unknown expectation μ. You can consider that measurement to be the
+"original" distribution. Two statisticians propose two distinct ways to estimate the
+unknown quantity μ with the aid of a sample of size 36. They will do that by
+evaluating two different SAMPLING DISTRIBUTIONS to determine which method is
+better. There are two statisticians involved in this task: statistician "A" and
+statistician "B." Statistician A proposes to use the sampling distribution of the
+sample average as an estimate. Statistician B proposes to use the sampling
+distribution of the sample median instead. In order to choose between the two
+options they agree to prefer the statistic that has a smaller variance (with respect
+to the sampling distribution). Tasks 1-9 refer to this problem of comparing the two
+statistics to each other.
+Question 1
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 5 (μ=5). Then the
+expectation of the statistic that was proposed by Statistician A is equal to:
+Answer:
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Feedback
+The correct answer is: 5
+Question 2
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 5 (μ=5). Then the
+standard deviation of the statistic that was proposed by Statistician A is equal to:
+Answer:
+Feedback
+The correct answer is: 2.5
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 5 (μ=5). Then the
+expectation of the statistic that was proposed by Statistician B is equal to: (In order to
+answer this question you may need to conduct a simulation, similar to the simulations that
+are presented in the book. Choose the option closest to the outcome of the simulation.)
+Select one:
+a. 2.3
+b. 3.7
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+c. 4.1
+d. 5.0
+Feedback
+The correct answer is: 5.0
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 5 (μ=5). Then the
+standard deviation of the statistic that was proposed by Statistician B is equal to: (In order
+to answer this question you may need to conduct a simulation, similar to the simulations
+that are presented in the book. Choose the option closest to the outcome of the
+simulation.)
+Select one:
+a. 2.0
+b. 2.5
+c. 3.0
+d. 3.5
+Feedback
+The correct answer is: 3.0
+Question 5
+Not answered
+Marked out of 1.00
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 2.3 (μ=2.3). Then the
+expectation of the statistic that was proposed by Statistician A is equal to:
+Answer:
+Feedback
+The correct answer is: 2.3
+Question 6
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 2.3 (μ=2.3). Then the
+standard deviation of the statistic that was proposed by Statistician A is equal to:
+Answer:
+Feedback
+The correct answer is: 2.5
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+Flag question
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Question text
+Assume that the actual expectation of the measurement is equal to 2.3 (μ=2.3). Then the
+expectation of the statistic that was proposed by Statistician B is equal to: (In order to
+answer this question you may need to conduct a simulation, similar to the simulations that
+are presented in the book. Choose the option closest to the outcome of the simulation.)
+Select one:
+a. 2.3
+b. 3.7
+c. 4.1
+d. 5.0
+Feedback
+The correct answer is: 2.3
+Question 8
+Incorrect
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Assume that the actual expectation of the measurement is equal to 2.3 (μ=2.3). Then the
+standard deviation of the statistic that was proposed by Statistician B is equal to: (In order
+to answer this question you may need to conduct a simulation, similar to the simulations
+that are presented in the book. Choose the option closest to the outcome of the
+simulation.)
+Select one:
+a. 2.0
+b. 2.5
+c. 3.0
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+d. 3.5
+Feedback
+The correct answer is: 3.0
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Based on the information collected in Tasks 1-8, which of the two statistics produces
+values which tends to be more concentrated about the expectation of the measurement?
+Select one:
+a. The statistic proposed by Statistician A
+b. The statistic proposed by Statistician B
+Feedback
+The correct answer is: The statistic proposed by Statistician A
+Information
+Flag question
+Information text
+Normal Approximation of the Sampling Distribution of a Sum
+Suppose that the expected number of phone calls that are handled by a
+switchboard in each second is 5.35. Assume that the distribution of the number of
+phone calls per second follows the Poisson distribution. Tasks 10-12 refer to this
+information.
+Question 10
+Not answered
+Marked out of 1.00
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Flag question
+Question text
+The number of phone calls that the switchboard is expected to handle in 1 minute is
+Answer:
+Feedback
+The correct answer is: 321
+Question 11
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+The 0.80-percentile of the number of calls per minute is (approximately) equal to: (Use
+the Normal approximation. The answer may be rounded up to 3 decimal places of the
+actual value.)
+Answer:
+Feedback
+The correct answer is: 336.0789
+Question 12
+Not answered
+Marked out of 1.00
+Flag question
+https://www.coursehero.com/file/47773247/Assignment-Unit-8pdf/
+This study resource was
+shared via CourseHero.com
+Question text
+The probability that the switchboard will need to handle no more than 300 call in a
+minute is: (Use the Normal approximation, without a continuity correction. The
+answer may be rounded up to 3 decimal places of the actual value.)
+Answer:
+Feedback
+The correct answer is: 0.1205773
