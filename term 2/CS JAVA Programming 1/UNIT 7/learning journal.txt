@@ -1,0 +1,48 @@
+The Learning Journal is a tool for self-reflection on the learning process. The Learning Journal will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did.
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful.
+Describe your feelings and attitudes.
+Describe what you learned.
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources. 
+
+
+ANSWER:
+   In the beginning, I am going to write about what I did this week. This week I need to complete the assignment of UNIT 7, Arrays, and ArrayLists and I had to study some resources and textbooks about this chapter. At first, I had a complete self-quiz and I had to practice for the final term exam. After that, I had to complete the discussion post where I had to submit my assignment which was about the wrapper class. I had given a definition of the Java wrapper classes. I had also described the importance to use these wrapper classes with Array lists. I had also illustrated some examples with the syntax in Java autoboxing and unboxing methods. This method actually helps a developer to write clean code. 
+
+
+
+   When I was working on the discussion posts and another assignment I had a very well reaction. Because the question was very easy to given answers. By completing the assignment I had to understand the uses of Java arrays and arrays lists. I had also received some good feedback and comments from my peers and I had also given them my feedback on their posts. Well, this week my attitudes were positive but I am a bit worried about my programming assignment. As my peer intentionally gave me bad comments and ratings which failed in my programming assignment. This week I had to complete the programming assignments I am concern about again they gave me bad feedback. 
+
+
+
+   When I was completing my assignment I had learned the uses of how to work with array and ArrayList in Java code. This helps to understand how I can write well-organized code in Java and use those tricks in my real-life coding. 
+
+    When I was completing the programming assignment, I am wondering and feeling worried that again my peer will give me a review of what to check my work. I am particularly feeling a challenge that I will complete the assignment clearly so that if they failed me again I might inform this situation of this instructor. 
+
+
+
+   By studying and completing the assignment I had realized that I am gaining productivity and time management skills. As I am a self-learner student this strategy was helping me develop my coding skills. This week's unit seven-chapter helps me how can I write clean code and complete the logics. This knowledge I can able to implement with my own experience in the real life. 
+
+
+
+  One most important thing for every programmer they must learn how to write clean and well-organized code. Because after learning any programming languages we must need to know how we can organize presented and write my testable code. Because we are a computer science student we need to handlers much code in our real-life work. So we try to write clean code from now this strategy could also help me become more productive in our work. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.7 
+
