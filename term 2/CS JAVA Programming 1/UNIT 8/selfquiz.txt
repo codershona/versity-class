@@ -1,6 +1,6 @@
 Assume "test" is a boolean variable. Which of the following expressions is equivalent to "test == true"?
 
-A: b. !test
+A: b. test
 
 In a while loop, how many times does the continuation condition run?
 
@@ -17,7 +17,7 @@ Consider the following Java program, what starts on line 4?
 6 }
 
 
-A: a class definition
+A: a statement
 
 Consider the following class definition. Which variables can be used in the missing "println" expression on line 12?
 
