@@ -1,0 +1,21 @@
+1) List what you consider are the most important concepts you have learned in this course.
+
+2) What study tips would you give to students who enroll in this class next term?  You can discuss whatever you think might be useful: time-management tips, what to study, how to study, what to do, or what not to do.
+
+
+ANSWER:
+
+ 1)    In the beginning, I am going to list the most important concepts that I had learned in this course. In my view, the most important was the sampling and data structures which were chapter two. In my second point of view, probability and random variables are also important but the normal variable chapter was hard for me to understand. But after I study for I could able to understand. This week I had learned overview and integration which were units seven and I had to complete the self-quiz and assignment at first after that I had to complete the discussion posts and submit them to the forum. Here I have learned how to present difficult things to a person in a simple way. Thus statistics course help me to understand how R programming works and how to analyze any sample data and use the random variables in any sample distribution data. I had understood the difference between the sample distribution and the sampling distribution. By illustrating my own examples I had able to understand how probability and statistical thinking works. 
+
+
+
+2) I have some tips for who would be enrolled in this course in the next term is firstly you have to learn some basics of R programming. You can also learn from the blogs and some YouTube tutorials. There will more critical self-quizzes not too worried about that because this quiz will help a student to understand working with data analysis. For a computer science student, this course is very helpful because if any computer science student wants to learn data science these course materials would be most useful for them. But when you will solve any problem you just need to think statistically and answers them. It is a proctored course, so this will be not that easy. I had spent a lot of time to complete each assignment and try to understand the questions. According to the course, we must need some knowledge to use their console and set up on our computer.  There is also some free tutorial on the internet, any student can look into to learn. When I started to work on assignments I read many blogs from medium and try to understand their concepts and start writing my own thoughts. Besides this, we must check our work after writing and remind ourselves not to match any work from internet sources. Our whole answers need to create your own ideas. Besides this, we need to demonstrate the examples as much as we can. By writing more examples helps a student to understand more about that topic. Not only that, but examples also help to increase good grades. But a student must need to illustrate a relevant example. 
+
+
+
+  Not only focus on the hard skills we must also need to focus on our soft skills. Now I am going to discuss the useful soft skills. Firstly for my time management is the most important skill. I used to complete my all assignments before the last days. When every week I get new assignments at first I used to complete the introduction to statistics course work and after finishing this I start working on my other elective courses. I used to submit my work as soon as possible. I used to make my own routine and maintain that. For example, I start to complete my all self-quizzes and grade quizzes at first. Then I submit my discussion posts and write the written assignments. After that, I complete the learning journal. When I get stuck, I used to search from the internet and study the blogs which were related to my topics. Then I try to use those concepts as an idea in my assessments. 
+
+
+
+   In my second tip would be more productive as a self-learner. As we are a self-learner student we need to learn on our own. Without taking anyone's helps to solve your own problem is the best skill for me.  Because this strategy would make you more confident and independent as well as we never need to be dependent on others. We also need to collaborate with our peers and make good networking with each other. 
+
