@@ -49,7 +49,7 @@ public static void main(String[] args) {
 }
 
 
-A: a. actual parameter or argument
+A: a. formal parameter
 
 
 What is output by the following Java program?
@@ -93,7 +93,7 @@ static int doSomething(int[] a) {
 }
 
 
-A: a. average
+A: a. maximum
 
 
 
@@ -178,7 +178,7 @@ public class MouseWhisperer extends JFrame implements MouseListener {
 
 
 
-A: c. MouseEvent
+A: c. this
 
 
 
@@ -453,7 +453,7 @@ static int doSomething(int[] a) {
 }
 
 
-A: a. average
+A: a. sum
 
 
 Consider the following first line from a Java method definition.
@@ -506,7 +506,7 @@ for (int i = 1; I < 10; i++) ;
 }
 
 
-A: b. 9
+A: b. 1
 
 
 Which one of the following values can a Java variable NOT have?
