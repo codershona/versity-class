@@ -611,11 +611,298 @@ public class Clicker extends JFrame implements ActionListener {
 A: c. import javax.swing.*;
 
 
+Which of the following keywords is useful for processing lists of menu options?
+
+A: d. switch
+
+
+What is the output of the following Java program?
+
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        pepper.setFlavor("spicy");
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: c. spicy
+
+
+Consider the following Java declaration and assignment statement.
+float x = y;
+Which one of the following types is "y" NOT allowed to be?
+
+
+A: a. double
+
+In a while loop, how many times does the continuation condition run?
+
+a. At least once, at the beginning of each iteration.
+
+
+
+In a do-while loop, how many times does the continuation condition run (if the loop has no break, return, or System.exit calls)?
+
+
+A: b. At least once, at the end of each iteration.
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+The full line of code is which of the following?
+
+A: 
+
+
+
+
+Consider the following Java program. Which one of the following is an interface?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+A: d. MouseListener
+
+
+
+Consider the following block of Java code. How many times will it output "Hello"?
+for (int i = 1; i < 10; i++)
+{
+    System.out.println("Hello");
+}
+
+A: 1
+
+
+Which one of the following Java technologies eliminates memory leaks?
+
+A: a. garbage collection
+
+
+Which one of the following is an event handler?
+
+
+A: b. an event listener
+
+
+A class can _____ multiple interfaces.
+
+A: 
+
+
+
+
+A subclass will _____ one superclass.
+
+
+A: 
+
+
+
+Consider the following Java program. Which statement displays a window with a button on the screen?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+
+A: d. setVisible(true);
+
+
+Which one of the following does NOT describe an array?
+
+A: 
+
+
+
+Which one of the following lines is a Java method call?
+
+A: 
+
+
+
+
+Consider the following class definition. Which variables can be used in the missing "println" expression on line 20?
+
+1  public class PrintStuff
+2  {
+3      public static void main()
+4      {
+6          {
+7              int i = -1;
+8              System.out.println(_____);
+9          }
+10         int j = 1;
+11         for (j = 0; j < 10; j++) {
+12             System.out.println(_____);
+13         }
+14         {
+15             int k;
+16             for (k = 0; k < 10; k++) {
+17                System.out.println(_____);
+18             }
+19         }
+20        System.out.println(_____);
+21     }
+22 }
+
+
+A: 
+
+
+
+Where in a Java file can the text "int x" NOT appear?
+
+A: 
+
+
+
+Consider the following Java program, which one of the following best describes "setFlavor"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: 
+
+
+
+
+In a for loop, how many times does the continuation condition run?
+
+
+A: 
 
 
 
 
 
+Consider the following Java program. Which statement updates the appearance of a button?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: b. button.addActionListener(this);
+
+
+
+Which of the following should be used to compare the contents of two String objects in Java?
+
+
+A: d. equals
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+Which one of the following does NOT describe '"Hello, World!"'?
+
+A: 
+
+
+
+Consider the following Java method, which term best describes "void"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+
+A: 
+
+
+
+A Java method gets executed when it is...
+
+
+A: 
+
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static double doSomething(int[] a) {
+    int b = 0;
+    for (int c : a) b += c;
+    return (double)b/(double)a.length;
+}
+
+
+A: 
+
+
+Where in a Java file can the text "int x" NOT appear?
+
+
+A: 
 
 
 
