@@ -1,0 +1,20 @@
+Find the range of  f(x)=- \sqrt{2-x}  
+
+ANSWER: b. (–∞, 0]
+
+If f(x) = 2x + 1, what is the domain?
+
+ANSWER: (-∞,∞)
+
+If f (t) = t2 + t, find [ f(t + h) – f (t)] / h.
+
+
+ANSWER: a. 2t + h + 1
+
+Given the function  g(x) = (x-1)^2 , find the average rate of change on the interval [−1, 2].
+
+ANSWER: b. -1
+
+Find the range of f (x) = – 1 / √ (2 – x)
+
+ ANSWER: b. (–∞, 0)
