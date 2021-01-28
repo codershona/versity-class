@@ -1,0 +1,189 @@
+A switch statement, most often has the form:
+switch (expression) {
+case constant-1:
+statements-1
+break;
+…
+}
+
+The value of the expression can be:
+i. int
+ii. short
+iii. byte
+iv. Primitive char
+v. Enum
+vi. String
+vii. Real number
+
+
+ANSWER:  c. All, except vii
+
+The following code writes out the name of a day of the week depending on the value of day. True or False?
+
+String dayName = null;
+switch (day) {
+case 1:
+dayName = "Sunday";
+break;
+case 2:
+dayName = "Monday";
+break;
+case 3:
+dayName = "Tuesday";
+break;
+case 4:
+dayName = "Wednesday";
+break;
+case 5:
+dayName = "Thursday";
+break;
+case 6:
+dayName = "Friday";
+break;
+case 7:
+dayName = "Saturday";
+break;
+}
+System.out.println(dayName);
+
+ANSWER: True
+
+Given the following piece of code:
+
+class CostCalculationException extends Exception{}
+class Item {
+       public void calculateCost() throws CostCalculationException {
+                //...
+                throw new CostCalculationException();
+                //...
+       }
+}
+class Company {
+        public void payCost(){
+                new Item().calculateCost();
+      }
+}
+
+Which of the following statements is correct?
+
+ANSWER: c. This code will compile if you add a try-catch block in payCost(). d. This code will compile if you add throws CostCalculationException in the signature of method payCost().
+
+
+Given the following piece of code:
+
+class Student { public void talk(){} }
+public class Test{
+          public static void main(String args[]){
+                    Student t = null;
+                    try {
+                           t.talk();
+                           } catch(NullPointerException e){
+                                   System.out.print("There is a NullPointerException. ");
+                           } catch(Exception e){
+                                   System.out.print("There is an Exception. ");
+                           }
+                           System.out.print("Everything ran fine. ");
+          }
+}
+
+what will be the result?
+
+
+ANSWER: a.
+
+
+Consider the following code (assume that comments are replaced with real code that works as specified):
+public class TestExceptions {
+
+    static void e() {
+      // Might cause any of the following unchecked exceptions to be
+      // thrown:
+      // Ex1, Ex2, Ex3, Ex4
+    }
+   
+    static void April() {
+      try {
+          e();
+      } catch (Ex1 ex) {
+          System.out.println("April caught Ex1");
+      }
+    }
+   
+    static void March() {
+      try {
+          April();
+      } catch (Ex2 ex) {
+          System.out.println("March caught Ex2");
+          // now cause exception Ex1 to be thrown
+      }
+    }
+   
+    static void February() {
+      try {
+          March();
+      } catch (Ex1 ex) {
+          System.out.println("February caught Ex1");
+      } catch (Ex3 ex) {
+          System.out.println("February caught Ex3");
+      }
+    }
+   
+    static void January() {
+      try {
+          February();
+      } catch (Ex4 ex) {
+          System.out.println("January caught Ex4");
+          // now cause exception Ex1 to be thrown
+      } catch (Ex1 ex) {
+          System.out.println("January caught Ex1");
+      }
+    }
+   
+    public static void main(String[] args) {
+        January();
+    }
+}
+Assume now that this program is run four times. The first time, method e throws exception Ex1, the second time, it throws exception Ex2, etc.
+What are the results of the four runs (a or b)?
+
+a.
+
+The program prints:
+April caught Ex1
+The program prints:
+March caught Ex2
+February caught Ex1
+The program prints:
+February caught Ex3
+The program prints:
+January caught Ex4
+And execution stops due to an uncaught exception Ex1 thrown in main()
+b.
+
+The program prints:
+April caught Ex3
+The program prints:
+March caught Ex2
+February caught Ex2
+The program prints:
+March caught Ex3
+The program prints:
+January caught Ex4
+And execution stops due to an uncaught exception Ex1 thrown in main()
+ 
+
+ANSWER: a.
+
+
+Which statements are correct regarding Java’s predefined class called Throwable?
+
+ANSWER: a. The class Throwable represents all possible objects that can be thrown by a throw statement and caught by a catch clause in a try…catch statement.
+b. The thrown object must belong to the class Throwable or to one of its (many) subclasses such as Exception and RuntimeException.
+c. The object carries information about an exception from the point where the exception occurs to the point where it is caught and handled.
+
+
+“Subclasses of the class Exception which are not subclasses of RuntimeException require mandatory exception handling.” What are the practical implications of this statement?
+
+
+ANSWER: a. If a method can throw such an exception, then it must declare this fact by adding a throws clause to the method heading.
+b. If a routine includes any code that can generate such an exception, then the routine must deal with the exception.d. The routine can handle the exception by including the code in a try statement that has a catch clause to handle the exception.
