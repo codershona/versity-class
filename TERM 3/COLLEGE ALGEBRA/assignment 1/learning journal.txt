@@ -2,6 +2,33 @@ Reflect on the concept of function. What concepts (only the names) did you need 
 
 The Learning Journal entry should be a minimum of 400 words and not more than 750 words. 
 
-
 ANSWER:
+
+ In the beginning, the function is a kind of activity that has a purpose natural or intended for a thing. Basically, it has an expression involving one or more variables. As this thing has dependent on other factors. For example, if we had an expression that describes the references between the independent variables, which we can call one variable or, the dependent variables, which we could define as other variables. Mathematically we could say that the function needs to assist us because we can manage the two values by changing altogether. Here, the exponent would have rules with each number that needs to be raised with one idea. Another notion has opposite functions. That means the inverse functions have the ability for the logarithm. Here, the simplest ways for each type of real, valuable function which has constant functions. The constant function is a kind of which has a similar value with f(x), which is not a matter of what the x would be defining for. If we try to describe the generic constant function, we used to write as an f(x) = C, where C will be presented as an unmarked constant. As a result, the linear functions need to apply for the main block which would accelerate as well as by increasing because force needs to be increased. 
+
+
+
+    In my mind, the function which could accommodate that needs the input-output, the rules, the defines of the domain, the ranges, by mapping with the variation which could be direct or inverse. Here, the simplest function would be,
+
+
+
+x = b 
+Note: The one x value will be the equals value.
+     The graph for the function will be possible to view the functions. If an electronic car parking meter has the total of the time that parks the meters by not taking any kind of risks and gets a car parking permission ticket that needs to depend on the total numbers of quarters we need to put into the meter that could be 15 minutes for 25 kronor, and 30 minutes for 50 Swedish kronor. 
+
+
+
+  By set-up using a coequal plan, the label of the horizontal has the axis 'x' as well as the vertical axis 'y'. By choosing x input has the value with the domain of functions. If we need to consist the 0 of the domain that has found the 'y' cut off of the functions. We can also write down the input or the output of the point. 
+
+Here, the x or y if we plot the point we could choose the x value for the domain as well as we could able to calculate the similar y values for individuals. This plot could show various points or draw the curve for it. In this case, if we try to work with the functions that have no more than 1 outcome as well as y values for the special input of the values. 
+
+
+
+
+
+
+
+
+
+
 
