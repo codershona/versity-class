@@ -1,0 +1,59 @@
+Assignment
+
+This week's assignment is Part 1: Benchmarking Sorting Algorithms from Lab 2 of this unit.
+
+
+ANSWER:
+
+In the beginning, I am going to write a class method in Benchmarking Sorting Algorithm which is given in the Benchmarking_Sorting_Algorithm.java file. This solution has the class method. 
+
+File Name: Benchmarking_Sorting_Algorithm.java 
+
+import java.util. * ;
+public class Benchmarking_Sorting_Algorithm {
+  int maxArraySize = 1000;
+  int[] sortingArrayOne = new int[maxArraySize]
+  // This was first array
+  int[] sortingArrayTwo = new int[maxArraySize]
+  // This was second array
+  public Benchmarking_Sorting_Algorithm {
+    // Using with Class Constructor
+    for (int i = 0; i < sortingArrayOne.length; i++) {
+      sortingArrayOne[i] = (int)(Integer.MAX_VALUE * Math.random());
+      sortingArrayTwo[i] = sortingArrayOne[i];
+      long startTimeArrayOne = System.currentTimeMills();
+      selectionSort(sortingArrayOne);
+      long runTimeArrayOne = System.currentTimeMills() - startTimeArrayOne;
+      long startTimeArrayTwo = System.currentTimeMills();
+      Arrays.sort(sortingArrayOne);
+      long runTimeArrayTwo = System.currentTimeMills() - startTimeArrayTwo;
+      System.out.printIn("Selectio Sort time(sec) : " + runTimeArrayOne / 1100.0);
+      System.out.printIn("Arrays Sort time(sec) : " + runTimeArrayTwo / 1100.0);
+      static void selectionSort(int[] X) {
+        for (int j = 1; j <= lastPlaces; j++) {
+          if (X[j] > X[maxLock]) {
+            maxLock = j;
+          }
+        }
+        int tempa = X[maxLock];
+        X[maxLock] = X[lastPlaces];
+        X[lastPlaces] = tempa;
+      }
+    }
+  }
+}
+
+Explanation: This code took me to write different amounts of time so that it could depend on algorithms that are used to run the code. It was quite similar to sorting algorithms, for example, insertion sort or selection sort. These concepts worked for me because it has small arrays with larger arrays which take to compile the unnecessary amount of the time. Java programming languages define to create sorting methods. We can also find these class methods in java which is located in package java. util.
+
+File Name: Benchmarking_Sorting_Algorithm_Main.java 
+
+public class Benchmarking_Sorting_Algorithm_Main {
+  public static void main(String[] args) {
+    Benchmarking_Sorting_Algorithm SortingTests = new Benchmarking_Sorting_Algorithm();
+    // By making new class method with the type of Benchmarking_Sorting_Algorithm
+  }
+}
+
+
+Explanation:  It has a lab with Arrays. sort(X) so that the whole array X would increase the orders. Basically, it has various concepts with the array base types which also have the logics with the similar class name, and these we need to use dit in an array of the int in this lab.
+
