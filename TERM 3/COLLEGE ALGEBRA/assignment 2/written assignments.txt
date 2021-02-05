@@ -25,3 +25,99 @@ and observe the answers.]
 
 ANSWER:
 
+ANSWER 1: 
+
+       In the beginning, Firstly, I am trying to explain the solution by using algebra methods, here I need to organize the logics in the functions, 
+
+3y + 4x = 12 and,
+-6y - 8x = 1
+ 
+
+
+
+ 
+
+          If I try to multiple the first equation I would get -2 output or yields which would be given below,
+
+-6y - 8x = -24
+-6y - 8x = 1
+
+
+Explanation, here I can simply end that in a point which I define as (x, y) will go together with the first straight line that has not to associate with the second straight line as well as the straight line needs to be similar to the straight lines needs to be the similar plane. Besides this, The slope of the first and the second straight line will be in a similar situation  ( 8 / -6 = -4 / 3 ).
+
+ 
+
+In my second point of view, I am going to organize the logic which is given following below,
+
+3y + x = 12 and,
+-y - 8x = 1
+
+   Here, If I try to multiple the second equation I would get 3 output which would be given below,
+
+
+3y + x = 12 and,
+-3y - 24x = 3
+
+
+
+
+   Explanation,  I could simply illustrate the systems which have given a single solution for the point x =15 /23 as well as 3y = 12 - x -> y = 4 - x / 3 = 4 - (-15 / 23 / 3 ) = 4 + 15 / 69 = 4 * 69 + 15 / 69 = 291 / 69 moreover this line also has the concurrent and if I have one point in general but not straight, on the other hand, the slope of the first and the second line will be -8 which was not equal for one not for the opposite for another (-1 / 3 ) or -8.  
+
+
+
+
+In my third point of view, I had noticed that the first organized which is given below,
+
+4x - 7y = 10 and,
+7x - 4y = 1
+
+
+
+
+Explanation, here the slopes are 4 / 7 = -7 / 4 which has one of the additional with another. As a result, 4 / 7 * -7 / 4 = -1 that will be the straight line will be in vertical.
+
+
+
+ANSWER 2:
+
+  In my graph,  y = −4 * 9.x² + 24x + 8 { 0 < x < 5.3 }
+
+
+
+
+
+ Explanation, here the height for the building would be eight ( 8 ) meters,
+
+h(0) = -4.9 * 0² + 24 * 0 + 8 = 8
+  Here the ball will reach the maximum height for the horizontal coequal of the vertex, that is given below,
+
+x = -b / 2a = -24 / 2(-4.9) = -24 / -9.8 = 2.45 seconds.
+
+In a words, the maximum height is going to reach the vertical level of the vertex of the parabola, which is given below,
+
+h(-b / 2a) = -4.9 * 2.45² + 58,80 + 8 = -4.9 * 6,00 + 58,80 + 8 = 37.40
+
+
+ANSWER 3:
+  Here, my function bushels is going to illustrate with B(n) = n(20 - 3 (n = 75) ) = n (-3n + 245).
+If I imagine that, n will be the number of trees per acre, the graphs will present that she has only 41 trees per acre to maximize her harvest. Otherwise I could say this, B(n) = (20 - 3n) * (7n + n) * A. 
+
+
+
+   Here, n has the number for the other trees which her plants have per acre as well as A would be the quantity for the acres and I could able to take measures for the number of the acres which will be A = 1.
+
+
+
+
+Explanation,  If I could observe that the maximum of her harvest should need to be the plant which was less than the 75 trees per acre and the graph also had the maximum causes which were around the n = -34. 
+
+
+This a table 
+
+
+If I try to calculate the midpoint of the two roots it would be,
+
+Calculation of the table
+
+
+
