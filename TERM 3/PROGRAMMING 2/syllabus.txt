@@ -1,0 +1,99 @@
+Unit 1- Exceptions, the switch statement, Analysis of Algorithms
+Unit 2- Recursion and Linked Lists
+Unit 3- ADTs, Stacks and Queues
+Unit 4- Recursive Descent Parsers and Generic Programming
+Unit 5- More Generic Programming
+Unit 6- Files and Networking; Advanced GUI Programming
+Unit 7- Actions and Buttons; Complex Components and MVC
+Unit 8- Some GUI Programming
+Unit 9- Final Exam
+
+
+Study Guide
+
+The course is conducted entirely via the University of the People Online Campus (http://my.uopeople.edu).
+
+Unit 1: Exceptions, the switch statement, Analysis of Algorithms
+
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 1 Assignment (Lab 1)
+• Make entries to the Learning Journal
+
+Unit 2: Recursion and Linked Lists
+
+• Peer-Assess Unit 1 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 2 Assignment (Lab 2)
+• Make entries to the Learning Journal
+
+
+Unit 3: ADTs, Stacks and Queues
+
+• Peer-Assess Unit 2 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz(Optional)
+
+•Take the Graded Quiz
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 3 Assignment (Lab 3)
+• Make entries to the Learning Journal
+
+
+Unit 4: Recursive Descent Parsers and Generic Programming
+
+• Peer-Assess Unit 3 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 4 Assignment (Lab 4)
+• Make entries to the Learning Journal
+
+Unit 5: More Generic Programming
+
+• Peer-Assess Unit 4 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 5 Assignment (Lab 5)
+• Make entries to the Learning Journal
+
+
+Unit 6: Files and Networking; Advanced GUI Programming
+
+• Peer-Assess Unit 5 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+
+•Take the Graded Quiz
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 6 Assignment (Lab 6)
+• Make entries to the Learning Journal
+
+Unit 7: Actions and Buttons; Complex Components and MVC
+
+• Peer-Assess Unit 6 Assignment
+• Read the Learning Guide and external Reading Assignments
+• Take the Quiz (optional)
+• Participate in the Discussion Forum (Post, Comment and Rate)
+• Complete and submit Unit 7 Assignment (Lab 7)
+• Make entries to the Learning Journal
+
+Unit 8: Some GUI Programming
+
+
+Review material in the textbook relating to the topics in the Assignment.
+To reinforce your knowledge, try to do as many of the relevant exercises in earlier chapters of the textbook as possible.
+Perform Lab 12 and post your answer in the Learning Journal
+Post your answer to the question in the Discussion Forum and follow it up with approximately 3-4 comments to other students' posts. Rate other students’ posts.
+Read through the Unit 9 Learning Guide
+Take the Review Quiz in Unit 9
+Complete the Course Evaluation
+
+Unit 9: Final Examination
+
+Prepare for and submit the final examination.
+The final exam will take place during Week 9. (Exact date and other details will be announced.)
