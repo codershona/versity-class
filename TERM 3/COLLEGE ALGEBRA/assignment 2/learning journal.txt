@@ -2,5 +2,48 @@ Reflect on the concept of lines and quadratic functions. What concepts (only the
 
 The Learning Journal entry should be a minimum of 400 words and not more than 750 words. 
 
+
 ANSWER:
+
+  In the beginning, I am going to discuss the concepts for the degrees of the polynomial. If I imagine that, there is a line for the degree of the polynomial which was equal to 1 as well as also has the quadratic function which is also greater than 1 same as the degree of the polynomial. 
+
+One Line: The polynomial degree with = 1
+The Quadratic functions: The polynomial degree with > 1
+
+
+In my second point of the view, the simplest line form would be,
+
+y = m(x) + c
+Or, y = mx + c
+
+
+On the other hand, the quadratic function would be, 
+
+y = x(a2 + b) + c
+Or, y = ax2+ bx + c
+
+
+In my third point of the view, firstly, day to day in the line, if a bus fare has been included with both fixed fare costs as well as also has the variables with the costs for each kilometer, needs to be covered.  As a result, the line of the function would be the total fare for the y = m(x) + c, where the c will be the fixed fare costs and the 'm 'will be the variable for the fare costs for each kilometer. Here, x would be the total amount of the distance costs for the kilometer.
+
+Secondarily, day to day if I illustrate the example for the quadratic function in a way of the sports event, for example, pike, football, etc. here of the ball needs to follow a parabola trajectory which will be controlled by the quadratic function. 
+
+In my fourth point of the view, because of the graph, a line needs two-points for the help of the drawing of each line. As a result, the vertex of the quadratic function, for example, x-intercept or y-intercept are always required and this expresses the necessity. Besides this, if I pitch any tennis ball on the wind, I could get the model for the quadratic function which has a height with a function of some time.
+
+
+
+
+
+
+
+Explanation, If I could able to imagine the most simple functions and quadratic function that will be,
+
+f(x) = x2
+The concepts of the names that have the wants for the accommodate concepts for the lines and quadratic functions in my mind are given below, 
+The vertex and Parabola
+The axis of the symmetry
+The domain and the range
+The minimum and the maximum of the value
+The x-intercepts or the y-intercepts
+
+
 
