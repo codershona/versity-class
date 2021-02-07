@@ -7,6 +7,28 @@ The Learning Journal comprises 10% of your Final Grade. You will be assessed on 
 ANSWER:
 
 
+In the beginning, I am going to reflect on my learning guide throughout my programming 2 courses. I had a complete a total of four assigned tasks. At first, I was unfamiliar with Recursion and Linked Lists and after studying I had understood and cleared my concepts. I had studied the learning guide on the 4th of February. After that, I had studied the lab 3 and 4 of the units 2 and code unit 2 and mines folder. In this chapter, I had searched the topics while self-learning. Recursion was a new topic for me. I had read some online blogs and study the topics. When I was able to understand the recursion and the linked list, I started working on my assessments. But before starting the assignments I had to complete the self-quizzes and I had got all 10 multiple choices corrected. This week, I had studied the uses of the recursions algorithms for the discussion post. My instructor also told me to describe its advantages and disadvantages. I had worked on my assignments and the most important advantages and disadvantages for my posts. I had been writing and try to understand the disadvantages most because when we will work with recursion in the Java algorithm we must need to observe the disadvantages at first and avoid those steps to write the correct code. I had commented and give a review of three of my peer's works and rated them. As my instructor also told me to write the references last week so this week I had also added the references. Next, I had to complete the programming written assignment which was about the recursive syntax of part 1 of Lab 3. I had been attached my code file and image of the console output. Besides this, I had been given my own explanation of my codes. Now I am waiting for my peer's review. I had started writing my learning journal. 
+
+
+
+ As a result, the self-reflection learning method is a great way to build problem-solving skills. I am a computer science student and this learning process helps to improve my self-confidence. By completing assigned tasks helps me to become a self-taught programmer also. This course is an advanced Java learning course and I have few problems to understand but when I research my problems more I could able to solve my problem by myself. Self-learning helps me to think critically and engage myself by self-reflection soft skills.
+
+
+
+ 
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.
+
+
+
+
+
+
+
+
+
+
 
 
 
