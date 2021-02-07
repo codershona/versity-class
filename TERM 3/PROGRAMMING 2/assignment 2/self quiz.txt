@@ -1,0 +1,167 @@
+What are two parts to recursion?
+
+A: a. (1) If the problem is easy, solve it immediately, and (2) If the problem can't be solved immediately, divide it into smaller problems.
+
+How can you drink an entire keg of root beer?
+
+A: b. (1) If the keg is empty do nothing, otherwise (2) take one swallow, then drink the rest of the keg.
+
+
+How do you study a text book?
+
+A: b. (1) If you have reached the end of the book you are done, else (2) study one page, then study the rest of the book.
+
+
+Which answer is a correct skeleton for a recursive Java method?
+
+A.
+int solution( int N )
+{
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    divide problem into pieces
+    return something calculated from the solution to each piece 
+  }
+}
+
+B.
+int solution( int N )
+{
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    return solution(N) 
+  }
+}
+
+C.
+int solution( int N )
+{
+  divide problem into pieces
+  return something calculated from the solution to each piece 
+}
+
+D.
+int solution( int N )
+{
+  divide problem into pieces
+
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    return something calculated from the solution to each piece 
+  }
+}
+
+
+
+A: a.
+
+
+Which of the following statements are true?
+
+A: a. The Fibonacci series begins with 0 and 1, and each subsequent number is the sum of the preceding two numbers in the series.
+
+In the following method, what is the base case?
+
+static int xMethod(int n) {
+    if (n == 1)
+       return 1;
+    else
+       return n + xMethod(n - 1);
+}
+
+A: a. n is 1
+
+
+Consider the following two programs:
+
+A.
+public class Test {
+     public static void main(String[] args) {
+          xMethod(5);
+     }
+
+     public static void xMethod(int length) {
+          if (length > 1) {
+               System.out.print((length - 1) + " ");
+               xMethod(length - 1);
+          }
+     }
+}
+
+B.
+public class Test {
+     public static void main(String[] args) {
+          xMethod(5);
+     }
+
+     public static void xMethod(int length) {
+          while (length > 1) {
+               System.out.print((length - 1) + " ");
+               xMethod(length - 1);
+          }
+     }
+}
+
+A: e. Program A produces the output 4 3 2 1 and Program B prints 4 3 2 1 1 1 .... 1 infinitely
+
+
+What code is missing to complete the following method for sorting a list?
+
+public static void sort(double[] list) {
+___________________________;
+}
+
+public static void sort(double[] list, int high) {
+   if (high > 1) {
+      // Find the largest number and its index
+      int indexOfMax = 0;
+      double max = list[0];
+      for (int i = 1; i <= high; i++) {
+          if (list[i] > max) {
+              max = list[i];
+              indexOfMax = i;
+         }
+      }
+
+// Swap the largest with the last number in the list
+list[indexOfMax] = list[high];
+list[high] = max;
+
+// Sort the remaining list
+sort(list, high - 1);
+}
+}
+
+
+A: c. sort(list, list.length - 1)
+
+
+For a linked list to be used in a program, that program needs:
+
+i. A variable that refers to the first node in the list.
+ii. A pointer to the first node.
+iii. A null pointer in the last node.
+
+
+A: d. i, ii and iii
+
+
+Suppose cursor refers to a node in a linked list (using the IntNode class with instance variables called data and link). What statement changes cursor so that it refers to the next node?
+
+A: d. cursor = cursor.link;
+
+
+
+

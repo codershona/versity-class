@@ -142,6 +142,45 @@ public class SimpleRandomSentences {
 Or,
 
 
+In the beginning, I am going to illustrate my unit 2 programming assignments which are for Part 1 in Lab 3 and the topic is recursive syntax.
+
+Explanation of my code,
+
+Here, the last verse will be the well-known nursery rhyme:
+
+    This is the farmer sowing his corn
+    That kept the rooster that crowed in the morn
+    That waked the judge all shaven and shorn
+    That married the man all tattered and torn
+    That kissed the maiden all forlorn
+    That milked the cow with the crumpled horn
+    That tossed the dog 
+    That worried the cat
+    That chased the rat
+    That ate the cheese
+    That lay in the house that Jack built. 
+
+  These rules needs to be captured by the syntax of 'this' verse:
+
+    <sentence> ::= <simple_sentence> [ and <sentence> ]
+
+    <simple_sentence> ::=  this is [ <noun_phrase> ] the house that Jack built
+
+    <noun_phrase> ::= the <noun> [ <modifier> ] that <verb> [ <noun_phrase> ]
+
+    <noun> ::= farmer | rooster | judge | man | maiden | cow | dog | cat | cheese
+
+    <verb> ::= kept | waked | married | milked | tossed | chased | lay in
+
+    <modifier> ::= that crowed in the morn | all shaven and shorn |
+                    all tattered and torn | all forlorn | with the crumpled horn
+
+   So, the program needs to imply the rules for the random sentences and the verses for the rhyme could be created by the random sentence in this case, it couls had much sentences to make the sense otherwise this could still follow those syntax. 
+   Notes: If the optional has an item which has a sense that called [ <modifier> ] needs to be used and depend for the value of the random generated number. These program would be made by the ouputs of each random sentence for all three seconds up to it has been halted by typing the Control + C keys in my terminal console which was running while I am wrtiing my code. 
+
+
+Please See the attachment of my code which is given below,
+
 
 
 
