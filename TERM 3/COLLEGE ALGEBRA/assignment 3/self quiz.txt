@@ -1,0 +1,22 @@
+If a = 2 + i, and b =  3 – 2i, what is b/a?
+A:  a. 4/5 -(7/5)i
+
+If a = 2 + i, and b = 3 – 2i, what is a/b?
+
+A: c. 4/13 + 7i/13
+
+If f(x) is a 4th degree polynomial, and has 3 complex numbers as roots, the other root is?
+
+A: b. Real
+
+What are the possible rational roots of f(x) = 5x4 - 173x3  -16x2 -7x -15, according to the rational root theorem?  “+-“ means “plus or minus”.
+
+A:
+
+
+What is i-3?
+
+A:c. –i
+
+
+

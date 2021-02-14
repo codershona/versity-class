@@ -1,0 +1,197 @@
+
+Assignment
+
+For this week’s assignment, you are required to provide a solution for Lab 5: “Tape for a Turing Machine (Doubly-linked List)”.
+
+
+
+ANSWER:
+
+In the beginning, the lab has a short exercise that has been included with the code of the part of the existing java project. I am going to work with the double linked list. If I want to make this topic more understandable check in the list about my work that would be the part of the Turning Machine. This machine had the very simplest and the abstract of the computer device which was introduced in the 1930's by means of Alan Turing because of the studying computation for its limitations. 
+
+  These classes also required the lab for the package which is called Turing. If my peers want to find the java source you can check the code directory and copy this directory into the eclipse code project. These would show the errors because of the existing classes which need to depend on the Tape Class, which does not have been written yet. Als check the Javadoc Comments.
+
+
+
+A Class for Turing Machine Tapes
+A Turing machine works on a "tape" that is used for both input and output. The tape is made up of little squares called cells lined up in a horizontal row that stretches, conceptually, off to infinity in both directions. Each cell can hold one character. Initially, the content of a cell is a blank space. One cell on the tape is considered to be the current cell. This is the cell where the machine is located. As a Turing machine computes, it moves back and forth along the tape and the current cell changes.
+A Turing machine tape can be represented by a doubly-linked list where each cell has a pointer to the previous cell (to its left) and to the next cell (to its right). The pointers will allow the machine to advance from one cell to the next cell on the left or to the next cell on the right. Each cell can be represented as an object of type Cell as defined by the class:
+The code presented below:
+
+public class Cell {
+  public char content;
+// The character in this cell.
+  public Cell next;
+// Pointer to the cell to the right of this one.
+  public Cell prev;
+// Pointer to the cell to the left of this one.
+}
+
+
+NOTE: This class is already defined in the file Cell.java, so we don't have to write it ourself.
+
+Explanation, 
+
+The working Tape class needs to be created that was given here. We need to add this class to our project with the Tape.java file name. Next, we can try to run the project. Below I have created some demo tape to test the class and working of the functions.
+
+The task was telling us to write a class named Tape to shows the Turing machine tapes. The class should have an instance variable of type Cell that points to the current cell. To be compatible with the classes that will use the Tape class, your class must include the following methods:
+
+public Cell getCurrentCell() -- returns the pointer that points to the current cell.
+public char getContent() -- returns the char from the current cell.
+public void setContent(char ch) -- changes the char in the current cell to the specified value.
+public void moveLeft() -- moves the current cell one position to the left along the tape. Note that if the current cell is the leftmost cell that exists, then a new cell must be created and added to the tape at the left of the current cell, and then the current cell pointer can be moved to point to the new cell. The content of the new cell should be a blank space. (Remember that the Turing machine's tape is conceptually infinite, so your linked list must be prepared to expand on-demand when the machine wants to move past the current end of the list.)
+public void moveRight() -- moves the current cell one position to the right along with the tape. Note that if the current cell is the rightmost cell that exists, then a new cell must be created and added to the tape at the right of the current cell, and then the current cell pointer can be moved to point to the new cell. The content of the new cell should be a blank space.
+public String getTapeContents() -- returns a string consisting of the chars from all the cells on the tape, read from left to right, except that leading or trailing blank characters should be discarded. The current cell pointer should not be moved by this method; it should point to the same cell after the method is called as it did before. You can create a different pointer to move along the tape and get the full contents. (This method is the hardest one to implement.)
+It is also useful to have a constructor that creates a tape that initially consists of a single cell. The cell should contain a blank space, and the current cell pointer should point to it. (The alternative -- letting the current cell pointer be null to represent a completely blank tape -- makes all the methods in the class more difficult to implement.)
+
+If we want to test the Tape class, we could able to run the programs which need to be defined by the files TestTape.java, TestTapeGUI.java, and TestTuringMachine.java. There are also the first two programs just do things with a tape, to test whether it is functioning properly. The TestTuringMachine actually creates and runs several Turing machines, by using the Tape class to shows the machines' tapes.
+
+Answered by Expert Tutors 
+The working Tape class can be created as given here. You need to add this class to your project with Tape.java file name. Then try to run the project. Below i have created some demo tape to test the class and working of the functions. 
+
+Step-by-step explanation
+Tape.java : 
+
+public class Tape{
+    public Cell currentCell, headCell;
+
+
+    public Tape(){
+        currentCell = new Cell();
+        currentCell.next = null;
+        currentCell.prev = null;
+        currentCell.content = ' ';
+        headCell = currentCell;
+    }
+
+
+    public Cell getCurrentCell(){
+        return currentCell;
+    }
+
+
+    public char getContent(){
+        return currentCell.content;
+    }
+
+
+    public void setContent(char ch){
+        this.currentCell.content = ch;
+    }
+
+
+    public void moveLeft(){
+        if(currentCell == headCell && currentCell.prev == null){
+            // the current cell if left most cell
+            Cell t = new Cell();
+            t.next = currentCell;
+            t.prev = null;
+            t.content = ' ';
+            currentCell.prev = t;
+            currentCell = t;
+            headCell = t;
+        }
+        else{
+            // Move left using prev 
+            currentCell = currentCell.prev;
+        }
+
+
+    }
+
+
+    public void moveRight(){
+        if(currentCell.next == null){
+            // Current cell is last cell 
+            Cell t = new Cell();
+            t.next = null;
+            t.prev = currentCell;
+            t.content = ' ';
+            currentCell.next = t;
+            currentCell = t;
+        }
+        else{
+            currentCell = currentCell.next;
+        }
+    }
+
+
+    public String getTapeContents(){
+        String result = "";
+        Cell temp = headCell;
+        
+        while(temp!=null){
+            result = result + temp.content;
+            temp = temp.next;
+        }
+        // remove extra spaces
+        result = result.trim();
+        return result;
+    }
+}
+
+
+Sample TestTape.java : 
+
+public class TestTape{
+    public static void main(String args[]){
+        // create a tape
+        Tape t1 = new Tape();
+    
+        // Add some empty cells 
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.setContent('a');
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.setContent('b');
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveLeft();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.setContent('c');
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.setContent('d');
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+        t1.moveRight();
+        System.out.println("Tape content : "+ t1.getTapeContents());
+
+
+    }
+    
+}
+
+
+
