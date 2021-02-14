@@ -9,4 +9,35 @@ Your Discussion should be a minimum of 250 words in length and not more than 750
 
 ANSWER:
 
+In the beginning, nowadays most people use polynomials for their daily life.  Because of the polynomials, it needs to be used for modeling different buildings as well as the objects which also need to be used for the industries, also in the construction. In spite of that, they had been used for marketing, finance, or stocks as well. 
+
+  On the other hand, the Legendre polynomials also have been used for the simulation of the scattering at the sound field within a multilayered elastic shell. A roller coaster has been designed by an engineer that needs to be used for the polynomials of the model in the curves. In as much as, a civil engineer could also able to use the polynomials for the designed roads, the building as well as in another structure.
+
+
+
+Explanation, now I am going to demonstrate an example for the polynomials as well as for the rational functions.
+
+f means function 
+f(x) = (3x-2) (x + 2) 2
+y-intercept = f(0) = {3(0) -2} (0 + 2) 2
+= (-2) (4)
+= -8
+
+
+y intercepts of the graph of y=f(x) is(0,-8)
+x-intercept
+0= (3x-2) (x+2) 2
+3x-2=0, x=2/3
+(x+2) 2=0,
+x=-2
+x intercepts of the graph of y=f(x) are (2/3,0), (-2,0).
+Now find the end behavior,
+f(x) = (3x-2) (x+2) 2
+f(x) = (3x-2) (x2+4x+4)
+f(x) = 3x3+12x2+12x-2x2-8x-8
+f(x) =3x3+10x2+4x-8
+ As a result, the end behavior of the function f is going to be shown a similar result because of the end behavior of 3x3.
+
+In my last point of the view, here I had been attached the sketch of my graph that has been given below, 
+
 
