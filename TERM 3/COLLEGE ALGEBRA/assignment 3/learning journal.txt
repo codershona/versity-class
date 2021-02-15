@@ -8,3 +8,37 @@ ANSWER:
 
 
 
+In the beginning, I am going to describe the logic of the polynomial as well as the rational functions. As we know that the function has an entanglement in the values which has been generally denoted as f(x). Polynomial has been formed from the "Poly" that is called as many as well as "Nomial" that actually defines the Terms. Because the polynomial is called as Many terms and this has expression of the constants, the exponents, the variables as well as this has also been utilized by using the arithmetic operations, for example, addition, subtraction, multiplication or non - negative integer exponents. 
+
+   The rational functions also have many functions that try to clarify the rational fraction. It might be defined as the algebraic fraction. The algebraic fraction as the numerator and the denominator are polynomials.  These coefficients have the polynomials which do not needs to be taken any kind of the field that might be the rational functions supply which is also necessary examples. This also causes naturally in so many contexts. In a words, we can say that all polynomials are going to be rational functions. 
+
+In my second point of the view, some names are coming into my mind which I had been know from this chapter. 
+
+Factors: In the polynomials, the factors are always divided by another polynomial which needs to be exact except for any remainder. 
+Quotient: Basically, the quotient represents the outcome of the division.
+Root: The root is kind of the value that has been given the functions the equals of the zero. This function has also been pictured in the graph and the roots will be going to be pointed in the function which crosses the x-axis. 
+Coefficient: It has been illustrated with the numerical or else the constant of the quantity which needs to be placed in front of each variable.
+Zero: This function has the equation for the value of zero. 
+Domain: This was also the setting for the possible input of the values which also generally called the x variable, which also shows a valid output for the individual function. 
+
+Degree:  The degree has the largest exponent of the variable which is having a polynomial within the same variable.
+Leading Term:  This is the term for the highest power of the (x).
+Monomial: This has been occurring because of the polynomial number including one term and it also has a stable number. 
+
+
+
+
+In my third point of the view, if I could able to imagine the simplest polynomial and the rational function which has been given below,
+Polynomial = f(x) = 1
+Rational = f(x) = 1/x
+
+
+In my fourth point of the view, nowadays the polynomial and the rational functions have occurred the fact that could be interpreted.
+
+Polynomial: Basically, in our everyday live polynomial plays a vital role, and normally it has become the very quickest way to configure as well as it could be also applied by many real-world circumstances. For instance, if the polynomials could be used for the plot graphs at the course for the university and with myself, I could explore the stock forecasts whether I had been spectating with the stock market as well as it has been the road engineers for the map out of the curves as well as it could also bend the highway. 
+Rational Functions: The rational functions have algebraic and they could also be written as the rations for the two polynomials. So, they could also be presents in our every day lives as well as we could also use them unknowingly. For instance, if we had been divide a cake anytime and calculate the interest to gain for our accounts to watching an advertisement on the TV and listening to the statistical report. 
+
+
+In my fifth point of the view, the strategy I had been used for my graph which I had been studied from my target chapter from my textbook. After that, I had been read my classwork, for example, if I am making it at first I need to understand the root of the polynomial or the differentiation of the zeroes or needs to increased and decreased the functions. Then I need to prepare the outline for the graph. Finally, I need to use the recommendation which my instructor said to use an online graph tool "www.desmos.com/calculator" to pictured the graph.
+
+
