@@ -1,0 +1,19 @@
+Using ADTs (abstract data types) has advantages for program modularity. Discuss.
+
+ANSWER:
+
+
+In the beginning, I am going to demonstrate the advantages of ADTs for program modularity. An abstract data type that has a specification of each set of the operations which could be performed by the data. Abstract Data Type abbreviations are (ADT). Without a data type, the abstract sense of its independence of different concrete implementations modularity has been mentioned as dividing the system within each component that needs to be designed. Also, it needs to be implemented or tested for the reasoned about the reused separately from the rest of those systems. By using ADTs also has some advantages for the program modularity. These also have the ability of the abstractions which has the importance for the skilled programmers so that they could able to understand what was exactly happening. Besides this, the abstractions also need to define what it was actually called and how programmers could apply it to the programming. Thus, it needs to hide the unimportant details from that user which was defined as the information hiding, and try to allowed to break up that programming problem within the smallest that could be many manageable pieces.
+
+
+Abstraction: This is a kind of process which needs to be tried the identity for the necessary qualities which has an object with the model by ignoring the unnecessary aspects. This also bought me the forefront highlights for the specific features as well as to hide for those other elements of the abstraction which is also necessary for controlling the complexity. As a result, it has something to view at the abstract level for the most necessary features which were being emphasized.  These details would be omitted which is not require to remember otherwise it needs to be recognized. If a user of the ADTs did not require to understand any kind of implementation of the details for the ADTs this means it needs to be reduced by the complexity of the programming tasks. 
+Localization of bugs: Here, whether the bugs have been implemented for the ADT and the bugs need to be local for the ADT as well as it could not be occurred by the cod to use the ADT.
+Localization of changes: Supposing the programmer wants to decide to make a change in his implementation for the ADT it could be in the set from those linked lists in the stack array. After that, the representation needs to be changed in the ADT or it could be used for the type which has not been affected.
+Encapsulation: Here, this has been packaged by placing items within the unit or in the capsule. It was the main reason for the process that has the encapsulations it could be discussed in two ways from the inside or outside. If the outside view needs to be often has a description for the task which has been performed, on the other hand, the inside view needs to be included in the implementation for the task.
+Robustness: Here my programs need to be robust and have the efficiency to catch the errors and try to prevent those exceptions.
+
+
+References,
+Geeksforgeeks, (n.d). Abstract data types. Retrieved from https://www.geeksforgeeks.org/abstract-data-types/
+
+
