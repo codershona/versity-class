@@ -1,0 +1,68 @@
+What can be said about the domain of the function  f \circ g  where  f(y)= \frac{4}{y-2}  and  g(x)= \frac{5}{3x-1} ? Express it in terms of a union of intervals of real numbers. Go to www.desmos.com/calculator and obtain the graph of  f ,  g , and  f \circ g .
+
+Find the inverse of the function  f(x)=4+ \sqrt{x-2}  .
+State the domains and ranges of both the function and the inverse function in terms of intervals of real numbers.
+
+Go to www.desmos.com/calculator and obtain the graph of  f , its inverse, and  g(x)=x  in the same system of axes. About what pair (a, a) are (11, 7) and (7, 11) reflected about?
+
+
+ANSWER:
+
+ANSWER 1) In the beginning, the connection between the intervals would be the real numbers,
+
+F(G(x))
+= 4 / 5 / (3x - 1) - 2
+= 4 / [(5 / 3𝑥 − 1)− 2 (3𝑥 − 1) / (3𝑥 − 1)],
+= 4 / [(−6 + 7) / (3 − 1)]
+= 4(3𝑥 − 1) / (−6𝑥 + 7) 
+= (12𝑥 − 4) / (−6𝑥 + 7) 
+
+
+The domain will be, (- ∞; 7/6) U (7/6; - ∞)
+
+
+This is the screenshot of this graph which needs to be obtained in www.desmos.com/calculator,
+
+
+
+
+
+
+
+ANSWER 2: Here, if the initial steps were needs to be swap then the F(x), as well as x or, the newest function, would be, 
+x = 4√F(x) - 2
+Currently, if I want to solve the function which is defined as F(x) at the new function,
+x = 4√F(x) - 2,
+Or, x - 4 = √F(x) - 2,
+Or, (x - 4)² = F(x) - 2, 
+Or, x² − 8𝑥 + 16 = F (𝑥) − 2,
+Or, x² − 8𝑥 + 18 = F(x)
+
+
+The main solution is given below,
+F-1(x) = x² - 8x + 18,
+Domain F(x): [2, ∞)
+Domain F-1(x): (−∞, ∞)
+Range f(x): [4, ∞)
+Range F-1(x): [2, ∞)
+Here the inverse function would be F-1(x) ,
+F-1(x) = x² - 8x + 18
+Whether the composition functions needs to be both calculated by the x value within the inverse with each and another. 
+As a result, F(x) ο F-1(x) = x as well as F1(x) o F(x) = x
+
+
+ANSWER 3: The screenshot of this graph is going to be obtained by www.desmos.com/calculator,
+
+
+Here, in the graph, the pair of the reflected was about, 
+(-7;-11) 
+(-11;-7) 
+
+
+
+
+
+References,
+Abramson, J. (2017). Algebra and Trigonometry. OpenStax, TX: Rice University
+
+
