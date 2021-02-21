@@ -1,0 +1,37 @@
+Reflect on the concept of composite and inverse functions. What concepts (only the names) did you need to accommodate these concepts in your mind? What are the simplest composite and inverse functions you can imagine? In your day to day, is there any occurring fact that can be interpreted as composite and inverse functions? What strategy are you using to get the graph of composite and inverse functions?
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words.
+
+ANSWER:
+
+
+In the beginning, if I reflect on the concept I would get the exponential and logarithm functions so that I could able to define the basics and the functions will be the opposite of one another. If the logarithm of the function is (y = logax) that means it has the equal inverse for the exponential function (x = ay). Moreover, if I need to use a parent for the exponent f(x) = ax we could get constantly the horizontal of the line with y=0. Otherwise, we could also get a = 1. But if the positive numbers might not able to raise the negative number.
+
+
+
+  In my second point of the view, if the easiest exponential or the logarithm function needs a base b ≠ 1, that would be y=bx or, y= log bx  in some respects. If the exponential function declares the f(x) = (8) that means the x has been showing the base of b=8. Nowadays there might occur real-world circumstances, which could be explained as the exponential and the logarithm functions. Because of this, it could be used as like function models to calculate the invests, bacterial culture, population growth as well as more complex numeric calculations.  
+
+  Thirdly, the most important strategies I am using in the graph to get the exponential or the logarithmic functions so that I could start with each table. But if I think that my table columns also need the input and output and if I am creating the t-chart using x or y value to illustrate my columns I could follow my inputs or outputs from my calculation. As a result, this strategy could be the most powerful logic which could help me to present the graph of any type of exponential or logarithmic functions.
+
+
+
+
+
+By graphing, if I perceive the tables as well as I could use the input or the output in the system. By starting to use a simple linear equation such as y - 2x + 1, in this case, my input will be 0 for x and after that, y will be 1. This method will be most important because this means the line could be passing through the point (0, 1). But If I create a table I also need to create a t-chart as well as put the x value and y value on the top. As a result, I can put 0 under x as well as 1 under y. While my plug-in 1 will be the x, after that I could get 3 for y. Once again, I need to put 1 under x or 3 under y. Thus, the pattern could be gone by forever as well as the works for any type of graph.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
