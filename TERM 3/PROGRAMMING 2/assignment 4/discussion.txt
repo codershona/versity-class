@@ -1,0 +1,19 @@
+The class Object defines an equals() method to compare objects.
+
+Specify the advantages and disadvantages of using this method and suggest an alternative for equality.
+
+
+ANSWER:In the beginning, if I have been used any string class it would be a good example. Besides this, I can also use the == operator so that I can able to make a comparison between the equality but unfortunately I could see some unexpected outcomes. While I can also compare the strings by knowing whether it will work or it could contain a similar sequence for the letters as well as the numbers. Otherwise, if I implement the equals() method I can also override to implement the even with more details. Moreover, the == operator needs to present the content of the strings not only the pointer for the references of those objects as well as I also need to determine in case if I need to refer to a similar place in memory. So, it will cause me to get only the correct outcome and I can also get the variables which are aliases. 
+
+
+Moreover, if the default has the equals by making a comparison with the logic of the object which was rarely needed if anyone wants to determine the equality for those two possibly distinct and objects. There is another reason that we can say the default of the Object.equals() generally, it returns true if we use both references to point out the exact similar object. Not only it needs to override the default equals () to give the intended differences. So, basically, we can include the convenient fields or try to ignore the inconvenient fields in those objects which also need to be compared with each other. For Instance, when we try to make a comparison with the two Person using objects we can include the fields such as 'userId' etc, and it is very useful to non-identifying intermediate values. As a result, by approaching to call the hashCode () as well as needs to make a comparison with these values. These values need to provide any kind of a unique number to reflect the values for all fields and using the equals(), hashCode () we might need to be overridden to include the expected fields.
+
+
+
+
+References, 
+
+Gentleman, R., & Ihaka, R. (2000). Java and Dylan. Journal of Computational and Graphical Statistics, 9(3), 452-458. doi:10.2307/1390939
+
+
+
