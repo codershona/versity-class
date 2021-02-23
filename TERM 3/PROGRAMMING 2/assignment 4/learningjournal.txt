@@ -4,7 +4,23 @@ The Learning Journal is a place where you can reflect on your learning throughou
 The Learning Journal comprises 10% of your Final Grade. You will be assessed on the consistency with which you update the journal, the quality of your self-reflection, and whether you complete assigned tasks. For this reason, it is necessary that you date each entry and use clear titles and sub-headings. Note that only you and your instructor will have access to the Learning Journal.
 
 
+
 ANSWER:
+
+In the beginning, I want to discuss what I had been learned this week from this course. This week my assignment submission was from 18 February to 24 February. At first, I had to study the learning guide of my textbook, and the chapter was about unit four. I had finished working on discussion posts at first that I had submitted on Monday, 22 February 2021, 5:42 PM. After that, I had reviews three of my peer's discussion posts and rated their posts. Next, I had to complete the programming written assignment on Monday, 22 February 2021, 6:03 PM and there was a workshop, where I need to provide a solution for lab 8, “Buggy Search and Sort”. Currently, I am waiting for my peer's review and I also need to review three of my peer's work. Next, I had to complete the self-quiz and submitted ten multiple-choice solutions which were on Saturday, 20 February 2021, 12:08 PM. When I was starting to complete the written assignment, I need to study the coding unit four-page and lab seven or eight units 4 files and folders. 
+
+
+
+In this week I did not face any problems understanding anything. As I had studied before and then I had been started working on my assignments. As a self-learner completing an assignment is also a challenging task for me. I am doing this every week now I had understood the learning system and following my own study plan. Making an own studying plan and research about any difficult topics is a very important soft skill for every computer science student. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.
+
+
+
 
 
 
