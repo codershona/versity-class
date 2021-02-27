@@ -1,0 +1,39 @@
+The population of a culture of bacteria is modeled by the logistic equation    
+
+P(t)= \frac{14,250}{1+29e^{-0.62t}.
+
+To the nearest tenth, how many days will it take the culture to reach 75% of its carrying capacity? What is the carrying capacity? What is the initial population for the model? Why a model like P(t)=P_0 \ e^{Kt} , where P_0 is the initial population, would not be plausible? What are the virtues of the logistic model?
+
+Go to www.desmos.com/calculator and type
+
+y = 14250 / (1 + 29 . e-0.62 x).  {0 < x < 15}  {0 < y < 15000}
+
+y = 14300  {0 < x < 15}
+
+(you will find the command “\div” in the desmos calculator after selecting “14250”, or you type “/” after selecting “14250”, and you will also find the function “exp” ). Adjust the x and y axes settings to 0 < x < 15 and 0 < y < 15000. Plot the graph you have obtained (you can use a screenshot, save as image, and copy it into word). If you need, or if you want, go to the Course Forum and tell us something about this plotting task.
+
+Your Discussion should be a minimum of 250 words in length and not more than 750 words. 
+
+
+
+ANSWER:
+
+In the beginning, At the nearest tenth, if we count that how many days would be taken for the culture to reach the 75 percent to carry the capacity?
+
+P(t) =  \frac{14,250}{1+29e^{-0.62t}}.P(t)= 1+29e −0.62t 14,250 ​ .
+Here, if there is 75% = 3 / 4 as well as why the number needs to be divided by 14250 which needs to get 3/4 of it? By 4/3. Thus,
+
+1+29e^{-0.62t} = \frac{4}{3}1+29e  −0.62t  =  3 / 4 ​	
+29e  −0.62t  =  3 / 1
+e  −0.62t  =  87 / 1
+
+
+   On the other hand, if there is (1 / 87) = -0.62t which was rounded by the nearest tenth t = ln(1/87)/(-0.62) = 7.2. After that, it can able to carry the capacity by using the upper bound at the logistic function. While if we express a logistic function because of 1/x^b+x^-c+1 to carry the capacity which will be defined as c. 
+
+  Besides this, if the problem has the capacity to carry 14,250. The population of the time would be zero when t = 0, 
+
+14250/(1+29*e^0) = 14250/(1+29*1) = 47514250/(1+29∗e  0  ) = 14250/(1+29∗1) = 475
+
+
+The answer to the last question will be, we can use much explanation to discuss the difference. The difference between will be p(t) = p(0)e^kt, as well as the logistic function, would be the first unlimited exponential growth and the second growth will be the realistic conditions for the limited resources. Here, one of the virtue logistic models needs to be realistic, because we live in a realistic which has limited resources.
+
