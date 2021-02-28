@@ -1,0 +1,37 @@
+Reflect on the concept of exponential and logarithm functions. What concepts (only the names) did you need to accommodate these new concepts in your mind? What are the simplest exponential and logarithmic functions with base b ≠ 1 you can imagine? In your day to day, is there any occurring fact that can be interpreted as exponential or logarithmic functions? What strategy are you using to get the graph of exponential or logarithmic functions?
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words.
+
+
+ANSWER:
+
+
+
+In the beginning, I am going to illustrate the logic of exponential as well as the logarithm functions where I could define that in the course the functions are represented as inverse with each other. For example, if the logarithm has a function with (y = logax) this actually defines the inverse equivalent for the exponential function (x= ay). Besides this, by using a parent exponent F(x) = ax has always a horizontal line within y = 0 but if a = 1 then the slope would be the function that continuously increases with x increases. Moreover, those equations also shown as big curves. But we might think that the functions also need to be used as a primary and had rapid changes with the growth cases or study. As a result, we can also have positive numbers which could not able to raise any negative numbers.
+
+
+
+In my second point of the view, We need to accommodate some new concepts which I have in my mind are given below,
+
+The Exponent
+By raising to the power
+The logarithm
+By Inverse
+Using Properties
+The Natural logarithm functions
+The Natural exponential functions
+By changing the base
+The exponential growth
+The compound interest
+The common logarithm
+
+In my third point of the view, The simplest and easiest exponential as well as logarithm functions have the base by including b ≠ 1 which are simply defined as y=bx and y= log bx gradually.
+
+In my fourth point of the view, in our day-to-day life, we can see that there are any occurring facts by the real-world situations that could be interpreted namely the exponential or the logarithm functions. For example, if the magnitude of an earthquake has a logarithm Scale in this case the exponential or the logarithm will be the most general uses for the function models which would be calculated as the bacterial culture, the growth of the population, the artifacts of the carbon dates as well as a lot of cases where the numeric calculations will be elaborated. Thus, the finance also presented that the massive uses need to be calculated for the investment and it needs to create the exponential returns or saving accounts to compound with interest rates that could show the growth of the exponential. Besides this, the measurement of those sound loudness in the decimal formula also needs to be shown as an exponential fucntion. 
+
+
+In my fifth point of the view, I can also use the graphing calculator which is called the Desmos tool for algebra. This is the most easiest and reliable algebra graph tool in our services. On the other hand, I can also use a table by means of input and output by replacing the values in our equation and I could also have more points which are possible to get my curve. Also, it would be a bit longer as well as demonstrate graphically which is less correct and I did not use any technology for this method.
+
+
+
+
