@@ -1,0 +1,140 @@
+Which of these statements is true?
+
+A:a. The hash code of an object is an integer that tells where that object should be stored in a hash table.
+
+b. A hash table is an array of linked lists. When an object is stored in a hash table, it is added to one of these linked lists.
+
+c. The object's hash code is the index of the position in the array where the object is stored.
+
+d. All objects with the same hash code go into the same linked list.
+
+e. In Java, every object obj has a method obj.hashCode() that is used to compute hash codes for the object.
+
+f. If the object is to be stored in a hash table of size N, then the hash code that is used for the object is Math.abs(obj.hashCode())%N.
+Select one or more:
+a.
+b.
+c.
+d.
+e.
+f.
+
+
+
+
+
+
+Which of the data types below does not allow duplicates?
+
+A: d. Set
+
+
+Which of the following data types do not have iterators?
+
+A:c. Map
+
+
+Given the following code:
+
+public class Test {
+   public static void main(String[] args) {
+     Map map = new HashMap();
+     map.put("123", "John Smith");
+     map.put("111", "George Smith");
+     map.put("123", "Steve Yao");
+     map.put("222", "Steve Yao");
+   }
+}
+Which statement is correct?
+
+
+A:b. After all the four entries are added to the map, "123" is a key that corresponds to the value "Steve Yao".
+
+You can use the methods in the Collections class to:
+
+A: a. find the maximum object in a collection based on the compareTo method.
+b. find the maximum object in a collection using a Comparator object.
+
+
+The Collection interface is the base interface for …
+
+A: a. Set
+b. List
+c. ArrayList
+d. LinkedList
+
+
+
+The Map is the base interface for …
+
+A: a. TreeMap
+b. HashMap
+c. LinkedHashMap
+
+
+
+Which of the following statements are true?
+
+
+A: a. The Collection interface is the root interface for manipulating a collection of objects.
+b. The Collection interface provides the basic operations for adding and removing elements in a collection.
+c. The AbstractCollection class is a convenience class that provides partial implementation for the Collection interface.
+d. Some of the methods in the Collection interface cannot be implemented in the concrete subclass. In this case, the method would throw java.lang.UnsupportedOperationException, a subclass of RuntimeException.
+e. All interfaces and classes in the Collections framework are declared using generic type in JDK 1.5.
+
+
+
+To store non-duplicated objects in the order in which they are inserted, use ….
+
+
+A: b. LinkedHashSet
+
+
+Which of the following statements are true?
+
+A: a. The Comparable interface contains the compareTo method with the signature "public int compareTo(Object)".
+b. The Comparator interface contains the compare method with the signature "public int compare(Object, Object)".
+c. A Comparable object can compare this object with the other object.
+d. A Comparator object contains the compare method that compares two objects.
+
+
+
+
+Which of the following statements are true?
+
+A: a. An ArrayList can grow automatically.
+c. You can reduce the capacity of an ArrayList by invoking the trimToSize() method on the list.
+
+
+
+Which of the following are correct methods in Map?
+
+A: a. put(Object key, Object value)
+c. get(Object key)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

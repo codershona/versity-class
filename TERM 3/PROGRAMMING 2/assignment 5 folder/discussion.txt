@@ -1,0 +1,9 @@
+When writing a data structure, what should be our guidelines for choosing the right Java Collection?
+
+16 words
+
+
+ANSWER:
+
+
+
