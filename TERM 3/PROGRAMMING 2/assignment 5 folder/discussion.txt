@@ -7,3 +7,33 @@ ANSWER:
 
 
 
+In the beginning, I am going to illustrate the following guideline that has been chosen a Java Collection that has been described below,
+
+By selecting the most common type of data organization in accordance with the type of data is wanted. For instance, the list of the map.
+Choosing the type of implementation will help me to satisfy my requirements. For Instance, while there was not necessary for the sorted data so we do not need to include the sorting process.
+
+Explanation, if these cases could e used we should keep these in our mind, 
+
+LIST: If we need to store any number or iterate each number for the things that are actually called uses of the List.
+
+SET: If the items already have the process that requires it needs to be remembered so that we can take it yes or no decision, but if we set it could be also used.
+
+MAP: If the case is needed to be composed as the key of the value for the pairs as well as association.
+
+QUEUE: If there is needed to have various queues apropos to perform many several functions such as sequential data processing as well as the varied of the compression techniques, this is called uses of the Queues.
+
+Here, I am going to illustrate the basic criteria and guidelines with some other basic guidelines or pointers that are given below,
+
+While thither we had only the values by using the other conditions in the general case,
+
+The ArrayList could be benefited from the if cases that contain the only values.
+The linked HashSet needs to be practice if there was not any duplicacy for the values.
+The linked HashSet needs to be used for the maintenance of an insertion order.
+The tree set could be used if there is sorted pair which are wanted.
+
+While thither we had the key of the values with the pair by using the other conditions in my case,
+
+The hashMap has an advantage for my case which contains only the key of the value pair.
+The linked hashmap could be used if there was any required to maintain the insertion.
+The uses of the treemaps are always needed for the sorted pairs.
+
