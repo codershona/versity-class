@@ -1,0 +1,82 @@
+Your discussion response for this unit will consist of two parts.
+
+First, create 3 equations of the form ax+by+cz=d, where a, b, c, and d are constants (integers between – 5 and 5). For example, x+2y-z=-1. Perform row operations on your system to obtain a row-echelon form and the solution. 
+
+Go to the 3D calculator website GeoGebra: www.geogebra.org/3d?lang=pt and enter each of the equations. 
+
+After you have completed this first task, choose one of the following to complete your discussion post.
+
+1. Reflect on what the graphs are suggesting for one equation, two equations, and three equations, and describe your observations. Think about the equation as a function f of x and y, for example, x+2y+1=z in the example above. Geogebra automatically interprets this way, that is, like z=f(x, y)=x+2y+1, it isolates z in the equation. 
+
+2. What did the graphs show when you entered the second equation? 
+
+3. Give a simple description of the system
+
+x=0
+y=0
+z=0
+
+x = 0 can be seen as the constant function x=g(y, z)=0y+0z=0. Of course, you can use GeoGebra to “observe” the system. 
+
+4. Give an example with 2 equations as simple as possible with 3 variables (at least 1 being non-linear; keeping z to the one power on both equations) and describe the potential of GeoGebra to study nonlinear systems.
+
+Your Discussion should be a minimum of 250 words in length and not more than 750 words.
+
+
+ANSWER:
+
+In the beginning, there are 3 linear equations in the system within 3 variables x, y, or z. Besides this, the system has consistent because it has a solution as well as the one solution is independent. 
+x + 3y - z = 1
+x + 2y + z = 3
+-x - 3y + 2z = 0
+Therefore, I am going to discuss the following augmented matrix,
+R1 -- 1 3 -1 | 1
+R2 -- 1 2  1 | 3
+R3 -- -1 -3 2 | 0
+Here, R1 + R3 = R3 changes are given below,
+R1 -- 1 3 -1 | 1
+R2 -- 1 2  1 | 3
+R3 -- 0 0 1 | 1
+As a result, -1*R1 + R2 = R2 as well as the changes are given below,
+R1 -- 1 3 -1 | 1
+R2 -- 0 -1  2 | 2
+R3 -- 0 0 1 | 1
+Therefore, -1*R2 = R2 and this is deifne as row-echelon form where the changes were given below:
+R1 -- 1 3 -1 | 1
+R2 -- 0 1  -2 | -2
+R3 -- 0 0 1 | 1
+Basically, the row-echelon form is:
+[1 3 -1
+0 1 -2
+0 0 1]
+where a = 3, b = -1, and d = -2  and the final system of equations will be:
+x + 3y -z = 1
+y -2z = -2
+z = 1
+
+
+Moreover, I can also substitute z = 1 into the second equation as well as the result will be given below,
+y - 2(1) = -2
+y = -2 + 2
+y = 0
+Now, we substitute y and z into the first equation to find x:
+x + 3*0 - 1 = 1
+x = 2
+
+
+Not only the coordinate solution will be x, y, z = (2, 0, 1) but also I could make a confirmation of the solution which was correct by using a substitute for all values in all three equations, 
+x + 3y - z = 1; 2 + 0 - 1 = 1; 1 = 1
+x + 2y + z = 3; 2 + 0 + 1 = 3; 3 = 3
+-x - 3y + 2z = 0; -2 - 0 + 2 = 0; 0 = 0
+
+
+On the other hand, the solution would be achieved by using the Gaussian Elimination System for which of the diagonal numbers would be 1, as well as the bottom off-diagonal entries, will be 0. The graph has its own system where the point (2, 0, 1) will be the point of intersection between the three linear equations. Here, The point of the intersection will be between the three planes which I had been chosen in question 4 to be my second discussion, 
+
+There will be one of a non-linear system that has a quadratic equation and x will be the quadratic term,
+
+x^2 + y + z = 6
+x + y + z = 0
+
+
+
+

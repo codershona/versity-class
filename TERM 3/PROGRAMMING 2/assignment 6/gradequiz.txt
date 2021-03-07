@@ -1,0 +1,179 @@
+Suppose List list = new ArrayList(). Which of the following operations are correct?
+
+A: d. list.add(new ArrayList());
+
+The server listens for a connection request from a client using the following statement:
+A: b. Socket s = serverSocket.accept()
+
+Which of these statements describe the FontMetrics class?
+A: b. The FontMetrics(Font font)constructor creates a new FontMetrics object for finding out sizes of characters and strings that are drawn in a specific font.
+c. The font is specified when the FontMetrics object is created.
+d. If fm is a variable of type FontMetrics, then, for example, fm.stringWidth(str) gives the width of the string str and fm.getHeight() is the usual amount of vertical space allowed for one line of text.
+
+
+The Collection interface is the base interface for …
+
+A: a. Set
+b. List
+c. ArrayList
+d. LinkedList
+
+
+
+
+Which of these statements is true?
+
+a. The hash code of an object is an integer that tells where that object should be stored in a hash table.
+
+b. A hash table is an array of linked lists. When an object is stored in a hash table, it is added to one of these linked lists.
+
+c. The object's hash code is the index of the position in the array where the object is stored.
+
+d. All objects with the same hash code go into the same linked list.
+
+e. In Java, every object obj has a method obj.hashCode() that is used to compute hash codes for the object.
+
+f. If the object is to be stored in a hash table of size N, then the hash code that is used for the object is Math.abs(obj.hashCode())%N.
+
+
+A: a.
+b.
+c.
+d.
+e.
+f.
+
+Which of the following statements describe a client/server model ?
+A: a. Computer transactions using the client/server model are very common.c. Although the client/server idea can be used by programs within a single computer, it is a more important idea in a network.
+d. In a network, the client/server model provides a convenient way to interconnect programs that are distributed efficiently across different locations.
+e. Client/server computing or networking is a distributed application architecture that partitions tasks or work loads between service providers (servers) and service requesters, called clients.
+
+
+
+
+Which of the following are correct methods in Map?
+
+A: a. put(Object key, Object value)
+c. get(Object key)
+
+Which of the following statements are true?
+A: a. The Comparable interface contains the compareTo method with the signature "public int compareTo(Object)".
+b. The Comparator interface contains the compare method with the signature "public int compare(Object, Object)".
+c. A Comparable object can compare this object with the other object.
+d. A Comparator object contains the compare method that compares two objects.
+
+
+To store non-duplicated objects in the order in which they are inserted, use ….
+
+A: c. LinkedHashSet
+
+
+Java’s generic programming does not apply to the primitive types. True or False?
+
+A: True
+
+Consider the following code:
+
+BufferedImage OSC = new BufferedImage(32,32,BufferedImage.TYPE_INT_RGB);
+
+A: a. A BufferedImage is a region in memory that can be used as a drawing surface.
+b. In this statement, the image that is created is 32 pixels wide and 32 pixels high, and the color of each pixel is an RGB color that has red, green, and blue components in the range 0 to 255.
+c. The picture in a BufferedImage can easily be copied into a graphics context g by calling one of the g.drawImage methods.
+d. The image drawn here is so small, it seems likely that is going to be used to define an ImageIcon.
+
+To declare a class named A with two generic types, use
+
+a. public class A<E> { ... }
+b. public class A<E, F> { ... }
+c. public class A(E) { ... }
+d. public class A(E, F) { ... }
+
+A: b.
+
+
+Which of the following statements are true?
+
+A: a. An ArrayList can grow automatically.c. You can reduce the capacity of an ArrayList by invoking the trimToSize() method on the list.
+
+Fill in the code in Comparable______ c = new Date();
+
+a. <String>
+b. <?>
+c. <Date>
+d. <E>
+
+A: c.
+
+
+Given the following code:
+
+public class Test {
+   public static void main(String[] args) {
+     Map map = new HashMap();
+     map.put("123", "John Smith");
+     map.put("111", "George Smith");
+     map.put("123", "Steve Yao");
+     map.put("222", "Steve Yao");
+   }
+}
+Which statement is correct?
+
+A: b. After all the four entries are added to the map, "123" is a key that corresponds to the value "Steve Yao".
+
+
+The class named URL resides in the java.io package. Which of the following statements describe URL?
+
+A: a. A URL is an address for a web page (or other information) on the Internet.c. A URL object represents a Universal Resource Locator.
+d. Once you have a URL object, you can call its openConnection() method to access the information at the url address that it represents.
+
+
+Suppose List<String> list = new ArrayList<String>. Which of the following operations are correct?
+A: a. list.add("Red");
+
+You can use the methods in the Collections class to:
+
+A: a. find the maximum object in a collection based on the compareTo method.
+b. find the maximum object in a collection using a Comparator object.
+c. sort a collection.
+d. shuffle a collection.
+e. do a binary search on a collection.
+
+
+To declare an interface named A with two generic types, use
+
+a. public interface A<E> { ... }
+b. public interface A<E, F> { ... }
+c. public interface A(E) { ... }
+d. public interface A(E, F) { ... }
+
+A: b.
+
+The Map is the base interface for …
+
+A: a. TreeMap
+b. HashMap
+c. LinkedHashMap
+
+
+
+
+Which of the following statements is correct?
+
+
+A: a. Generics can help detect type errors at compile time, thus make programs more robust.
+b. Generics can make programs easy to read.
+c. Generics can avoid cumbersome castings.
+
+Which of the data type below could be used to store elements in their natural order based on the compareTo method?
+
+A: b. TreeSet
+
+
+To store non-duplicated objects in the order in which they are inserted, use …
+
+A: b. LinkedHashSet
+
+
+
+
+
