@@ -3,6 +3,35 @@ What are the differences of handling Socket and ServerSocket ?
 
 ANSWER:
 
+In the beginning, TCP has both client or server which could able to send or receive in this case, the distinction which is not sent or received it could create a connection.  The server socket helps to create the bind() method which has a port or listen() to use a connect() from each client. If a server wants to wait because of its conversation it will not start one. The client socket helps to create a connection between a listen() server which has a client to initiates the connection such as, inbound call centers which are services for servers. If it does not initiate for a call which could not wait to call to come from any clients. Thus, these calls need to be engaged in a two-way conversation. While we could carry out the TCP/IP communication also which is most important information could show the socket class including sole for the purpose of the communication, this is called the server-side or client-side. The server-side needs to be used the codes which are necessary for its own socket. But if the socket is going to be created by a similar server local port as well as the client port pair also another option. 
+
+int portsNumber = Integer.parseInt(args[0]);
+try (
+Sockets serversSocket = new serverSockets (portsName);
+socket ClientSocket = serversSocket.accept();
+PrintingWrite out = new PrintingWrite(ClientSocket.getOutputSteam(, true);
+BufferedReader in = new BufferedReader(
+new inputStream (ClientSocket.getInputStream())
+);
+Explanation, we use a server in this Socket to talk with a client. As a result, Socket is a kind of class that encapsulates the behavior for the active side such as a.k.a in the client.
+
+string hostingName = args[0];
+int portsNumber = Integer.parseInt(args[1]);
+try (
+Sockets kkSocket = new Sockets (hostingName, portsName);
+PrintingWrite out = new PrintingWrite(kkSocket.getOutputSteam(, true);
+BufferedReader in = new BufferedReader(
+new inputStream (kkSocket.getInputStream())
+);
+)
+Explanation, The server socket has a class the encapsulates the behavior for the passive side such as, a.k.a the server.
+
+
+
+References, 
+
+Gentleman, R., & Ihaka, R. (2000). Java and Dylan. Journal of Computational and Graphical Statistics, 9(3), 452-458. doi:10.2307/1390939
+
 
 
 
