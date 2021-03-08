@@ -9,3 +9,20 @@ ANSWER:
 
 
 
+   In the beginning, I am going to reflect on my self-learning systems, which I am following during my programming part 2 courses. Every week our instructor assigned us four or five tasks. For example, we have to complete the self-quiz, discussion posts, learning journal, programming written assignment, grade quiz, learning guide, etc. This is my sixth week where I am going to learn about UNIT 6 chapter Files and Networking; Advanced GUI Programming. At first, I had been studying the learning guide of unit six. Then I had to complete the self-quiz and submitted it on Saturday, 6 March 2021, at 5:59 PM. After that, I had started giving the grade quiz exam this week and submitted it on Saturday, 6 March 2021, at 6:25 PM. Next, I had submitted my programming written assignment on Sunday, 7 March 2021, 6:29 PM where I need to provide a solution for Lab 10: “ArrayLists and Files in a GUI Application”. After That, I had submitted a discussion post in the forum on Mon, 8 Mar 2021, 6:30 PM. There I had written 399 words essays and describe the differences between handling Socket and ServerSocket. Finally, I am now writing the learning journal. 
+
+
+
+In my second point of the view, This week I did not face any problem and I am very happy because I got 100/100 marks on my grade quiz. Because this grade quiz marks will be added with my final exam grade. Now I am looking forward to giving my final exam and taking preparation for this now. As I already achieve two of my grade quiz in week three and week six where the marks were 100/100. This proves that I am improving and achieving good marks but the final exam is the main so I need to focus more to achieve good marks in my final exam and hope that the final exam question will e a bit easy. A graded quiz always helps to understand how the final exam will be. In the graded quiz this week I got 40 minutes to complete all the multiple-choices. 
+
+
+
+As a result, as a self-taught learner helps me to improve my coding skills and a virtual classroom is actually a great way to learn soft skills also. Most of the computer science students only focus on coding but they also need to be the focus on soft skills. Learning your own will help you become more confident without having any others help. 
+
+
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. DOI: 10.2307/j.ctt46mtwb.
