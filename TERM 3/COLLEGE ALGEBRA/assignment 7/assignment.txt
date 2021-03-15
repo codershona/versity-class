@@ -1,0 +1,16 @@
+Complete the following questions utilizing the concepts introduced in this unit.
+
+1.  Find the length of an arc in a circle of radius 10 centimeters subtended by the central angle of 50°. Show your work.
+
+
+
+2.  Graph  f(x)=x\ sin\ x  on [-4π, 4π] and verbalize how the graph varies from the graphs of  f(x)= \pm x  . 
+
+Graph  f(x)= \frac{sin\ x}{x}    on the window [−5π, 5π] and describe freely what the graph shows. You can use www.desmos.com/calculator to obtain the graphs.
+
+
+
+3. A 23-ft ladder leans against a building so that the angle between the ground and the ladder is 80°. How high does the ladder reach up the side of the building? Show the steps of your reasoning.  
+
+
+ANSWER: 

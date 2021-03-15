@@ -1,0 +1,67 @@
+One of the largest issues in ancient mathematics was accuracy—nobody had calculators that went out ten decimal places, and accuracy generally got worse as the numbers got larger. The famous Eratosthenes experiment, that can be found at https://www.famousscientists.org/eratosthenes/, relied on the fact known to Thales and others that a beam of parallels cut by a transverse straight line determines equal measure for the corresponding angles.  Given two similar triangles, one with small measurements that can be accurately determined, and the other with large measurements, but at least one is known with accuracy, can the other two measurements be deduced? Explain and give an example.
+
+The similarity of triangles gives rise to trigonometry. 
+
+How could we understand that the right triangles of trigonometry with a hypotenuse of measure 1 represent all possible right triangles? Ultimately, the similarity of triangles is the basis for proportions between sides of two triangles, and these proportions allow for the calculations of which we are speaking here. The similarity of triangles is the foundation of trigonometry.
+
+Your Discussion should be a minimum of 250 words in length and not more than 750 words. 
+
+
+
+
+ANSWER:
+
+In the beginning, I am going to discuss the SMALL SIze Triangle which is given below,
+
+ When we could consider a triangle ABC which has three sides you can check my attached images.
+
+AB = 15 cm(centimeter),
+BC = 12 cm
+And, AC = 8 cm
+If we try to measure the three angles by helping the protector as well as it would give us the value. So, this triangle has a small angle which is easy to draw and we could also measure those three angles A, B as well as C with the help of the protector. We also need to note that, if we had three sides which were given by drawing the triangle by having no issue as well as we could measure the three angles.
+
+
+
+In my second point of the view, I am going to discuss a large size triangle. If we have a big triangle it will be impossible for us to draw on a piece of paper. So that, there would be some things to understand.
+
+In my third point of the view, I am going to discuss similar triangles. While the sides have a large triangle but the proportional including three sides of that small triangle. In this case, the three angles have a large triangle by including the similar of those three angles for the small triangle. For instance, we are having a triangle of PQR, including those sides PQ = 1500 m, QR = 1200 m s well as PR = 800 m but we will not able to draw it. We could able to take a piece of paper for the model and start drawing following the scale. Such as We can choose the scale of 100 m = 1 cm and try to make sure the line PQ on the paper would be 15 cm as well as it will be 1500 m and QR = 12 cm or PR = 8cm. By measuring the angles which were provided with the angles of a small triangle with the large triangle. I am going to discuss the based of the logic of the same triangles.
+
+
+
+Similar triangles can be of different sizes, but their three angles will always be equal and their three sides will be proportional.
+
+
+
+In my fourth point of the view, by using the laws of the sine as well as cosine, it has three sides or three angles which are given in any two angles or one side between them by including two sides of the angle between which we could use the laws of the sines or cosines to ordain the another three.
+
+
+
+
+
+Cosine law is applied, when we know any two sides and the angle between them,
+
+
+
+Whereas Sine Law can be used if we know two angles and one side between them or conversely.
+
+
+
+In my fifth point of the view, I am going to discuss the right triangles,
+
+
+
+Here, we could use the Pythagorean theorem so that the square is going to show the hypotenuse is always equal to the sum of the squares of the other two sides so that is a2 + b2 = c2.
+
+Knowing any kind of angle other than the right angle will help us to figure out the third by using the concepts of the sum of the three angles is 1800   so that, the hypotenuse is 1 ( it could be 1 mm, 1 cm, 1 m, 1 km, etc), then the possible measurements areas.
+
+Side a =  0.707107 m,
+Side b =  0.707107 m
+Then using the Pythagorean theorem we have,
+
+ Hypotenuse 2 = ( 0.707107)2 + ( 0.707107)2
+ Hypotenuse 2 = 0.5 + 0.5 = 1  
+Thus, Hypotenuse = 1
+If we have a  variety of triangles that can be drawn with sides, 
+
+a = 0.83666 cm 
+b = 0.547723 cm

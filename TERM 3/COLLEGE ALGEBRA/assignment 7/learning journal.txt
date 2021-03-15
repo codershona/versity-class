@@ -1,0 +1,30 @@
+Reflect on the concepts of trigonometry. What concepts (only the names) did you need to accommodate the concepts of trigonometry in your mind? What are the simplest trigonometry concepts you can imagine? In your day to day, is there any occurring fact that can be interpreted as periodic patterns? What strategy are you using to get the graphs of trigonometric functions?
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words.
+
+
+ANSWER:
+
+In the beginning, basically, trigonometry is a very necessary branch for mathematics that needs to be concerned about writing a specific function for the angles or needs a calculation in our application. In function, there are six trigonometric in each angle which was generally used in trigonometry.  It was included with the names or abbreviations by using sine (sin), cosine (cos), tangent (tan), cotangent (cot), secant (sec), as well as cosecant (csc). If the six trigonometric functions have a connection between displayed or analyzed by using each right-angled triangle. Such as, if we could have a triangle that has an angle A, as well as the ratio for those sides, has a contrary to A or the side opposite in the right angle which is called the hypotenuse by using the sine of A, or sin A and another trigonometry function has the same. Besides this, another connection between the sides of the angles of each spherical triangle. But there is also Napier's analogies which have derived into spherical trigonometry with the half-angle or side of the formula. These also have particular uses of logarithm tables, this is called analytic trigonometry. Because it makes a combination of uses of each coordinate system. For example, if the Cartesian coordinate has the system by using any analytic geometry which has the algebraic manipulations by using different trigonometry function to attain the formulas which are helpful for the scientific or engineering applications. These have real variables(trigonometric function) which are called x that is defined as each angle of the trigonometric functions. For instance, sin x has a real number that is defined as x by illustrating a value with the sine of the angle that contains x radians. The same definitions were made by the other five trigonometric functions which have a real variable with x. We need to create the function that satisfies the previous noted trigonometric connection between A, B, 90°, and 360° replaced by x, y, π/2 radians, and 2π radians, approximately. So, the minimum time duration of the tan x or cot x is π, as well as another four functions, was 2π.
+
+
+The concepts of trigonometry in my mind are given below,
+Trigonometry
+Cosecant
+Sine
+Cosec
+Plane Trigonometry
+Symmetry
+Spherical excess
+Analytic trigonometry
+The simplest trigonometry concepts which I could imagine is given below,
+
+Sin a/a = sin b/ b = sin c/c
+Cos a = cos b cos c + sin b sin c cos a
+
+As a result, if I would illustrate an example, of the voltage coming out of the wall socket I would like to follows the voltage in a periodic pattern. But I could see in the graph which has a function to come up with the periodic pattern.
+
+In my strategy, I am using the Graph paper and Desmos.com to get the graphs of trigonometric functions.
+
+
+
