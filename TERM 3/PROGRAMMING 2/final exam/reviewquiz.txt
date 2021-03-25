@@ -1,0 +1,998 @@
+You can use the methods in the Collections class to:
+
+A: a. find the maximum object in a collection based on the compareTo method.
+b. find the maximum object in a collection using a Comparator object.
+
+Which of the following statements describe a client/server model ?
+
+A: a. Computer transactions using the client/server model are very common.c. Although the client/server idea can be used by programs within a single computer, it is a more important idea in a network.
+d. In a network, the client/server model provides a convenient way to interconnect programs that are distributed efficiently across different locations.
+e. Client/server computing or networking is a distributed application architecture that partitions tasks or work loads between service providers (servers) and service requesters, called clients.
+
+Suppose List list = new ArrayList(). Which of the following operations are correct?
+
+A: a. list.add("Red");
+b. list.add(new Integer(100));
+c. list.add(new java.util.Date());
+d. list.add(new ArrayList());
+
+
+Fill in the code in Comparable______ c = new Date();
+
+a. <String>
+b. <?>
+c. <Date>
+d. <E>
+
+
+A: c.
+
+
+
+Which answer is a correct skeleton for a recursive Java method?
+
+A.
+int solution( int N )
+{
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    divide problem into pieces
+    return something calculated from the solution to each piece 
+  }
+}
+
+B.
+int solution( int N )
+{
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    return solution(N) 
+  }
+}
+
+C.
+int solution( int N )
+{
+  divide problem into pieces
+  return something calculated from the solution to each piece 
+}
+
+D.
+int solution( int N )
+{
+  divide problem into pieces
+
+  if ( base case )
+  {
+    return something easily computed
+  }
+  else
+  {
+    return something calculated from the solution to each piece 
+  }
+}
+
+
+A: a.
+
+
+
+What does this code do?
+
+import java.io.*;
+// (TextReader.class must be available to this program.)
+public class TenLinesWithTextReader {
+
+   public static void main(String[] args) {
+      try {
+         TextReader in = new TextReader( new FileReader(args[0]) );
+         for (int lineCt = 0; lineCt < 10; lineCt++)) {
+            String line = in.getln();
+            System.out.println(line);
+         }
+      }
+      catch (Exception e) {
+         System.out.println("Error: " + e);
+      }
+   }
+  
+}  // end class TenLinesWithTextReader
+
+
+
+A: b. This code displays the first ten lines from a text file. The lines are written to standard output.
+
+
+In the linked list implementation of the queue class, where does the insert method place the new entry on the linked list?
+
+A: a. At the head.
+
+Suppose cursor refers to a node in a linked list (using the IntNode class with instance variables called data and link). What statement changes cursor so that it refers to the next node?
+
+
+A: d. cursor = cursor.link;
+
+
+The following code writes out the name of a day of the week depending on the value of day. True or False?
+
+String dayName = null;
+switch (day) {
+case 1:
+dayName = "Sunday";
+break;
+case 2:
+dayName = "Monday";
+break;
+case 3:
+dayName = "Tuesday";
+break;
+case 4:
+dayName = "Wednesday";
+break;
+case 5:
+dayName = "Thursday";
+break;
+case 6:
+dayName = "Friday";
+break;
+case 7:
+dayName = "Saturday";
+break;
+}
+System.out.println(dayName);
+
+
+A: True
+
+Which statement is true?
+
+A: c. Queues use two ends of the structure; stacks use only one.
+
+Consider the following code:
+
+BufferedImage OSC = new BufferedImage(32,32,BufferedImage.TYPE_INT_RGB);
+
+
+A: a. A BufferedImage is a region in memory that can be used as a drawing surface.
+b. In this statement, the image that is created is 32 pixels wide and 32 pixels high, and the color of each pixel is an RGB color that has red, green, and blue components in the range 0 to 255.
+c. The picture in a BufferedImage can easily be copied into a graphics context g by calling one of the g.drawImage methods.
+d. The image drawn here is so small, it seems likely that is going to be used to define an ImageIcon.
+
+
+Given the following piece of code:
+
+class CostCalculationException extends Exception{}
+class Item {
+       public void calculateCost() throws CostCalculationException {
+                //...
+                throw new CostCalculationException();
+                //...
+       }
+}
+class Company {
+        public void payCost(){
+                new Item().calculateCost();
+      }
+}
+
+Which of the following statements is correct?
+
+
+A: c. This code will compile if you add a try-catch block in payCost()
+d. This code will compile if you add throws CostCalculationException in the signature of method payCost().
+
+Which of the data type below could be used to store elements in their natural order based on the compareTo method?
+
+A: b. TreeSet
+
+
+Consider the tree below. How many leaves does the tree below have?
+       14
+      /  \
+     2    11
+    / \   /  \
+   1  3  10  30
+           /    /           
+         7  40
+
+
+
+A: b. 4
+
+
+
+Which statements about Preferences are true?
+
+A: b. Preferences represent a snapshot of a program saved between sessions.
+c. To handle preferences, Java provides a class Preferences in the java.util.prefs package.
+d. Every time the program starts up, it reads the preferences, if any are available. Every time the program terminates, it saves the preferences.
+
+
+Which of the following data types do not have iterators?
+
+
+A: c. Map
+
+
+
+The server listens for a connection request from a client using the following statement:
+
+A: b. Socket s = serverSocket.accept()
+
+
+
+To declare a class named A with two generic types, use
+
+a. public class A<E> { ... }
+b. public class A<E, F> { ... }
+c. public class A(E) { ... }
+d. public class A(E, F) { ... }
+
+
+A: a.
+
+
+
+Which of the following statements is correct?
+
+A: a. Generics can help detect type errors at compile time, thus make programs more robust.
+b. Generics can make programs easy to read.
+c. Generics can avoid cumbersome castings.
+
+
+Consider the following two programs:
+
+A.
+public class Test {
+     public static void main(String[] args) {
+          xMethod(5);
+     }
+
+     public static void xMethod(int length) {
+          if (length > 1) {
+               System.out.print((length - 1) + " ");
+               xMethod(length - 1);
+          }
+     }
+}
+
+B.
+public class Test {
+     public static void main(String[] args) {
+          xMethod(5);
+     }
+
+     public static void xMethod(int length) {
+          while (length > 1) {
+               System.out.print((length - 1) + " ");
+               xMethod(length - 1);
+          }
+     }
+}
+
+
+A: e. Program A produces the output 4 3 2 1 and Program B prints 4 3 2 1 1 1 .... 1 infinitely
+
+
+The Map is the base interface for …
+
+A: a. TreeMap
+b. HashMap
+c. LinkedHashMap
+
+
+
+Which of these statements describe the FontMetrics class?
+
+A: b. The FontMetrics(Font font)constructor creates a new FontMetrics object for finding out sizes of characters and strings that are drawn in a specific font.
+c. The font is specified when the FontMetrics object is created.
+d. If fm is a variable of type FontMetrics, then, for example, fm.stringWidth(str) gives the width of the string str and fm.getHeight() is the usual amount of vertical space allowed for one line of text.
+
+
+
+Which of the data types below does not allow duplicates?
+
+A: d. Set
+
+Suppose List<String> list = new ArrayList<String>. Which of the following operations are correct?
+
+A: a. list.add("Red");
+
+
+A switch statement, most often has the form:
+switch (expression) {
+case constant-1:
+statements-1
+break;
+…
+}
+
+The value of the expression can be:
+i. int
+ii. short
+iii. byte
+iv. Primitive char
+v. Enum
+vi. String
+vii. Real number
+
+
+A: c. All, except vii
+
+
+Consider the tree below. What is the order of nodes visited using an in-order traversal?
+
+       14
+      /   \
+     2    11
+    / \     /  \
+   1  3  10 30
+            /  /            
+          7   40 
+
+
+A: b. 1 2 3 14 7 10 11 40 30
+
+The class named URL resides in the java.io package. Which of the following statements describe URL?
+
+A: a. A URL is an address for a web page (or other information) on the Internet.
+c. A URL object represents a Universal Resource Locator.
+d. Once you have a URL object, you can call its openConnection() method to access the information at the url address that it represents.
+
+
+Which of the following code is correct to create an instance of ResourceBundle?
+
+A: c. ResourceBundle.getBundle(resourcefilename);
+
+
+To declare an interface named A with two generic types, use
+
+a. public interface A<E> { ... }
+b. public interface A<E, F> { ... }
+c. public interface A(E) { ... }
+d. public interface A(E, F) { ... }
+
+
+A: b. public interface A<E, F> { ... }
+
+
+
+In the following method, what is the base case?
+
+static int xMethod(int n) {
+    if (n == 1)
+       return 1;
+    else
+       return n + xMethod(n - 1);
+}
+
+
+A: a. n is 1
+
+
+Which of the following statements are true?
+
+
+A: a. The Collection interface is the root interface for manipulating a collection of objects.
+b. The Collection interface provides the basic operations for adding and removing elements in a collection.
+c. The AbstractCollection class is a convenience class that provides partial implementation for the Collection interface.
+d. Some of the methods in the Collection interface cannot be implemented in the concrete subclass. In this case, the method would throw java.lang.UnsupportedOperationException, a subclass of RuntimeException.
+e. All interfaces and classes in the Collections framework are declared using generic type in JDK 1.5.
+
+
+Which of the following statements are true?
+
+A: a. An ArrayList can grow automatically.
+b. An ArrayList can shrink automatically.
+
+Which of the following statements are true?
+
+
+A: a. A socket is a kind of opening.
+b. A socket represents one endpoint of a network connection.
+c. A program uses a socket to communicate with another program over the network.
+d. Data written by a program to the socket at one end of the connection is transmitted to the socket on the other end of the connection, where it can be read by the program at that end.
+
+
+For a linked list to be used in a program, that program needs:
+
+i. A variable that refers to the first node in the list.
+ii. A pointer to the first node.
+iii. A null pointer in the last node.
+
+
+A: a. i and ii
+
+To be a listener for ActionEvent, an object must be an instance of …
+
+A: b. ActionListener
+
+
+In what way can a Set be distinguished from other types of Collections?
+“A Set cannot contain duplicate elements.”
+
+
+A: True
+
+
+How is the ButtonGroup class used?
+
+A: a. A ButtonGroup object is used with a set of radio buttons (or radio button menu items), to make sure that at most one of the radio buttons in the group can be selected at any given time.
+b. To use the ButtonGroup class, you have to create a ButtonGroup object, grp. Then each radio button, rb, that is supposed to be part of the group is added to the group by calling grp.add(rb). Nothing further needs to be done with the ButtonGroup object.
+d. Typically a button group contains instances of JRadioButton, JRadioButtonMenuItem, or JToggleButton.
+
+
+The Collection interface is the base interface for …
+
+A: a. Set
+b. List
+c. ArrayList
+d. LinkedList
+
+To store non-duplicated objects in the order in which they are inserted, use ….
+
+A: b. LinkedHashSet
+
+
+How do you study a text book?
+
+A: b. (1) If you have reached the end of the book you are done, else (2) study one page, then study the rest of the book.
+
+What does the following code do?
+
+Action openAction = new AbstractAction( "Open..." ) {
+   public void actionPerformed( ActionEvent e ) {
+      doOpen();
+   }
+};
+
+JButton openButton = new JButton( openAction );
+  
+JMenuItem openCommand = new JMenuItem( openAction );
+
+
+A: a. This code creates an Action that represents the opening of a file in the doOpen() instance method.
+b. This code creates a button from the Action.
+c. This code creates a menu item from the Action.
+
+
+To create an InputStream to read from a file on a Web server, you use the class __________.
+
+
+A: a. URL
+
+
+Which of the data types below could be used to store elements in their natural order based on the compareTo method.
+
+
+A: c. TreeSet
+
+
+If the characters 'D', 'C', 'B', 'A' are placed in a queue (in that order), and then removed one at a time, in what order will they be removed?
+
+A: d. DCBA
+
+
+Which statements are correct regarding Java’s predefined class called Throwable?
+
+
+A: a. The class Throwable represents all possible objects that can be thrown by a throw statement and caught by a catch clause in a try…catch statement.
+b. The thrown object must belong to the class Throwable or to one of its (many) subclasses such as Exception and RuntimeException.
+c. The object carries information about an exception from the point where the exception occurs to the point where it is caught and handled.
+
+
+Consider the tree below. What is the order of nodes visited using a pre-order traversal?
+
+       14
+      /   \
+     2    11
+    / \     /  \
+   1  3  10 30
+            /  /           
+          7   40
+
+
+A: d. 14 2 1 3 11 10 7 30 40
+
+To create a list to store integers, use
+
+a. ArrayList<Object> list = new ArrayList<Integer>();
+b. ArrayList<Integer> list = new ArrayList<Integer>();
+c. ArrayList<int> list = new ArrayList<int>();
+d. ArrayList<Number> list = new ArrayList<Integer>();
+
+
+A: b.
+
+
+Which of the following code displays the numbers with at least two digits before and after the decimal point?
+
+a.
+NumberFormat numberForm = NumberFormat.getNumberInstance();
+DecimalFormat df = (DecimalFormat)numberForm;
+df.applyPattern("00.00");
+
+b.
+NumberFormat numberForm = NumberFormat.getNumberInstance();
+numberForm.setMaximumFractionDigits(2);
+numberForm.setMinimumFractionDigits(2);
+
+c.
+NumberFormat numberForm = NumberFormat.getNumberInstance();
+numberForm.setMaximumFractionDigits(2);
+
+d.
+a and b.
+
+
+A: a.
+
+Which of the following statements are true?
+A: a. The Comparable interface contains the compareTo method with the signature "public int compareTo(Object)".
+b. The Comparator interface contains the compare method with the signature "public int compare(Object, Object)".
+c. A Comparable object can compare this object with the other object.
+d. A Comparator object contains the compare method that compares two objects.
+
+
+How do you create a locale for the United States?
+
+A: d. a and c;
+
+
+Given the following code:
+static void showOutput(int mark) {
+    if (mark == 0) {
+       System.out.print("*");
+    }
+    else {
+       System.out.println("[");
+       showOutput(mark - 1);
+       System.out.print(",");
+       showOutput(mark - 1);
+       System.out.println("]");
+    }
+}
+Can you determine what is produced by the following subroutine calls:
+showOutput(0), showOutput(1), showOutput(2), and showOutput(3)?
+
+a.
+showOutput(0) outputs:   *
+showOutput(1) outputs:   [*,*]
+showOutput(2) outputs:   [[*,*],[*,*]]
+showOutput(3) outputs:   [[[*,*],[*,*]],[[*,*],[*,*]]]
+
+b.
+showOutput(0) outputs:   [
+showOutput(1) outputs:   *,*
+showOutput(2) outputs:   [[],[]]
+showOutput(3) outputs:   [[[*,*],[*,*]],[[*,*],[*,*]]]
+
+A: a.
+
+
+Consider the following code (assume that comments are replaced with real code that works as specified):
+public class TestExceptions {
+
+    static void e() {
+      // Might cause any of the following unchecked exceptions to be
+      // thrown:
+      // Ex1, Ex2, Ex3, Ex4
+    }
+   
+    static void April() {
+      try {
+          e();
+      } catch (Ex1 ex) {
+          System.out.println("April caught Ex1");
+      }
+    }
+   
+    static void March() {
+      try {
+          April();
+      } catch (Ex2 ex) {
+          System.out.println("March caught Ex2");
+          // now cause exception Ex1 to be thrown
+      }
+    }
+   
+    static void February() {
+      try {
+          March();
+      } catch (Ex1 ex) {
+          System.out.println("February caught Ex1");
+      } catch (Ex3 ex) {
+          System.out.println("February caught Ex3");
+      }
+    }
+   
+    static void January() {
+      try {
+          February();
+      } catch (Ex4 ex) {
+          System.out.println("January caught Ex4");
+          // now cause exception Ex1 to be thrown
+      } catch (Ex1 ex) {
+          System.out.println("January caught Ex1");
+      }
+    }
+   
+    public static void main(String[] args) {
+        January();
+    }
+}
+Assume now that this program is run four times. The first time, method e throws exception Ex1, the second time, it throws exception Ex2, etc.
+What are the results of the four runs (a or b)?
+
+a.
+
+The program prints:
+April caught Ex1
+The program prints:
+March caught Ex2
+February caught Ex1
+The program prints:
+February caught Ex3
+The program prints:
+January caught Ex4
+And execution stops due to an uncaught exception Ex1 thrown in main()
+b.
+
+The program prints:
+April caught Ex3
+The program prints:
+March caught Ex2
+February caught Ex2
+The program prints:
+March caught Ex3
+The program prints:
+January caught Ex4
+And execution stops due to an uncaught exception Ex1 thrown in main()
+
+
+A: a.
+
+
+Which of these statements is true?
+
+
+A: a.
+b.
+c.
+d.
+e.
+f.
+
+
+
+Given the following code:
+
+public void paintComponent(Graphics g) {
+   super.paintComponent(g);
+   Graphics2D g2 = (Graphics2D)g;
+   g2.translate( getWidth()/2, getHeight()/2 );
+   g2.rotate( 30 * Math.PI / 180 );
+   g2.fillRect(0,0,200,200);
+}
+
+Which of the following describes the output?
+
+
+A: b. The corner of the square is at the center of the component that is being painted, and the top side of the square descends at a 30 degree angle from that point.
+c. The rotate command rotates the picture by 30 degrees in a clockwise direction about the origin.
+d. The top of the square is rotated from the horizontal position onto a line that is 30 degrees clockwise of the horizontal. That line descends at a 30 degree angle.
+
+
+What are two parts to recursion?
+
+
+A: a. (1) If the problem is easy, solve it immediately, and (2) If the problem can't be solved immediately, divide it into smaller problems.
+
+
+
+Interaliasing ….
+
+A: b. Is the smoothing of the image roughness caused by aliasing
+c. Is achieved by adjusting pixel positions or setting pixel intensities so that there is a more gradual transition between the color of a line and the background color.
+
+
+
+Given the following code:
+
+public class Test {
+   public static void main(String[] args) {
+     Map map = new HashMap();
+     map.put("123", "John Smith");
+     map.put("111", "George Smith");
+     map.put("123", "Steve Yao");
+     map.put("222", "Steve Yao");
+   }
+}
+Which statement is correct?
+
+
+A: b. After all the four entries are added to the map, "123" is a key that corresponds to the value "Steve Yao".
+
+
+How can you drink an entire keg of root beer?
+
+
+A: b. (1) If the keg is empty do nothing, otherwise (2) take one swallow, then drink the rest of the keg.
+
+
+
+Study the following three pieces of code. Comments have been removed intentionally.
+Can you guess what each does?
+
+(i)
+public class ProcForInts { 
+
+   private int[] items = new int[10]; 
+  
+   private int top = 0; 
+  
+   /**
+    * Procedure
+    */
+   public void push( int N ) {
+       if (top == items.length) {
+           int[] newArray = new int[ 2*items.length ];
+           System.arraycopy(items, 0, newArray, 0, items.length);
+           items = newArray;
+       }
+       items[top] = N; 
+       top++;          
+   }
+  
+   /**
+    * Procedure
+    */
+   public int pop() {
+       if ( top == 0 )
+          throw new IllegalStateException("Can't…");
+       int topItem = items[top - 1] 
+       top--;   
+       return topItem;
+   }
+  
+   /**
+    * Procedure
+    */
+   public boolean isEmpty() {
+      return (top == 0);
+   }
+
+}
+
+
+(ii)
+public class ProcForInts {
+
+   /**
+    * Procedure
+    */
+   private static class Node {
+      int item;
+      Node next;
+   }
+
+   private Node head = null; 
+  
+   private Node tail = null; 
+
+   /**
+    * Procedure
+    */
+   public void enqueue( int N ) {
+      Node newTail = new Node(); 
+      newTail.item = N;
+      if (head == null) {
+         head = newTail;
+         tail = newTail;
+      }
+      else {
+         tail.next = newTail;
+         tail = newTail;
+      }
+   }
+  
+   /**
+    * Procedure
+    */
+   public int dequeue() {
+      if ( head == null)
+          throw new IllegalStateException("Can't…");
+      int firstItem = head.item;
+      head = head.next; 
+      if (head == null) {
+            tail = null;
+      }
+      return firstItem;
+   }
+  
+   /**
+    * Procedure
+    */
+   boolean isEmpty() {
+      return (head == null);
+   }
+  
+}
+
+
+(iii)
+public class ProcForInts {
+
+   private static class Node {
+      int item;
+      Node next;
+   }
+  
+   private Node top; 
+  
+   /**
+    * Procedure
+    */
+   public void push( int N ) {
+      Node newTop;        
+      newTop = new Node();
+      newTop.item = N;    
+      newTop.next = top;  
+      top = newTop;       
+   }
+  
+   /**
+    * Procedure
+    */
+   public int pop() {
+      if ( top == null )
+         throw new IllegalStateException("Cannot…");
+      int topItem = top.item; 
+      top = top.next;         
+      return topItem;
+   }
+  
+   /**
+    * Procedure
+    */
+   public boolean isEmpty() {
+      return (top == null);
+   }
+
+}
+
+
+A: e. (i) is an array implementation of a stack; (ii) is a queue; (iii) is a linked list implementation of a stack
+
+
+
+What code is missing to complete the following method for sorting a list?
+
+public static void sort(double[] list) {
+___________________________;
+}
+
+public static void sort(double[] list, int high) {
+   if (high > 1) {
+      // Find the largest number and its index
+      int indexOfMax = 0;
+      double max = list[0];
+      for (int i = 1; i <= high; i++) {
+          if (list[i] > max) {
+              max = list[i];
+              indexOfMax = i;
+         }
+      }
+
+// Swap the largest with the last number in the list
+list[indexOfMax] = list[high];
+list[high] = max;
+
+// Sort the remaining list
+sort(list, high - 1);
+}
+}
+
+
+
+A: c. sort(list, list.length - 1)
+
+
+Which of the following statements are true?
+
+A: a. Dialog boxes are defined by subclasses of the class JDialog.
+b. The main difference between JDialogs and JFrames is that a dialog box has a parent, which if closed, causes the dialog box to closes, too.
+
+
+Which of the following are correct methods in Map?
+
+A: a. put(Object key, Object value)
+c. get(Object key)
+
+
+What is the value stored in the parent node of the node containing 30?
+
+       14
+      /  \
+     2    11
+    / \   /  \
+   1  3  10  30
+           /    /            
+         7  40
+
+
+A: b. 11
+
+
+“Subclasses of the class Exception which are not subclasses of RuntimeException require mandatory exception handling.” What are the practical implications of this statement?
+
+
+A: a. If a method can throw such an exception, then it must declare this fact by adding a throws clause to the method heading.
+b. If a routine includes any code that can generate such an exception, then the routine must deal with the exception.
+d. The routine can handle the exception by including the code in a try statement that has a catch clause to handle the exception.
+
+
+
+Which of the following statements are true?
+
+A: a. The Fibonacci series begins with 0 and 1, and each subsequent number is the sum of the preceding two numbers in the series.
+
+
+Given the following piece of code:
+
+class Student { public void talk(){} }
+public class Test{
+          public static void main(String args[]){
+                    Student t = null;
+                    try {
+                           t.talk();
+                           } catch(NullPointerException e){
+                                   System.out.print("There is a NullPointerException. ");
+                           } catch(Exception e){
+                                   System.out.print("There is an Exception. ");
+                           }
+                           System.out.print("Everything ran fine. ");
+          }
+}
+
+what will be the result?
+
+a. If you run this program, the following is printed:
+There is a NullPointerException. Everything ran fine.
+
+b. If you run this program, the following is printed:
+There is a NullPointerException.
+
+c. If you run this program, the following is printed:
+There is a NullPointerException. There is an Exception.
+
+d. This code will not compile, because in Java there are no pointers.
+
+
+A: a.
+
+
+To declare a class named A with a generic type, use
+
+a. public class A<E> { ... }
+b. public class A<E, F> { ... }
+c. public class A(E) { ... }
+d. public class A(E, F) { ... }
+
+
+A: a.
+
+
+
+
+
+
+

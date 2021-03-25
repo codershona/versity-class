@@ -1,0 +1,21 @@
+When developing new software, we should take into account how to create a specific "Look and Feel" per customer. What are the advantages of using Java GUI?
+
+ANSWER:
+
+In the beginning, there are many ways in each software that has users and customers. But it could be attractive as well as easy to use everything which was been noted by developing software. 
+
+
+
+ In my second point of the view, I am going to discuss the advantages of the Java GUI to accomplish look and feel, this was given below,
+
+In the Java GUI, the computer operations need to be easier to use or also need to be learned by the operations user-friendly.
+If any users give the benefit of WYSIWYG and each acronym needs to be seen as what they actually get.
+Here, in the JAVA GUI users or customers basically do not needs to be complicated to learn the basic commands to use them. Besides this, the programmers can also interact with the computer systems programs. 
+In the 2D as well as the 3D rendering of the graphics, JAva needs to show its library available for the graphical routines. Such as, if the 3D rendered into a voxel game it could be written in Java language or it has defined as MINECRAFT.
+The Java GUI needs to be allowed by the users to exchange the data between the programs and software applications by having any know-how.
+
+
+
+Reference,
+
+RF Wireless World. 2012. Advantages of GUI Interface | disadvantages of GUI Interface. Retrieved from: -of-GUI-Interface.html

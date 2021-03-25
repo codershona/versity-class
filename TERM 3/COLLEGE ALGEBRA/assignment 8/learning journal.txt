@@ -1,0 +1,34 @@
+Complete the following questions utilizing the concepts introduced in this unit. The assignment will be graded by your instructor.
+
+1. Evaluate the cube root of  z=27cis(240^ \circ)  . Then raise them to the cube. Show the steps of your reasoning.
+
+
+
+2. Evaluate   [ \sqrt[5]{3} ( \frac{ \sqrt{3}}{2}+ \frac{i}{2} ) ]^{10}  .
+
+
+
+3. Find    \frac{z_1}{z_2}    in polar form:
+
+     z_1=21cis(135^ \circ)             z_2=3cis(75^ \circ) 
+
+
+
+
+ ANSWER:
+ANSWER 1: In the beginning, the De Moivre Theorem has shown that there is one cube that has the root 271/3cis(240°/3) = 3cis80°.  In this case, the 3 of the cube roots were representing the number of equal spaces around the circle which is situated in the center of  (0,0) with a radius of 3.360° / 3 = 120°. But if the cube root has 3cis(80°+120°) = 3cis200°, so that it will have the third cube root which is 3cis(80°+2(120°) = 3cis320°. 
+
+
+
+ANSWER 2: In the second point of the view, Here if I try to convert the polar form to get the outcome 5√3cis30°.
+As a result, [5√3cis30°]10 = (5√3)10cis[10(30°)] = 237046875cis300°.
+
+
+
+ANSWER 3: In the third point of the view, If we try to divide 21 with 3 or subtract 75° from 135°. In a words, we will get z1 / z2 = 7cis60°.
+
+
+
+
+
+
