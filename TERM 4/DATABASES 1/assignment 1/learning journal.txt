@@ -1,0 +1,23 @@
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did (This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it), what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained, and finally, describe one important thing that you are thinking about in relation to the activity.
+
+There are several roles like Data Architect, Database Architect, Database Administrator (DBA), Application Developer and other roles in the database domain. Which role is more appropriate for you? Why? What are the requirements for your chosen role? Explore job postings to see what skills are required for your chosen role?
+Your Learning Journal should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+
+ANSWER:
+
+
+
+
+
+
+
+In the beginning, I am going to demonstrate about my first week in the course. In my first week of the Database 1 course I had participated in the discussion forum, besides this, I had answered the assessment as my instructor wrote to discuss about it. The discussion forum helped me to support my knowledge as I had read and make a review of my peers assessment work. I had complete the quiz in the new material which I already learned in the database course materials. I had finished the programming assignment also where I had complete the task to create a database for a hospital where I need to discuss about the doctor and the patient appointments procedure. I had demonstrate the relationship between the members then I had make a personal identifiers. Also, I had learned the relationship and some more features about the databases as well as databases management system (DBMS), and also various job roles for the professional levels IT department such as database related. This could assist me to develop relations in the relational data model from other professionalism skills also helps to analyze the data model constraints. Next, I had finished the course materials in the week which I had able to understand how can I define the database or DBMS. So, I had finish my whole programming assignment. Besides this is the most essential course which I need to master if I want to chose professional role as a database administrator. 
+
+
+
+In my second point of the view, if we want be organized and detailed in our work life we need to be a natural leader because a database architect career is not so easy. Database Architects actually define as database architecture which needs to match with recruiter or employers requirements. By using the flow charts we could develop the database architect by designing a model of the strategies which I need to confirm as database security this also could be scalable and makes a performance with the reliability. Moreover, the database architecture has been designed by the database architect which helps to perform with the other software development or information technologies. For example, programmers, system or database administrators, data analysts or software engineers. But if we could think that, sometimes we need to describes me. I also need to be more organized. As a result, if I need to play role as a leading position in this case I need to make sure that I need to plan or keep following the rules.
+

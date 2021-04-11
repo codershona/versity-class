@@ -1,0 +1,38 @@
+In Chapter 3 of Sharma et al. (2010), you will be introduced with a case study: 
+
+
+"This case study describes a simple Library Management System. Assume the requirements for the system were written by your client exactly in these terms: 
+
+The system will manage the author's and loaner's information, and keep track of books loaned. The borrower's information includes name, address, e-mail, and phone. The author's information includes name, address, and e-mail. 
+
+ New books, authors and clients are entered into the system. When a client checks out a book, the system will register the date the book was loaned and calculate the days the book can be loaned. It will also calculate the date the book is due to be returned. If the borrower returns the book late, he must pay a fine based on the number of days overdue." (Sharma, et al., 77). 
+
+Assume that the traditional file system is currently used in this library and a DBMS is to be developed. Discuss the advantages and challenges for the use of a DBMS for this library. 
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Use APA citations and references for the textbook and any other sources used. 
+
+
+
+Reference:
+
+Sharma, N., Perniu, L., Chong, R. F., Iyer, A., Nandan, C., Mitea, A. C., Nonvinkere, M. & Danubianu, M. (2010). Database fundamentals. IBM Canada.
+
+
+ANSWER:
+
+    In the beginning, if I could imagine that I had a traditional file which has a system including present uses in the library as well as each  DBMS which has been already developed. I am going to discuss the advantages of the DBMS library.  Because of this, the library has the media inventory which has the number of the employees as well as the number of the clients of transactions or invoice increases. This could be very hard to maintain the uses of the traditional file of the system. Not only that, the file based of the system has already plagued by the data of the redundancy or isolation of the integrity or also faces many security and privacy problems. But this problem could be moderate by the uses of the Database Management System (DBMS). By implementing each DBMS has a library with the multitude for the advantages which has undeveloped file system which needs to be advent. Moreover, the views of the uses of the databases has with respect to each file system for the self describing. 
+
+   In my second point of the view, the most powerful ideas has a design which had DBMS in the data to take measures for the information that was regarding usage or relations of the data on the databases. The benefits of the DBMS has data which is independent for the applications. By viewing some certain users roles it could be supported by the various users. As, it could also be decreased by the redundancy or organizations of the worldwide data by sharing the disallowed users restrictions. There is also another benefits we could recover the data also. By using DBMS there is also traditional file system it accepts numerous challenges. Actually, it depends in the library which was funded and also has the biggest challenges that might be has a cost of DBMS. 
+
+
+
+ The databases also has a library which needs to be purchased for the data server or any software that is essential by hiring outsources of the databases. This has a setup by professionals to maintain the security of the database. Moreover, we could depend on the library which has a DBMS budget by using databases of those libraries generate each number of the premade solutions. This could be premium, freemium or cloud based and also eliminate hardware requirements. 
+
+
+
+   As a result, I had found a quick easy solution in the draw.io website which has a ERD tools it could assist anybody if anyone is looking for Entity Relationship Diagram for the databases of the library.
+
+
+
+
+

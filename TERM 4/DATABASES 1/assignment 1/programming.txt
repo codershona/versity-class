@@ -1,0 +1,105 @@
+Assume that you are working with a hospital and this hospital needs a software system to track its patients’ information. Your role in this software development is to design the database. There are many aspects of such a hospital software system to develop. However, in this assignment, you will only address interactions between doctors and patients. Your first step will be to create the relations necessary for this system and identify and describe the constraints that would be appropriate for the relations. Currently, hospital representatives describe three entities: Doctor, Patient, and Appointment.
+
+“Doctor” will need information such as a unique identifier for each doctor, doctor name, doctor phone, specialty number, and specialty.
+
+“Patient” will need information such as a unique identifier for each patient, patient name, patient phone, patient e-mail, patient address, date added to the system, allergies (list of any known allergies), and doctor identifier (in our case each patient is admitted by one doctor).
+
+Each patient is treated through appointments. Hence, there should be an “Appointment” relation. The “Appointment” will need information such as a unique identifier, appointment date, doctor and patient identifiers. During the appointment, treatment information such as blood pressure, pulse, treatment notes of the doctor, and medicines should also be included in the “Appointment” relation.
+
+Be sure to identify what are the candidate, primary keys, and the degree of each relation. It would be recommended that you document your relations in the manner used in the Library Management System case study in chapter 3.3 of Sharma et al. (2010, 77).
+
+After determining the relations, identify and describe the constraints that would be appropriate for the relations that we have within our hospital software system. 
+
+Constraints that you should consider may include:
+
+Entity integrity constraint 
+Referential integrity constraint 
+Semantic integrity constraint
+Domain constraint
+Null constraint 
+Unique constraint 
+The constraints in Bold type should all be present in your assignment.
+
+
+
+Assignment Instructions
+
+1. Assignment should include the relations required for the hospital software system as follows:
+
+Doctor
+Patient
+Appointment
+2. Each relation must have identifiers and its data types
+
+3. The degree of each relation must be described
+
+4. Each relation must include appropriate information other than identifiers such as attributes and the data type of attributes
+
+5. The “Doctor” relation should include at least a unique identifier for each doctor, doctor name, doctor phone, specialty number, and specialty
+
+6. The “Patient” relation should include at least a unique identifier, patient name, patient phone, patient e-mail, patient address, patient added date, allergies, and doctor identifier.
+
+7. The “Appointment” relation should include at least a unique identifier, appointment date, doctor and patient identifiers, blood pressure, pulse, treatment notes of doctor and medicines.
+
+8. Identify and describe the constraints for each attribute
+
+
+
+Reference
+
+Sharma, N., Perniu, L., Chong, R. F., Iyer, A., Nandan, C., Mitea, A. C., Nonvinkere, M. & Danubianu, M. (2010). Database fundamentals. IBM Canada.
+
+
+
+ANSWER:
+
+In the beginning, we can observe that, Doctor_ID, Patient_ID and Appointment_ID needs to be illustrate the fundamental keys of the respective tables which has sufficient identify for the tuple on the table.  Because the doctor could be treated by the various patients or if any patient could be treated by the various doctors there should be the relationship between the patient as well as the doctor. If the doctor could take measure of the multiple appointments the patient could be also asked for the multiple appointments. Thus the relation could e make a differences between the appointment or the doctor which could be varied in many ways. As a result, the Var Char data-type shows the alphanumeric characters and the relationship has been discuss below.
+
+
+
+    DOCTOR    
+Doctor_ID                 |    VarChar   = Unique NOT NULL
+Doctor_Name               |    Text   = NOT NULL
+Doctor_Phone              |    Number = Unique NOT NULL
+Speciality_Number         |    Number
+Speciality                |    Text
+
+
+    GIVES APPOINTMENT  & PATIENT TAKES APPOINTMENT:
+
+[APPOINTMENT]
+ID = VarChar = Unique NOT NULL
+APPOINTMENT_DATE = Date = NOT NULL
+DOCTOR_ID = VarChar = Unique NOT NULL 
+PATIENT_ID = VarChar = Unique NOT NULL
+BP = Number = NOT NULL
+PULSE = Number = NOT NULL
+NOTES = VarChar
+MEDICINES =  VarChar
+
+
+[PATIENT]
+ID = VarChar = Unique NOT NULL
+PATIENT_NAME = Text = NOT NULL
+PATIENT_PHONE = Number = Unique NOT NULL 
+Email = VarChar = NOT NULL
+Address = VarChar = NOT NULL
+ADDED_DATE = Date = NOT NULL
+Allergies = Text
+DOCTOR_IDENTIFIER(ID) =  VarChar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

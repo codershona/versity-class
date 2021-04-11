@@ -1,0 +1,46 @@
+Which of the following is not a web browser?
+
+A: Twitter
+
+Which one of the following is true ?
+
+A: 
+c. In HTML Certain elements don’t need a closing tag, in XHTML all elements must be explicitly closed.
+
+JavaScript is the scripting language that you use to add behaviour to your web pages
+
+A: True
+
+CSS can be checked out using the CSS validator available at http://jigsaw.w3.org/css-validator/
+
+A: true
+
+
+The three-tier model is a
+
+A: b. software architecture and a software design pattern.
+
+Three-tier architecture has the following three tiers:
+
+A: b. Presentation tier, Application tier and Data tier
+
+
+
+13) One reason for following Web Standards is Device Compatibility
+
+A: True
+
+Tim Berners-Lee had been working on a information management system, in which text could contain links and references to other works, allowing the reader to quickly jump from document to document
+
+A: true
+
+
+Three-tier is a client–server architecture in which
+
+A: a. the user interface, functional process logic ("business rules"), and computer data storage and data access are developed and maintained as independent modules
+
+
+
+
+
+
