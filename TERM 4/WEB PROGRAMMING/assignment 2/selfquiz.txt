@@ -1,0 +1,52 @@
+When designing a website, the golden rule is that "content is king!" No matter how flashy and colorful a website is, it is virtually useless without organized, accessible content. This means that a person searching for information must be able to quickly find it on your website. If not, they will leave.
+
+
+A: True
+
+
+
+In testing mobile websites on mobile devices, we found that sites with fewer features have much better usability than full-featured websites. This year's winning mobile intranets followed this recommendation, focusing on specific features that were important to employees on the go instead of trying to squeeze the entire intranet onto a tiny screen.
+
+
+A: True
+
+
+
+
+Concerning typography
+
+A: c. The most effective way to control how typography looks on a web page is through using Cascading Style Sheet.
+
+Systems that force people to create content from scratch, every time promotes and encourages user participation.
+
+A: False
+
+Last year, 30% of winning intranets had a mobile version. This year, 60% of winners had a mobile intranet. Doubling in one year is truly a sign that mobile access is a huge trend right now.
+
+
+A: True
+
+
+Which of the following is true
+
+
+A: b. The primary colours consist of red, yellow and blue, and they’re called primary colours because you don’t need to mix colours to make these three hues.
+
+Fortunately, a designer can add colour to a site without losing accessibility and usability if the site is designed with those capabilities in mind. While many designers feel comfortable designing a site for many users, those same designers might feel inadequate when it comes to choosing colours and graphics.
+
+A: True
+
+
+Whilst it may be tempting to cram in a little of everything on the home page, it is actually better to use it to highlight other areas of content within the site and drive your traffic to them.
+
+
+A: True
+
+
+Sometimes, knowledge sharing can be as simple as a Q&A tool to connect employees with questions to colleagues with answers.
+
+A: True
+
+Once users “learn” how to use a site, they usually don’t like to see changes from page to page
+A: True
+

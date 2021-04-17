@@ -1,0 +1,19 @@
+Our second DF question is "What are the best practices recommended by web professionals for content layout, menu structure, and other areas of web sites?" Review professional blogs, web design companies' sites, YouTube content. Much on best practices in Web Design has already been published. Sometimes professionals do not agree on all aspects of web design. Please make sure to cite your sources.
+
+
+ANSWER:
+
+       In the beginning, I think the best practices which I want to recommended for the web professional for creating a website content layout or menu structures as well as others necessary areas for the website would if anyone wants to create logical site they must need to be concerned about the font , color palettes uses, logo designing and html and css elements styling. A developer must not reinvent any irrelevant color wheels. Because when a users use any websites they just do not want to know how to create websites so they will only uses websites. Users do not have knowledge to build a website. Try to use inherit navigation as an experience. Always remember that, the website will not be only for desktop users, many people use websites in the mobile so try to make your website responsive friendly which support iPad, android and iPhone mobile also. Keep your website accessible for your users so that easily navigate without having any issues in your sites.
+
+
+
+   If I want to review any web design companies definitely I want to choose wix.com websites as a website making company. Because they use their website excellent graphical interface. Also has the ability to customize any sites. Any one can build their own html5 template and use free stocks images to customize their sites. Most of the the time professional do not agree on all aspects of web design because most of the the the website builder will face to limited template and unable to choose the site template and charges a lot.  
+
+   As a result, if any one want a professional website I think Apple company is the best example to follow. Because the developer in their website uses a great logo and the ux design is user-friendly for all types of devices and it is also seo friendly. Many visitors visits in the websites and get useful tips. 
+
+
+
+References, 
+
+Website Setup:  10 Best Blogging Sites – Detailed Comparison. Dec 7, 2020. NICK SCHÄFERHOFF, Chief Editor.https://websitesetup.org/best-blog-sites/
+

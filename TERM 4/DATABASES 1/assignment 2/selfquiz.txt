@@ -1,0 +1,37 @@
+How can a multivalued attribute be represented in an E-R model?
+
+A: d. None of the above
+
+
+For the relationship represented in the figure below, which of the following is true?
+
+A: c. A course has to be taught by more than one instructor
+
+
+All instances of a given entity set have the same attributes in the E-R Model.
+
+A: True
+
+For the relationship represented in the figure below, which of the following is true?
+
+A: b. Each instructor has one and only one course
+
+Which of the following is not a component of a database model?
+
+A: c. Physical component
+
+“A student can attend six courses, each with a different instructor. Each instructor has 30 students.” 
+
+What is the type of relationship between students and instructors?
+
+A: d. many-to-many
+
+
+The address of a student can be defined using street, city, state, and zip code. What type of attribute should be used to represent the address of a student?
+
+A: 
+
+
+Given only the following part of an E-R diagram, what does the circle across the relationship line near the entity in the figure below indicate?
+
+A:  c. A maximum cardinality of one
