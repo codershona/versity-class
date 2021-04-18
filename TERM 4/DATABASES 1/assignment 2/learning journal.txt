@@ -1,0 +1,33 @@
+
+The database development starts with the requirements analysis. There are many sources for gathering requirements. One of the important sources for requirements is “user interview”. During these interviews, users are asked about what kind of a system they need. Then requirements gathered from the interviews are transformed into a data model. Assume that a database designer made an interview and created an E-R diagram as above. For this activity, you do not need to interview anyone.
+
+In this learning journal, you should write a scenario that the user described requirements as in the Library Management System case study in Chapter 3.3 of Sharma et al. (2010, p. 77) during the interview. Requirements described in this interview could be transformed into the above E-R diagram. After writing the scenario, you should also describe the cardinalities in the above diagram.
+
+Your Learning Journal should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+
+References
+
+Sharma, N., Perniu, L., Chong, R. F., Iyer, A., Nandan, C., Mitea, A. C., Nonvinkere, M. & Danubianu, M. (2010). Database fundamentals. IBM Canada.
+
+
+
+ANSWER:
+
+
+In the beginning, if I would become a database designer first of all I would identify the reasons uses of the database as a primary reason. If we try to understand the specific types of the databases we must need to be existed to provide a pointer to the identifier which has entities or relationships that is essential. WE also need to understand the uses of the database design. For example, in our databases maintenance process it could be stored by the data which is including the customer , sales and sales item or any kind of item. Generally, the database systems needs to be updated and tracked the all sold items such as that could customers data and personal information and those information needs to be stored in database system. If we try to assume that we had a medicine store. We must need to keep data of the customers information including personal information also (full name, address, phone number or email address). The sales information also needs to be contain the sales item date, amount of the paid history including government taxes and that item total prices. 
+
+  In my second point of the view, as a database developer these questions are very essential to answer while for the requirements,
+
+For what are those reason that we needs to use the database? Does the database help to satisfy the needs of the company?
+For why we needs to use the database, please explain? Why we needs to setup the database? Is this necessary for any dynamic companies? 
+What do you think is the costs has any relationships between the maintenance or the management of the database systems?
+What are those requirements for the databases? What do you think will you be to employ the key personal  for the database management system? 
+Can you explain what is the prediction for the future database? How you can manage many to many relationships?
+
+
+
+ Here, if we think there is many requirement for the interview and many sources we can gathered if anyone determine to to face database developer  roles. If the entity models has any relationships to developed the model it needs to be built and display for their cardinality such as one to one or many to many, one to many). Foreign, Primary and Candidate keys are also included the entities of the zero to one or zero to many. 
+
+  As a result, the database also include all the requirements and also needs to be reviewed to make sure the assist of the correction or deleted or updated or if it needs to be added. The database developer needs to be determine that the per request from the customers. 
