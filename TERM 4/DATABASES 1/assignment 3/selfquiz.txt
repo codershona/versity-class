@@ -1,0 +1,33 @@
+If B is a subset of attributes in set A, then which of the following is wrong?
+
+A: b. AC → BC
+
+Which of the following would motivate to de-normalize a relation?
+
+A: a. Improve performance
+
+Consider the following table that shows the Movie relation. In the relation, {Movie_Title, Year} form a candidate key. Which of the following is correct about this Movie relation?
+
+A: d. None of the above
+
+Which of the following is not a goal of normalization?
+
+A: a. Maximizing data storage space
+
+Relations should always be normalized to the highest normal form possible.
+
+A: False
+
+Which of the following sentences is incorrect?
+
+A: a. Dependency preserving implies lossless join and vice-versa.
+
+Consider a relation that doesn’t include multivalued attributes and non-key attributes in this relation dependent on the primary key. However, this relation contains transitive dependencies. What is the best normal form that R satisfies (1NF, 2NF, 3NF, or BCNF)?
+
+A: b. 2NF
+
+
+A relation is in BCNF if, and only if, every determinant is a candidate key.
+
+A: True
+

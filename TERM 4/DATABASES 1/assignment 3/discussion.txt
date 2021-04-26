@@ -1,0 +1,32 @@
+Normalization is one of the important processes while designing databases. Normalization is actually a technique for reviewing the database design and it includes a set of mathematical rules. 
+
+Answer the following questions using specific examples:
+
+Does normalization always lead to a good design? Why or why not?
+What kind of issues, problems are possible in the normalization process? 
+Your Discussion should be at least 250 words in length, but not more than 750 words. Use APA citations and references for the textbook and any other sources used.
+
+
+ANSWER:
+
+In the beginning, in my opinion the database normalization usually defines the normalization of the database which has a form of dissolution of the eliminates data which has excess and the anomalies that has a goal to make data more productive. Thus, we need to determine that, the normalization needs to be leads the perfect design which could be take some advantages or disadvantages of the database normalization. I am going to discuss both advantages and disadvantages which is going to be given below, 
+
+
+The advantages of the database normalization is given below,
+We must need to update to run the normalization as fast as possible so that we could rate otherwise, we might not get any excess or prevent the dislocation of the data which causes in the database systems. 
+There could be do over space because of the elimination of the excess in the database normalized tables. 
+If the size of the tables are the normalized by the databases that could be more generally gets smaller then it turns to make sure that the performance is going to be more fast and gets productive in the data sets. 
+The morality and the stability needs to be kept by the uses of the normalized of the database and also needs to make the ACID compliant such as consistency or isolation or maybe it could atomicity and durability.
+Because of the excess to make exact copy of the data insertions could be perform much faster. 
+
+Here now I am going to discuss about the disadvantages,
+The table of the relations needs to be joined immediately in this case, the date should not be double.
+The indexing should not be that much efficient. The reason is the table between the relations and its results could be much slower to read at a time. 
+
+
+    As a result, normalization would be make a good design the reason was it has some applications it might needs to be non-normalization and could be both effective. Sometimes it depends in the type of the application if it is necessary. The database normalization could be more important or maybe less important because the normalization and non-normalization could be more effective. For instance, if  a software company use more than o  database that could be called by the relational database applications. This is called MYSQL for ACID as well as it could write the intensive operations and NoSQL database to read the operations which might be intensive.
+
+
+Reference,
+Perucci. D, (May 29, 2017), Pros and Cons of Database Normalization, Database Zone,
+Retrieved from https://dzone.com/articles/pros-and-cons-of-database-normalization

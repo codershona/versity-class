@@ -1,0 +1,53 @@
+Which of the following is true
+
+HTML Headings
+
+A: a.
+
+
+Header information in a table are defined with the <th> tag. A <td> tag can contain text, links, images, lists, forms, but not other tables
+
+
+A: False
+
+
+
+HTML tags are not case sensitive: <P> means the same as <p>. Many web sites use uppercase HTML tags. We recommend and use lowercase tags because the World Wide Web Consortium (W3C) recommends lowercase in HTML 4, and demands lowercase tags in XHTML.
+
+A: True
+
+Which of the following is true
+
+A: b. A markup language is a set of markup tags. HTML tags are keywords surrounded by angle brackets like <html>
+
+Which of the following is true
+
+A: b. A markup language is a set of markup tags. HTML tags are keywords surrounded by angle brackets like <html>
+
+
+Which of the following is true
+
+A: b.
+
+
+Which of the following is true
+
+
+A: d.
+
+Header information in a table is defined with the <th> tag. A <td> tag can contain text, links, images, lists, forms, but not other tabl
+
+
+A: False
+
+The <tbody> tag is used to group the body content in an HTML table. The tbody element should be used in conjunction with the thead and tfoot elements
+
+
+A: True
+
+
+
+Which of the following is true
+
+A: c. HTML stands for Hyper Text Markup Language is a language for describing web pages and not a programming language
+
