@@ -1,0 +1,73 @@
+Using the relations that you have defined for the hospital software system, normalize your relations into first, second, and third normal form. First, you must describe the changes required to your relations to meet the standard of first 1NF and then 2NF and lastly 3NF. Then, you should provide an Entity Relationship diagram that is in 3NF. All attributes, entities, keys, and relationships should be included and labeled.
+
+Hint: Remember that in the hospital software system, the “Patient” relation includes “medicines” attribute and the “Appointment” relation includes “allergies” attribute. Allergies describe a list of any known allergies and medicines describe a list of medicines prescribed for a patient.
+
+Assignment Instructions:
+
+The assignment must define or describe the changes required to get the relations into the 1st normal form.
+The assignment must define or describe the changes required to get the relations into the 2nd normal form.
+The assignment should include an Entity Relationship diagram in 3rd normal form.
+The primary and foreign keys, at a minimum, are defined for each relation in the Entity Relationship diagram.
+The assignment should include an Entity Relationship diagram that details the relationships between Relations.
+Be sure to copy and paste this diagram into your assignment.
+
+
+ANSWER:
+
+In the beginning, the table has a doctor relations which is decomposed by the achieve 2NF as well as 3NF. 
+
+Specialty:
+Primary Key = Specialty_Number
+Foreign Key = Doctor_ID
+Doctors:
+Candidate Key  =  Name or, Phone or, Speciality_Number
+Primary Key = Doctor_ID
+Foreign Key = Specialty, Head_Doctor_ID
+In my second point of the view, the patients has been already in 3NF,
+
+Patients:
+Primary Key = Patient_ID
+Candidate Key = Name, Phone, Address, Date_In, Allergies
+Foreign Key = Doctor_ID
+
+
+In my third point of the view, the appointment has been in a relations decomposed by achieving the 3NF,
+
+Patient-Appointment:
+Primary Key: Appointment_ID
+Foreign Key: Patient_ID
+
+
+Appointment:
+Primary Key = Appointment_ID
+Foreign Key = Doctor_ID, Patient_ID
+Candidate Key = Doctor_ID, Patient_ID, Appointment_Date
+
+
+First (1st) normal form:
+
+Here there is some issue to work fix the atomicity problem. Atomicity means if there is a table which could not consist multiple values so that the first normal form is going to be violated. If we want to make a qualify table at first the normal form needs to be removed the repeated groups in the value thus, the table also needs to be created by the separate table for the related values as well as we need to identify the every sets of the values in the data. This could also be defines as a fundamental key. For example, in the hospital database management system there are Doctor Patient as well as Appointment which do not have any duplicates as well as we can not repeat the values including the attributes. 
+
+Second(2nd) normal form:
+In our entity diagram we can see that the second normal form needs to be qualified if the meeting requirements is set for 1NF. But if the table is set to be 2NF that means we had only 1NF which we did not needs to make a separate dependency which is not the prime attribute to depend on the candidate keys. So, in this case, if we want to sort it out this we must take a look in the break of the table which was divided into two separate parts. As a result, the doctor relationship does not had the 2NF. Here the main problem could be it has a partial dependency which has a candidate key including Doctor_ID, Name or Phone and Specility_Number.  So the specialty was a non-key attribute that is reliable in the part of those candidate key. But in the Speciality_Number it is actually define as Specialty. To sort it out this issue, we need to create a separate table in the specialty as well as Doctors. But we also can have achieved the second normal form.
+
+
+ Explanation: By decomposing between the Doctors which has a relationship with two doctors and  specialty to achieve 2NF. As a result, here there is not transitive dependencies  which is also called as 3NF.
+
+Third (3rd) Normal Form:
+ Here the 3NF basically used for the reduction of the duplicate data and make that to ensure the reference of the integrity. It can also be set as in the table for the 3NF beside this, the table needs to has 2NF that has no non-prime in the attribute. It can make a transited which depends on another non-prime attribute but sometimes it depends on other non-prime attribute also. For instance, if we depend on A with the B which is independent here the C will be the transitive that depends on C including A that is in the 3NF. But if the non prime attributes need to dependent on the prime attributes. Here, in our appointment relationship PatientID which rely on Doctor_ID during the Doctor_ID also rely on Appointment. As a result, the Patient_ID also transitively rely on Appointment but if 3NF rule was being violated so in this case if we want to achieved the 3NF we need to create a partial table Patient Appointment and then we need to analyze the entire entity relation diagram in the each relations in the Doctors, Patients as well as Appointment that is called as third normal form. 
+
+
+
+Explanation: In the appointment relationships there we has non primary attribute which is rely with each other. If we want to avoid it we need to decompose it again between the two relationship between Appointment and Patient-Appointment. 
+
+
+
+
+
+
+
+
+
+
+

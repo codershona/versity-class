@@ -1,0 +1,20 @@
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did (This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it), what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained, and finally, describe one important thing that you are thinking about in relation to the activity.
+
+What are the implementation problems of Dates and Times data types? Discuss solutions for these problems. 
+Your Learning Journal should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+
+
+ANSWER:
+
+    In the beginning, I am going to talk about what I accomplished in this week. Well, week four was not that much pressure for me to complete my work. The reason is I do need to complete the grade quiz. Besides this I had to complete my assessment as early as possible. I am very proud of my last week grade quiz because I had to take preparation and then I start giving grade quiz. I had to figure out how can I improve my learning strategy more. In this week, I had to learn the topic which was about Introduction to SQL. I had to learn the learning guide at first and did some online research. Then at first I had submitted myself quiz and complete the multiple choice. Then I had to submit my discussion assessment. Next I am working on my programming assignment, which I will submit my work on tomorrow. In my discussion post I had received very positive feedback from my peers and I had also review their work. When we receive a good feedback from our peers its actually support us to work more perfectly and honesty comments help us improve our work. I had submitted my discussion assessment yesterday. In my programming written assessment I need to works with the database of hospital software system. So, it is taking time to complete it. Moreover, We need to list the description of the allergies. In this case, the patient could be prescribed the medicine properly. Beside this, I need to describe the first, second, and third normal form.as well as make a difference between the Entity Relationship diagram. Finally, Now, I am writing my learning journal assessment where after submitting I will wait for my instructor rating and comments and also for the discussion posts as well. Overall, I did not feel any hesitate to complete my this week learning journal. Currently doing some more research in this week topic in the online. This topic was a quiet interesting. 
+
+
+
+   In my second point of the view, I had to face few problems which I think it could make an effect in my implementation. Because the Dates and Times in the data types needs to be more accurate and the performance needs to be more correctness. I am still trying to find by researching in the internet as well as it make in my mind still unquestionable. 
+
+
+

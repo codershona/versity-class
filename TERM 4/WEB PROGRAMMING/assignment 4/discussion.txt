@@ -1,0 +1,30 @@
+What does it mean that the style sheets are cascading?  What is the order of priority of CSS?  List 5 things you can do with CSS, which cannot be done easily in HTML.
+
+
+ANSWER:
+
+
+
+
+     In the beginning, as we know that CSS is used for designing user interface of a web application. CSS abbreviation is Cascading Styles Sheets. Basically we always apply this CSS to format the web application page layouts. This means we can use it this multiple was in our HTML document while we are creating or displaying any things. Besides this, we can also see that the cascading algorithm actually defines the property of the values which is originate with the various sources. This could also make a combination between the display of the HTML document in our web browser. I am going to include the HTML document how we can defines the three or more styles sheets,  
+The agent of the user style sheets are the default browser for the style sheets. We can call this as web browser style sheets. Moreover, these are different from the browser because we could able to display the similar HTML document in a different way. 
+The browser style sheets are also used for the custom styles for a user. Not only that, the modern browsers allowed us to the users to setup the style sheets into the web browsers. But if we override this web browser into default we can see that the browser style sheets will be default style sheets. 
+The author of the website always write the authors of the styles sheets. So, there were three logics to implement this CSS into any webpage which has an external style sheets. But there is also internal stylesheet as well as including inline styles. In this case, the author of the style sheets would be override by the web browser. Moreover it can be also override in the user style sheets as well.. 
+
+  In my second point of the view, I am going to discuss the order of priority of CSS which is given below, 
+In the CSS property the !important values is used after the property that was taken by the precedence. SO, other CSS rules also needs to be set by the similar CSS property which was the accurate of the CSS selector. 
+There are a lot of CSS selector which we could specify by the higher of the precedence. Basically, the selector is specify by its measured of uses in the four individual values which has a higher values that needs to be precedence in the over lower values.
+The inline style also shows the most higher specificity but it could be overwritten by the embedded styles that could be again overwritten by the external styles. 
+There are also an ID selector which had a hundreds for each ID. 
+Inside in the selector there are ten selector for each of the class selector including attribute selector as well as pseudo-class selector. But each element of those selector has it inside the selector in pseudo-element.
+If we could declare the sources in order to the cascade matters we can see that the last rules had a declaration that is actually highest priority in the sequence. 
+
+
+  In my third point of the view, I am going to list five things which I could  use  with CSS, which cannot be done easily in the HTML that is given below,
+
+We can avoid the duplication when we have many different pages in our webpages or websites. We can use the external CSS style sheets which we do not need to duplicate the writing of the each HTML documents. But we can use the easy links into the external CSS style sheets as well as to appearance the good webpages.
+We can make our web pages maintenance much easier if we do not use CSS we need to work more in the HTML documents to change our website styles formats. So, if we create any external CSS sheets we could easily make a change the appearance of the website. Such as, if a apple company websites rebrand and change its main color theme it could also secondary or accent colors in their websites they can do it easy in one place.
+By using the CSS in our websites we can make a difference between the styles of those similar HTML document, for instance, it could be desktop and mobile layout and appearance. 
+The CSS makes our websites to navigate much easier to layout and make a good position into our webpages by using the elements in the page. Such as it could CSS grid layout or position box. 
+We can also duplicate our CSS style in the sheets in various ways to project by changing a little bit into the property . Such as, we can change its colors , fonts of the text and the logo of the webpage layouts. 
+

@@ -1,0 +1,29 @@
+What is a Content Management System (CMS)? Describe its characteristics, technology used, features, benefits, and be sure to list several important Content Management Systems.
+
+answer:
+
+  In the beginning, A content management system is a kind of tool which allows any users to manage content where it has the information that basically produced via iterative editing system. But it could also be used by the users within publication. Thus, content management system give permit to its users so that they can create a new content by editing the existing content as well as after the series of iterations. This can be also edit by existing verification by the CMS so that its users can able to consume in their indeed. Generally, there are some types of CMS which needs to be defined by the Web content management systems. 
+The web content management system has a content management system which has a big audiences via websites. 
+The enterprise management system has a general business content management process which has a specific users. 
+Moreover, the digital asset management has a system that allows for the images, audios as well as videos. 
+The records management has a content management system which basically used for the products for the business operation system purposes for example, it could be any kind of business contracts or sale records database. 
+
+
+Here now I am going to discuss about the Characteristics & Features of CMS which has four main features that are given below,
+The content modeling is one of the primary features which has a structures of the content as well as the storage of content. 
+The content aggregation has the logical organization by the content of those groups as well as it could have a linkage with additional content as well. 
+The editorial workflow or the usability is another important features which is basically for creation, editing and management of these content in addition that sets the limits of constraints. 
+By publishing or managing the output in the content has a various publications in the different forms.  
+
+Here now I am going to discuss about Technology Stack of CMS which is given below, 
+Programming Languages Framework
+Programming Language
+Operating system(Linux, windows, or mac operating system)
+Database and Web Server
+Content Management System (CMS)
+Now I am going to discuss about the benefits of CMS, which are given below,
+The non-technical people would able to edit or add any content easily by using CMS.
+There are multiple users which has used for the content management system because it has a level of the functionality if it is needed. 
+Basically if any one use the CMS they do not need to hire any developer to manage content because CMS has its own user control. For example, WordPress or PHP has a content management system
+BY using the CMS we can easily uploaded our media files which takes only few time to uploaded.
+The CMS also gives the centralized to process which has all users. 
