@@ -1,0 +1,43 @@
+Your Learning Journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did (This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it), what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained, and finally, describe one important thing that you are thinking about in relation to the activity.
+
+Create two different “Views” using below relations, then Alter one of the Views and Drop the other one.  After that discuss why Views are used by giving examples using relations from the tables below.
+Student Relation
+
+Student_ID	Student_Name	Dept_Name
+0000	AAAAA	Computer Science
+1111	BBBBB
+Computer Science
+2222	CCCCC	Business Administration
+3333	DDDDD	Education
+4444	EEEEE	Physics
+5555	FFFFF	History
+Student_Courses Relation
+
+Student_ID	Course_ID	Section	 Year	Grade
+0000	CS 2203	2	2020	A
+0000	CS 1101	1	2019	A
+1111	CS 1101	5	2019	B
+1111	CS 1102	1	2019	B
+1111	CS 2204	1	2020	A
+1111	CS 2401	1	2020	A
+2222	BUS 1101	3	2019	C
+2222	BUS 2201	1	2020	B
+2222	BUS 3302	1	2020	B
+3333	EDUC 5010	1	 2019	A
+3333	EDUC 5210	1	 2020	B
+4444	PHY 1101	4	 2019	A
+4444	PHY 2202	1	 2020	C
+4444	PHY 3304	1	 2020	A
+
+
+
+
+ANSWER:
+
+
+
+
+
+

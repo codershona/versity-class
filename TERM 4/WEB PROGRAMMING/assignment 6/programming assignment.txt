@@ -1,0 +1,138 @@
+
+Exercise 1:
+
+Write an XML document describing the exercises in this document: the root element is <exercises>. The root has an attribute number that has value 1. The root element has three child elements; <date> that contains as text the date of the exercise, and two <item> elements for the first two exercises (1--2). Write some text in the <item> elements.
+
+Exercise 2:
+
+Write an XML document describing a person: name, occupation, address and hobbies. Please do not use your own information, you can use fake data.  Decide on suitable element names and nesting. Check your document for well-formedness.
+
+
+Exercise 3:
+
+Draw a tree that represents the XML document you created in task 2.
+
+
+
+Exercise 4:
+
+This is the books.xml file
+
+<?xml version='1.0'?>
+<!-- This file represents a fragment of a book store inventory database -->
+<bookstore>
+
+<book genre="autobiography" publicationdate="1981" ISBN="1-861003-11-0">
+<title>The Autobiography of Benjamin Franklin</title>
+<author>
+<first-name>Benjamin</first-name>
+<last-name>Franklin</last-name>
+</author>
+<price>8.99</price>
+</book>
+<book genre="novel" publicationdate="1967" ISBN="0-201-63361-2">
+<title>The Confidence Man</title>
+<author>
+<first-name>Herman</first-name>
+<last-name>Melville</last-name>
+</author>
+<price>11.99</price>
+</book>
+<book genre="philosophy" publicationdate="1991" ISBN="1-861001-57-6">
+<title>The Gorgias</title>
+<author>
+<name>Plato</name>
+</author>
+<price>9.99</price>
+</book>
+</bookstore>
+
+Using books.xml as a model, create a small xml file for a student's program of study form called programOfStudy.xml. It should capture the following data:
+
+In the Fall 2008 semester the student plans to take two classes to satisfy her General Education requirements, PHIL 101 to satisfy Goal 8 and ECON 201 to satisfy Goal 11. She also has to take one core course, MGT 217, and two major courses, CIS 120 and CIS 403.
+In the Spring 2009 semester she plans to take two additional core courses, MGT 261 and MKTG 325, as well as three major courses, CIS 220, CIS 407, and CIS 490.
+
+
+
+
+ANSWER: 
+In the beginning, I am going to discuss the exercise 1 according to the question, 
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>  
+<exercise> 
+       <date>16-05-2021</date> 
+       <item1>Here I am discuss about reading the about of XML</item1>  
+       <item2>Now I am practicing the XML</item2>  
+<item3>This is item number three XML</item3>
+  </exercise>
+<exercise id="exercise_two">
+<date>15-05-2021</date>
+<item1>Reading the about of XML</item1>
+<item2>Practicing the XML</item2>
+<item3>This is item number three XML</item3>
+</exercise>
+
+In my second point of the view, I am going to discuss the exercise 2 which is given below, 
+<?xml version="1.0" encoding="UTF-8"?> 
+<person> 
+  <name> 
+    <firstname>Dianna</firstname> 
+    <lastname>Gomes</lastname> 
+  </name> 
+<occupation>Web Programmer</occupation> 
+  <address> 
+    <street1>2050 Downing Town Street</street1> 
+    <street2>Norsborg</street2> 
+    <suburb>Botkyra</suburb> 
+    <city>Stockholm</city> 
+    <province>Sweden</province> 
+    <postalcode>133333</postalcode> 
+    <country>Sweden</country> 
+  </address> 
+<hobbies> 
+  <hobby>Travelling</hobby> 
+  <hobby>Learning new things</hobby> 
+  <hobby>Coding</hobby> 
+<hobby>Cooking</hobby>
+</hobbies> 
+</person> 
+
+
+In my third point of view, I am going to draw a tree that represents the XML document you created in task 2,
+
+
+
+
+
+
+In my forth point of the view, here I am attaching the code in programOfStudy.xml but still i am writing the demo code as pre-format style for my peer can easily view it. 
+
+<?xml version="1.0" encoding="UTF-8"?> 
+         <!-- here I had outline the program of study of a student --> 
+  <programofstudy> 
+    <program year="2008" semester="FALL"> 
+      <class> 
+        <course1> Web programming 1 <coursecode>(PHIL 101)</coursecode></course1> 
+        <goal> 8 </goal> 
+        <course2>Database 1 <coursecode> ECON 201 </coursecode></course2> 
+        <goal> 11 </goal> 
+      </class> 
+  <core> MGT 217 </core> 
+  <major> 
+    <course1>Operating Systems 1 <coursecode> CIS 120 </coursecode></course1> 
+    <course2> Computer Systems 1 <coursecode> CIS 403 </coursecode></course2> 
+  </major> 
+  </program> 
+ <program year="2008" semester="SPRING"> 
+   <core1> Programming 1 <coursecode> MGT 261 </coursecode></core1> 
+   <core2> Programming 2 <coursecode> MKTG 325 </coursecode></core2>
+<major>
+       <course1> Software Engineering 1 <coursecode> CIS 220 </coursecode></course1> 
+       <course2> College Algebra <coursecode> CIS 407 </coursecode> </course2> 
+       <course3> Introduction to Statistics <coursecode> CIS 490 </coursecode></course3> 
+   </major> 
+</program> 
+</programofstudy>
+
+
+NOTE : Besides this check my file attachment also. Please I request my peer do not grade randomly without checking my attachment file. I had attched the programOfStudy.xml file in my attachment. 

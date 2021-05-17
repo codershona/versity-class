@@ -1,0 +1,20 @@
+What is AJAX? What are the main characteristics of this technology? What are the existing standards that AJAX is based on? Explain how AJAX works.
+
+
+ANSWER: 
+
+In the beginning, I am going to give the definition of the Ajax. AJAX full abbreviation is Asynchronous JavaScript and XML. This is actually a latest approach to setup well, faster and has very good engagement with the web application by assisting with XML, HTML, CSS as well as JavaScript. 
+
+
+
+In the second point of the view, the characteristics of the AJAX. It could allows the recent updated of the web application pages except reloading the web pages. The Ajax  helps users to allow the application continuation where the usage of the program which could requests for the data information of the server on the background.  In the AJAX if any user does not allow to click any button for each event it could happens to move the mouse. This has a limited starting process. If we use the XHTML in any content to style with CSS to present the content as well as JavaScript in the content to display in the web browser. 
+
+
+
+In the third point of the view, the standards of the AJAX is used by the HTML as well as CSS to offer the web browser based presentations which allows data to keep stored of the XML format. Besides this, the data has fetch by the server. If the data fetch by uses of the XMLHTTPREQUESTS it also needs the objects in the web browser. It is also used in JavaScript to make every things work perfectly. 
+
+In the forth point of the view, the working process of the AJAX in the web browser sometime it occurs in an event. SO XMLHTTPRequest has an object which is made by the server and next it could sent by the internet. The web server has a system where the HTTPRequest needs to made by the responses as well as it send to data in the browser back to by internet. As a result, the web browser has a system to return the data via the server by using JavaScript as well as to update the page contents.
+
+
+
+

@@ -1,0 +1,54 @@
+True or False: XML stands for EXtensible Markup Language.
+
+A: True
+
+True or False: XML was designed to carry data, and to display data.
+
+A: True
+
+True or False: XML tags are not predefined. You must define your own tags.
+
+A:  True
+
+True or False: XML is designed to be self-descriptive.
+
+A: True
+
+True or False: XML was designed to transport and store data, with focus on what data is. HTML was designed to display data, with focus on how data looks.
+
+A: True
+
+
+True or False: XML is a Replacement for HTML.
+
+
+A: False
+
+
+
+True or False: XML is now as important for the Web as HTML was to the foundation of the Web.
+
+A: true
+
+
+True or False: XML is not a W3C Recommendation.
+A: False
+
+
+True or False: XML is the most common tool for data transmissions between all sorts of applications.
+
+
+A: True
+
+
+True or False: XML Tags are not Case Sensitive.
+
+A: 
+
+
+
+
+
+
+
+
