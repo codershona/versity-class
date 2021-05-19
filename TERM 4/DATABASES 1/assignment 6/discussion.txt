@@ -33,6 +33,56 @@ Considering Student and Student_Courses relations shown above, discuss when Unio
 ANSWER:
 
 
+In the beginning, I am going to discuss about the union clause. In my words it actually defines togetherness. SO, when try to put it together within two or more outputs as well as to represents anyone we use the UNION Clause to make it usable and select the statements which shows the two different tables. Such as, if a student has a course relations with any single output which shows together two attributes as well as more from the two tables as well as helps to represents it. 
+
+SELECT * STUDENT NAME, DEPT NAME * FROM * STUDENT RELATION * WHERE * DEPT NAME = ‘Computer Science’
+UNION * SELECT * COURSE ID * FROM * STUDENT COURSE RELATION.
+As a result, the output is going to be set in the union including the Student_Name in the Computer Science university department. The student relations as well as the Course_ID has a student course relationships where we can noted that it has only one output with each set of the union. Such as, if any student_ID has both student relationships and the student_course_relation has inner join. 
+
+ In my second point f the view, the inner join uses in both table so that it can returns the matches in elements. So, in this case it could only uses this clauses to observe the appearance which matches in those tables. So, this clause define that the tables will matches the given elements. The syntax is,
+SELECT * column_name(s) * FROM * table1
+INNER JOIN * table2 * ON * table1.column_name = table2.column_name
+Finally, if we want to match the student IDs we need check from the student relation versus the student course relation, our
+implementation which is given below,
+SELECT 
+Student ID, Student ID
+FROM 
+Student Relation
+INNER JOIN 
+Student Course relation 
+ON 
+Student Relation.Student ID = Student Course Relation
+
+In my third point of the view, the left outer join, if the clause returns into all elements which is left in table as well as it was also has the elements which is right to match in the left. If we want to uses this clause it will been seen as the elements has the left which includes the matches ones on the right. Besides this, it could gives us all the left and matches in the right. The syntax would be this which is given below,
+SELECT * column_name(s) * FROM * table1 * LEFT JOIN  * table2 
+ON * table1.column_name = table2.column_name
+
+SELECT Student Relation * Student ID, Student Course Relation * Student ID
+FROM Student Relation * LEFT JOIN 
+Student Course Relation * ON Student Relation.
+Student ID = Student Course Relation * Student ID; 
+Right Outer Join
+The syntax is given below, 
+SELECT * column_name(s) * FROM 
+table1 * RIGHT JOIN * table2 * ON 
+table1.column_name = table2.column_name;
+
+SELECT Student Relation * Student ID, Student Course Relation * Student ID
+FROM Student Relation * RIGHT JOIN 
+Student Course Relation * ON Student Relation.
+Student ID = Student Course Relation * Student ID; 
+Full Outer Join:
+The syntax for this clause is given below, 
+SELECT * column_name(s) * FROM 
+table1 * FULL OUTER JOIN  * table2 * ON 
+table1.column_name = table2.column_name * WHERE * condition; 
+An example is given below, 
+SELECT Student_Relation * Student ID, Student_Course_Relation * Student_ID
+FROM Student_Relation  * FULL OUTER JOIN 
+Student_Course_Relation  * ON_Student_Relation.
+Student_ID = Student_Course_Relation * Student_ID
+
+
 
 
 

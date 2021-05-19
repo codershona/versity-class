@@ -37,7 +37,81 @@ Student_ID	Course_ID	Section	 Year	Grade
 ANSWER:
 
 
+ANSWER 1: 
 
+    In the beginning, I am going to discuss about the topics I had work assessment in this week. Well, it was sixth week for me and I had study the select statement, SQL join, nested select, subquery, unions, data integrity, data validity, entity integrity, referential integrity as well as create view statement. So in this case, when I had finished my reading assessment, I had try to learned how could I able to discuss the facts of the syntaxes of the SQL select statement, or by creating the databases of the queries which we want to use to select the SQL statement. I had use the SQL joins to create any complex forms. That could be nested selects, sub queries, unions. Not only this we can also nested that how can we create the databases views. I had also submit my discussion posts in the discussion forums and complete this week grade quiz and self quizzes. I had also graded my last week  peer assessment. The course materials also very helpful for me and it helped me to able to understand the working process of the new statements as well as to become familiar with the interface of the applications. 
+
+
+
+ANSWER 2: View #1 CS
+
+CREATE View CS-AS (
+  SELECT 
+students. student_ID, students.student_name, 
+student_Courses. Course_ID
+   FROM 
+students
+  LEFT JOIN 
+    student_courses
+  ON
+   students.Student_ID = student_courses.student_ID
+  WHERE 
+department_name = 'CS');
+
+Basically, if we view to show all of the students we can enrolled into CS course. 
+
+STUDENT_ID             STUDENT_NAME               COURSE_ID
+0000                     AMIR                      CS 2203
+0000                     AMJAD                     CS 1101
+1111                     HASSAN                    CS 1101
+1111                     HOSSAN                    CS 1102
+1111                     NILOY                     CS 2204
+1111                     NIRAB                     CS 2401
+
+
+We can also dropped this view including,  DROP VIEW CS;
+
+View #2 CS
+
+CREATE view A_Students AS (
+  SELECT 
+students. student_ID, students.student_name, 
+student_courses. course_ID, student_courses. grade
+   FROM 
+students
+  LEFT JOIN 
+    student_courses 
+  ON
+   students.student_ID = student_courses.student_ID
+  WHERE 
+department_name = 'A_Students'
+);
+Basically, this views shows all the students which has been enrolled into courses as well as  had A
+grades.
+
+
+STUDENT_NAME              GRADE
+AMIR                      A
+AMJAD                     A
+HASSAN                    A
+HOSSAN                    A
+NILOY                     A
+NIRAB                     A
+
+Here, I tried my best to alter this view including,
+ALTER view A_Student 
+SELECT Student_name, Grade
+WHERE Student_ID = '0000';
+But it does not work so I could used to Insert - Query (Design View). Next I could able to edit to create the query in SQL view as well as it shows me this result, 
+
+SELECT "Student_name", "Grade" FROM “A_Students"
+
+
+
+If I viewed I could see that it has a subset of the data which contain in a table for example, it was similar like in CS tables.
+If I views I could see the joining as well as the simplify of the multiple tables in the table which has single virtual in a A_Students tables.
+If I viewed the acts of aggregated in the tables in the databases the engines has aggregates into data which has sum or average so on. But it also presents the calculations of those results in the part of the data. 
+If we viewed that it could hide any complex data such as we can view the appearance of the CS but we also require to check the data from the main table.
 
 
 
