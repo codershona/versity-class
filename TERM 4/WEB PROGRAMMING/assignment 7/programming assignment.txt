@@ -1,0 +1,9 @@
+Complete the 4 sections of the Control Structures - Loops and Conditional Statements on the PHP exercises page: https://www.phpexercises.com/php-exercises-control-structures.html
+
+Once you complete the exercises, write an original code using one of the control structure statements and submit it as your programming assignment.
+
+
+ANSWER: 
+
+
+
