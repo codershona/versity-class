@@ -1,0 +1,59 @@
+Transaction is an action or series of actions the execution of which should lead to a consistent database state from another consistent database state. Discuss which properties that transactions should have for their correct executions. Provide two examples to support your answer.
+
+
+ANSWER:
+
+In the beginning, the properties of transactions which has a unit to done the work which was totally opposite of the database as well as it can also work the transaction process in the units to executed in the logical orders by using each database in program by there users. Besides this, it can also bring success of the execution in the transaction system. The Acronym ACID is basically used for the standard properties in the transaction system. 
+
+ATOMICITY: 
+Here if the state has some issues in this case to work in all units it is responsible and it could also cancel the transaction process and rolled back in that point which will gives fails result in the previous state. 
+
+CONSISTENCY:
+Here if the property has any ensures that in the database it could make any changes in the state which will needs to be committed by the each transaction process completely. 
+
+Isolation:
+Here if the property permits the transactions where there is no bound it could easily operate its each transparently.  
+Durability:
+Here if the property has any confirmation that there is a effect where its has persistence. As a result, the committed transaction could failed is whole system. 
+
+So, if the entire process shows a completion that the implementation needs to a transaction where we could use it in our control commands. TCL's also needs to be used by the DML commands as well as DDL would perform automatically in the committed databases. This commands would also include with COMMIT, SET TRANSACTION, SAVEPOINT, as well as ROLLBACK.
+As a result the commit command needs to be used to changes the saving database permanently and POLLBACK also needs to be used for to undo the previous changes which was already saved in the databases. SET TRANCTION also needs to be used for initiate the database process and SAVEPOINT command will require for ROLLBACK in some specific points in the transaction systems. 
+Examples:
+The following example would implement all four transactional commands that is given below,
++----+-------+-----+----------+--------+
+| ID |  NAME | AGE |  COUNTRY | SALARY RANGE|
++----+-------+-----+----------+-------------+
+|  1 |  SIMA | 42 | AMERICA   | SALARY |
+|  2 |  DIVYA| 33 |  PASADENA | SALARY |
+|  3 | KANNYA| 55 |NEW ZEALAND| SALARY |
+|  4 | KAVIYA| 24 |  BOSTON   | SALARY |
+|  5 | DHRUV | 44 |  EUROPE   | SALARY |
+|  6 |  SANYA| 13 |  CANADA   | SALARY |
+|  7 |  JOYA | 55 |  AUSTRIA  | SALARY |
++----+-------+-----+----------+--------------+
+Using COMMIT to Delete Records with A Salary Of 4000.00.
+The result will be a table without any records with a salary of 4000.00
+DELETE FROM CUSTOMERS
+WHERE SALARY = 4000.00;
+COMMIT;
+
+By using ROLLBACK command we can also undo those records in the A Salary Of 4000.00.
+
+The output would be in a table like the one above because when we try to use this method in the
+delete command, it could again roll back to undo the delete, finally the table would not cause any kind of affected.
+For this, we can also create save point (s)
+SAVEPOINT SP_1;
+// You can now save point which has been created
+DELETE FROM CLIENTS
+WHERE AGE = 30;
+ROLLBACK TO SP;
+//This rollback which has been completed.
+
+Now you can delete the SAVEPOINT by using this command,
+RELEASE SAVEPOINT SP1;
+But to SET TRANSACTION to initiate a transaction, we can also use this in the command to specify more about the transaction whether it could be read-only, write-only, or both. Here if the following command s which we use it for to initiate a transaction.
+SET TRANSACTION [ READ WRITE | READ ONLY ];
+
+
+
+
