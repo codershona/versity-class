@@ -1,0 +1,17 @@
+Your Learning Journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did (This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it), what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained, and finally, describe one important thing that you are thinking about in relation to the activity.
+
+List two main approaches to database programming and discuss the advantages and disadvantages of each approach? 
+Your Learning Journal should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+ANSWER:
+
+In the beginning, I am going to discuss about what I had accomplished this week. At first I had submitted my self quiz at first where I had attempt this quiz to be prepared for my final exam which is coming very soon. As this was my seventh week running, I had a lot work to do. Then I had submitted my discussion posts in the forum where I had discuss there about the transactions process as well as there properties and describe how to use DML commands as well as TCL commands as well as I also needs to explain two examples by using a table also.  After that, I had moved to complete my this week programming assessment. Finally, This week programming assessment was quite hard for me but I had manage to complete it. While working on this assessment I had learn the system of the final model of the hospital DBMS and it was a quite challenging for me to complete. Here I had also prepare the database and attached those screenshots in to MS word document and upload it so that my peer can review it easily. I had learn a lot of things from this week assessment. By researching some learning resources from online I could solve my problem and complete my assessment. As I am a self learner by facing any kind of challenging assessment makes me more confident and improve my soft skills also for example I can think critical in any critical situations. 
+
+
+In my second point of the view, in the databases of the programming language we can compare that if there is three approaches using embedded approaches also we can have some advantages by using databases in the programming language which has some data types by making a comparison with the three approaches. Beside this, there is also some disadvantages if some programmers needs to important to learn any kind of new programming language it could also compare with three approaches. So, the embedded approach needs to have some benefits in the query text which could be checked by the syntax errors as well as it also needs to be validated the reason will be it will be the part of the program source codes. It can also had a run time in the query that never has a stability. As a result, If the query is not flexible we can go through again by following the recompilation process. 
+
+
+
