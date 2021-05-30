@@ -2,5 +2,16 @@ What is Responsive Design and why is mobile web an important element of web desi
 
 ANSWER:
 
+In the beginning, the responsive web design is basically used to develop and design a website which is mobile-friendly and the responds of the its behavior and environment should user friendly. Such as, it could be the screen size or orientation of the user interface. The user can navigate flexibly the layouts and grids and any user can easily switches from laptop to mobile devices or tablets. The website will be automatically switch in any image size as well as resolution between the web or desktop device or mobile devices. The website can also responds the users choice-wise and eliminate the requires of various UI designs by supporting in all kind of the devices which are currently available in the todays market. A wider display can able to allow any users to view the browser easily in any site. We had easily navigate into any browser sites by using multiple columns if a smaller screen could had the similar contents. It actually would show any single columns by using right sized columns as well as links. The mobile devices are day by day becoming more popular because one of the biggest part of users experience could be found in the web. By having a responsive website it would be more important which we ever had. 
+
+
+In the second point of the view, by using a mobile responsive web designs for our user interface we had ability to offer our consumers to optimize easily the business experience as there choice wise in the device. That means we also could able to expand our reaches more in our business services that could able to increase the chances of engaging. Now I am going to discuss about the mobile web an importance in the element of web design which is given below,
+
+The responsive websites helps to work well by a crossing many user within existing devices on our todays market.  
+We can easily optimize any sites if the user end so that customers can easily navigate into business sites and they do not face any technical problems while using business sites.
+The mobile responsive takes some time to develop its user interface design because the it could be easily managed by anyone while using the sites and easily could be upgraded and supportive and save times and money. 
+My maintaining SEO for individual web desktops and mobile sites it would be very hard for user. In this case to produce good results the Google web browser has highly recommended for the user as a responsive approaches and the users can focus the result quickly.  
+
+
 
 

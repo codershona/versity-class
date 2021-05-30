@@ -1,0 +1,111 @@
+tblProducts Table
+
+ ProductID 	 SupplierID 	 CategoryID 	 ProductName 
+1	1	1	Chai
+2	1	1	Chang
+3	1	2	Aniseed Syrup
+4	2	2	Chef Anto's Cajun 
+Using the tblProducts Table shown above, which of the following SQL statements returns just the ProductID, CategoryID and  ProductName of all the products whose ProductID is NOT 2?
+
+A:  c. Select ProductID, CategoryID, ProductName from tblProducts Where ProductID <>2;
+
+
+
+tblProducts Table
+
+ ProductID 	 SupplierID 	 CategoryID 	 ProductName 
+1	1	1	Chai
+2	1	1	Chang
+3	1	2	Aniseed Syrup
+4	2	2	Chef Anto's Cajun 
+Using the tblProducts Table shown above, which of the columns in the above table is more appropriate for being a “Primary Key”?
+
+
+ 
+A:  a. ProductID
+
+
+
+
+tblProducts Table
+
+ ProductID 	 SupplierID 	 CategoryID 	 ProductName 
+1	1	1	Chai
+2	1	1	Chang
+3	1	2	Aniseed Syrup
+4	2	2	Chef Anto's Cajun 
+Using the tblProducts Table shown above, which of the following SQL statements returns ProductID and ProductName columns?
+
+
+
+A: d. Select ProductID,  ProductName from tblProducts;
+
+
+
+
+Implementation in the Waterfall model means the construction of a computer system according to a given implementation document.
+
+
+A: False
+
+
+
+For a given conceptual data model, it is not necessary that all the user requirements it represents be satisfied by a single database.
+
+
+A: True
+
+
+CREATE TABLE tblOrderDetails (
+		OrderID       int NULL,
+		ProductID    int NULL,
+		UnitPrice     float NOT NULL,
+		Quantity      smallint NOT NULL,
+		Discount      real NOT NULL
+);
+
+Which of the following SQL statements gives an error while defining Primary Key for the above table?
+
+
+
+A: b. CREATE TABLE tblOrderDetails (
+		OrderID       int NULL,
+		ProductID    int NULL,
+		UnitPrice     float NOT NULL,
+		Quantity      smallint NOT NULL,
+		Discount      real NOT NULL,
+CONSTRAINT Primary Key (ProductID)
+);
+
+
+
+tblProducts Table
+
+ ProductID 	 SupplierID 	 CategoryID 	 ProductName 
+1	1	1	Chai
+2	1	1	Chang
+3	1	2	Aniseed Syrup
+4	2	2	Chef Anto's Cajun 
+Using the tblProducts Table shown above, which of the following SQL statements returns the total number of products that come from SupplierID=1 in the tblProducts table?
+
+
+
+A: c. Select  Count(*) from tblProducts Where SupplierID=1;
+
+
+tblProducts Table
+
+ ProductID 	 SupplierID 	 CategoryID 	 ProductName 
+1	1	1	Chai
+2	1	1	Chang
+3	1	2	Aniseed Syrup
+4	2	2	Chef Anto's Cajun 
+Using the tblProducts Table shown above, which of the following SQL statements returns just the ProductID and ProductName of all the products of which the ProductName includes the string “Cha”?
+
+
+A: c. Select ProductID, ProductName from tblProducts Where ProductName like '%Cha%';
+
+
+
+
+
