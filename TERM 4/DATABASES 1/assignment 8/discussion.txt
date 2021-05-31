@@ -3,4 +3,27 @@ Assume that you are testing the Orders database introduced in Watt (2014) - Appe
 
 ANSWER:
 
+In the beginning, I am going to discuss about the problems which arises in the DBMS. 
+
+Referential Integrity Constraint:
+ At first we are going to discuss about the issue in the referential integrity between the two table tblOrders as well as tblShippers. The tblOrders table has a foreign keys that actually shows references of the Customer_ID via tblShippers. The reason was is had shows some dissimilar in the attribute that directly has no reference in the naming of the Customer_ID. The referential integrity constraint has a foreign keys which identify the primary key orderly to compliant. The foreign key can had given a name to Customer_ID directly to refer the Customer_ID as well as it could also be eliminate the confusion also. But the cycle in the database also had revised by each time rather than using this command called Foreign Key which refers tblShippers.
+
+Foreign Key (Customer_ID) References tblShippers;
+
+Default Key Constraint :
+Here is the second problem we can able to see that, if a default has constraint that has been placed one of the country in 
+The second problem I noticed was that, a default constraint was placed one the country it maybe Canada attribute in tblCustomers. As a result, it has no reference that was default to be placed. The right code will be similar like this,
+
+Constraint dfc_country DEFAULT ‘Canada’ FOR Country; 
+Alternatively,
+Constraint dfc_country DEFAULT ‘Canada’, 
+
+
+ The < Operator :
+Primary Key (Shippers_ID), < 
+    CONSTRAINT uc_CompanyName UNIQUE (Company_Name) 
+Here the constraint for the Company_Name needs to be set it by the UNIQUE in the tblShippers but here we can also see that the less operator in the code can had each type as well as we can corrected it by removing those operators. 
+
+Primary Key (Shippers_ID), 
+    CONSTRAINT uc_CompanyName UNIQUE (Company_Name)
 
