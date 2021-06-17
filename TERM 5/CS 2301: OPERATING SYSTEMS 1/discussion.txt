@@ -1,0 +1,13 @@
+In Unit 1, we are introduced to the concepts of operating systems and the basic organization of the textbook.
+
+For your Discussion Assignment:
+
+Using one of the referenced website articles discuss how operating systems use a general technique called virtualization and virtual machines. The operating system takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general, powerful, and easy-to-use virtual form of itself called a virtual machine (VM).
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts.
+
+
+ANSWER:
+
+
+

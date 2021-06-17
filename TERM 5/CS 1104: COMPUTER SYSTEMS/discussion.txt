@@ -1,0 +1,12 @@
+For your discussion question response, please provide a response to each of the following questions.  Make sure that you include the question followed by your answer to the question in your posting.
+
+Why do Boolean functions play a central role in hardware architectures?
+Describe Composite Gates.
+Describe Multiplexors and Demultiplexors? What is the importance of the use of the selection bit and the data bits?
+
+
+
+ANSWER:
+
+
+
