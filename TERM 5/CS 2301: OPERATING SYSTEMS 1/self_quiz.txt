@@ -1,1 +1,49 @@
 // self quiz
+True or False:  We do not need hardware and software to be able to store data persistently
+
+A:  False
+
+Why did Linus Torvalds borrow UNIX concept,  but not the code?
+
+A: d. Legal reasons
+
+True or False:  When a program runs, the primary goal is to make the system easy to use.
+
+
+A: True
+
+
+Memory is just an array of bytes; to read memory, one must specify _______ to be able to
+access the data stored there.
+
+A:  b. Address
+
+True or False: As a concept, virtual machines can exist outside and inside the operating system.
+
+A: False
+
+To write (or update) memory, one must also specify ______ to be written to the given address?
+
+
+A: c. The data
+
+What other name is an OS sometimes called:
+
+ 
+A:  a. Resource manager
+
+
+A running program does the following:
+
+A: b. Executes instructions
+
+
+Each process accesses its own private:
+
+A:  c. Virtual address space
+
+True or False: Programs are always accessing memory.
+
+A: True
+
+
