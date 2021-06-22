@@ -1,0 +1,190 @@
+// University Syllabus
+
+CS 1104 Computer Systems - AY2021-T5
+Syllabus
+
+Prerequisites:  CS 1103 Programming 2
+
+
+Course Description:
+
+This course is an introduction to computer systems. In this course, we will begin by exploring the internal design and functionality of the most basic computer components. From there, we will use an online hardware simulator to actually “build” a computer and develop an assembler from the ground using concepts we will learn in the class. In the process, we will cover the ideas and techniques used in the design of modern computer hardware and discuss major trade-offs involved in system design as well as future trends in computer architecture and how those trends might affect tomorrow’s computers.
+
+
+Required Textbook and Materials:
+
+UoPeople courses use open educational resources (OER) and other materials specifically donated to the University with free permissions for educational use. Therefore, students are not required to purchase any textbooks or sign up for any websites that have a cost associated with them. The main required textbooks for this course are listed below and can be readily accessed using the provided links. There may be additional required/recommended readings, supplemental materials, or other resources and websites necessary for lessons; these will be provided for you in the course's General Information and Forums area, and throughout the term via the weekly course Unit areas and the Learning Guides.
+
+Tarnoff, D. (2007). Computer organization and design fundamentals. http://faculty.etsu.edu/tarnoff/138292/. Text used with permission of the author. 
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+
+For each unit, the relevant chapters of the textbook will be accessible from the unit Learning Guide and from the unit section of the course homepage.
+
+Software Requirements/Installation
+
+This course will require the use of two software packages.  Both require that your computer have a Java v1.5 JRE (Java Run Time) installed.  They are available from the following:
+
+Logism: Logism is an educational tool for designing and simulating digital logic circuits. It is available from: Burch, C. (2005). Getting Logism. Logism. http://www.cburch.com/logisim/download.html
+
+TECS Software Suite:  The TECS Software suite is the companion software to the Nisan and Schocken text "The Elements of Computing Systems" it is available from: Schocken, S., & Nisan, N. (2017). Software. From Nand to Tetris. http://www.nand2tetris.org/software.php
+
+Learning Objectives and Outcomes:
+
+By the end of this course students will be able to:
+
+Understand principles of digital circuits and logic
+Explain boolean algebra
+Identify logic gains combinatorially and sequentially
+Describe basic principles of memory and the ALU within a computer system
+Recognize the relationship between machine language and the functioning of a computer system
+Examine basic assembler coding technique
+Understand software hierarchy
+Course Schedule and Topics:
+
+This course will cover the following topics in eight learning sessions, with one Unit per week. The Final Exam will take place during Week/Unit 9 (UoPeople time).
+
+Week 1 Unit 1- Boolean Logic
+Week 2 Unit 2-Binary Arithmetic
+Week 3 Unit 3- Combinational Logic and the ALU 
+Week 4 Unit 4- Sequential Logic
+Week 5 Unit 5- Computer Architecture 
+Week 6 Unit 6- Machine Language
+Week 7 Unit 7- Assembler I
+Week 8 Unit 8- Assembler II
+Week 9 Unit 9- Course Review and Final Exam
+
+
+Learning Guide:
+
+The following is an outline of how this course will be conducted, with suggested best practices for students.
+
+Unit 1: Boolean Logic
+
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the Discussion Forum (Post, Comment and Rate)
+Make entries to the Learning Journal
+Complete Exercise
+Watch Optional Video Lectures
+Take the Self- Quiz
+Unit 2: Binary Arithmetic
+
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Watch Optional Video Lectures
+Complete and submit Unit 2 Assignment
+Make entries to the Learning Journal
+Take the Self- Quiz
+Unit 3: Combination Logic and the ALU
+
+Peer-Assess Unit 2 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Watch Optional Video Lectures
+Complete and submit Unit 3 Assignment
+Make entries to the Learning Journal
+Take the Graded Quiz
+Unit 4: Sequential Logic
+
+Peer-Assess Unit 3 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Complete and submit Unit 4 Assignment
+Watch the Optional Video Lectures
+Make entries to the Learning Journal
+Take the Self-Quiz
+
+Unit 5: Computer Architecture
+
+Peer-Assess Unit 4 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Complete and submit Unit 5 Assignment
+Watch the Optional Video Lectures
+Make entries to the Learning Journal
+Take the Self- Quiz
+
+Unit 6: Machine Language
+
+Peer-Assess Unit 5 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Complete and submit Unit 6 Assignment
+Watch the Optional Video Lectures
+Make entries to the Learning Journal
+Take the Graded Quiz
+Unit 7: Assembler I
+
+Peer-Assess Unit 6 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Complete and submit Unit 7 assignments
+Watch the Optional Video Lectures
+Make entries to the Learning Journal
+Take the Self- Quiz
+
+Unit 8: Assembler II
+
+Peer-Assess Unit 7 Assignment
+Read the Learning Guide
+Complete Reading Assignments
+Participate in the discussion forum (Post, Comment and Rate)
+Make entries to the Learning Journal
+Take the Self- Quiz
+Read the Unit 9 Learning Guide carefully for instructions on the Final Exam
+Take the Review Quiz
+Unit 9: Course Review and Final Exam
+
+Read the Learning Guide and take the Review Quiz, if you haven't already done so
+Prepare for, take, and submit the Final Exam
+The Final Exam will take place during the Thursday and Sunday of Week/Unit 9 (UoPeople time); exact dates, times, and other details will be provided accordingly by your instructor
+
+
+
+Textbooks
+For each unit, the relevant chapters of the textbook will be accessible from the unit Learning Guide and from the unit section of the course homepage.
+
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+
+Tarnoff, D. (2007). Computer organization and design fundamentals. http://faculty.etsu.edu/tarnoff/138292/
+
+
+
+
+
+Logism 2.7.1 Java Web StartFile
+Required Software (Alternate Download)Folder
+
+
+Resources
+
+Logism Tool: Download and InstallURL
+TECS Software SuiteFile
+Unit 1 Lecture: Getting Started Using LogismPage
+
+
+Video Lectures
+
+Unit 1 Lecture: Foundations of Computer SystemsPage
+Download Unit 1 Video LecturesFolder
+
+
+Reading Assignment
+
+Introduction: Hello, World BelowFile
+Chapter 1: Boolean Logic(Nisan and Schocken) - Direct DownloadFile
+Chapter 4: Logic Functions and Gates (Tarnoff)File
+Chapter 5: Boolean Algebra (Tarnoff)File
+
+
+
+
+
+
+
