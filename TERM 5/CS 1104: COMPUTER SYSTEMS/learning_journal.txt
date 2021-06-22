@@ -22,6 +22,15 @@ Your Learning Journal should be a minimum of 500 words.
 
 ANSWER:
 
+  In the beginning, I am going to talk about what I had done this week. This week was my first week in this course where I had to look at the learning materials at first. I had to take a look at the syllabus and textbook at first. I had also checked how our instructor will evaluate our marks in grading section. Then I check the course forum and announcement and the learning resources also. Our this week Unit 1 was about Boolean Logic Topic.  Next I had to move to self-quiz where I had to check the quiz at first before reading the learning guide. I had complete ten multiple quizzes but this practice quiz marks will not be added into the final exam. Then I just check the learning guide and next I start to work in discussion posts. So, I had started working on my first assessment where the question was about discussion of Boolean functions, Composite Gates, Multiplexors, and Demultiplexors and its importance of the use of the selection and data bits. Finally after studying I had able to discuss the full question as instruction-wise and added references also. Next I had reviews three of my peer discussion posts and give feedback on their work. My reactions were so happy when I had received my peer comments in my discussion posts. As my peers already enjoyed my post to read and I had received positive feedback from them which was very helpful. It was a great feeling while receiving positive feedback from it. I had learned a lot of things when I was talking about the Boolean function that how it assists in hardware architectures. Besides this, when I was reviewing my peers works I had also learned new things from their work also while reviewing them. 
 
 
+
+   In my second point of the view, I was wondering how can I install logism tool software and how to use it. I had to research some YouTube videos and then I had to understand the software uses. Completing discussion post was a quite simple challenging because this was my first written assessment in this course and I need to research a lot to write accurate answers in these posts. But while struggling it helps me improve my skills and computer system knowledge which I had to recognize that I am gaining new knowledge. As a self-learner it was a very interesting experience by researching and learning new things. As a result, I am now able to apply this learning ideas and concepts by gaining new knowledge and experience.  It is also very important that a computer science student should must know at least basic understanding of computer systems. Because we can use this knowledge in our professional life also. It would help us think our critically in computer knowledge and helps us to understand more complex problem solving.
+
+
+
+Reference,
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT
+Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
 
