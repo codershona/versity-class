@@ -1,1 +1,69 @@
 // Self quiz
+True or False: The register context will not hold the contents of its registers.
+
+A: 
+
+A parent can be made to wait for a child process to finish what it has been doing by which command?
+
+A:
+
+True or False: Application programmers typically use an API rather than directory invoking system calls.
+
+A:
+
+In early (or simple) operating systems, the loading process is done:
+
+A:
+
+True or False: MenuMeters (from Raging Menace software) runs on our PC toolbars.
+
+A:
+
+All of the following are Machine States except:
+
+A:
+
+Which of the following statements is incorrect?
+
+A:
+
+True or False: The natural counterpart of time sharing is space sharing, where a resource is divided (in space) among those who wish to use it.
+
+
+A:
+
+True or False: UNIX pipes are implemented with the execvp() system call. This is where the output of one process seamlessly is used as input to the next, and long and useful chains of commands can be strung together. 
+
+A:
+
+
+What system call is used to send signals to a process, including directives to go to sleep, or die:
+
+A:
+
+True or False: PIDS are used to name processes in the UNIX O/S.
+A: True
+
+
+What technique uses the OS to create an illusion by virtualizing the CPU and running one process, then stopping it and running another?
+
+A: a. Virtualization
+
+The Windows CreateProcess() system call creates a new process. What is the equivalent system call in UNIX: 
+
+
+A: c. fork() 
+
+This system call is useful when you want to run a program that is different from the calling program:
+
+A: d. wait ()
+
+_____ provide(s) an interface to the services provided by an operating system.
+
+
+A: b. System calls
+
+
+A process may transition to the Ready state by which of the following actions? 
+
+A: All of the above

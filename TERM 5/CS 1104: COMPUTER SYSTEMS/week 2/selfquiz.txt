@@ -1,1 +1,55 @@
 // Self quiz 
+
+What circuit does the following truth table belong to? 
+
+
+
+A: a. half-adder
+
+What is the decimal equivalent of the binary number 10011101? Assume "unsigned" binary for the conversion.
+
+A: a. 157
+
+What is the decimal value of 54 (base 10) converted to binary and 2's complement? 
+
+A: b. 11001010
+
+Which of the following is NOT a component required to represent a floating point number in binary? 
+
+A: d. Precision
+
+What is the function of the following logic circuit? 
+
+
+A: half adder
+
+What is the function of the following logic circuit? 
+
+
+A: a. full adder
+
+
+A coding approach that recognizes the MSB with a value of 1 to be a negative number is calle
+
+
+A: a. Signed Magnitude
+
+
+True / False: The 2's complement bit string 10101011 converted to decimal equals 85.
+
+
+A:  False
+
+
+True/False: An unsigned binary number can represent positive and negative numbers but not floating point numbers.
+
+ 
+A: False
+
+
+True/False: Adding 011011012 to 101000102 in 8-bit unsigned binary will cause an overflow.
+
+
+A: True
+
+
