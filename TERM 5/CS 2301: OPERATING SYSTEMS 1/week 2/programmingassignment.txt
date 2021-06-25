@@ -1,0 +1,24 @@
+In Unit 2, we discussed API:
+
+ 
+
+Write a program that calls fork(). Before calling fork(), have the main process access a variable (e.g., x) and set its value to some-thing (e.g., 100). What value is the variable in the child process? What happens to the variable when both the child and parent change the value of x?
+
+ 
+
+Write out the code to your program.
+Run the program and show your result.
+What value is the variable in the child process?
+What happens to the variable when both the child and parent change the value of x?
+ 
+
+Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion is your thoughts about the assignment.
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+
+A:
+
+
+

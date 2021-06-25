@@ -1,0 +1,13 @@
+In Unit 2, we are introduced to the concepts of operating systems.
+
+For your Discussion Forum:
+
+Using one of the referenced website articles discuss how OS creates the illusion of virtualization by virtualizing the CPU. By running one process, then stopping it and running another, and so forth, the OS can promote the illusion that many virtual CPUs exist when in fact there is only one physical CPU (or a few).
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts.
+
+
+A:
+
+
+

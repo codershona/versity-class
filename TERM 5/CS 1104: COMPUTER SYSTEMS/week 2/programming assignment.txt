@@ -1,0 +1,26 @@
+For the unit 2 assignment you must complete all three of the following assignments.
+
+First assignment: develop a circuit using combinational logic (or putting together 2 or more logic gates) for an alarm system.  The following truth table describes the operation of the logic circuit.   Essentially if the alarm is Armed (value of 1) and the door opens or the glass is broken or motion is detected (all indicated by a value of 1 when any of these items are true) THEN the value of Alarm is 1 meaning that the alarm will be sounded.
+
+unit3assign1.jpg
+
+Complete and test your circuits using Logism and submit the following materials making sure that you identify these materials as ‘Assignment 1’.
+
+Using the export image feature in Logism (Use File-Export Image from menu), export your circuits in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image.
+Save your Logism model as a circ file and attach the file to your assignment posting.
+Second Assignment: Given the following circuit determine the truth table and document it in truth table format.   Your truth table must be formatted in the same way that the truth table above is formatted.
+
+unit3assign2.jpg
+
+For this assignment, you must include the truth table for the circuit as part of your posting. Make sure that you identify it as Assignment 2.
+
+Third Assignment: Construct the truth table AND circuit in Logism for a three input Exclusive NOR gate.  You cannot use the exclusive OR or the exclusive NOR gates to complete this assignment you must build the circuit with AND, OR, NAND, NOR, and NOT gates.
+
+For this assignment, you must both include the truth table for the circuit AND export the jpeg image of the circuit that you build and include it in the posting as part of your posting. Finally you must save the Logism model of your gate and attach the circ file as part of your assignment. Make sure that you identify these items as Assignment 3.
+
+
+
+A:
+
+
+
