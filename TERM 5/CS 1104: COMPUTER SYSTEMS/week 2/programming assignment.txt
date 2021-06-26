@@ -22,5 +22,29 @@ For this assignment, you must both include the truth table for the circuit AND e
 
 A:
 
+First Assignment : I had using the export image feature in Logism (Use File-Export Image from menu), export your circuits in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image which is given below,
+
+
+
+
+
+I had Saved my Logism model as a circ file and attach the file to which is given below, see the attachment.
+
+
+
+Second Assignment: Here I had attach the truth table for the circuit which I had created in ms-excel and this is the screenshot of it. This is Assignment 2.
+
+
+
+
+
+Third assignment:
+
+
+
+
+
+
+
 
 
