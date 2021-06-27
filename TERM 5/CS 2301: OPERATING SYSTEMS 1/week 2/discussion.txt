@@ -10,4 +10,22 @@ You must post your initial response (with references) before being able to revie
 A:
 
 
+ In the beginning, I am going to discuss how OS creates the illusion of virtualization. We can virtualize the CPU, by compiling any process and next we can stop it. Again we can run this same process. The OS can able to make a promotion of the illusion which can able to exist the virtual CPUs as much as possible. Moreover, it has only one Physical CPU.  The abstraction of the CPU has a virtualization according to this system process where the operating system has its own process to illusion that will be owned by the CPU. But it can be possible that the illusion of the operating system has a scheduler or pre-emption mechanism process and the system can also able to make a promotion in the illusion which has many virtual CPU that is exist by compiling each process and next it can stopped the process again it can run in another process. This process runs again in this same process. The reason is it will had a CPU scheduler by picking each of this active processes to execute in any CPU. 
+
+  This CPU scheduler has two parts in the operating systems which is given below,
+
+Policies : 
+
+  Here the software in any operating system can able to can have its own judgement where it can live on the top of the mechanism. Beside this, the operating system has some policies as usual to resolve the challenges as much as it can by running one or more than one program in the same time. If we think that, the process can get its precedence between the active process. 
+
+Mechanisms:
+Here the protocols each individual can be adept such as, making a difference between context switch and processes. We can also think that time sharing is a kind of mechanism. If we make a combination of the mechanisms and it policies we can say that, each operating systems can be build its illusion by virtualizing the CPU that could be upgraded. 
+
+References, 
+Paul, K.(2010). Virtualization: Virtual storage & virtual machines. Retrieved April 16, 2020 from
+https://www.cs.rutgers.edu/~pxk/416/notes/20-vm.html
+
+
+
+
 
