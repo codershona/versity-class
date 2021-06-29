@@ -22,6 +22,20 @@ Finally, describe one important thing that you are thinking about in relation to
 
 A:
 
+   In the beginning, I am going to talk about what I had accomplished this week. This was my second week in computer system course and this week we are studying unit 2 Binary Arithmetic. At first I had check the learning guide and the reading assignment which was about the binary math and number representation and the Boolean arithmetic. In the learning guide our topics was about the number system and its representation, binary add and substract as well as by designing of the added and subtractor of the circuits. Here we need to research the fundamentals of the binary number system and the implementation of the 1's and 2's complement of binary numbers. Moreover, we need to study about how we can make addition and subtraction of the  binary numbers as well as make a implementation of the logic circuits to add and subtract binary numbers. Next I had moved to complete my this week tasks to submit my work. At first I had complete the self quiz where I had practice multiple choice but that will not be added with the final grade. But this self quiz help me to prepare my self for our grade quiz which will be in next week. Overall completing self quiz was a great experience and I really enjoy to complete the multiple choice. In my second task I had complete the Programming assignment before submitting the discussion posts. Because written assignment was a bit complex and it was my first written assignment for this course. So, in the programming assignment there was three assignment to complete where I had used CIRCUIT VERSE Online tool to make my circuit. Because I was facing some problem in my computer to install Logism that's why to complete my circuit assessment I am using Circuit Verse tool: https://circuitverse.org/simulator. It is really an interesting tool to use and easy to make and I cam easily understand while making my circuit. I hope my instructor can also check this tool. In the programming assignment I had made three circuit which was very interesting to complete. I had detailed all those in my written assignment my instructor can also check my work. Next after completing my programming assignment I had immediately moved to complete the discussion posts. I was study the question which took me some time. Finally I had also create in that assignment my own circuit and submit my work. But I saw most of my peers had used online image from google. From creating own circuit is much fun and we can learn many things. Anyway, I had also review there awesome works and give comments of my three peers assessment. At last now I am writing the learning journal where I am writing my this week activates. 
+
+
+
+  In my second point of the view, here I was really wondering about creating my own circuit. I had learned a lot of things how the computer systems works. This week topic was very interesting for me which I had enjoyed a lot. I did not face any problem while completing my this week assessment. It was a kind of challenging for me but I had enjoyed my this week challenges. This challenges helps to improve my knowledge and I had learn a lot of new techniques. A a self leaner, creating own work is really  blessing things for my future also rather than using any online copy paste circuit image. By making my own logic I had get new ideas which I had implement in my this week assessment. 
+
+
+
+Reference,
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press.
+http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+Tarnoff, D. (2007). Computer organization and design fundamentals.
+http://faculty.etsu.edu/tarnoff/138292
+
 
 
 
