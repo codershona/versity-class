@@ -8,6 +8,42 @@ Efficiency is not necessarily the number of gates used. It's all about "followin
 
 
 A:
+    In my first point of view, I am going to discuss about gates are used in the implementation of the Xor gate in the Nissan and Schocken textbook. In the gate we can use the implementation via Xor Gate which were total of 5 gates, and this has 2 AND. But next it would have 2 NOT as well as 1 OR. 
+
+ 
+
+    In my second point of the view, I am going to present my implementation to the Xor chip which is given below,
+
+
+
+
+
+
+
+Explanation: Here I had used Circuit Verse online tool which was very interesting to make this circuit. I did not use Logism. Now I had used Xor Gate which was based in the NAND Gate including with other gates. 
+
+
+
+  In my third point of the view, here I think of a more efficient implementation that is called Ex-OR Gate Equivalent Circuit, which is given below, 
+
+
+
+
+
+
+
+
+
+  In my fourth point of the view, here we can say yes. Because it was effective which was not important that has the number of those gate that has been used. We can try this to do it more with less which has a few gates if it is impossible. If the implementation has the new gate with a quandary of the commutation that was flanked of the primitive gates. In my opinion, this is actually not necessary to add the production cost which has sufficient amount of the quantities in the NAND gates in it. 
+
+
+
+Reference,
+Retrieved from: https://www.electronics-tutorials.ws/logic/logic_7.html/
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press.
+http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+
+
 
 
 
