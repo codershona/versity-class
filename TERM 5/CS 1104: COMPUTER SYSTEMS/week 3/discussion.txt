@@ -1,0 +1,14 @@
+// discussion
+
+In your implementation of the ALU there is no need to detect or handle overflow.  However, it's a good mental exercise to think about when/how an overflow might occur.  When adding numbers with different signs, overflow cannot occur because the sum must be no larger than one of the numbers.
+
+What happens when the signs of the numbers are the same? What happens in the case of subtraction?
+
+How do we detect when an overflow does occur?
+
+
+A:
+
+
+
+
