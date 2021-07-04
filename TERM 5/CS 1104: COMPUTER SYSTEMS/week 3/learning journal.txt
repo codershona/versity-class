@@ -22,5 +22,13 @@ Finally, describe one important thing that you are thinking about in relation to
 
 A:
 
+     In the beginning, I am going to talk about what I had accomplished this week. It was the third week for me and the most important week for all of the student. Because we had grade quiz in this week. At first I started giving my grade quiz where I had complete 38 multiple choice and I had to achieve 94/100. But before giving my exam I study learning guide. But last week self-quiz helped me a lot. Next I had immediately moved in the assignment unit three, where I had to complete the programming assessment. This week programming assessment very interesting to complete. After submitting my assessment I had to visit the last week programming assessment where I had given review and feedback in my peers assessments. I had given three reviews in my peer's hard work. Next I had immediately moved into discussion pots where I had to talk about the implementation of the Combinatorial Logic and the ALU. It was quite interesting to talk about it. Next I had given feedback in my peers' work. Now I am waiting for feedback from my peers. Then I had started working in my learning journal. Well, this week was quite challenging for me. When I achieved good marks and grade in my grade quiz I was so happy to see but I got a bit surprised and wondering why two of multiple choice goes wrong. But next week I can check my mistake in the grade quiz review section. Because the review is not available yet. I had learned a lot of things this week. This week topic was about Combinational Logic,
+
+Multiplexors, and De-Multiplexors, Decoders, Counters, ALU (Arithmetic Logic Unit) as well as ALU Design. In the textbook I had to study the fundamentals of the combinational logic. Next I had to study the topics of the uses of the operation in multiplexors, demultiplexes, decoders, and counter circuits. But this topic implementation of the centerpiece component which executes all the arithmetic and logical operations performed by the computer - the ALU helps me a lot. Because this topic was matched with discussion post a question which I had already complete my work. Overall I am gaining to understand new skills by learning these new topics. Everyday learning new things is a quite interesting to improve my soft and critical thinking skills. As a self-learner and online computer science student this learning strategy is much better than then onsite classes. Every week I gained new experience, which is very important for my future life. Moreover, this strategy this great when we gave our feedback to our peer and we can also learn new things from our per work.
+
+
+
+
+
 
 
