@@ -1,0 +1,18 @@
+In Unit 4, we discussed cache and memory:
+
+  
+
+Explain cache coherency. 
+What is the benefit of using sparse addresses in virtual memory?
+Name and describe the different states that a process can exist in at any given time.
+Describe two general approaches to load balancing.
+Describe the differences between physical, virtual, and logical memory.
+ Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion should be your thoughts. 
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+ANSWER:
+
+
+

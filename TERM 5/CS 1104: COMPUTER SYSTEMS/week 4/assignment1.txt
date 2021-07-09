@@ -1,0 +1,27 @@
+For the unit 4 assignment, you must create a circuit using Logism that implements a memory register capable of storing a 4 bit binary number.   You should investigate the different circuits that can be used to store a bit of memory and then utilize the one that meets the following requirements. 
+
+Your register circuit must be able to support the inputs detailed in the following diagram:
+
+registerbit.jpg
+
+Each bit of the register circuit must support a data in, a data out, and a control.  The control functions such that the data value will only be changed when the control bit is toggled on.
+
+The value in the register must be persistent and can only be changed when the control bit has been toggled. 
+
+You should develop and test the 4 bit register using logism. 
+
+When you have successfully developed a functioning 4 bit register, you should duplicate the circuit and add it to the two inputs of the ALU circuit that you developed in the previous unit.
+
+Complete and test all of your circuits using Logism and submit the following materials.
+
+Using the export image feature in Logism (Use File-Export Image from menu), export your basic 4 bit register circuit in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image.
+Using the export image feature in Logism (Use File-Export Image from menu), export your registers added to your ALU from last week in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image.
+Save both of the logism models (4 bit register and the registers added to the ALU circuit) as circ fiels and and attach the file to your assignment posting.
+
+
+
+ANSWER:
+
+
+
+
