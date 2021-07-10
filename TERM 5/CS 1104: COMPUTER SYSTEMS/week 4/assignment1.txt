@@ -23,5 +23,12 @@ Save both of the logism models (4 bit register and the registers added to the AL
 ANSWER:
 
 
+In the beginning, I am going to illustrate the schematic of the 4-bit memory register. We can also built it by D Flip-Flops. An D-Flip-Flop needs an enable input that has corresponding in our control input which has been illustrate in our problem statement. Here, The CLOCK needs a signal that is general in every 4 flip flops as well as we also has control signal. But in the outside of there there are 4 data including inputs that is known as D3, D2, D1 as well as D0. This brought us the information to stored these 4 bit in the memory register. The 4 bit memory register has been stored in this information that are describe below,
+
+ The Control' input needs to be HIGH that is define as  logic '1'.
+The CLOCK signal also requires to show the risen edge in the pass from '0' to '1'.
+The Logisim schematic (screen capture) is presented below:
+
+
 
 
