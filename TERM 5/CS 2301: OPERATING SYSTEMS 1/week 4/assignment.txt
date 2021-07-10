@@ -36,7 +36,7 @@ ANSWER 5:
 Here, we had a physical memory that has available memory in the machines to make a execution in the operations. Such as, cache, random access, memory and so on. The virtual memory has the process to the users to run the programs which is greater than the actual physical memory to utilize the disk of the memory and its needs to backup the store in the main memory. The logical memory has some abstraction in the computer that has different types in the memory which also allows us for the programmers specially. In the applications we can also simplified the view in the memory or it liberates those if we check the memory storage that could had some limitations. 
 
 
-
+References:Rouse, M. (2005, June).Cache Coherence. Retrieved from https://whatis.techtarget.com/definition/cache-coherenceAnkit Bisht. (n.d). Logical vs Physical Address in Operating System. Retrieved from https://www.geeksforgeeks.org/logical-vs-physical-address-in-operating-system/What is a Process?(n.d). Retrieved from https://www.studytonight.com/operating-system/operating-system-processesLysis. (n.d).What Is the Difference Between Virtual Memory & Physical Memory? Retrieved from https://www.techwalla.com/articles/difference-virtual-memory-physical-memory_
 
 
 
