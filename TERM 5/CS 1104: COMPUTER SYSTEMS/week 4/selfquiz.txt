@@ -1,0 +1,51 @@
+//
+16-bit / 64-register memory
+16 is the _____ of the register	Answer 1
+data width
+64 is the _____ of the register	Answer 2
+size
+
+
+DFF behavior can be represented as:
+
+A: out(t) = int(t-1)
+
+What is the function of the following circuit? 
+
+A: a. DFF
+
+A RAM device accepts the minimum following inputs:
+
+A: b. data input, an address input, and a load bit
+
+In our text the following is known as a:
+
+A: a. w-bit register
+
+When implementing the a 1-bit register, we need to tell the register when to store a new data and when to keep storing its internal value. For that we need a :
+(Choose all correct answers)
+
+
+A: multiplexor
+
+In the DFF symbolic notation, the small triangle represents the :
+
+
+A: clock
+
+A counter is combinational logic, that simply adds a constant (typically 1) to a given number.
+
+
+A: False
+
+Given the HDL language described in Appendix A, is the following design valid?
+
+A:  False
+
+
+True/False: The clock in a sequential logic circuit keeps track of hours, minutes, and seconds in the local timezone. 
+
+
+A: False
+
+
