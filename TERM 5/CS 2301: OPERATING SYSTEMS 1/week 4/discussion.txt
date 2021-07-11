@@ -1,0 +1,12 @@
+In unit 4, we are introduced to the concepts of abstraction and scheduling
+
+For your Discussion Assignment:
+
+Using one of the referenced website articles discuss single-queue versus multi-queue scheduling.
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts. 
+
+
+ANSWER:
+
+
