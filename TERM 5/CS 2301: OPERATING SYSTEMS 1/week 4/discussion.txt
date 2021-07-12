@@ -9,4 +9,13 @@ You must post your initial response (with references) before being able to revie
 
 ANSWER:
 
+  In the beginning, I am going to discuss about  single-queue versus multi-queue scheduling.  The single queue scheduling generally suited in each systems that has a single group which was equal to CPU scheduling. The multi-scheduling has matched in each process which were specified with various groups. This scheduling required the time requirements.  There are some benefits like, single queue can able to perform all the process in the good CPU utilization which is fair. On the other hand, multi-queue scheduling can also able to perform better cache locality which is more scalable to maintain.  There are not only we can see its benefits there are also some drawbacks of this single queue scheduling. Such as, The performance and maintenance of the scalability is not supportable and it has poor cache. In contrary, multi-queue scheduling were has the CPU which has lower utilization due to its unfair process and the loading has no balance. 
+
+  As a result, each Single-queue scheduling would not necessary to work to bring the existing policy which can picks the better jobs to compile the following or it can adapt to work more than each CPU. The multi-queue scheduling  can also gives the catches of the affinity that can stay in the similar CPU and it also has some advantages to re-catching the content.
+
+Reference,
+
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating systems: Three easy pieces.
+Madison, WI: University of Wisconsin-Madison. Retrieved
+from; http://pages.cs.wisc.edu/~remzi/OSTEP/
 
