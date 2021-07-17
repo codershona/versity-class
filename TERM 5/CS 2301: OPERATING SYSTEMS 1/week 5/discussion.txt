@@ -1,0 +1,12 @@
+In unit 5, we are introduced to the concepts of memory allocation.
+
+For your Discussion Assignment:
+
+Using Figure 17.5 from the textbook explain why we have a “big mess” of our free space memory allocation.
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts. 
+
+
+ANSWER:
+
+
