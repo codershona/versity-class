@@ -1,0 +1,35 @@
+The von Neumann architecture is based on a:
+
+A: central processing unit (...),	Answer 1
+memory
+interacting with a ... device,	Answer 2
+CPU
+receiving data from some ... device,	Answer 3
+output
+and sending data to some ... device.	Answer 4
+input
+
+
+Different types of Registers:
+
+A: Serves as short term memory.	Answer 1
+Addressing Registers
+Used for storing memory location.	Answer 2
+PC Register
+Keeps the address of the next instruction that must be fetched.	Answer 3
+Data Registers
+
+
+Which of the following is NOT a component of the CPU? 
+
+A: d. RAM
+
+Which part of the CPU is in charge of decoding the instructions before they can be executed, and deciding which instruction to fetch and execute next?
+
+
+A: a. Control Unit
+
+The basic idea of the stored program concept is that the logic of the programs is embedded in the hardware.
+
+
+A:
