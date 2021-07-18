@@ -10,3 +10,17 @@ You must post your initial response (with references) before being able to revie
 ANSWER:
 
 
+
+  In the beginning, here if three 100 bytes share each or middle block point this would be free very soon. Because 100-byte will block back to make a free list which would begin with a little block as well as in the list the header would be pointed for a little block. As a result, we would have a free list that would be composed within two incoherent elements.
+
+   In the second point of the view, here if we assume that, the terminal two blocks can be used to release on the outside of the merging that can also be turn out to be free with the list to discarded because of dissolution and this can not be satisfied with its each request for 3800 bytes to had free space. 
+
+  In the third point of the view, here if there is a big mess that could be build by the combination of the free space. After all, the entire memory was released and free but there was still some pieces which was broken. Finally, it make the scene come apart with the memory. If we want to solve this mess we required to make a combination of intelligent algorithm which completely bigger free block as well as we can ought to split or join those free blocks to meet the variable size with the condition.
+
+Reference,
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating systems: Three easy pieces.
+Madison, WI: University of Wisconsin-Madison. Retrieved
+from http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+
