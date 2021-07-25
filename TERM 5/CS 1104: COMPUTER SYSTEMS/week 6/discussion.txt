@@ -1,0 +1,12 @@
+For your discussion question response, please provide a response to each of the following questions.  Make sure that you include the question followed by your answer to the question in your posting.
+
+In the description of the Hack machine language in chapter 4, it is stated that in well-written programs a C-instruction that may cause a jump should not contain a reference to M, and vice versa. Discuss why this should be avoided.
+Research the concept of interrupts in a computer. You may want to look into how the Z80 microprocessor handles interrupt. A good source of Z80 information is Zaks, R. (1980). Programming the Z80. Sybex. Download the pdf.
+
+FYI, The Z80 8 bit microprocessor has been in production for forty years. Knowledge of the Z80 is a great lead-in for further study in more complicated machines.
+
+
+ANSWER:
+
+
+
