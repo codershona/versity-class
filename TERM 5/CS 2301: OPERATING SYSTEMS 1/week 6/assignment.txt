@@ -1,0 +1,163 @@
+In unit 6, we discussed paging:
+
+Suppose that a system has a 32-bit (4GB) virtual address space. It has 1GB of physical memory, and uses 1MB pages. 
+
+How many virtual pages are there in the address space?
+How many physical pages are there in the address space?
+How many bits are there in the offset?
+How many bits are there in the virtual page number?
+How many bits are there in the physical page number?
+Some entries of the page table are shown below (all values are in hex, and all entries shown are valid). Translate virtual address 0x410423 to a physical address, using the translations in this page table. 
+Entry
+
+Number
+
+Value
+
+ 
+
+0
+
+1F
+
+1
+
+3C
+
+2
+
+55
+
+3
+
+9C
+
+4
+
+DD
+
+5
+
+EE
+
+6
+
+99
+
+...
+
+...
+
+20
+
+2F
+
+21
+
+4C
+
+22
+
+65
+
+23
+
+AC
+
+24
+
+ED
+
+25
+
+FE
+
+26
+
+100
+
+...
+
+...
+
+40
+
+11F
+
+41
+
+13C
+
+42
+
+155
+
+43
+
+19C
+
+44
+
+1DD
+
+45
+
+1EE
+
+46
+
+199
+
+...
+
+.
+
+Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion is your thoughts about the assignment.
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+ANSWER:
+
+
+                                                                      Programming Assignment Unit 6
+                                                                             Anonymous Student
+                                                                     AS in CS, University of the People
+                                                                             CS 2301: Operating Systems 1
+
+
+1. How many virtual pages are there in the address space?
+Here if I divide the virtual address space into 4GB, the page size would be 1 MB to get the output : 4GB / 1MB = 4k Pages. As a result, 4096 virtual pages has the address space. 
+
+
+2. How many physical pages are there in the address space?
+Here, if we divide the virtual address space 4GB within the Page size 1MB to get the result of 1GB / 1MB = 1k Pages. As a result, 1024 physical pages are in address space. 
+
+
+3. How many bits are there in the offset?
+Here, the number of the bits has each page that needs 1 MB then 220 B. Finally, there were 20 bits in this offset. 
+
+
+4. How many bits are there in the virtual page number?
+Here, 4096 virtual pages = 22 * 210 pages number. We can add the exponent 2 as well as the exponent 10 together 2 + 10 = 12 bits. Finally, 12 bits in the virtual page number. 
+
+
+5. How many bits are there in the physical page number?
+Here, the 1096 physical pages = 210 physical pages, in this case we can able to took the exponent 10 bits. Finally the 10 bits were in the physical page number.
+
+
+6. Some entries of the page table are shown below (all values are in hex, and all entries
+shown are valid). Translate virtual address 0x410423 to a physical address, using the
+translations in this page table.
+Here the computing the virtual address has 0x410423 = 0x00410423 so that it can make it a 32bit Address 10423 are the initial 12 bits + 3 digits = 004 as a page pointer. 
+But if we look up 4 in the pointer table above and the physical page number was DD which was highlighted above in Yellow and finally, the physical 32-bit address is 0xDD10423. 
+
+
+Conclusion:
+As a result, if we separate  it was very simple exercise to translate and calculate the memory addresses but it is not that much difficult task. If the calculations are easy to lose it cannot be done on a semi regular basis. There are also moderate level of relearning that needed to show the flow of the entire work.  Moreover, the numbers can be used as a binary, hex, decimal and so on to make a deal with required taken the number pf the systems and notation to avoid the confusion. 
+
+
+References,
+CS372: Solutions for Homework 9. (n.d.). CS372: Solutions for Homework 9. Retrieved
+March 9, 2021, from
+https://www.cs.utexas.edu/%7Elorenzo/corsi/cs372/06F/hw/3sol.html
