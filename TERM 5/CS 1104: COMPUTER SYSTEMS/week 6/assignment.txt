@@ -1,0 +1,194 @@
+*If you have trouble viewing instructions/images below, please refer to the "Assignment" chapter in Unit 6's Learning Guide
+
+For the Unit 6 assignment, hand compile the following two assembly language programs into machine language that can be loaded into an executed on the Hack computer. 
+
+Chapter 4 of the Nisan and Schocken text describes the machine language instructions that  are supported by the Hack computer system.    It is important to understand that different computer architectures will support different capabilities and of course this translates into differences in both the machine language instructions of the computer and the assembler language  that supports the system.
+
+In the Hack computer platform, there are essentially two types of machine language instructions the A instruction (see below)
+
+01.jpg
+
+And the C instruction as follows.  ALL Hack computer programs can be developed using these two instructions.
+
+02.jpg
+
+The C instruction allows the programmer to interact with the CPU(and in particular the ALU) to perform computations against the values in the registers.  If you recall, in Unit 2 we presented the ALU for the Hack computer as follows:
+
+03.jpg
+
+Each of the instructions that the Hack ALU is capable of running  can be specified to the ALU through a set of control bits.  These control bits  or the C bits in the instruction and their associated functions are listed below.
+
+04.jpg
+
+IT IS IMPORTANT TO COMPLETE THIS EXERCISE.  I caution you not to take any shortcuts.  The best way to really gain an understanding of how machine language and assembler language works is by learning how to convert assembler into machine language.  We will gain an understanding of the relationship between hardware and software in this process.    As such I urge you to NOT be tempted to cheat and use a compiler for this task.
+
+Once you have been able to translate each of the following two programs written in Hack Assembler into binary machine code,   Load your machine language program into the cpu simulator and execute it. 
+
+For your assignment post a description of YOUR process to convert the assembler symbols into machine language and what you learned in the process. Also include  both your assembler program and corresponding machine language program in  your assignment.
+
+ 
+
+//Program 1 to convert to machine language
+// Computes R0 = 2 + 3
+
+@2
+D=A
+@3
+D=D+A
+@0
+M=D
+
+ 
+
+ 
+
+// Program 2 to convert to machine language
+// Symbol-less version of the Max.asm program. 
+
+@0
+D=M
+@1
+D=D-M
+@10
+D;JGT
+@1
+D=M
+@12
+0;JMP
+@0
+D=M
+@2
+M=D
+@14
+0;JMP
+
+
+
+
+
+ANSWER: 
+
+
+                                                  University of the People 
+
+                             Programming Assignment 6 
+
+                          Instructor: Onyekwere Oluoha  
+
+               
+
+ 
+
+I am going to describe Program 1 to convert to machine language which is given below, 
+
+Assembly language 
+
+@2 
+
+D=A 
+
+@3 
+
+D=D+A 
+
+@0 
+
+M=D 
+
+Machine Language translation 
+
+0000000000000010 
+
+1110110000010000 
+
+0000000000000011 
+
+1110000010010000 
+
+0000000000000000 
+
+1110001100001000 
+
+ 
+
+Now I am going to discuss about Program 2 to convert to machine language,  
+
+@0 
+
+D=M 
+
+@1 
+
+D=D-M 
+
+@10 
+
+D;JGT 
+
+@1 
+
+D=M 
+
+@12 
+
+0;JMP 
+
+@0 
+
+D=M 
+
+@2 
+
+M=D 
+
+@14 
+
+0;JMP 
+
+ 
+
+The Machine language translation 
+
+0000000000000000 
+
+1111110000010000 
+
+0000000000000001 
+
+1111010011010000 
+
+0000000000001010 
+
+1110001100000001 
+
+0000000000000001 
+
+1111110000010000 
+
+0000000000001100 
+
+1110101010000111 
+
+0000000000000000 
+
+1111110000010000 
+
+0000000000000010 
+
+1110001100001000 
+
+0000000000001110 
+
+1110101010000111 
+
+ 
+
+Translation Process 
+
+ 
+
+Here, we must manually assemble to translate the language into machine language which has a set of the guidelines that is required to follow. The @sign implement that value to load into 16-bit A-register. Such as, @2 would need to load the value 2(binary 10) within the A-register that can be result to the address 0000000000000010. But the instruction will not be to start with @sign in the instruction in each C-instruction. The C-instruction needs to be made by individual parts to compute the destination and jumped to modify that is based on instruction. Likewise, the instruction which is called C-instruction D=D+M actually define to load the D-register which is called Data Register that shows the result of the value of the D-register in addition to the content of the M-register that is also known as Memory Register. Here the assemble code needs to be translated within 111 0000010 010000 and these computation bits need to be highlighted.  
+
+In the second point of the view, there are three bits which follow the computation bits were the destination of the bits to indicate the register to locate the loading of the value. (010) needs to be sent by the value within 2 into the D-register and the final three bits were needs to jump the bits to indicate the code that also needs to be jumped to proceed normally. The jump instruction of the JGT is a best example to discuss to translate the 001 which has the final three bits of the C-instruction. 
+
+ 
