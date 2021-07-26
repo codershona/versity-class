@@ -8,5 +8,30 @@ FYI, The Z80 8 bit microprocessor has been in production for forty years. Knowle
 
 ANSWER:
 
+  In the beginning, here I am going to discuss about the 3 concepts which has C-instruction. C-instruction is a kind of hack that has been done in the computer. If we try to compute we can store the resultant the value of the computation and then jump into other optional job. For example, M refers the address of the memory which has present value to register in the machine language. This can sent the A register and CPU. It also had the information how to perform so that it does not did to jump or not. The jump field is a C-Instruction. In a computer we can make a very complex resolution including the jump instruction. It can set to manage the tasks outwardly require of the reference of the memory type. We can also utilize the memory reference instruction within some temporary address location so that we can make both trouble and misuse of the both programming efforts and memory by concerning with the complex judgement. 
+
+   In my second point of the view, here I am going to discuss about the  breaking of each signal from the device to attach in a computer. In a program the computer needs to requires to has a OS(operating system) to shut down and research how can I work on here to improve next. The personal computer had interrupt driven which can make shut down in the list of the computer instructions in particular program. The best example would be word processor. We can also run the instructions whether (A) which  cannot go with any more or (B) an interrupt which has signal that were sensed.  Next, the interrupt signal are sensed in the computer it can also make resumes to run into the current program to start with to run with another program. 
+
+
+
+   In my third point of the view, here I had take a look at the reference about the Z80article as well as in another article also by searching in internet. The Z80 microprocessor needs to make a block with three interrupts modes that has 0, 1 as well as 2. The Z80 get the interrupt mode 0 which follows an instruction from the data bus that is also given by the external and eliminate it. The Z80 has 1 interruption mode that can jump into address in 0038h and it has can runs a routine that the programmer can able to use for resolve. The utilization of the routine has Z80 that require to get a few conditions to be engagements.  They are given below, 
+
+1) It can enable in Z80 this is also require in EI instruction.
+2) The Z80 can able to connect by the /INT input. 
+3) In the memory we also need to place correctly if we want to programmed by using interrupt routine. This routine can also able to stored all the registers whether we can exchange with it to register the EX and EXX and we can push it into the stack but since the routine ending all the working registers it can also bring back again. One of two can able to change those to reverse with the shadow registers by implementing EX and EXX. This can also popped with the stack which we can pushed it before. 
+ 
+
+   As a result, the Z80 microprocessor can able to handle the interrupt if we know the interrupts which needs to be enable by the EI instruction as well as RET(I) which can use to close the interrupt routine.  
+
+References ,
+Nisan, N., & Schocken, S. (2008). The elements of computing systems.
+Cambridge (Mass.): MIT Press.
+Chapter 4 . Machine language . Nisan & Schocken,
+2008. Retrieved from http://f.javier.io/rep/books/The%20Elements%20of
+%20Comput
+ing%20Systems.pdf
+Z80 Interrupts. Cook,M . 2015. Retrieved
+from https://z80journal.wordpress.com/2015/04/15/z80-interrupts/
+
 
 
