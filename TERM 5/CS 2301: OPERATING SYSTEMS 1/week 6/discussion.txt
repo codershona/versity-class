@@ -1,0 +1,31 @@
+In unit 6, we are introduced to the concepts of memory and paging.
+
+For your Discussion Forum:
+
+Using one of the referenced website articles or an article of your choice, discuss the latest advances in memory management to include the use of tables and memory swapping from memory to disk.
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts. 
+
+
+ANSWER:
+
+  In the beginning, here the memory was not directly accessible in the modern systems. This can also accessed via virtual memories. Moreover, in the CPU if we get a virtual address we also needs to get corresponding the physical address. This will able to get access data to store into the physical memory. We can also access into CPU in the page table and we can utilize this to keep stored the pages which can contain the information in the physical location which is a specific virtual address. Per process data structure are also stored into the memory which were in the page tables. This actually define as the process to run the memory that we used. This would also able to run the memory and in the modern systems it can store the page in the secondary memory storage like hard drive. The bit was also stored by the page table to show the OS in the hardware in the page requested. It is also located which is in secondary memory with each page. This pages were less used by the secondary memory as well as the main memory can also make a request to the page which is back to the page table. 
+
+Swapping is a great example to discuss. As this is basically used for the resource to intensive in the pages to store into secondary memory. It can also used less frequently. This has a cache which has recently utilize by the mappings between virtual address and physical address in the Translation Lookaside Buffer or TBL for short. Moreover, the TBL is a full of the swapping process to discuss which was used for. Such as, the secondary memory could be used less in the mappings to stored and it can requested to swapped in the less to use the mapping to swap out. 
+
+
+References,
+
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating Systems: Three Easy Pieces. Madison, WI:
+University of Wisconsin-Madison.
+Busby, J. (2018, June 11). What is swapping in memory management? Retrieved October 12, 2018, from
+https://www.quora.com/What-is-swapping-in-memory-management
+Tolomei, G. (n.d.). Virtual Memory, Paging, and Swapping. Retrieved October 12, 2018, from
+https://gabrieletolomei.wordpress.com/miscellanea/operating-systems/virtual-memory-paging-and-
+swapping/
+
+
+
+
+
+
