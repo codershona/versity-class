@@ -8,6 +8,22 @@ What do you think will happen if your address-space size is bigger  than your ph
 
 ANSWER:
 
+  In the beginning, here I am going to discuss about the address-space which was bigger than the physical memory(RAM). In the operating system the kernel part needs to start as soon as possible because in the memory we need to write to disk in some of the pages to hold it. We can also use to freed the pages fill the current pages which was failing. WE can also run the physical memory without trouble to process the crash operations as well as it can also harden. the whole operation. This is actually not a right choice to keep running the program without killing the whole process. This strategy can build continuation of the process by not having crashes and termination in the process manually. Moreover if the address-space is bigger than the physical memory we can use some tricks for the paging or swapping. The main thing is that, the memory management unit needs to use the table of the page to administered by the operating system to keep the whole pages into disk which is also called swapping out. It can also read the previous page in the disk to make a choice of the page fault to swap it up. 
+
+
+In the second point of view, here if I put altogether I had start my this week activities by learning the reading materials which is most necessary for this unit 6. My first task I had complete this week written peer assessment and give a review of my last week unit 5 peer assessment. To complete this assessment first of all I had read  Chapter 18 which was about the introduction to Paging, chapter 19about translation Lookaside Buffers as well as  Chapter 20 of Advanced Page Tables respectively. I had also learn the role paging to play which we can allocate the scarce resources and make a schedule to process. But the necessary of the memory of swapping these scheduled processes is also important thing which I ha also learned.  Next I had complete the discussion post and submit my work into forum. I had also wrote about the memory management so that I can use the tables in the memory to swap from the memory to disk. Next I had complete the grade quiz and I am very happy that I had achieve 100/100 in this week grade quiz. Overall this week was a quite challenging for me. 
+
+References,
+University of the People (n.d): Learning Guide. Retrieved May 14th, 2020 from
+https://my.uopeople.edu/mod/book/view.php?id=205042
+Breaker, D. (2019). Understanding page faults and memory swap-in/outs: when should you worry?
+Retrieved May 18, 2020 from https://scoutapm.com/blog/understanding-page-faults-and-memory-swap-in-outs-when-should-you-worry
+
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating systems: Three easy pieces- Virtualization.
+Madison, WI: University of Wisconsin-Madison. Retrieved May 17, 2020 from
+http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
 
 
 
