@@ -1,0 +1,13 @@
+Operating systems are in use everywhere in our society:
+
+What do you think will happen if your address-space size is bigger  than your physical memory?
+ Discuss the weeks activities and your observations.
+*In Your Own Words (with references as needed), very briefly in 2 paragraphs.
+
+
+
+ANSWER:
+
+
+
+
