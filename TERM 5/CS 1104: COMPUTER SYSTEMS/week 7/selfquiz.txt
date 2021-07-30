@@ -1,0 +1,49 @@
+//
+
+Match each commandType to its format:
+
+A: A_COMMAND	Answer 1
+@Xxx
+C_COMMAND	Answer 2
+dest=comp;jump
+L_COMMAND	Answer 3
+(Xxx)
+
+
+There are three types of symbols in the Hack language:
+
+A: Predefined symbols	Answer 1
+special memory locations
+Labels	Answer 2
+destinations of goto commands
+Variables	Answer 3
+variable names
+
+
+In the assembly process of a two-pass assembler:
+
+A: during the first pass	Answer 1
+
+
+during the second pass	Answer 2
+the assembler translate the program, using the symbol table for symbols resolution.
+
+
+
+In the Hack machine language, the ability to use a command like @label before the label was actually declared in the program is thanks to the
+
+
+A: b. two-pass assembly process.
+
+
+During the second pass of the assembly process, if a symbol is not found in the symbol table, then it clearly represents a new ...
+
+
+A: Variable
+
+During the first pass of the assembly process you should use a counter.
+This counter should be incremented by 1 whenever a C-command,
+an A-command or an L-command is encountered.
+
+
+A: False
