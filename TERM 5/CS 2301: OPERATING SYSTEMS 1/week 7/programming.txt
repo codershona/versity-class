@@ -1,0 +1,91 @@
+In unit 7 we discussed physical memory:
+
+NTFSInfo v1.2 is a little applet that shows you information about NTFS volumes. Its dump includes the size of a drive's allocation units, where key NTFS files are located, and the sizes of the NTFS metadata files on the volume. This information is typically of little more than curiosity value, but NTFSInfo does show some interesting things.
+
+For your assignment for [Windows Operating System] Download and run the NTFSInfo utility from http://technet.microsoft.com/en-us/sysinternals/bb897424.
+
+CS2301Unit7WAImg01.JPG
+
+Explain the details of your hard drive organization (typically Drive C:) using this utility. To run this utility, open a command window, go to the directory where you have stored ntfsinfo.exe, and enter ntfsinfo.exe C:\.
+
+Attach YOUR screenshot from running NTFSinfo utility
+List number of sectors and define what it means
+List number of total clusters and define what it means
+List number of bytes per cluster and define what it means
+Translate the number of free clusters from decimal number to a hexadecimal
+Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion is your thoughts about the assignment.
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/.
+
+
+ANSWER:
+
+Programming Assignment Unit 7  
+
+Anonymous Student  
+
+AS in CS, University of the People  
+
+CS 2301: Operating Systems 1  
+
+31/07/2021 
+
+ 
+
+Answer 1: Attach YOUR screenshot from running NTFSinfo utility. That is given below, 
+
+ 
+
+ 
+
+ 
+
+Answer 2: In this second point of view, the total sectors are: 819199999. Here, the sector has the lowest physical storage unit on a hard disk and the size of a sector often is 512 bytes. The reason is, 512 = 2^9. Here 2 indicates 2 basic states of a computer (on and off). Even though a sector is very small in size, it is used to store files data and that’s determined by the file system. In my PC, I currently have 819199999 number of sectors. Each of those can store 512 bytes of data. The amount of data that a sector can store will always be an exponent of 2, here 2^9 or 512 bytes. 
+
+ 
+
+Answer 3: Here are the total clusters: 102399999, some files are larger than 512 bytes. As a sector is only 512 bytes, sometimes we need multiple sectors to build a cluster. So, a cluster can consist of one or more consecutive sectors. One important thing is the number of sectors in a cluster will always be some exponent of 2. For example, a cluster consists of 2^3 or 8 sectors, it can consist of 2^1 = 2 sectors as well as there can be 2 types of clusters, 1) Contiguous (clusters that are next to each other on the disk) 2) Non-Contiguous (clusters that are not next to each other on the disk). 
+
+ 
+
+Answer 4: Bytes per cluster: 4096 but the bytes per cluster refer to the cluster size. Cluster size represents the smallest amount of disk space that can be used to hold a file. So, based on the system types we have different default cluster sizes. For NTFS systems like windows, we can have 4096 bytes of cluster. This can be held in 8 sectors. 
+
+ 
+
+Answer 5: Here are the free clusters: 94696126 and these steps could be used for the conversion, 
+
+The divide the number by 16.  
+
+We can get the integer quotient for the next iteration.  
+
+We can get the remainder for the hex digit.  
+
+We can repeat the steps until the quotient is equal to 0. 
+
+ 
+
+Conclusion  
+
+In this week’s assignment helps me to understand a great tool called NTFSinfo, it can also display all the information regarding my NTFS system. I was able to understand the components of my Hard disk, such as the sector and the cluster. Now I have a good understanding of how files are stored in clusters in my disk. I am keen to learn more about OS and investigate my system for more important information's. 
+
+ 
+
+References  
+
+Default cluster size for NTFS, FAT, and exFAT. (n.d.). Support.Microsoft.Com.  
+
+Retrieved March 16, 2021, from https://support.microsoft.com/en- 
+
+us/topic/default-cluster-size-for-ntfs-fat-and-exfat-9772e6f1-e31a-00d7-e18f- 
+
+73169155af95  
+
+Hard Disk Drive Basics - NTFS.com. (n.d.). Ntfs.Com. Retrieved March 16, 2021,  
+
+from http://www.ntfs.com/hard-disk-basics.htm  
+
+ 
+
+ 
+
+
