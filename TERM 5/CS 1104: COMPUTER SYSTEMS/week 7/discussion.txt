@@ -1,0 +1,13 @@
+For your discussion question response, please provide a response to each of the following questions.  Make sure that you include the question followed by your answer to the question in your posting.
+
+The Hack assembler is a two-pass assembler. Explain why there is a need for going twice over the code.
+There is a method named backpatching that solves this issue with one pass only. Describe this method.
+What are the pros and cons for one pass assembly vs. two pass assembly?
+
+
+
+ANSWER:
+
+
+
+
