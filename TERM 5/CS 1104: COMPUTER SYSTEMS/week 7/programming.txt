@@ -1,0 +1,94 @@
+For the Unit 7 assignment, you will be provided with a series (four to be precise) of pseudo code  segments that represent typical code and data structures that one might implement with a language such as Java or Python. 
+
+For your assignment you must devise a strategy to implement these code and data structures using only the Hack assembler.    You will be able to use the following assembler codes or symbols to complete this assignment.
+
+instlist.png
+
+ In addition you can take advantage of the jump and dest functionality that is represented in the following two tables:
+
+jump.jpg
+
+dest.jpg
+
+ The following 4 problems are the pseudocode routines that you must implement in the Hack assembler.  You should develop the code for your assembler program, compile and test it using the CPU Simulator and then submit as your assignment.  Please submit your assembler code by pasting it directly into the moodle form.  Do not attach as a separate file.   You should document your code using the // symbol as a comment to describe what part of the pseudo code is being implemented by your assembler code in the assignment so that we can understand how you implemented the code in assembler. The four problems that you must code include.   Comments should not be included in your code when you compile and test it ... only the completed version that you submit as your assignment. 
+
+A couple of tips that might be useful as you develop your program:
+
+ 
+
+Comparisons:  Your program will need to compare two numbers to determine if one is larger than the other.  In assembler we do not have an ‘if’ expression that allows us to test the equality or inequality of two variables.  The way that this capability can be implemented is by subtracting the second  number form the first number and then jumping based upon the result.    For example if A and B are our two numbers then the rules for A-B are as follows:
+
+If A-B = 0, then A=B.
+If A-B > 0, then A > B.
+If A-B < 0, then A < B.
+
+If the result of the operation is 0 then we can execute a JEQ which means jump if the output of the operation is equal to zero (see the jump table above). 
+
+In the algorithm we need to be able to test  if a variable is less than, greater than, or equal to either another variable or a constant value.  Each of these tests can be accomplished by subtracting the two numbers and the using the appropriate jump instructions such as:
+
+ JLT – jump less than 0
+JGT – jump greater than 0
+JEQ – jump equal to 0
+
+For this exercise you should develop your solution to the exercise and test it using the CPU emulator.   Your completed assignment should be shared with your peers by posting it to the unit forum.
+ 
+
+// Problem 1
+// for loop
+
+J=5
+for(i=1; i<5; i++) {
+                j--
+}
+
+
+// Problem 2
+// if - then  - else
+
+i=4
+if (i < 5) then
+                j = 3
+else
+                j = 2
+
+ 
+
+// Problem 3
+//while loop
+i = 0
+j = 0
+while(i==0) {
+    j++
+   if j = 5 then
+                i = j
+}
+
+
+// Problem 4
+// load and  traverse an array
+
+A[0] =5
+A[1]=4
+A[2]=3
+A[3]=2
+A[4]=1
+A[5]=0
+
+for (i=0; i<=5; i++) {
+                if A[i] == 0 then
+                                A[i] = 5;
+}
+
+Please submit your assembler code by pasting it directly into the moodle form.  Do not attach as a separate file.   You should document your code using the // symbol as a comment to describe what part of the pseudo code is being implemented by your assembler code in the assignment so that we can understand how you implemented the code in assembler. The four problems that you must code include.   Comments should not be included in your code when you compile and test it ... only the completed version that you submit as your assignment.
+
+
+
+
+ANSWER:
+
+
+
+
+
+
+
