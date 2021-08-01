@@ -8,6 +8,16 @@ What are the pros and cons for one pass assembly vs. two pass assembly?
 
 ANSWER:
 
+  In the beginning, here I am going to discuss about the hack assembler architectural design which was depend on the two pass assembler. Firstly, the assembler can see the entire assembly program in the sequel and can figure out the each symbol in the table which has the records all of the A-instruction as well as C-instruction beyond making any code. Without regard to, the second pass can had the whole program by reading repeatedly. At any time, A-instruction by experiencing the program which can consider in the identical address so that it can generate while it passing the first pass. The primary logic was to pass the two pass that could enable the assembler address the problem assisting the references whichever the refers had the variables and this could not be able to encountered the parsing in the whole code. 
+
+  In the second point of the view, here the first past taken by the address where it had the variable that can store back of the address this variable can be store the building of the symbol table. In spite of, when we work with only one pass that has the value read for only one time. This is a also a problem to refer the next variable or function. The issue can be resolved by the method by backpatching the tricks to generate the branch the direction in the empty target. The target also could be filled by the label of the branch instruction. 
+
+  In the third point of the view, here firstly, the one pass assembly, the main advantage is it could be describe as the fast or consume the small amount of the memory space. Though, it was stable a lot the pander to the specifically the case to forward the reference. On the other had, the two pass assembly, we can develop the assembly which has disadvantages that could pass the assembly. Even if, it could not had the time effective. 
+
+Reference,
+
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT
+Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
 
 
 
