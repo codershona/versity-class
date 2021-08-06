@@ -9,3 +9,14 @@ Discuss the weeks activities and your observations
 ANSWER:
 
 
+     In the beginning, here I am going to discuss about the reading assessment where I wan to implement in the future for example, if I had ever charged for any responsibility to take the backup of my business data and to email into the server I can also log in the event to abroad into daily basis work. I will also utilize the the way the event logs can play an necessary role to monitor the security. I the windows defender firewall advance the security if it is in advance and active mode. I was also able to customize the rules to be confirmed that the remote connection can properly enable to compatibility mode traffic. Moreover, I will also disable the windows remote shell and solidify the WinRM to authenticate by disabling to allow the unencrypted traffic policy. Then, I will  try to dig again to understand the all recommendation and give it to spot the adversary with Windows Event Log Monitoring (TSA-13-1004-SG) so that I can apply similar way if I need to do it. 
+
+  In my second point of the view, here in this week it was last week of our course because next week is final exam and currently I am taking preparation of my proctor exam. Firstly, I had review my last week peer assessments and gave feedback and graded there work. Then I moved to complete the self quiz of this week. I had also study topic of the Spotting the adversary with Windows Event Log monitoring (TSA-13-1004-SG) an article by Network Components and Application Divisions of National Security Agency/Central Security Service. In this week I do not have to complete any discussion or written assessment and so I start to write the learning journal of this week. I had also took the course evaluation for this week now I will attempt the review quiz to practice for my final exam. 
+
+
+
+References:
+University of the People (n.d): Learning Guide. Retrieved May 27th, 2020 from
+https://my.uopeople.edu/mod/book/view.php?id=205047&chapterid=227093
+National Security Agency (2013). Spotting the Adversary with Windows Event Log Monitoring. Retrieved
+May 27th, 2020 from
