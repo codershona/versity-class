@@ -1,3 +1,26 @@
 // self quiz
+The data structure used for representing the correspondence between symbols and their meaning is:
+
+A: c. Hash Table
+
+As part of the translation process the symbols must be resolved into actual ...
+
+A: addresses
+
+Any symbol Xxx appearing in an assembly program that is not predefined and is not defined elsewhere using the (Xxx) command is treated as a ...
+
+
+A: variable
+
+In Hack Assembly the meaning of the symbols are their RAM and ROM addresses.
+
+
+A: True
+
+
+The addEntry routine is being called only during the first pass of the Assembler. 
+
+A: False 
+
 
 

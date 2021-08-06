@@ -1,0 +1,12 @@
+
+There are assemblers that are capable of handling macro commands.
+
+ Please explain in your own words what a macro command is and provide an example.
+
+When would you program a macro and when would you program a subprogram (also called functions, subroutines, methods)?
+
+
+ANSWER:
+
+
+
