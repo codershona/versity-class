@@ -8,5 +8,53 @@ When would you program a macro and when would you program a subprogram (also cal
 
 ANSWER:
 
+  In the beginning, here I am going to discuss about the macro command which has general sequence in the machine instructions which also has a name. Likewise, if the assemble could able to extended to translate the macro command. It has the explanation of programming which has general to cause operations in each low translation cost. For instance, while we can find the coding style which was tedious now we can note the friendly macro command such as, D = D + M[xxx] or, GOTO YYY can be simple and quick to make a open up the language and cause the hack assembler to code it in more readable way or it can 50% briefer.  This way we can had assembler to make a translation of macro command within the binary code that effects @xxx followed by D=D+M, @YYY followed by 0;JMP and etc.
+
+We can also do this which is given below, 
+@xxx
+D=D+M
+One could do:
+D=D+M[xxx]
+I can illustrate my second example, it could be also set Memory Register 0 to 1. But, generally, this is given below,
+@1
+D=A
+@0
+M=D
+Moreover, Macros allow us to remove one line of code by writing the program  which is given below:
+@1
+D=A
+M[0]=D
+The M[0]=D 
+In the above, the line needs to be replaced by the two lines which are @0 and M=D before the
+program is compiled and executed. 
+
+
+  In my second point of the view, here the macros and subprograms could be allowed to take over from a block of the code with a single line. This can be also define as the eliminate redundancy.  Each macro cannot be involve to jump in the subprogram body also. The macro was also take over from the macro body itself. We can also pass the arguments to compile and perform into direct substitution of the code. This preprocessor also can be implemented to recover the renewal named constants into the value, macro substitutions as well as to can also generate the C implementations. This macro body can be inserted into place by the each of this references. It can be also increased the size into used of the memory to load each time and it can be also mismatch the variable size and also load it and several times whether it was implement correctly or not. The C language can be  used to macros in all of the uppercase to make a comparison between Macros and functions. Each function needs to be good used to preprocess which was in bad form. We can also process to while compiling the function. But it can also cause many errors which will transparent to any developers.  In shortly, if we can see that the functions such as subprograms, or sub-routines can be had its own methods and procedures which can also perform any kind of particular task. It is also means macros are time savers. It never any return statement. Each of the macro had higher memory use in a period of each program. 
+
+
+
+
+References,
+Nisan, N. & Schocken, S. (2005) The elements of computing systems.
+Cambridge
+Massachusetts, London England. The MIT Press
+University of Wisconsin-Milwaukee (n.d) 10.8. Macros vs. Subprograms.
+Retrieved from
+http://www.cs.uwm.edu/classes/cs315/Bacon/Lecture/HTML/ch10s08.html
+Bojja.S (Dec 2017) Derence between macro and procedure. Retrieved iiiiiiiiiiiii i
+from
+https://www.youtube.com/watch?v=QjVwMJnVkZ0
+Bishop's University (n.d.) “Macro in assembly language” online. Retrieved
+from:
+http://cs.ubishops.ca/ljensen/asm/marros-assembly.html
+3/26/2019 CS 1104 - AY2019-T3: Unit 8 Discussion Assignment
+https://my.uopeople.edu/mod/forum/discuss.php?d=191807 4/18
+Mahipal V., Phaneendhar V. & Srinivas V. (n.d.) “Functions vs. Macros: A
+comparison
+and summary” online. Retrieved
+From: https://www.lexjansen.com/scsug/2014/Functions%20vs
+%20Macros.pdf
+Saddleback College (n.d.) “Functions” online. Retrieved
+from: https://www.saddleback.edu/uploads/mse/cs/1b/chapter7.pdf
 
 
