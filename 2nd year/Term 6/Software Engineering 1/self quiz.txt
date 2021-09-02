@@ -1,1 +1,34 @@
 // self quiz
+
+Process models are described as agile because they ?
+
+A: b.
+emphasize maneuverability and adaptability
+
+
+Software engineering umbrella activities are only applied during the initial phases of software development projects.
+
+
+A: False
+
+Concept Maps, while representing knowledge about the problem domain, are expressed in terms of 'concepts' and -------, and are used to represent knowldge, beliefs, feelings etc.
+
+
+A: b.
+Propositions
+
+Decomposing a problem into simpler ones is common when dealing with complex problems. This is known as -------?
+
+A: 
+e.
+Both A and B
+
+
+An --------------- is a software packaging of data and code together into a unit within a running computer program.
+
+A: c.
+Object
+
+Software is a product and can be manufactured using the same technologies used for other engineering artifacts?
+
+A: False
