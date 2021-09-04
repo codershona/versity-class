@@ -2,13 +2,11 @@ The Learning Journal is a tool for self-reflection on the learning process. In a
 
 Your learning journal entry must be a reflective statement that considers the following questions:
 
-Describe what you did, what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained ,  and finally, describe one important thing that you are thinking about in relation to the activity.
-
-
+Describe what you did, what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained , and finally, describe one important thing that you are thinking about in relation to the activity.
 
 ANSWER:
 
-
+In the beginning, I am going to talk about what I had accomplished in this week. Well, this week was my first week in the software engineering course. Our assessment submission deadline was in 8 September from 2 September. So, I start my first journey to understand what I need to workout on. I had looked at our course syllabus, textbooks, and learning all materials. I had just taken a look at the textbooks. Then I start working on my this week assessment. Now, I went to the self-quiz section where I study from some online materials and complete the self-quiz. It was just for practice to be prepared for the final exam. Next, I start learning to learning guide unit one, where the chapter was about Introduction to Software Engineering, SDLC. Next, I learned the topics, which are: Software Engineering, Software Engineering Lifecycle, Case Studies, Software development methods. I research from the textbooks and I able to manage and learned those new topics. I had able to understand the need of Software Engineering and its origins, got to familiarize myself with the challenges, code of conduct, and ethics of Software Engineering, the basic concepts of SDLC, Software Models, Agile Methodologies, and study the comparison between the traditional waterfall model to the incremental model, the agile model and other appropriate models as well. Then I apply these ideas and concepts that I had gained by studying these topics into the discussion forum post. In the discussion post I had talked and write about the differences between developing an airplane, a bridge, as well as a word processor, which could cause this situation. I had discussed my own opinion in 339 words with references. Then I start writing my this week learning journal to complete my this week activity tasks. I think working on these tasks really help me to know new topics and learn new, interesting things.
 
 
 
