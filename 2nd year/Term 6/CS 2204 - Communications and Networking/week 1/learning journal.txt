@@ -1,0 +1,11 @@
+While designing a network protocol or setting up a network there are various issues related to the design of the protocol that needs to be addressed like Addressing, Error Control, Flow Control, etc. Make a journal entry for the following question:
+
+What are the design related issues (any two) that needs to be addressed while defining a protocol?
+
+Pick any two issues and, In Your Own Words, very briefly (2-3 statements each) state how these can affect the network, if not taken care of at the time of design.
+
+
+ANSWER:
+
+
+
