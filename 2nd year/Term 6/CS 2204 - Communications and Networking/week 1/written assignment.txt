@@ -1,0 +1,26 @@
+Networks are designed in a number of ways, based on the geographical area, the technology used, user group specific, application-based, etc. But we can roughly categorize the communication networks in 2 broad categories, based on transmission: Connection-Oriented and Connectionless.
+
+Please discuss the two categories. Your comments should include the following:
+
+Point by point comparison of their advantages and disadvantages (at least 3 advantages and 3 disadvantages)
+Point by point comparison of the design issues for both
+Your preference among the two and a suggestion to resolve any one of its design-related problem.
+Paper Guidelines
+
+2-3 pages in length, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+Assessment Criteria
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+
+ANSWER:
+
+
+
