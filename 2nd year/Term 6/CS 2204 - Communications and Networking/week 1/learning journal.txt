@@ -6,6 +6,18 @@ Pick any two issues and, In Your Own Words, very briefly (2-3 statements each) s
 
 
 ANSWER:
+  In the beginning, I am going to talk about the design of each protocol that has been willing to address to specify the network protocol that has flow control as well as including error control. 
+    
+    Flow Control: It needs to be given due consideration that, if we organize the flow together with regulating frames by the poor amid of the sender in excess of the receiver. Over and above, the receiver needs to be encouterbe reformed of the slow not either the screen size of the receiver which can have weakness. Moreover, it could have the facade of the failure of those packets. If we analyze, we can secure the whole process which is currently needs to be classifying to reduce this issue.
 
+     In my second point of the view, the flow control could be detached by the frames if the bandwidth lean to deliver the acceptances. So in this case, if we want to get rid of this we need to find uses and form it for this situation which could more powerful of the bandwidth. 
+
+     Error Control: We can implement the control of the errors but for this process we need to apply the files which need to be transmitted from one end to the other network. For example, the audio is a great instance of the data where together with the video streaming would not able to wish execute the errors disclosure. In the transmission, the file can be transmitted important which can be put away of the error exposure together with the either re-transmission or correction.  
+
+
+References:
+Techopedia.(n.d). Retrieved from https://www.techopedia.com/definition/6970/error-control-ec 
+
+Geeksforgeeks.(2020, September 08). Retrieved from https://www.geeksforgeeks.org/flow-control-in-data-link-layer/
 
 
