@@ -23,4 +23,98 @@ Spelling and Punctuation  (10%)
 ANSWER:
 
 
+                                              University of the People  
+
+                                   CS 2204 - Communications and Networking 
+
+ 
+
+                                                                Anonymous Student 
+
+                               Franklin Orellana (Instructor) 
+
+ 
+
+1. Point by point comparison of their advantages and disadvantages (at least 3 advantages  
+
+and 3 disadvantages) 
+
+ 
+
+ANSWER: 
+
+Here the Transmission Control Protocol (TCP), was known as a connection-oriented protocol moreover, the User Datagram Protocol (UDP) was known as the connection-less protocol in the TCP/IP network architecture. The two mains as well as massively utilized by the protocols which are available in the transport layer inside of the network architecture. 
+
+ 
+
+The benefits of Connection-Oriented concluded with Connectionless: 
+
+Here, the connection-oriented TCP network has a warranty to deliver the packets, which is dissimilar connectionless UDP, and it would not be kept by the track of the packets as well as will never take any responsibility. 
+
+By tracking data, it can be able to deliver it in order that, at the time that it can be sent as a consequence, the flow control receiver could be telling the sender that can be either slow down or speed up. 
+
+TCP can be delivered by packets basically, by ordering the number classify on the packets which helps to process on the packets accurately. 
+
+On the point of the connection has already been deep-rooted in TCP, it has been utilized the shorter headers at that moment connection-less protocols accomplished. 
+
+The best option to take advantage of a connection-oriented protocol via transmits a total amount of data due to authenticity of data transmission, moreover, the connectionless protocol has uncertain data transmission. 
+
+ 
+
+The benefits of Connectionless protocols concluded with Connection-Oriented: 
+
+Firstly, the connectionless protocols can be backing the broadcast including unicast delivery method. 
+
+Secondly, router failures, connection-oriented protocols such as TCP have been more sensitive than connectionless protocols. Connectionless protocols such as UDP have placed hugely booming alike cases than the connection-oriented protocol. 
+
+By dint of less overhead for originating the connection along with mailing data, connectionless protocols have been recycled for real-time applications such as, streaming as well as voice as a choice video calling. 
+
+ 
+
+2. Point by point comparison of the design issues for both. 
+
+The issues has been designed for Connection-Oriented Services: 
+
+The method can be unicast delivered by a certain limited Connection-oriented communication. 
+
+Flow Control: Controlling the flow of data has been particular of the main objections in TCP, for the reason that transmission problems differ as well as teeming the target would be a consequence in losses of data. 
+
+The higher atop take in Connection-oriented communication. 
+
+The larger bandwidth needs Connection-oriented communication. 
+
+ 
+
+The issues designed by under Connectionless Services: 
+
+   The data will not be present while it can cause errors at the time of the transmission.   
+
+Real-time delivery: Real-time applications can be utilized because they have some major features for the UDP. It is known as faster delivery of small packets. 
+
+ 
+
+3. Your preference among the two and a suggestion to resolve any one of its design related problems. 
+
+My Choice: 
+
+I wish to talk about connection-oriented such as TCP, the reason was reliable data transmission. It could also be recycled by sending a huge amount of data by network. Also, by investigating data transmission it will ensure to stay secure. On the other hand, the Connection-oriented needs to be utilized by addressing the unicast of the deliver by applying SCTP which will be take over from TCP in each of the single stream connection. As a result, the SCTP can be able to keep up with the multiplexed streams. Moreover, by adding the stream aware congestion it would be supportive for SCTP also.  
+
+ 
+
+Resources 
+
+https://fossbytes.com/connection-oriented-vs-connection-less-connection/ 
+
+http://mpstudy.com/list-some-advantages-and-disadvantages-of-connection-oriented-internetworking-and-connectionless-internetworking 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
 
