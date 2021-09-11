@@ -8,3 +8,21 @@ John Avram
 
 
 ANSWER:
+    In the beginning, 
+    
+
+
+Strengths of users:
+1. Users knows more on the problems that needs solution
+2. Users also have the right knowledge of the restrictions caused by the environment
+
+Weaknesses of users:
+1. Users don’t always have a possible solution to most of the problems.
+2. When describing problems and its possible solution users don’t know the right word to use.
+
+Strengths of developers:
+1. Developers have more knowledge on the professional words used in describing both the problems and the possible solution.
+2. Apart from describing the solutions, Developers have the perfect idea of the solution to the problems. 
+
+Weaknesses of developers:
+1. It can be difficult for developers to identify problems that needs to be solved unless they get that information from the users
