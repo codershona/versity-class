@@ -1,0 +1,27 @@
+Software Architecture is a phase of software development
+
+A: True
+
+The result of the requirements engineering elaboration task is an analysis model that defines which of the following problem domain(s)?
+
+A: d.
+All of the above
+
+The term FURPS refers to
+
+A: b.
+Non functional system properties
+
+Software architecture focuses on ---------------requirements and decomposition of ----------------------requirements.
+
+A: b.
+Non Functional, Functional
+
+'Velocity' of the development team ( in effort estimation ) is defined are the -----------?
+
+A: c.
+Productivity of the team
+
+The job of the requirements engineer is to categorize all stakeholder information in a way that allows decision makers to choose an internally consistent set of requirements.
+
+A: True

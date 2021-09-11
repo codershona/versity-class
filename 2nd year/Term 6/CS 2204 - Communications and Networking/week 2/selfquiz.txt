@@ -1,0 +1,46 @@
+The IEEE 802.1Q 32-bit VLAN tag is required to be added to frames with source and destination ports on the same switch.
+
+A: False
+
+A common recommendation is to have no more than _____ hosts per LAN or VLAN
+
+A: b.
+1000
+
+According to Nyquist, a perfect (noiseless) channel has infinite transmission capacity.
+
+A:  False
+
+Fast (100 Mbps) Ethernet uses the following encoding:
+
+A: d.
+4B/5B
+
+Ethernet LAN-layer addresses are most often called MAC addresses.
+
+A: True
+
+Gigabit Ethernet 1000Base-T uses the following encoding:
+
+A: d.
+PAM-5
+
+A VLAN looks like a single LAN and all VLAN members will see broadcast packets sent by other members.
+
+A: True
+
+All Ethernet devices also agree on a broadcast address of all 1’s: a packet sent to the broadcast address will be delivered to all attached hosts.
+
+A: True
+
+Different VLANs can usually be connected together via:
+
+A:  a.
+An IP router
+
+Baseband transmission may be defined as the transmission of a signal over a link:
+
+A: c.
+Without any change in frequency
+
+
