@@ -8,21 +8,22 @@ John Avram
 
 
 ANSWER:
-    In the beginning, 
+     In the beginning, I am going to talk about the strengths of users which is given in below, 
+     Firstly, it requires a solution which has its own users that have more issues. 
+     
+     Secondly, if the environment lead to a adjust with the restrictions for the users.
+
+   In my second point of the view, I am going to talk about the weaknesses of the users which are given below, 
+   Firstly, If the users face the issues and we need to remind that every issue does not have a proper solution.
+
+   Secondly, if we want to illustrate the issue it could be viable that a user had a great solution if does not notice the right discussion to handle. 
     
+   In the third point of the view, I am going to talk about the strengths of the developers which are given below, 
 
+   Firstly, we can talk about both the issues or the possible quick fix for the developers which is experience with new knowledge to handle with professionally.
 
-Strengths of users:
-1. Users knows more on the problems that needs solution
-2. Users also have the right knowledge of the restrictions caused by the environment
+   Secondly, developers can have an ideal concept of the explanation to fix the issues. 
 
-Weaknesses of users:
-1. Users don’t always have a possible solution to most of the problems.
-2. When describing problems and its possible solution users don’t know the right word to use.
-
-Strengths of developers:
-1. Developers have more knowledge on the professional words used in describing both the problems and the possible solution.
-2. Apart from describing the solutions, Developers have the perfect idea of the solution to the problems. 
-
-Weaknesses of developers:
-1. It can be difficult for developers to identify problems that needs to be solved unless they get that information from the users
+  In the fourth point of the view, I am going to talk about the weaknesses of developers which is given below, 
+  Firstly, sometime for the developers to analyze the issue it could be complex because it requires to figure out without the user's information.
+ 
