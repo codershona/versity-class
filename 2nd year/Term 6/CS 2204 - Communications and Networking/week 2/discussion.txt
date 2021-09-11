@@ -1,0 +1,18 @@
+
+What are the various problems that could arise in Non-Return to Zero (NRZ) encoding if a continuous stream of 0s or 1s is sent?
+
+ Instead of writing an essay, try writing in bulleted form, briefly explaining what you understand from the findings.
+
+ 
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates. Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+ANSWER:
+
+
