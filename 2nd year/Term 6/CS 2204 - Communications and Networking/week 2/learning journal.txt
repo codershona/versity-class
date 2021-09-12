@@ -1,0 +1,11 @@
+CRC or Cyclic Redundancy Check is an error control method used in Ethernet where a checksum is computed and appended to the data frame being sent across the channel.
+
+Please explain briefly, in your own words.
+
+why is the CRC put in the trailer rather than in the header of the frame?
+
+
+ANSWER:
+
+
+
