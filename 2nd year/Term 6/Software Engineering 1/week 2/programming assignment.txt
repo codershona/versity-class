@@ -1,0 +1,51 @@
+Consider the following nonfunctional requirements and determine which of them can be verified and which cannot. Write acceptance tests for each requirement or explain why it is not testable. 
+
+“The user interface must be user-friendly and easy to use.”
+“The number of mouse clicks the user needs to perform when navigating to any window of the system’s user interface must be less than 10.”
+“The user interface of the new system must be simple enough so that any user can use it with a minimum training.”
+“The maximum latency from the moment the user clicks a hyperlink in a web page until the rendering of the new web page starts is 1 second over a broadband connection.”
+“In case of failure, the system must be easy to recover and must suffer minimum loss of important data.”
+
+
+
+ANSWER: 
+
+   a.“The user interface must be user-friendly and easy to use.”
+
+   1. The user interface needs to be user friendly and easy Ui for the users. If we want to detail more user-friendly means any users can do different things. If there is no state defined it would not be testable to reach the goal. 
+
+  b. “The number of mouse clicks the user needs to perform when navigating to any window of the system’s user interface must be less than 10.”
+
+   2. If the users require to click the mouses much time to perform to navigate into the window of the UI of the system that why it needs to less than 10 to make it successful. 
+
+ The explanation of the Acceptance test,
+
+ If we need to test the windows clicking valuation we need to click at least 9 time to pass.
+
+ Otherwise, if we click 10 times or more it would be failing to pass the window clicking assessment.
+ 
+ c. “The user interface of the new system must be simple enough so that any user can use it with minimum training.”
+ 
+ This testing can be performed successfully. 
+
+   The explanation of the Acceptance test,
+
+   If we want to pass the system to operate which would be fully trained by the user. 
+
+   If we want to pass the operating system a user can be trained medium. 
+
+   It can be failed if the operating the system has no user experience to perform. 
+  
+  d. “The maximum latency from the moment the user clicks a hyperlink in a web page until the rendering of the new web page starts is 1 second over a broadband connection.”
+  
+  In the case, we can perform it successfully, if we know about the time duration to connect to fix the issue to the site by utilizing with the broadband connection
+ 
+ 
+ Acceptance test, 
+
+ If we want to pass the test, we need to click on each hyperlink to make sure it is usable in the broadband connection. 
+ 
+ e. “In case of failure, the system must be easy to recover and must suffer the minimum loss of important data.” 
+ 
+ As a result, it is required to make sure that, the failure state can be able to referred into it as well as it is also necessary data. 
+ 
