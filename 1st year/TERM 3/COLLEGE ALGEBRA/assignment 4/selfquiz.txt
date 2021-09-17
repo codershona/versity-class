@@ -1,0 +1,24 @@
+# Unit 4
+
+If f(x) = 2x + 3 and g(x) = x – 5, what is f○g?
+
+A: b. 2x – 7
+
+If f(x) = 2x + 3, and g(x) = x2 + x, what is f ○ g?
+
+A: a. 4x2 + 14x + 12
+
+Let f(x) = – x2 – 4, x < 0. What is f-1?
+
+A: c. √(x + 4)
+
+For f(x) = –√(x – 5) – 2, what is the domain of f-1?
+
+A: d. [–2, ∞)
+
+If f(x) = 2x + 3, and g(x) = x2 + x, what is g ○ f?
+
+A: a. 4x2 + 14x + 12
+
+
+

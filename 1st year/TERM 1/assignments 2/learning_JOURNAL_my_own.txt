@@ -1,0 +1,44 @@
+ANSWER 1:   The volume of a sphere was  4/3πr3, in this case, we can imagine that a sphere has its own three-dimensional solid with no face, no edge, and no vertex. Here π has the value of "pi"  which has explained in our textbook which is called the third assign value within a string for a new variable. This is called the Assignment Statement. Here, pi = 3.141592653589793 is the value. There is a function called print_volume (r) that has been taken an argument for the radius of the sphere and it has been print in the volume of that sphere. Maybe, it has its round body with all points on its surface in the center and this volume of the sphere is going to be measured by cubic units.
+
+   
+def print_volume(r):
+    from math import pi
+    return print((4.0 / 3.0) * pi * (r ** 3))
+print_volume(100)
+print_volume(200)
+print_volume(300)
+ In my method, I had called print_volume three times with different values of functions for radius.  So my console shows this output which is given below: 
+
+
+
+4188790.2047863905
+33510321.638291124
+113097335.52923255
+ 
+
+    In these three assignments statements, the output is the message which is first assigns of a strings of a new variable and the second assigns gives the 17 to r and the last third assign is pi = 3.141592653589793 which is the value.
+
+
+
+
+
+ANSWER 2:  At the beginning, I am going to illustrate a feature which I Had already learn from this unit by writing my own function. 
+
+import math
+def n1(radius):
+    nb =  4 * math.pi * radius * radius
+    vol = (4 / 17) * math.pi * radius * radius * radius
+    print("\n This is the surface area of a sphere = %.5f" %nb)
+    print("\n This is the volume of a sphere = %.5f" %vol)
+n1(6)
+
+Here my own method which I had created and the console result is given below :
+
+
+ This is the surface area of a sphere = 452.38934
+ This is the volume of a sphere = 159.66683
+ 
+
+
+In my code, I had created a user to enter my value of this radius. Besides this, I would able to pass the radius value for the function of the argument as well as it would going to be calculated the surface area and volume of this sphere as it actually depends on my formula. On the other hand, we need to make sure to put open or close brackets because if we avoid putting this open or close brackets it might cause an error in my entire method and could change the entire calculation. Also, I had imported the math library by using the following assigned statement which would able to allow me to use mathematical functions like math.pi. Secondly, my users could able to enter the radius of a sphere by using def keywords of the function within one argument a result which would be calculated by the surface area and volume of the sphere as per formula wise. 
+

@@ -1,0 +1,93 @@
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+   * when you completed each step in the Learning Guide during the week,
+
+   * any problems or unexpected events that occurred during the week (including
+
+      problems understanding new or old material), and
+
+   * any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+Enter the following command in R to read a simple help page about the table() command (this is for your information, you do not need to show the output):
+
+?table
+
+Now enter the following command and describe the output of the table() command.  What does the first row of numbers in table() output represent?  What does the second row of output represent?
+
+x <- c(5, 8, 4, 1, 5, 6, 5, 9, 4, 2, 5, 7, 5, 3, 6, 4, 5, 3, 7, 6)
+
+table(x)
+
+[optional: You can test your theory by altering the numbers and rerunning the table command.]
+
+3. Task (References: Question 1.1 page 10-12 and self-Quiz Unit 1 Question 6 and 7)
+
+a) Read section 1.5 in the Yakir textbook.  If you were a teacher and had 30 students in your class and wanted to know the class average on the first quiz, would you use a parameter or a statistic?  Why?
+
+b) If you wanted to know how many people in your country recognize the name of your new company, would you use a parameter or a statistic?  Why?
+
+
+
+ANSWER: 
+
+  ANSWER 1:
+
+          In the beginning, the self-reflection-learning system is a great way to learn as a self-learner.  At the beginning of the week when the terms 2 has been started on 12 November I read my syllabus to review my learning guide and at first, I had a complete self-quiz. I had to study self-quizzes and learn about how statistics actually work. After that, I had moved to discussion posts. I had read my instructor's questions, he told us to install R installation on the computer. I had installed the R environment in my Ubuntu operating system and discuss how I had able to install R installation in the Linux Ubuntu system. After that, I had written a full installation process in my assessments and finished it. As my peers already had given a review in my work and I had also reviewed my other peer works. Thirdly, I had started to read all learning materials to take an idea of how can able to complete a learning journal. This week I do not have any problems or unexpected events that occurred during the week but having some problem to understand learning journal question those are related to the statistic. I was having some problems understanding questions 2 and 3 of the learning journal. But after taking some time and research more blogs related to this topic I had able to understand and some problems were still having to work on.  I had some noteworthy that might affect your performance in this class as these statistics were new for me It is taking time for me to understand whole concepts and learning journal questions were a bit difficult for me to solve the problems as a beginner. But I hope after researching more and read more about the textbook I might able to understand all my problems and could solve them. There is also the existence of any situations that will positively affect me to able to focus on the classwork which was self-quiz. I had helped me learn how to solve statistical questions and problems. 
+
+  
+
+ANSWER 2:  I had entered the following command in R  to read a simple help page about the table() command and I had already ?table this command and run it. It had shown some output where it had to demonstrate about the table, package base of the R, and R documentation. It took 0.67-sec total absolute running time, 0.98 sec total CPU time. 
+
+ I had also entered the following command means ?table and describe the output of the table() command.  The first row of numbers in table() shows this output which is given below:
+
+x
+1 2 3 4 5 6 7 8 9 
+
+
+   On the other hand, the second row of output represents this output which is given below:
+
+1 1 2 3 6 3 2 1 1 
+    
+
+ANSWER 3: 
+
+  I had read sections 1.5 in the Yakir textbook and if I was a teacher and had 30 students in my class and wanted to know the class average on the first quiz I would use to estimate the statistic rather than using a parameter. I would only use statistics only to calculate the data. Parameter helps to about the whole students' number of the population as I already know there are 30 students. But statistics would help me to calculate students' sample data. It would represent only the number of which the students had already earned the points.  
+
+
+
+  On the other hand, if I wanted to know how many people in my country recognize the name of a new company I would like to use parameters instead of using statistics. Because the parameter would help me estimate the whole overall population sample data of my country accurately and will represent the data. But actually, it depends on how it could able to represents the population data. 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

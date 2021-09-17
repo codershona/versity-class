@@ -1,0 +1,93 @@
+According the rational root theorem, how many possible rational roots are there to 2x4 + 14x3 – 6x + 7 = 0?
+
+A: d. 8
+
+What is i73?
+
+A: i
+
+
+The remainder of x8 + 1 divided by x + 1 is:
+A: c. 3
+
+If A = 3 + 2i and B = 4 – i, then AB would be?
+
+ANSWER:
+a. 14 + 5i
+
+Solve the system: x = y2 + 4y – 5, x = 0.
+
+A: c. (0, 1) and (0, –5)
+
+If A = 3 and B = 4 + i, A/B = ?
+b. 12/17 – (3/17)i
+
+As x goes to infinity, the graph of f(x) =  5x4 - 173x3  -16x2 -7x -15 goes to (points in) what direction?
+A: a. ∞
+
+The solutions of x2 -8x + 17 = 0 are?
+
+A: c. 4 and -4
+
+
+
+Solve for x: e2x + 1  = 10. Choose the closest answer.
+
+A: c. 0.6
+
+Solve the system (domain is all real numbers): y = x3 + 5, y = x + 5
+
+A: e. None of these
+
+
+If A = 1 – i, B = 2 – i, C = 1 + i, and D = 2 + i then ABCD would be?
+c. 10
+
+
+The x-intercept of y = 4x – 8 is?
+
+A: d. (2, 0)
+
+Solve the system: x + y + z = 3, 2x – y + 3z = 3, x - 2y + 3z = 0
+
+A: c. (2, 1, 0)
+
+
+The graph of f(x) = x3 -6x2 + 4x +1 hits the x-axis how many times?
+
+A: c. 2
+
+
+Solve the system: 2x + 3y = 7,  3x - 5y = 1
+
+A: a. (2, 1)
+
+
+If f(x) = x2, what is f(x + h) – f(x)?
+
+
+A: b. 2xh + h2
+
+
+If f(x) = 3x – 5, what is the inverse of f?
+
+A: c. x/3 + 5/3
+
+
+The vertex of the parabola y = (x – 1)2 – 5 is:
+
+A: d. (1, -5)
+
+
+If A(x) = x – 1, B(x) = x2 + 1, C(x) = x + 1, and D(x) = x4 + 1 then A(x)B(x)C(x)D(x) is:
+
+
+A: 
+
+Solve the system: y = x2 + 4x – 5,  y = 0
+
+A: c. (1, 0) and (-5, 0)
+
+
+
+

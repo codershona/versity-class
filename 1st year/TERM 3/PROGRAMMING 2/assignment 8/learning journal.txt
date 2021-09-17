@@ -1,0 +1,246 @@
+For this week’s Learning Journal you are required to provide a solution for Lab 12: "Some GUI Programming.”
+
+When you have finished the lab please copy and paste the assignment, including the code, to this assignment area. 
+
+ANSWER:
+
+In the beginning, I am going to provide a solution for Lab 12: "Some GUI Programming.”
+
+For this lab, you will do some work on a GUI program. Most of the work is related to actions, buttons, menus, and toolbars. When you turn in your work for this lab, you should paste the code for the executable jar file of your program, in addition to all the files from your Eclipse project. See the last section on this page for information about how to create executable jar files. To begin the lab, create a new project in Eclipse and copy-and-paste both directories – guide and resources -- from the code directory into your Eclipse project. The guide directory is a package that contains the Java code of the program. The resources directory has several sub-directories that contain image and sound resources used by the program. You will be working only on the code in the guide package. The code directory also contains an executable jar file of the completed program, GuiDemoComplete.jar. You can run this jar file to see how the program should look when it's done. In the incomplete source code that you will be working on, the main class is in GuiDemo.java, and you can execute that file to see what the program does so far.
+
+
+
+Make a Menu
+
+
+
+The program has a toolbar at the bottom of the window. The buttons in this toolbar have icons. If you click one of the icons, you can then use the mouse to "stamp" copies of the icon onto the picture. (Note that a short sound is played when you stamp.) If you click the button "DEL", you can use the mouse to erase icon images from the picture. The toolbar is made by adding Actions to a JToolBar object. This is done in the class IconSupport, which contains a list of actions and a createToolbar method to create a toolbar from the actions. Write a method createMenu() in the IconSupport class to create and return a menu with the same functionality as the toolbar. That is, all the Actions from the actions ArrayList should be added to the menu, just as they were added to the toolbar. (Remember that a menu is represented by an object of type JMenu, which can be created, for example, with JMenu stamper = new JMenu("Stamper");)
+
+
+
+/**
+ * Create and return a menu with the same functionality as the toolbar.
+ * All the Actions from the actions arraylist is added to the menu,
+just as they were
+ * added to the toolbar under createToolbar() method
+ * @return
+*/
+public JMenu createMenu() {
+   JMenu stamper = new JMenu("Stamper"); //a menu is represented by an
+   object of type JMenu, stamper is created
+   for (int i = 0; i < actions.size() - 1; i++)
+      stamper.add(actions.get(i));
+   stamper.addSeparator();
+   stamper.add(actions.get(actions.size() - 1));
+   return stamper;
+}
+
+
+
+Once you have a method to create the menu, find the place in the constructor of the GuiDemo class where the menu bar is created. Use the method to create a menu, and add that menu to the menu bar. Test to make sure that it is working.
+
+JMenuBar menuBar = new JMenuBar();
+menuBar.add(makeFileMenu());
+textMenu = new TextMenu(drawPanel);
+menuBar.add(textMenu);
+menuBar.add(makeBackgroundMenu());
+menuBar.add(iconSupport.createMenu()); //find the place in the
+constructor of the GuiDemo class where the menu bar
+// is created. Use the method to create a menu, and add that menu to the
+menu bar.
+setJMenuBar(menuBar);
+
+
+Make a Toolbar
+
+
+
+There is room at the top of the window for another toolbar. Make a JToolBar that duplicates the functionality of the "Background" menu, except for the JCheckBox that is at the bottom of the menu. You can do all the work for this in the GuiDemo class. That class already has a makeBackgroundMenu method to create the "Background" menu. Add (You can create new action objects; you don't have to re-use the ones that are created in makeBackgroundMenu.). You can also add the existing actions newPictureAction and saveImageAction to the toolbar, as I did in my program.
+
+
+
+/**
+ * Make a JToolBar that duplicates the functionality of the
+"Background" menu, except for the
+ * JCheckBox that is at the bottom of the menu.
+ * makeToolbar method creates the toolbar. Add Actions of type
+ChooseBackgroundAction to the
+ * toolbar, just as is done for the menu in makeBackgroundMenu.
+ * @param horizontal
+* @return
+*/
+private JToolBar makeToolbar(boolean horizontal) {
+    JToolBar makeToolbar = new JToolBar(horizontal ? JToolBar.HORIZONTAL :
+        JToolBar.VERTICAL);
+    makeToolbar.add(newPictureAction);
+    makeToolbar.add(saveImageAction);
+    makeToolbar.addSeparator();
+    makeToolbar.add(new ChooseBackgroundAction("Mandelbrot"));
+    makeToolbar.add(new ChooseBackgroundAction("Earthrise"));
+    makeToolbar.add(new ChooseBackgroundAction("Sunset"));
+    makeToolbar.add(new ChooseBackgroundAction("Cloud"));
+    makeToolbar.add(new ChooseBackgroundAction("Eagle_nebula"));
+    makeToolbar.addSeparator();
+    makeToolbar.add(new ChooseBackgroundAction("Custom..."));
+    makeToolbar.add(new ChooseBackgroundAction("Color..."));
+    return makeToolbar;
+}
+
+
+Find the place in the constructor of the GuiDemo class where the icon toolbar is added to the window. Add a background toolbar in the same way, but placing it in the BorderLayout.NORTH position instead of the BorderLayout.SOUTH position.
+
+// Add an Background toolbar to the NORTH position of the layout 
+content.add( makeToolbar(true), BorderLayout.NORTH );
+
+
+Adding an Icon to an Action (RECHECK AGAIN HOW TO DO THIS PORTION) 
+
+The "Custom..." and "Color..." actions don't look so good in the toolbar. Since they don't have icons, their text is shown instead. It would be nice to use icons instead; and, actually, it would be nice for them to have icons in the "Background" menu as well. Use the resource "resources/action_icons/fileopen.png" to make an icon for the "Custom..." action. Add this icon to the action where it is created in the constructor of the ChooseBackgroundAction class (at the bottom of GuiDemo.java). Icons are already created there for the predefined image backgrounds, so you can see how it's done.
+
+
+
+if (text.equals("Custom...")) {
+ putValue(Action.SMALL_ICON,
+Util.iconFromResource("resources/action_icons/fileopen.png"));
+putValue(Action.SHORT_DESCRIPTION, "Select an image file
+to
+use as the background.
+
+
+ImageIcon from Scratch 
+
+
+
+The "file open" icon seems OK for the "Custom..." action. But what about the "Color..." action? This action lets the user use a solid background color as the background, so perhaps an icon showing a plain patch of color would be OK. This is a chance to make an icon by creating a BufferedImage from scratch. Create a BufferedImage, use it to make an ImageIcon, and use that icon for the "Color..." action. To make the image, create a new BufferedImage with width 32, height 32, and type BufferedImage.TYPE_INT_RGB. Create Graphics for drawing on the image, and use them to draw the image. For example, fill the entire image with dark gray, then fill a smaller square with light gray (or make some other drawing, such as the red/green/blue bars in my program). If you need an example of something like this, take a look at how NoIconAction is created in IconSupport.
+
+else if (text.equals("Color...")){
+ BufferedImage color = new
+BufferedImage(32,32,BufferedImage.TYPE_INT_RGB); //create a new
+BufferedImage with width 32, height 32, and type
+BufferedImage.TYPE_INT_RGB.
+ Graphics g = color.createGraphics();
+ g.setColor(Color.DARK_GRAY);
+ g.fillRect(0,0,10,32);
+ g.setColor(Color.GREEN);
+ g.fillRect(11,0,11,32);
+ g.setColor(Color.BLUE);
+ g.fillRect(22, 0, 10, 32);
+ g.dispose();
+ putValue(Action.SMALL_ICON, new ImageIcon(color));
+ putValue(Action.SHORT_DESCRIPTION, "Select an image file
+to
+use as the background.
+
+
+Add Radio Buttons in a Submenu 
+
+
+
+Multi-line text can be left-justified, right-justified, or center-justified. The program has the code to do text justification, but there is no way for the user to select the kind of justification to be used. 
+
+private JRadioButtonMenuItem justify; //to do text justification
+
+
+Ad a submenu with a group of three buttons that can be used to control the text justification. You can do the work in the file TextMenu.java.
+
+ Create a new JMenu named "Justify." To this menu, you will add three JRadioButtonMenuItems named "Left", "Right", and "Center". To make the radio buttons into an actual group, create a ButtonGroup object, and add each radio button to the button group. Add the JMenu to the menu that is created by the constructor of the TextMenu class. You might want to use a makeJustifyMenu method, similar to (but simpler than) the makeFontNameSubmenu method that is already defined in TextMenu. Since the text just has to change when the user selects one of the buttons, you will have to add an ActionListener to each of the buttons. The action listener for the The "Left" button should do: panel.getTextItem().setJustify(TextItem.LEFT); panel.repaint(); With similar code for the other action listeners, using TextItem.RIGHT and TextItem.CENTER for the values of the justified property. There is one subtle problem here. When the user selects the "New" command, a default text item is placed in the picture. This text item has "Left" justification, but the radio group might still indicate that the justification is "Right" or "Center," from its setting in the previous picture. There was a similar problem with the "Bold" and "Italic" checkboxes in the text menu. To solve it, a setDefaults() method was added to TextMenu which resets the checkboxes to their default state (unselected). You need to do the same thing with the radio group. Add a line to the set defaults method in TextMenu.java to select the "Left" radio button. (To make this work, the "Left" JRadioButtonMenuItem will have to be an instance variable in the TextMenu class.)
+
+
+
+
+
+private JMenu makeJustifyMenu(){
+ JMenu menu = new JMenu("Justify");
+ ActionListener setJustifyAction = new ActionListener() {
+ public void actionPerformed(ActionEvent evt) {
+ if (evt.getActionCommand() == "Left")
+ panel.getTextItem().setJustify(TextItem.LEFT);
+ else if (evt.getActionCommand() == "Center")
+ panel.getTextItem().setJustify(TextItem.CENTER);
+ else
+ panel.getTextItem().setJustify(TextItem.RIGHT);
+ panel.repaint();
+ }
+ };
+ ButtonGroup group = new ButtonGroup();
+ String[] basic = { "Left", "Right", "Center" };
+ for (String f : basic) {
+ JRadioButtonMenuItem menuItem = new JRadioButtonMenuItem(f);
+ menuItem.addActionListener(setJustifyAction);
+ //There is one subtle problem here. When the user selects the "New"
+command,
+ // a default text item is placed in the picture. This text item has
+"Left" justification,
+ // but the radio group might still indicate that the justification is
+"Right" or "Center,"
+ // from its setting in the previous picture. There was a similar
+problem with the "Bold" and
+ // "Italic" checkboxes in the text menu. To solve it, a setDefaults()
+method was added to
+ // TextMenu which resets the checkboxes to their default state
+(unselected). You need to do
+ // the same thing with the radio group. Add a line to the setDefaults
+method in TextMenu.java
+ // to select the "Left" radio button. (To make this work, the "Left"
+JRadioButtonMenuItem will
+ // have to be an instance variable in the TextMenu class.)
+ if (f.equals("Left")){
+ menuItem.setSelected(true);
+ this.justify = menuItem;
+ }
+ group.add(menuItem);
+menu.add(menuItem);
+ }
+ return menu;
+}
+
+
+Use an Input Dialog 
+
+Another text feature that the user might want to adjust is the line-height -- the distance from the baseline of one line of text to the baseline of the next line below it. The font comes with a default line-height, but the default is not always appropriate. The TextItem class has a line-height multiplier property to address this problem. The font's default line-height is multiplied by the value of this property. By default, the property has a value of 1.0, but it can be set to any positive double number. Add support for changing the value of the line height multiplier to TextMenu.java. You can use an input dialog to get the new value from the user. The same thing is already done in TextMenu for the "Set Size..." command, which is created in the TextMenu constructor. You can imitate what is done there.
+
+
+//Add support for changing the value of the lineHeightMultiplier to
+TextMenu.java.
+// You can use an input dialog to get the new value from the user.
+final JMenuItem lnHeight = new JMenuItem("Set Line Height...");
+lnHeight.addActionListener(new ActionListener() {
+ @Override
+ public void actionPerformed(ActionEvent e) {
+ double crrtLineHeight =
+panel.getTextItem().getLineHeightMultiplier();
+ String s = JOptionPane.showInputDialog(panel, "Specify line
+height", crrtLineHeight);
+ if (s != null && s.trim().length()>0){
+ try{
+ double newLnHeight = Double.parseDouble(s.trim());
+ panel.getTextItem().setLineHeightMultiplier(newLnHeight);
+//throw IllegalArgument Exception
+ panel.repaint();
+ }
+ catch (Exception e){
+ JOptionPane.showMessageDialog(panel,s + "is not a legal
+height line.
+}
+ }
+});
+
+
+
+
+Personalize Your Program
+
+
+
+ The constructor in GuiDemo.java sets up the background and text that appear in the picture when the program starts. Personalize the program by using your own saying and choice of background. I want to be able to tell different people's programs apart! (And I want to see what kind of sayings you come up with.) 
+
+drawPanel.getTextItem().setText(
+ "Wishing everyone Merry Christmas and\n" +
+ " a Happy New Year.\n" +
+ "Stay health and stay safe,\n" +
+ " in Year 2021."
+ );
+drawPanel.getTextItem().setFontSize(36);
+drawPanel.getTextItem().setJustify(TextItem.LEFT);
+drawPanel.setBackgroundImage(Util.getImageResource("resources/images/ear
+thrise.jpeg"));

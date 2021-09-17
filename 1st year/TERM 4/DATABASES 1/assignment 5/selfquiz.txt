@@ -1,0 +1,68 @@
+
+Which of the following statements is wrong?
+
+A: d. The SELECT TABLE command is a part of SQL's DDL
+
+The UPDATE command in SQL is used to change the existing values of the columns.
+
+A: True
+
+Create Table EXAMS (
+        SUB_NO integer Not Null,
+        STUDENT_NO integer Not Null,
+        MARK decimal (3),
+        DATE_TAKEN date
+);
+
+The above SQL statement is used to create the EXAMS table. Considering the EXAMS table; which of the following table contents can’t be inserted to the EXAMS table (assume date format is correct)?
+
+
+A:
+
+
+Considering the above E-R diagram; which of the following statements is wrong when this E-R diagram is implemented in a SQL database?
+
+
+A:
+
+A NULL value is treated as a blank or 0.
+
+
+A:
+
+Create Table EXAMS (
+        SUB_NO integer Not Null,
+        STUDENT_NO integer Not Null,
+        MARK decimal (3),
+        DATE_TAKEN date
+);
+
+The above SQL statement is used to create the EXAMS table. Considering the EXAMS table; which of the following table contents can’t be inserted to the EXAMS table (assume date format is correct)?	
+
+Select one:
+
+
+A:
+
+
+Which of the following SQL statements that are used to create tables gives an error?
+
+Select one:
+
+
+A:
+
+
+Which SQL statement is used to insert new data in a database?
+
+
+A:
+
+INSERT INTO SUBJECTS VALUES (1, 'Mathematics', 1, NULL, 65 ); This SQL statement always causes an error.
+
+A: False
+
+
+
+
+

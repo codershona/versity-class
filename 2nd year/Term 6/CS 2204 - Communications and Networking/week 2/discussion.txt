@@ -1,0 +1,35 @@
+
+What are the various problems that could arise in Non-Return to Zero (NRZ) encoding if a continuous stream of 0s or 1s is sent?
+
+Instead of writing an essay, try writing in bulleted form, briefly explaining what you understand from the findings.
+
+ 
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates. Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+ANSWER:
+
+ In the beginning, I am going to discuss about the slow speed of the NRZ which has been utilized for the transmission of the interface in the synchronous as well as asynchronous. If there has the lower value to send the 0 bit in the logic and highest value if the logic has a 1 bit in the NRZ. NRZ abbreviations are Non-Return to Zero. As a result, while by encoding it can be able to recognize the stream of 0s as well as 1s by sending different problems. 
+
+ Firstly, If there has similar value in the bits the receiver could able to drop the synchronization in the NRZ by encoding each synchronous link. But it can run long by continuing the bits and the voltage has no change. 
+
+ Secondly, The NRZ would need the large bandwidth because it needs to produce the DC level into data string which has the similar number which are 1s as well as 0s.
+
+ Thirdly, the receiver clock has the string which has 0s as well as 1s that would be prevented by the transmitter of synchronism. 
+
+
+
+References:
+
+Definition of NRZ Encoding.(n.d). Retrieved from http://www.interfacebus.com/NRZ_Definition.html 
+
+Dr. Dheeraj S.(n.d). Retrieved from https://www.cse.iitk.ac.in/users/dheeraj/cs425/lec03.html
+
+Tutorialspoint.(n.d). Retrieved from https://www.tutorialspoint.com/digital_communication/digital_communication_data_encoding_techniques.html
+

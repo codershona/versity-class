@@ -1,0 +1,35 @@
+Learning Journal Unit 7
+The Learning Journal is a tool for self-reflection on the learning process. In addition to completing directed tasks, you should use the Learning Journal to document your activities, record problems you may have encountered and to draft answers for Discussion Forums and Assignments. The Learning Journal should be updated regularly (on a weekly basis), as the learning journals will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful
+Describe your feelings and attitudes
+Describe what you learned
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+Your Learning Journal should be a minimum of 500 words.
+
+
+
+ANSWER:
+
+
+  In the beginning, here I am going to discuss about what I had accomplished in this week. It was seven week for me and the chapter was about UNIT 7: Assembler I. Here I had at first complete my this week self quiz which actually help me to prepare for my final exam. Next I had go to last week programming assessment where I had review there work and graded them and gave three feedbacks on there submission. Next I start working on my this week written assessment but before I start it I had study the learning guide. I had study this topics Developing high level data structures in assembler language, program translation, symbol resolution, this unit which we are going to focus on developing code that has few symbols.  In the next unit we will continue to develop our assembler language skills and introduce the use of symbols. Then I had study the way the assemblers can translate programs written in the assembly representations into programs written in the binary representations and also learn how to develop assembler code. Now I was ready to start working on the assessment and submit my work and currently next week I will review my peer work as I did this process in this entire course. 
+
+   In my second point of the view, after that, I had immediately moved to complete the discussion posts where the discuss was about the hack assembler is a two-pass assembler works twice over the code and method named backpatching that solves this issue and moreover, the advantages and disadvantages of one pass assembly vs. two pass assembly. Finally after completing my assessment I had reviewed my three peers discussion posts in the forum and rated their hard work. Now taking preparation of the final exam which will be held after 10-12 days later. When I was working on assessment my reactions was same as the last week. Because the topic was not new what I had expected. Next I had receive my discussion posts feedback from my peers which I really encourage me to write more effectively so that my peer can learn new things when they review my work. I had learn while working on the assessment. I was wondering about the final exam I hope the exam comes easy for us and I am studying my last weeks self quiz also. It was a quite challenging for me also because attempting a exam as a self learner is most important for me to improve myself.  
+
+
+
+Reference,
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT
+Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf

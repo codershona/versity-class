@@ -1,0 +1,157 @@
+Describe how you would develop object-oriented features of Java for the Quiz program developed in the Programming Assignments. In particular, describe how the program could use each of the following: class variables, instance variables, inheritance, polymorphism, abstract classes, "this", "super", interfaces, and event listeners.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+ANSWER:
+
+  In the beginning, I would want to create object-oriented concepts for Java on my the Quiz program developed for Programming Assignments which is given below,
+
+This is Questiondialog.java file my method,
+
+import java.awt.event. * ;
+import javax.swing. * ;
+public class Questiondialog extends JDialog implements ActionListener {
+  String answers;
+  public void actionPerformed(ActionEvent e) {
+    answers = e.getActionCommand();
+    dispose();
+  }
+}
+
+
+This will be my Questions.java file,
+
+import java.awt. * ;
+import javax.swing. * ;
+public class Questions {
+  static int newQuestions = 0;
+  static int newCorrect = 0;
+  Questiondialog questions;
+  String correctanswers;
+  Questions(String questions) {
+    this.questions = new Questiondialog();
+    this.questions.setLayout(new GridLayout(0, 1));
+    this.questions.add(new JLabel(" " + questions + " ", JLabel.CENTER));
+  }
+  String ask() {
+    questions.setVisible(true);
+    return questions.answerOne;
+  }
+  void check() {
+    newQuestions++;
+    String answerOne = ask();
+    if (answerOne.equals(correctAnswers)) {
+      JOptionPane.showMessageDialog(null, "This is right answers");
+      newCorrect++;
+    } else {
+      JOptionPane.showMessageDialog(null, "Wrong. This is the right answer is going to be:  " + correctanswers + ".");
+    }
+  }
+  void initQuestiondialog() {
+    this.questions.setModal(true);
+    this.questions.pack();
+    this.questions.setLocationRelativeTo(null);
+  }
+  static void showresults() {
+    JOptionPane.showMessageDialog(null, newCorrect + " The correct will be
+" + newQuestions + " questions");
+  }
+}
+
+
+My Truefalsequestion.java file method would be given below, 
+
+import javax.swing. * ;
+public class Truefalsequestion extends QuestionMain {
+  Truefalsequestion(String questionOne, String answers) {
+    super(questionOne);
+    JPanel button = new JPanel();
+    addButtons(button, "TRUE");
+    addButtons(button, "FALSE");
+    this.question.add(button);
+    initQuestiondialog();
+    answers = answers.toUpperCase();
+    if (answers.equals("T") || answers.equals("True") || answers.equals("Y") || answers.equals("Yes")) correctAnswers = "True";
+    if (answers.equals("F") || answers.equals("False") || answers.equals("N") || answers.equals("No")) correctAnswers = "False";
+  }
+  void addButtons(JPanel button, String label) {
+    JButton buttons = new JButton(label);
+    buttons.addActionListener(questionOne);
+    button.add(buttons);
+  }
+}
+
+
+My MultipleChoiceQuestion.java file which is given below,
+
+import java.awt. * ;
+import javax.swing. * ;
+public class MultipleChoiceQuestion extends QuestionMain {
+  MultipleChoiceQuestion(String query, String x, String y, String z, String w, String
+  n, String answers) {
+    super(query);
+    addChoices("1", x);
+    addChoices("2", y);
+    addChoices("3", z);
+    addChoices("4", w);
+    addChoices("5", n);
+    initQuestiondialog();
+    correctAnswers = answers.toUpperCase();
+  }
+  void addChoices(String names, String labels) {
+    JPanel choices = new JPanel(new BorderLayout());
+    JButton buttons = new JButton(names);
+    buttons.addActionListener(questions);
+    choices.add(buttons, BorderLayout.WEST);
+    choices.add(new JLabel(labels + " ", JLabel.LEFT), BorderLayout.CENTER);
+    questions.add(choices);
+  }
+}
+
+
+ My Quiz.java file would be,
+
+public class Quiz {
+  public static void main(String[] args) {
+    QuestionMain questions = new Truefalsequestion("These is Quiz OOP method !", "Y");
+    questions.check();
+    questions = new Truefalsequestion("OOP cencepts for Java beginners", "N");
+    questions.check();
+    questions = new Truefalsequestion("What is an Object", "T");
+    questions.check();
+    questions = new Truefalsequestion("What is a Class?", "F");
+    questions.check();
+    questions = new Truefalsequestion("What is Abstraction?", "False");
+    questions.check();
+    questions= new MultipleChoiceQuestion("What is 'the Encapsulation'?", "the object state which has the fields", "behavior of the systems", "behavior of the concept", "A");
+    questions.check();
+    questions = new MultipleChoiceQuestion("When is Inheritance?", "this is has one class in the properties", "each class with the acquires", " the properties and functionalities", "another class", "none of them", "B");
+    questions.check();
+    questions = new MultipleChoiceQuestion("What is Polymorphism?", " allows us to perform a single action in different ways", "will not allows us to perform a single action in different ways", " disable to perform a each actions","none of them here", "C");
+    question.check();
+    questions = new MultipleChoiceQuestion("Why is Interfaces in Java?", "this will going to make the usage of the interface keyword", "do not create to use the interface keyword", "only shows interface keyword", "None of them", "D");
+    questions.check();
+    questions = new MultipleChoiceQuestion("What is Abstract Class?", "the usage of the abstracts keywords", "do not defined", "shows only the method of the signature for no body", "ALL OF THEM ABOVE", "E");
+    questions.check();
+    MultipleChoiceQuestion.showresults();
+  }
+}
+
+
+   Explanation: 
+
+Class Variables: In OOP concepts, the classes are always calculated as the scheme which would be used to create numerously object as much as we can. For example, if we have a class that is called Quiz which has a pair of data with fields, the instance of variables, the object states, etc. This would be just a scheme that never shows any Quiz but if we want to use we could create Quiz objects to shows the quizzes. We can also create a pair of objects so that we can create an object to provide the separate properties for the object by the use of the constructor. 
+
+Instance Variables: This is a kind of variable that has an object with instance methods of classes with their own copy. It also has its own separate copy. 
+
+Inheritance: This is a kind of system that always has one class with the assemble of properties or functions that also has other classes. 
+
+For instance, if we have a Quiz program that has parent classes and QuestionMain will be a child class.  In the QuestionMain class, we never need to include any similar code that has already a present class. Here we might have questions with different logic, multiple choice answers, or true and false methods but dispose() method might be general for all Quizzes. As a result, the QuestionMain class does not have to include the code with general data as well as logics inherited from the Quizzes class.
+
+Polymorphism: This is a kind of OOP Concept that allows completing a single action in various ways.  For instance, If we had a class with Questions that has a method called addChioces() this means we never can use any logic which does not use any Question class that might be extended with Question Classes. 
+
+Abstract classes: This method only express but does not define as well as this only has logic with a signature body. This actually disclosed with abstract keywords. 
+
+ Interfaces: This is a kind of scheme that has a class that taken with interface keywords. This method does not support any multiple keywords. But a class can also be used for more than one method of interfaces. 
+

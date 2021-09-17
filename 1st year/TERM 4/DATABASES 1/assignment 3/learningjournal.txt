@@ -1,0 +1,41 @@
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did (This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it), what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained, and finally, describe one important thing that you are thinking about in relation to the activity.
+
+Consider a relation named as BOOK that contains data about the books in a library. BOOK relation was initially created with the attributes BookID (an id that library assigns), ISBN, CopyNr (used to differentiate copies of the same book), Title, PublYear, Author, and AuthorBornYear. 
+
+Primary key: BookID, CopyNr and Author
+
+Candidate key: ISBN, CopyNr and Author
+
+
+Below you see dependencies of attributes: 
+
+Dependency 1 (D1): ISBN, Title, PublYear, AuthorBornYear were dependent on BookID, CopyNr and Author
+Dependency 2 (D2): Title and PublYear were dependent on BookID, CopyNr
+Dependency 3 (D3): AuthorBornYear was dependent on Author 
+Graphic representation of the dependencies of attributes described in the assignment
+
+First determine which normal form (1NF, 2NF, 3NF or BCNF) the above relation is, and why. Then, if necessary, convert the above relation to the highest normal form (BCNF). Write any assumptions that you make.  
+
+Your Learning Journal should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+
+
+ANSWER:
+
+
+   In the beginning, in this whole week I had been learned a lot of new things. I did not face any problem which is related the redundancy or decompositions of the functional dependencies. The normal forms was quite tough to understand at first but reading the learning material I am now able to understand how it works. The first 1NF, second 2NF and third 3NF as well as Boyce-Codd(BCNF) was also another problem which I had face but after google search I had got some ideas about this topics and how the normal forms works on it. Next, I had complete the reading guide and then starting taking preparation in the grade quiz. Before giving grade quiz I had practice the self quiz as well. When I was writing discussion posts and learning journal I had understand that I need study more about the problem of the data redundancy in databases and how can I solve the reduces of the resolved redundancy. Next I had learn how to identify the functional dependencies. Secondarily, the uses of decompose of the relational schema to make less uses in the redundancy. But it was also a bit tricky to convert the relationships of the first 1NF, second 2NF and Boyce-Codd BCNF to the normal forms. Besides this, I had make review of my past week peer programming assessment. This also helps to understand the new materials and I get a chance to apply my own knowledge by learning new things. In the database management I had learn how to design and make a functions which was more efficient and the database developer could easily make the data more efficient way by decomposing the database normalization. But if we want to eliminate the excess of the unused of the memory we can accept other challenges as well we might be more convenient design to perform the database system. 
+
+    In my second point of the view, if I could imagine that, this diagram in the question which in need to solve here the first normal form has a attributes that was includes with atomic values which is inseparable. This was not in the second @NF normal forms in this case, we could define the non key which will be turn on a fundamental keys. This is also wee can not define as Boyce-Codd BCNF because it has a normal form which has each of its non trivial FD that was given with no candidate of those keys which depends on it. The FD's were has a title, author born year as well as publish year. So, this candidate needs to define the ISBN, CopyNr as well as Author also but if we want to convert in the above relation that needs to be the BCNF. Here we could also provide the determination of the candidate keys its could also rely on it. As a result, this creations also needs two relations. In this case, the author has a relationship between the book relations but the relationships could be look like this. 
+The author relations as well as the book relation.
+BOOK RELATION:
+BookID  ------->  ISBN --------> CopyNR -------> Publyear -----> Author -----> Title
+AUTHOR Relation: above similar
+
+
+
+
+
+

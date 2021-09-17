@@ -1,0 +1,70 @@
+Describe how catching exceptions can help with file errors. Write three Python examples that actually generate file errors on your computer and catch the errors with try: except: blocks. Include the code and output for each example in your post. 
+
+Describe how you might deal with each error if you were writing a large production program. These descriptions should be general ideas in English, not actual Python code. 
+
+
+ANSWER:    In the beginning, I am going to demonstrate about catching exceptions can help with file errors.  Here is my first example which is given below:
+
+
+
+try:
+  a = 1/0
+  print(a)
+  except NoDivisionError:
+    print("No!")
+  And My output is :
+
+  File "main.py", line 4
+    except NoDivisionError:
+    ^
+SyntaxError: invalid syntax
+ 
+  Explanation: Here I am getting syntax error while I try to print my method. 
+
+
+
+Example 2: My second example is given below:  
+
+try:
+b = []
+print(b[1])
+except index_error:
+print("index error")
+
+
+    Here is my console output is given below:
+
+
+  File "main.py", line 3
+    print(b[1])
+    ^
+SyntaxError: invalid syntax
+ 
+
+ Explanation: This is also showing my index error.
+
+
+
+Example 3: I am going to demonstrate my explanation and method which is given below:
+
+try:
+X = 23
+X = X + ' 3 '
+except TypeError:
+print('type error')
+
+ here is my result:
+
+
+type error
+ 
+
+
+ Explanation: This is showing my correct output because I had used the try the method and except type, error to print my type error. Besides this, we can also try the development and design process to used our file exception methods. If my method gives correct output but still I need to assume that I could get some error in my console and it could syntax error and I need to handle the exception. 
+
+
+
+
+
+
+

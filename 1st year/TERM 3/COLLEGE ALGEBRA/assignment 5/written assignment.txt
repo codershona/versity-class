@@ -1,0 +1,99 @@
+Complete the following questions utilizing the concepts introduced in this unit.
+
+1. A retirement account is opened with an initial deposit of $8,500 and earns 8.12% interest compounded monthly. What will the account be worth in 20 years? What if the deposit was calculated using simple interest? Could you see the situation in a graph? From what point one is better than the other?
+
+
+
+2.  Graph the function  f(x)=5(o.5)^{-x}  and its reflection about the line y=x on the same axis, and give the x-intercept of the reflection. Prove that  a^x=e^{x lna} . [Suggestion: type  y=5(0.5^{-x})  {- 7 < x < 2}  {0 < y < 7} in desmos, and then type its inverse function.]
+
+
+
+3.  How long will it take before twenty percent of our 1,000-gram sample of uranium-235 has decayed? [See Section 6.6 Example 13]
+
+The decay equation is  A(t)=A_0e^{Kt} , where t is the time for the decay, and K is the characteristic of the material. Suppose T is the time it takes for half of the unstable material in a sample of a radioactive substance to decay, called its half-life. Prove that  K= \frac{ln0.5}{T}   . What is K for the uranium-235? Show the steps of your reasoning.
+
+
+
+ANSWER:
+(a) In the beginning, here I am going to show the formula which is, A(t)=P (1 + r/n )nt
+
+Note: The A(t) will be the account or the final investment of the value and t will be measured in years. Thus, P was starting the amount for the account and r will be the annual percentage rate so that it needs to express because of decimal as well as n will be the number of the compounding periods within one year.
+
+P = $8,500  
+n =12   
+r = 8.12% = 8.12/100 = 0.0812
+t = 20 years
+A = 8500 ( 1 + 0.0812/12) ^ 12*20
+A = 8500 ( 1.00677)^240
+A = $42,888.18 
+
+(b) Here, the most general interest formula is going to be used by, A = p ( 1 + rt ).
+
+P = $8,500  
+n =12   
+r = 8.12% = 8.12/100 = 0.0812
+t = 20 years
+A = 8500 ( 1 + 0.0812 * 20 )
+A = $ 22,304
+
+(c) Here at first I am going to illustrate to convert the equations within a function notation,
+
+A (t) = 8500 ( 1.00677)^12t  -  Compound  Interest 
+A(t) =  8500 ( 1 + 0.0812t )  -   Simple Interest 
+Explanation, here the graph will be showing which was the compound interest of the red line which was more profitable than the other simple-interest of the green line.
+
+
+
+ANSWER 2: If the x-intercepts need a reflection for the (5, 0_ so that it will have the y-intercepts(0,5)
+Proof that, a^x = e^xlna
+e^xlna = (e^lna)^x 
+ e^lna = a, 
+ e^ln(a^x) = a^x.  
+Let the value of a^x be equal to y 
+a^x = y 
+
+BY taking the natural log of b 
+ln(a^x)=ln(y) 
+Then bring the exponent out of the bracket x∗ln(a) = ln(y) 
+and put both sides as the power of e to cancel the ln on the right
+e^x∗ln(a)=e^ln(y) 
+e^x∗ln(a )= y 
+Then since a^x = y we replace it for y 
+ e^x∗ln(a)=a^x
+ (x) = 5(0.5)−xf(−x) = 5(0.5)−x
+
+
+
+ANSWER(3): (a) Here, the decay for the equation will be A(t)=A_0e^{Kt}, as well as t will be the time for the decay as well as K will be the characteristic for the material. For instance, T will be the time that takes half of the unstable material and the sample also needs to be radioactive for the substance to decay, which is called a half-life. If we can prove that, K= \frac{ln0.5}{T}. 
+
+My second reason is given below,
+
+ Substance- Uranium              
+Use- Atomic Power                      
+Half Life- 703,800,000 years
+Explanation, here the Radioactive decay formula will be,  A(t) = Aoe,( In(0.5) t/T) t, where Ao is the output initially
+present, T is the half-life of the substance, t is the time period over which the substance is
+studied, y is the amount of the substance present after time t.
+
+y = 1000e (ln(0.5) / 703,800,000) t 
+800 = 1000e (ln(0.5) / 703,800,000) t (after 20% decays, 800 grams are left) 
+0.8 = e (ln(0.5) / 703,800,000) t           (I am dividing both sides by 100)
+ln (0.8) = ln (e ln(0.5) / 703,800,000 t )         ( take in of both sides )
+ln (0.8) = ln(0.5) / 703,800,000 t                 ( now I solve for t )
+t = 703,800,000 * ln (0.8) / ln (0.5) years
+t = 226,572,993
+As a result, 20% of the uranium has been decayed by 226,572,993 years.
+(b) Suppose T is the time it takes for half of the unstable material in a sample of a radioactive
+the substance to decay called its half-life.
+Answer: If the half-life of uranium is 703,800,000, then T would be 2*703,800,000 =
+1,407,600,000.
+(c) If we want to prove that, K= \frac{ln0.5}{T}. The K for the uranium-235 steps has been shown in below,
+K = ln0.5 / T K = ln0.5 / 1,407,600,000 
+K= 703,800,000 (which is the half- life of Uranium, thus k =ln0.5 / T = True)
+
+
+
+
+
+
+

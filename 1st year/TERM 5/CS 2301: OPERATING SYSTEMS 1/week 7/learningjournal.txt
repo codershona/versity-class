@@ -1,0 +1,22 @@
+Operating systems are in use everywhere in our society:
+
+Discuss where physical memory is being used in everyday aspects of your life this week?
+Discuss the weeks activities and your observations.
+* In Your Own Words (with references if necessary), very briefly in 2 paragraphs
+
+
+ANSWER:
+
+  In the beginning, I am going to discuss about the physical memory which has been used by us in our daily life. As I know physical memory is called RAM and its abbreviation is random access memory. It also pulls the instructions wise in the programs which can be execute the cards by attaching the motherboard. It can also be utilized in all types of the devices and there are lot of advantages by storing the application and its data files which can be also has in the operating systems.
+
+
+
+  In the second point of the view, in this week I think I did not see anything new topics to learn it was same as previous week. Firstly, I had attempt the self quiz. Next after completing the self quiz I had review my previous week peers assessment and gave three feedbacks on their submission. Then I immediately move to complete my this week programming assessment and I had complete it. Then I start working on discussion post and posted it into forum. Now I am writing learning journal. I had also review the three of my peers work in discussion post and rated there work. Now I am taking preparation for my final exam.  
+
+References,
+Wikibook(n.d). Operating System Design/Physical Memory
+retrieved from https://en.wikibooks.org/wiki/Operating_System_Design/Physical_Memory
+
+
+
+

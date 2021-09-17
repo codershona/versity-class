@@ -1,0 +1,214 @@
+Quizzes and graded assignments in MATH1280 are NOT group projects. Please answer the questions and do not share the questions or answers with others or accept advance access to questions or answers from others.
+
+Data
+For Tasks 1-8, consider the following data:
+
+7.2, 1.2, 1.8, 2.8, 18, -1.9, -0.1, -1.5, 13.0, 3.2, -1.1, 7.0, 0.5, 3.9, 2.1, 4.1, 6.5
+
+In Tasks 1-8 you are asked to conduct some computations regarding this data. The computation should be carried out manually. All the steps that go into the computation should be presented and explained. (You may use R in order to verify your computation, but not as a substitute for conducting the manual computations.)
+
+A Random Variable
+In Tasks 9-18 you are asked to conduct some computations regarding a random variable.  Use the (incomplete) table below as the definition of this random variable (after you fill in the blank).  The sample space of a random variable is comprised of the integers 0, 1, 2, 3, 4, 5, and 6. The probabilities of +each value are shown in the table below (with one missing value).
+
+Value
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Probability
+
+.10
+
+.15
+
+.25
+
+.10
+
+ 
+
+.10
+
+.15
+
+
+A Population
+For Tasks 19-21, use the file called "pop3.csv" found here. That file contains information about time to failure of an entire production of some computer parts. The file contains two variables, "type" and "time", each measured over the 100,000 members of the population. The variable "type" is a factor, with three levels, "a", "b" and "c", and the variable "time" is numeric.  If the value of time is 4, that means that the part lasted 4 units of time (years?) before a failure occurred.  You should treat the content of this file as the information from an entire population.
+
+Save the file on your computer and read the data stored in the file into R.  If you have trouble loading the data into R, email your instructor immediately—don't worry if you think you will find the answer 1 minute after sending the email—just send the email.  Tasks 19-21 refer to the information in the file.
+
+Submitting the Assignment
+For the assignment you should complete the following tasks. Tasks 1-8 refer to the sequence of 17 data values presented above, Tasks 9-18 refer to the random variable and Tasks 19-XXX21 refer to the information of a population of computer parts that is stored in the file "pop3.csv". Your answers should be short and clear.
+
+
+We recommend that you copy and paste the tasks below into the assignment submission area. You can then write your answers to the tasks in the designated positions that are marked in the text:
+
+Tasks
+
+Data:
+
+1.    Using the list of 17 numbers at the top of the page, the median of this data, rounded to two decimal places, is:_____.
+
+2.    If you find the median using the original method (paper and pencil), you have to arrange the values into numeric order (True/False).______________________
+
+3.    The interquartile range for this data is (round each value to 3 decimal places):_______.
+
+4.    The formula for calculating the interquartile range is_____________ (show the formula and a citation to the source that you used).
+
+5.    Using techniques that we have studied in this course, the upper and lower cutoff points (rounded to three decimal places) for identifying outliers (in the given data sample) are: ________ and ________ (this is not a request to show any outliers--just the cutoff points that would determine what constitutes an outlier).  You may round to three decimal places.
+
+6.    The summary() command shows a list of outliers, if there are any (True/False):______________________
+
+7.    The list of outlier values is:_____________ (if there are none, write "NA").
+
+8.    The standard deviation of the list of 17 numbers is (round to 3 decimal places): ______________
+
+A Random Variable:
+
+9.    The missing probability value (under the number 4) in the random variable table above is:_______
+
+10.     The sum of the probabilites in the second row of any random variable table like the one above should equal (round to 3 decimal places): _______________________________________________.
+
+11.    Read section 4.4.1 in the book (Yakir, 2011).  Do the numbers in the table above (for the random variable) represent a data sample (Yes/No)?____
+
+12.     In the random variable table shown above, the value in the second row represents the cumulative probability of the corresponding values in the first row (True/False) _________
+
+13.     The probability that a randomly selected value from this random value will be less than or equal to 3 is :_____.
+
+14.     What is the probability that a randomly selected value from the random variable would be exactly 1.5? ___________ .
+
+15.     Review section 4.4 in the book (Yakir, 2011), especially pages 57—58.  The expectation of the random variable is:______.
+
+16.     To find the expectation of a random variable by using a relative frequency table, you can add the values in the first row of the table and divide by the number of columns in the table (True/False)_________.
+
+17.     Study Yakir (2011) pp. 57-59 and solved problems 4.1.6-4.1.8.  The (population) standard deviation of the random variable above is (round to 3 decimal places):_______ (hint, you can not put values from the table into the sd() function because the sd() function does not adjust for the probabilities).
+
+18.    If you have already calculated the standard deviation of a data sample, what is the next thing to do to find the variance: ______________________________.
+
+A Population:
+
+19.    Determine how many observations in the pop3.csv file are of type a:  _______.
+
+20. Using the appropriate R function with the defaul options, what is the median of the time column of pop3 (round to 3 decimal places): ______________________________.
+
+21. What is the variance of the time column of pop3 (rounded to three decimal places)? _______
+
+
+ANSWER:
+
+   In the beginning, I am going to demonstrate tasks which are given below:
+
+1.    Using the list of 17 numbers at the top of the page, the median of this data, rounded to two decimal places, is:_____.
+
+ANSWER: 
+
+    The list of 17 numbers at the top of the page, the median of this data, rounded to two decimal places, is 2.80. Here, the median was the numerical value in the center of a set of values arranged from smallest to largest.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 -1.9, -1.5, -1.1, -0.1, 0.5, 1.2, 1.8, 2.1, 2.8, 3.2,
+3.9, 4.1, 6.5, 7.0, 7.2, 13.0, 18
+2.    If you find the median using the original method (paper and pencil), you have to arrange the values into numeric order (True/False).______________________
+
+ANSWER: If you find the median using the original method (paper and pencil), you have to arrange the values into numeric order True.
+
+3.    The interquartile range for this data is (round each value to 3 decimal places):_______.
+
+ANSWER: The interquartile range for this data is 6. If I calculated IQR = Q3-Q1 = 6.50 - 0.50 = 6. Because Q1 has 0.50 that is the middle value of the lower half of the data(-1.9, -1.5, -1.1, -0.1, 0.5, 1.2, 1.8, 2.1, 2.8). On the other hand, Q3 has 6.50 that is the middle value of the upper half of data (2.8, 3.2, 3.9, 4.1, 6.5, 7.0, 7.2, 13.0, 18).
+
+4.    The formula for calculating the interquartile range is_____________ (show the formula and a citation to the source that you used).
+
+ANSWER: The formula for calculating the interquartile range is QR = Q3 - Q1 (Yakir, 2011).
+
+5.    Using techniques that we have studied in this course, the upper and lower cutoff points (rounded to three decimal places) for identifying outliers (in the given data sample) are: ________ and ________ (this is not a request to show any outliers--just the cutoff points that would determine what constitutes an outlier).  You may round to three decimal places.
+
+ANSWER: Using techniques that we have studied in this course, the upper and lower cutoff points (rounded to three decimal places) for identifying outliers (in the given data sample) are Upper cutoff points: 15.5 and Lower cutoff points: - 8.5.
+
+6.    The summary() command shows a list of outliers, if there are any (True/False):______________________
+
+ANSWER: The summary() command shows a list of outliers, if there are any False.
+
+7.    The list of outlier values is:_____________ (if there are none, write "NA").
+
+ANSWER: The list of outlier values is 18.
+
+8.    The standard deviation of the list of 17 numbers is (round to 3 decimal places): ______________
+
+ANSWER: The standard deviation of the list of 17 numbers is  Standard Deviation = 5.249.
+
+A Random Variable:
+
+9.    The missing probability value (under the number 4) in the random variable table above is:_______
+
+ANSWER: The missing probability value (under number 4) in the random variable table above is 0.15. If we imagine P(4) = 1 – (0.10 + 0.15 + 0.25 + 10 + 0.10 + 0.15) = 0.85 that means P(4) = 1 – 0.85 = 0.15.
+
+ 
+
+10.     The sum of the probabilites in the second row of any random variable table like the one above should equal (round to 3 decimal places): _______________________________________________.
+
+ANSWER: The sum of the probabilities in the second row of any random variable table like the one above should equal is It should = 1. Because If we imagine that the round is 0.15 + 0.25 + 0.10 + 0.10 + 0.15 + 0.10 + 0.15 = 1.
+
+11.    Read section 4.4.1 in the book (Yakir, 2011).  Do the numbers in the table above (for the random variable) represent a data sample (Yes/No)?____
+
+ANSWER:  The numbers in the table above represent a data sample is NO.
+
+12.     In the random variable table shown above, the value in the second row represents the cumulative probability of the corresponding values in the first row (True/False) _________
+
+ANSWER: In the random variable table shown above, the value in the second row represents the cumulative probability of the corresponding values in the first row False. Because it was relative frequency. 
+
+13.     The probability that a randomly selected value from this random value will be less than or equal to 3 is:_____.
+
+ANSWER:  The probability that a randomly selected value from this random value will be less than or equal to 3 is 0.6. Here, P (Y <= 3) = P(Y = 0) + P(Y = 1) + P(Y = 2) + P(Y = 3) = 0.10 + 0.15 + .25 + .10 = 0.6.
+
+14.     What is the probability that a randomly selected value from the random variable would be exactly 1.5? ___________ .
+
+ANSWER: The probability that a randomly selected value from the random variable would be exactly 1.5 is 0% because 1.5 is not part of the sample space.
+
+15.     Review section 4.4 in the book (Yakir, 2011), especially pages 57—58.  The expectation of the random variable is:______.
+
+ANSWER:  The expectation of the random variable is E(X) = Expectation = 2.95. Because this is the theoretical mean of the distribution of a random variable.
+
+16.     To find the expectation of a random variable by using a relative frequency table, you can add the values in the first row of the table and divide by the number of columns in the table (True/False)_________.
+
+ANSWER: False.
+
+
+
+17.     Study Yakir (2011) pp. 57-59 and solved problems 4.1.6-4.1.8.  The (population) standard deviation of the random variable above is (round to 3 decimal places):_______ (hint, you can not put values from the table into the sd() function because the sd() function does not adjust for the probabilities).
+
+ANSWER: 1.910
+
+
+
+18.    If you have already calculated the standard deviation of a data sample, what is the next thing to do to find the variance: ______________________________.
+
+ANSWER: If you have already calculated the standard deviation of a data sample, what is the next thing to do to find the variance square the sd. Here, if the raise to the second power. > 1.91^2Variance: [1] 3.6481.
+
+ 
+
+A Population:
+
+19.    Determine how many observations in the pop3.csv file are of type a:  _______.
+
+ANSWER: 49,949.
+
+
+
+20. Using the appropriate R function with the defaul options, what is the median of the time column of pop3 (round to 3 decimal places): ______________________________.
+
+ANSWER: Median of the time column of pop3: 4.473.
+
+21. What is the variance of the time column of pop3 (rounded to three decimal places)? _______
+
+ANSWER:  The variance of the time column of pop3 (rounded to three decimal places) is 54.916.
+
+
+

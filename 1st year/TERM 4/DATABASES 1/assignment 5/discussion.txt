@@ -1,0 +1,112 @@
+Download the image file.
+
+Considering the above E-R diagram; provide SQL statements for the following cases:
+
+Create above relations for the E-R diagram above
+After creating each relation, insert at least 6 rows (tuples) for each relation (table) with data that you invented
+SALE_ITEM relation should include at least two same SaleID
+Update a “Price” value of a row in the ITEM relation
+Updated ITEM (ItemID) should be in SALE_ITEM
+Post your solution to the discussion forum and compare with the solutions of your peers. Your solution should include the screenshots of your relations with data. Discuss issues while solving above problems and any assumptions that you made.
+
+
+ANSWER:
+In the beginning, Here I had create the E-R diagram relations which is given below:
+
+
+
+
+
+create table sale(
+sale_ID integer not null,
+sale_date date not null,
+tax float not null,
+total float not null,
+primary key (sale_ID));
+create table item (
+item_ID integer not null,
+name varchar (20) not null,
+cost float not null,
+price float not null, 
+primary key (item_id));
+
+create table sale_item (
+sale_ID integer not null,
+sale_item_ID integer not null, 
+foreign key (sale_item_ID) references item (item_ID) on update cascade,
+foreign key (sale_ID) references sale (sale_ID) on update cascade);
+
+Now I am going to insert at least 6 rows (tuples) so that each relation should has a table including data which needs to be 
+invented by(sale_item) and build a relationship with including at least two same sale_ID that is given below, 
+
+
+
+
+
+insert into sale (sale_ID, sale_date, tax, total)
+values ('2202', '05/10/2021', '10.5', '73.5');
+insert into sale (sale_ID, sale_date, tax, total)
+
+values ('2203', '05/10/2021', '10.5', '73.5');
+
+insert into sale (sale_ID, sale_date, tax, total)
+
+values ('2204', '05/10/2021', '8', '205');
+insert into sale (sale_ID, sale_date, tax, total)
+values ('2205', '05/10/2021', '9.5', '606.5');
+insert into sale (sale_ID, sale_date, tax, total)
+values ('2206', '01/01/2021', '11.5', '1208.5');
+
+
+
+Here now I am going to update a “Price”  which has a value of a row in the item relation and I am going to updated item
+(item_ID) would be in sale_item that has been discuss in below,
+
+insert into item (item_ID, name, cost, price)
+values (301, ‘Television’, 400, 550);
+insert into item (item_ID, name, cost, price)
+values (302, ‘Radio’, 150, 170);
+insert into item (item_ID, name, cost, price)
+values (303, ‘Computer’, 600, 800);
+insert into item (item_ID, name, cost, price)
+values (304, ‘Laptop’, 650, 770);
+insert into item (item_ID, name, cost, price)
+values (305, ‘Keyboard’, 20, 50);
+insert into item (item_ID, name, cost, price)
+values (306, ‘Vacuum Cleaner’, 110, 130);
+insert into sale_item (sale_ID, sale_item_ID )
+values (301, 101);
+insert into sale_item (sale_ID, sale_item_ID )
+values (301, 102);
+insert into sale_item (sale_ID, sale_item_ID )
+values (304, 104);
+insert into sale_item (sale_ID, sale_item_ID )
+values (305, 105);
+insert into sale_item (sale_ID, sale_item_ID )
+values (306, 106);
+
+As a result, if the price has a value that has row in item that is going to be updated as well as I need to tried to make a change in the item_ID. Besides this, it also has no differences between both so that it could be adjusted including the changes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

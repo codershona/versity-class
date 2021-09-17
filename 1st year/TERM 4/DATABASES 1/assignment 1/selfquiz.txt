@@ -1,0 +1,65 @@
+OpenOffice Base is an example of a database.
+
+A: False
+
+Which of the following is not a property of a data model?
+
+A: c. Includes many details
+
+
+“The maximum number of courses a student can take in one term is 6.”
+
+Which constraint should be used to enforce this statement?
+
+
+A: d. Semantic integrity constraint
+
+
+
+
+What does “a named column of a relation” refer to?
+
+
+A:   a. Attribute
+
+
+
+A primary key of a relation should be part of every other relation to provide referential integrity.
+
+
+A: False
+
+
+
+
+Which of the following is not a problem associated with storing data in a file?
+
+
+A: b. Inability to store partial data
+
+
+
+
+A rule that each foreign key value must match a primary key value in the other relation is called as?
+
+
+
+A: a. Referential integrity constraint
+
+
+
+
+In the evolution of database management systems, what does optimization refer to?
+
+
+A: c. Performance
+
+
+
+
+
+
+
+
+
+

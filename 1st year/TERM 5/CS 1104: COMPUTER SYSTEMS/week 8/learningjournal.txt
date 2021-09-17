@@ -1,0 +1,31 @@
+Learning Journal Unit 8
+The Learning Journal is a tool for self-reflection on the learning process. In addition to completing directed tasks, you should use the Learning Journal to document your activities, record problems you may have encountered and to draft answers for Discussion Forums and Assignments. The Learning Journal should be updated regularly (on a weekly basis), as the learning journals will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful
+Describe your feelings and attitudes
+Describe what you learned
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+Your Learning Journal should be a minimum of 500 words.
+
+
+
+
+ANSWER:
+
+
+ In the beginning, here I am going to discuss about what I had accomplished in this week. This week it was about UNIT 8 of assembler II. It was final week and I was taking preparation for my final exam. So I start to complete my this week assessment at first. I had reviewed my last week peer assessment in written assignment. I had gave three feedback and review there work. Net I had moved to complete my course evaluation. I had complete the evaluation. Then I start to attempt my this week self quiz. Now I had complete it and now I start to work on the discussion posts and write the explanation about macro command and the how t works program a macro and in program a subprogram. Now I am waiting for my peers feedbacks and I will also give three feedbacks in there work. I had study this week Topics about the Symbols resolution. Next, I had also study Continue to develop our assembler programming skills and enhance the assembler routines that we developed in the previous unit to take advantage of the symbol handling capabilities of the assembler. Now I am writing the learning journal. My reactions for this week was a bit pressure for my final exam. As I am studying for final exam and will attempt the review quiz to practice and be prepared for the exam. In this week I am study many new things. It was not that much challenging week it was study week for me. I am studying what I had learn in this whole course and learning the self quiz previously I had attempt. As a self learner I need to also focus on time management because the time management will help in my final exam. As a computer science student this course was very helpful for me where I had learn many new things. Computer systems is very important topics to learn. 
+
+
+

@@ -1,0 +1,67 @@
+Modify your program from Learning Journal Unit 7 to read dictionary items from a file and write the inverted dictionary to a file. You will need to decide on the following:
+
+How to format each dictionary item as a text string in the input file.
+How to covert each input string into a dictionary item.
+How to format each item of your inverted dictionary as a text string in the output file.
+Create an input file with your original three-or-more items and add at least three new items, for a total of at least six items.
+
+
+Include the following in your Learning Journal submission: 
+
+The input file for your original dictionary (with at least six items).
+The Python program to read from a file, invert the dictionary, and write to a different file.
+The output file for your inverted dictionary.
+A description of how you chose to encode the original dictionary and the inverted dictionary in text files.
+
+
+
+ANSWER:             In the beginning, Python file handling is the most effective part of web application development. As it has several functions suppose creating, reading, updating, and deleting files. It has a key to the function which works in the files called the open() function. This function has two parameters, which are called filename as well as the node. 
+
+  I am going to write the format of each dictionary item as a text string in the input file and that is given below:
+
+file_item = {
+  'File 1': 6,
+  'File 2': 89,
+  'File 3': 99
+}
+with open('file_string', 'a+' ) as f:
+  for key, value in file_item.items():
+    f.write(f'{key}:{value}\n')
+
+
+  ANSWER 2:  Secondly, I am going to convert each input string into a dictionary item, and here is my code:
+
+def file_item():
+  filename = input('Enter filename, split key and the value').split(':')
+  if len(filename) != 2 or not filename[0] or not filename[1]:
+    print('Enter the correct filename')
+    return file_item()
+    file_name_string = {filename[0]: filename[1]}
+    print(file_name_string)
+    file_item()
+
+
+ANSWER 3: Thirdly, I am going to format each item of your inverted dictionary as a text string in the output file and my method is given below:
+
+with open('file_item') as f:
+  data = dict()
+  for i in f.readlines():
+    if i != '\n':
+      item = i.split(':')
+      data[item[0]] = item[1].strip()
+      print(data)
+
+ANSWER 4:  In my fourth point, I am going to create an input file with your original three-or-more items and add at least three new items, for a total of at least six items and this is given below:
+
+with open('new_file', 'x') as b:
+  b.write('Toyota:10000\n'
+  'Tesla:678\n'
+  'Lamborghini:200\n')
+with open('new)file', 'a+') as x:
+  x.write('Porschi:300\n'
+  'Customvan:200\n'
+  'Honda:4\n')
+
+
+
+

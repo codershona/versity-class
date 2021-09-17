@@ -1,0 +1,27 @@
+   In the beginning, I am going to write about this week's activities. This week, my assignment was about UNIT 5: Inheritance, Polymorphism, and Interfaces. Here I had been completed the discussion post in the forum, programming assignment, and self-quizzes. I had been completed the self-quiz at first. I had able to complete the multiple-choice which was correct. I had tried that Java logic in my terminal and got the output and figure out the answers to those multiple choices. I had tried to understand those concepts of interfaces, inheritance, and polymorphism.  It was quite hard to understand at first and I need to study more to understands the logic. 
+
+
+
+   When I was completing the discussion post my reaction was a bit worried. Because  I got confused to understand the super and these keywords. Because at the first time I thought that these two keywords work as same in my java code. But I was wrong. In my discussion post, I had got some feedback from my peers where everybody was telling me that I had able to understand the whole concept in detail.  After that, I understand I am learning as a self-directed learner. Because after struggling and reading more blogs from the internet about the unit 5 chapter I had able to discuss the main logic in my assessments. 
+
+
+
+  In my second point of view, When I was completing the assessments in discussion posts I was surprised that, super () and this () keywords are not the same constructors. As at first, I had defined the super keyword method with an example and this keyword method with logic. After that, I need to define both keywords why it was the same. But when I research I had understood that the constructors are not able to use the same method but if we try to use it we would receive errors in our console. Finally, I had got errors for the constructors, which I had also explained in detail which was most challenging for me. 
+
+
+
+   By illustrating my example I had understood that I am currently able to understand technical problem-solving. Like computer science, students in our real professional life also need to deal with more code problems.
+
+
+
+ As a result, I had realized that as I am a self-learner this system is also helping me to become a self-taught programmer where I am able to apply my ideas and concepts gained to my own experience. 
+
+
+
+  Finally, I am thinking that in my activity I need to increase more productivity and try to solve more code issues so that I can able to think critically and also try to learn communication skills. As a computer science student, I need to focus more on my soft skills also. Discussing the problem with peers would also help me to gain collaborative skills. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. DOI: 10.2307/j.ctt46mtwb.7

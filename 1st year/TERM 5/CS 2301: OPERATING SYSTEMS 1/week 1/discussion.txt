@@ -1,0 +1,22 @@
+In Unit 1, we are introduced to the concepts of operating systems and the basic organization of the textbook.
+
+For your Discussion Assignment:
+
+Using one of the referenced website articles discuss how operating systems use a general technique called virtualization and virtual machines. The operating system takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general, powerful, and easy-to-use virtual form of itself called a virtual machine (VM).
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts.
+
+
+ANSWER:
+
+  In the beginning, I am going to discuss about the operating systems which is basically used to achieve virtualization to assist specific software which is known as Hyper-Visor. Hyper-Visor follow the example of the Central Processing Units server or PC(personal Computer) including client, network, hard-disk and memory. The virtual machines can able to share the resources of other hardware entirely. It can also copy many virtual hardware platforms that will be apart of each another licensed virtual machine to compile the Linux operating system. Moreover, Windows operating systems will be in the similar keys of the physical host. As a result, the virtual memory can be followed by the doubtless restrictions. Despite the fact that,  in the original system the environment of the virtual memory has been completed identically. However, it could also make a command in a specific portion of the resources which is easy to get into the limitations.
+
+
+
+References,
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating Systems: Three Easy Pieces.
+University of Wisconsin-Madison. Retrieved from http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+
+

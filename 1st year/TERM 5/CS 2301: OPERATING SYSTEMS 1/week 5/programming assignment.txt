@@ -1,0 +1,72 @@
+In unit 5, we discussed memory:
+
+Process Explorer v16.2 shows you information about which handles and DLLs processes have opened or loaded. The Process Explorer display consists of two sub-windows. The top window always shows a list of the currently active processes, including the names of their owning accounts, whereas the information displayed in the bottom window depends on the mode that Process Explorer is in: if it is in handle mode you'll see the handles that the process selected in the top window has opened; if Process Explorer is in DLL mode you'll see the DLLs and memory-mapped files that the process has loaded. Process Explorer also has a powerful search capability that will quickly show you which processes have particular handles opened or DLLs loaded.
+
+The unique capabilities of Process Explorer make it useful for tracking down DLL-version problems or handle leaks, and provide insight into the way Windows and applications work.
+
+Watch this short video on Process Explorer. How to use Process Explorer to see what processes are doing (Youtube). Retrieved from:
+
+
+For your assignment for [Windows Operating System] Download and run the Process Explorer utility from http://technet.microsoft.com/en-us/sysinternals/bb896653
+
+CS2301Unit05WAImg01.JPG
+
+Run the Process Explorer utility (Available at http://technet.microsoft.com/en-us/sysinternals/bb896653). Click on the System Information button (Ctrl+I) to see details of memory usage activity in your system. Provide information about the usage of physical memory, kernel memory and paging in your system. Now start a new program, e.g. Microsoft Excel. Describe how this usage pattern changes when you start this program, a minute after you have started this program, and when you terminate this program. Provide an explanation for this usage pattern.
+
+Provide screen shot of resulting page after running the Process Explorer utility
+Comment of your physical memory usage and list or highlight on screen shot
+Comment of your kernel memory usage and list or highlight on screen shot
+Comment of your paging and list or highlight on screen shot
+Describe how this usage pattern changes when you start the program, a minute after you have started this program, and when you terminate this program
+Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion is your thoughts about the assignment.
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+
+ANSWER:
+
+  In the beginning, I am going to provide the screenshot of resulting page after running the Process Explorer utility which are given below,
+
+
+
+
+
+
+
+   In my second point of view, I am going to comment of our physical memory usage and list or highlight on screenshot where physical memory is called RAM. RAM meaning is Random Access Memory. It has a form that is quite fast and also can able to volatile the storage in data. The whole physical memory has 3,930,792 KB available in 8,290,124 KB. Next the rest of the physical memory has been run by the application which were also running in the present time in my PC.
+
+
+
+
+
+   In the third point of the view, here I am going to talk about the comment on our kernel memory usage and list or highlight on screenshot that is also been attached in below.
+
+   If we run OS in our PC, this needs some memory which also also need to OS process to run it. In this case, we can use Kernel Memory. Paged Kernel Memory is also a kind of a part of the virtual memory which is being given over to the kernel. But if I check in my PC I could see that paged limitation has no symbols and the paged virtual is 278,952K. I had also observed that, the Kernel Memory is not been affected by the way when I had start any application in my PC or when I closed in the same process.
+
+
+
+
+
+
+     In my fourth point of the view, here I am going to talk about Comment on our paging and list or highlight on the screenshot. We can also use the Windows to paged the file in some short time in the storage in the memory dump. In the system we can also rebooted and see the windows copies in the memory if it has been dumped in the page file and then we can make separation in the file as well as it frees the space which also needs to be used in the page file. This page fault delta has being changed into number of the page faults as the last update. It also needs the page fault delta to make a increased of the quantity in the memory that can be available in the OS program. As a result if we run more applications in our computer it will show page fault data has been sudden increment due to its applications that is more memory needed to be available to compile.
+
+
+
+
+
+  In my fifth point of the view, I am going to describe how this usage pattern changes when we can start the program, a minute after we have started this program, and when we can terminate this program. In the beginning, I need to switched my PC to run the process explorer. Here the physical memory has more available as well as it can also over 5GB which is out of 8GB.  The paged was also was not high.  Next when I had started to run some application such as, Photoshop or Microsoft word and so on. The paged has been sudden increment into 200+ to 1000+ as well as the memory availability has decrement under 4GB. So I had closed the applications and the physical memory availability and paged has been back into normal. In this process if any user identify that the applications were opened or been closed the kernel memory can show the usage which has been altered. 
+ 
+Conclusion:
+ As a result, here when we use the process explorer tool in the first time we can see how visually it can work and behave its processes and the process id. I had also observed that, the differences of the preference in the system du to the foreground or background of the system. I has also viewed and audit that, system information such as, CPU or Memory and so on. 
+
+
+References,
+Wikipedia contributors. (2020, October 30). Page fault. Wikipedia.
+https://en.wikipedia.org/wiki/Page_fault
+
+Wikipedia contributors. (2021, February 19). Memory paging. Wikipedia.
+https://en.wikipedia.org/wiki/Memory_paging#:%7E:text=Windows%20uses%20the
+%20paging%20file,was%20used%20in%20the%20pagefile.
+
+

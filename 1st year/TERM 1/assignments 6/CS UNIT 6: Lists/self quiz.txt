@@ -1,0 +1,64 @@
+What is the output of the following Python program?
+
+index = "Ability is a poor man's wealth".find("W")
+print(index)
+
+
+ANSWER: -1
+
+
+What is the output of the following Python program? 
+
+fruit = "banana"
+letter = fruit[1]
+print (letter)
+
+answer: answer
+
+Traversal can only be accomplished with the "while" loop.
+
+answer: false
+
+In Python, a list of characters is the same as a string.
+
+ANSWER: true
+
+What is the output of the following Python program?
+
+index = "Ability is a poor man's wealth".find("w")
+print(index)
+
+answer: 24
+
+What is the output of the Python code below?
+
+my_list = [3, 2, 1]
+print(my_list.sort())
+
+
+answer: none
+
+What is the output of the Python code below?
+
+my_list = [3, 2, 1]
+print(my_list)
+
+answer: [3, 2, 1]
+
+String objects are modified with string slices.
+
+answer: false
+
+A variable that has a data type of "str" cannot be a compound data type.
+answer: FALSE
+
+What is the output of the following Python program? 
+
+mylist = [ [2,4,1], [1,2,3], [2,3,5] ]
+total = 0
+for sublist in mylist:
+    total += sum(sublist)
+print(total)
+
+answer: 23
+

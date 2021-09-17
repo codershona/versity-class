@@ -1,0 +1,340 @@
+Create an HTML document that displays the numbers 1 - 10, each number being a different color.
+Create an HTML document that displays the squares of the numbers 1 - 10. Each number should be on a separate line, next to it the number 2 superscripted, an equal sign and the result. (Example: 102 = 100)
+Create an HTML document that displays two lists with any information you want. One list should be an ordered list, the other list should be an unordered list
+Create an HTML document that displays two addresses in the same format used on the front of envelopes (senders address in top left corner, receivers address in the center). Like the following
+Dilbert H.
+1234 Anim Street
+P.O. Box 22222
+
+Someone A. Person
+5555 Street Avenue
+Metrpolitan, Metropolis 11111
+
+Create a page with a link at the top of it that when clicked will jump all the way to the bottom of the page. At the bottom of the page there should be a link to jump back to the top of the page.
+Create links to four different pages on four different websites that should all open in a new window
+Display five different images. Skip two lines between each image. Each image should have a title
+Display an image that has a border of size 2, a width of 200, and a height of 200.
+Display an image that when clicked will link to itself and will display the image in the browser by itself
+Display an image that when clicked will link to a search engine of your choice (should be opened in a new window)
+Pick 5 corporations and hunt down their current stock prices. Place them in a neatly arranged table with their name, symbol, last price, 52wk high, 52wk low and PE ratio. The end result should look like the following. Notice that he first column is aligned left and the rest are centered.
+
+
+
+ANSWER:
+
+
+Answer One: Please check the link : https://drive.google.com/file/d/1-m2k0M0Foy9t0f-tuw5QpXn9tVhsXvBn/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER One</title>
+</head>
+<body>
+<!-- print the numbers 1 to 10 to the screen -->
+1 2 3 4 5 6 7 8 9 10
+</body>
+</html>
+
+
+Answer Two: Please check the link : https://drive.google.com/file/d/1oIwJgo0g40uX7kiC3zfcGex-ykHG4Sd_/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER TWO</title>
+</head>
+<body>
+1<sup>2</sup> = 1
+<br />
+2<sup>2</sup> = 4
+<br />
+3<sup>2</sup> = 9
+<br />
+4<sup>2</sup> = 16
+<br />
+5<sup>2</sup> = 25
+<br />
+6<sup>2</sup> = 36
+<br />
+7<sup>2</sup> = 49
+<br />
+8<sup>2</sup> = 64
+<br />
+9<sup>2</sup> = 81
+<br />
+10<sup>2</sup> = 100
+<br />
+11<sup>2</sup> = 121
+<br />
+12<sup>2</sup> = 144
+<br />
+13<sup>2</sup> = 169
+<br />
+14<sup>2</sup> = 196
+<br />
+15<sup>2</sup> = 225
+<br />
+16<sup>2</sup> = 256
+<br />
+17<sup>2</sup> = 289
+<br />
+18<sup>2</sup> = 324
+<br />
+19<sup>2</sup> = 361
+<br />
+20<sup>2</sup> = 400
+</body>
+</html>
+
+
+Answer Three: Please check the link : https://drive.google.com/file/d/1eyFf16bb1apbUTb4fh2Te1bARKxvRtLi/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER Three</title>
+</head>
+<body>
+<b>Coding Learning</b>
+
+<ol type="I">
+<li>CD-ROM</li>
+<li>DVD</li>
+<li>Hard</li>
+<li>Modem / Router</li>
+</ol>
+
+<b>Web Programming languages</b>
+
+<ul type="square">
+<li>HTML/CSS</li>
+<li>Javascript(JS)</li>
+<li>PHP(Backend)</li>
+<li>Java(Backend)</li>
+</ul>
+</body>
+</html>
+
+
+
+Answer Four: Please check the link : https://drive.google.com/file/d/144MrMkr5XciJLOvAXLg0ELMN_mADY4UH/view?usp=sharing
+
+Here I had added this code:
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER Four</title>
+</head>
+<body>
+<address>
+Dilbert H.<br />
+1234 Anim Street<br />
+P.O. Box 22222
+</address>
+
+<br /><br />
+
+<center>
+<address>
+Someone A. Person<br />
+5555 Street Avenue<br />
+Metrpolitan, Metropolis 11111
+</address>
+</center>
+</body>
+</html>
+
+
+
+
+Answer Five: Please check the link : https://drive.google.com/file/d/1-FK9VKZyG9PzeSy-GitbfeZBDV96GdNm/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER Five</title>
+</head>
+<body>
+<a name="top">The top of the page</a>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<p>Some text</p>
+<a href="#top">Jump to the top of the page</a>
+</body>
+</html>
+
+
+
+Answer Six: Please check the link : https://drive.google.com/file/d/1CG3SutyN6_1fkitaf6E7WPA1XvyVEOXr/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Answer Six</title>
+</head>
+<body>
+<a href="http://www.landofcode.com/about.php" 
+target="_blank">
+Landofcode.com about page
+</a>
+
+<br /><br />
+
+<a href="http://www.hostforweb.com" target="_blank">
+HostForWeb Web Hosting
+</a>
+
+<br /><br />
+
+<a href="http://www.gmx.com" target="_blank">
+GMX email
+</a>
+
+<br /><br />
+
+<a href="http://www.weather.com" target="_blank">
+Find out local weather
+</a>
+
+<br /><br />
+
+<a href="http://www.math.com/homeworkhelp/Algebra.html" 
+target="_blank">
+Learn about algebra
+</a>
+</body>
+</html>
+
+
+
+Answer Seven: Please check the link : https://drive.google.com/file/d/1UrDQAecNpXn9SNWnyl-ao7syGpbk9eiu/view?usp=sharing
+
+Here I had added this code:
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Answer seven</title>
+</head>
+<body>
+<img src="/images/apple.jpg" alt="Apple" title="Apple" />
+<br /><br />
+<img src="/images/sky.jpg" alt="Sky" title="Sky" />
+<br /><br />
+<img src="/images/swan.jpg" alt="Swan" title="Swan" />
+<br /><br />
+<img src="/images/tree.jpg" alt="Tree" title="Tree" />
+<br /><br />
+<img src="/images/waterfall.jpg" src="Waterfall" title="Waterfall" />
+</body>
+</html>
+
+
+
+Answer Eight: Please check the link : https://drive.google.com/file/d/1GkY96Tle_0dQUnLgR52X3XfbTdzB6_6U/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Answer eight</title>
+</head>
+<body>
+<img src="/images/tree.jpg" width="200" height="200" alt="Tree" border="2" />
+</body>
+</html>
+
+
+
+Answer Nine: Please check the link : https://drive.google.com/file/d/1iBU41vXJ3RxnY57_8iK3hA6c-c9pMidB/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Answer nine</title>
+</head>
+<html>
+<body>
+<a href="/images/apple.jpg" target="_top">
+<img src="/images/apple.jpg" alt="Apple" />
+</a>
+<p>
+Click on the image to see it in the browser by itself.
+</p>
+</body>
+</html>
+
+
+
+Answer Ten: Please check the link : https://drive.google.com/file/d/1157T0-nK6RmBol9vOEQTNUVU8yPninvH/view?usp=sharing
+
+Here I had added this code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ANSWER TEN</title>
+</head>
+<body>
+<a href="http://www.yahoo.com" target="_blank">
+<img src="/images/swan.jpg" alt="Swan" />
+</a>
+</body>
+<p>
+Click on the image to be taken to the Yahoo search engine.
+</p>
+</html>
+
+
+
+
+
+
+
+

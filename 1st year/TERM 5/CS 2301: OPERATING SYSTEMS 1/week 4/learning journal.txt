@@ -1,0 +1,26 @@
+Operating systems are in use everywhere in our society:
+
+Discuss the weeks activities and your observations
+Discuss where scheduling is being used in everyday aspects of your life this week
+* In Your Own Words (with references), very briefly in 2 paragraphs
+
+
+ANSWER:
+
+
+  In the beginning, here I am going to discuss about the weeks activities and our observations. At first I had check out the learning materials of this week  of unit 4. Because reviewing the learning materials will help me to complete the assessment. In this week, I had study the textbook operating systems which was about the multi and single CPU scheduling, dialog and address spaces. I had study the multiprocessor scheduling logics which I had also discuss in my discussion posts. The way its process works and how we could able to schedule them. I had also learned the utilization of physical memory which would be virtualized to optimize it. This week discussion posts was about the explanation of the single or multi queue scheduling. I had submitted my work where I had discuss about the  single queue scheduling were suited for situations
+in so that it can processes belong to a single group. But I need to classify the multi level queue to design the suited situations in various groups. The reason was I need to create a comparison between the response of the time requirements. Next I had review my other peers works in the discussion forum and give three feedbacks in there works. Now currently I am waiting for my peer feedbacks in my submission. I had complete the programming assessment of this week and attempted the self quizzes also. 
+
+   In my second point of the view, here in the assignment scheduling I keep the calendar to see the weekly basis to make a plan of learning activities or deadlines of the assessments. Because scheduling strategy helps me to maintain my assessments in a track which I can able to finish those in time and accomplished my weekly goals. The regular backup scheduling is another way the make a schedule which I used in my daily life to stored my images, university important document and lecture videos. 
+
+
+
+References,
+
+University of the People (n.d): Learning Guide. Retrieved May 4, 2020 from
+https://my.uopeople.edu/mod/book/view.php?id=205031
+Huculak, M. (2020). How to backup your PC automatically on Windows 10. Retrieved May 4, 2020 from
+https://www.windowscentral.com/lenovos-thinkpad-trackpoint-keyboard-ii-brings-nub-standalone-
+keyboard
+
+

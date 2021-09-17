@@ -1,0 +1,76 @@
+Java’s generic programming does not apply to the primitive types. True or False?
+
+A: True
+
+Which of the following statements is correct?
+
+A: a. Generics can help detect type errors at compile time, thus make programs more robust.
+b. Generics can make programs easy to read.
+c. Generics can avoid cumbersome castings.
+
+Fill in the code in Comparable______ c = new Date();
+
+a. <String>
+b. <?>
+c. <Date>
+d. <E>
+
+A: c.
+
+Suppose List list = new ArrayList(). Which of the following operations are correct?
+
+A: a. list.add("Red");
+b. list.add(new Integer(100));
+c. list.add(new java.util.Date());
+d. list.add(new ArrayList());
+
+
+
+To create a list to store integers, use
+
+a. ArrayList<Object> list = new ArrayList<Integer>();
+b. ArrayList<Integer> list = new ArrayList<Integer>();
+c. ArrayList<int> list = new ArrayList<int>();
+d. ArrayList<Number> list = new ArrayList<Integer>();
+
+A: b.
+
+To declare an interface named A with two generic types, use
+
+a. public interface A<E> { ... }
+b. public interface A<E, F> { ... }
+c. public interface A(E) { ... }
+d. public interface A(E, F) { ... }
+
+A: b.
+
+To declare a class named A with two generic types, use
+
+a. public class A<E> { ... }
+b. public class A<E, F> { ... }
+c. public class A(E) { ... }
+d. public class A(E, F) { ... }
+
+A: b.
+
+To declare a class named A with a generic type, use
+
+a. public class A<E> { ... }
+b. public class A<E, F> { ... }
+c. public class A(E) { ... }
+d. public class A(E, F) { ... }
+
+A: a.
+
+
+In what way can a Set be distinguished from other types of Collections?
+“A Set cannot contain duplicate elements.”
+
+A: True
+
+Suppose List<String> list = new ArrayList<String>. Which of the following operations are correct?
+
+A: a. list.add("Red");
+
+
+

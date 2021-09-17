@@ -1,0 +1,103 @@
+Using the relations that you defined and normalized as part of the Unit 4 Programming Assignment, create the SQL DDL statements necessary to implement your database schema as an OpenOffice database. You may also implement your database in MySQL, IBM DB2 Express, Microsoft Access, SQL Server if you have access to these database systems. Your assignment must include a document that contains all of the SQL statements that you created and a screenshot that shows the structures that you implemented in the database of your choice. Your DDL statements must accommodate the following elements: 
+Create statements to create tables from the entities defined as part of the Unit 4 assignment 
+Appropriate use of Null (and Not Null) parameters to ensure data validity 
+Appropriate use of constraint clauses to implement appropriate referential integrity 
+Use of data types and formats that is appropriate for the data in your database schema. 
+Appropriate use of keys including automatic generation of key values if appropriate 
+
+ Assignment Instructions: 
+
+The assignment must include the SQL DDL statements required to implement at least the following relations:
+Doctor 
+Patient 
+Appointment 
+Specialty 
+PatientMedicine 
+Medicine 
+PatientAllergy 
+Allergy 
+
+The assignment must make appropriate use of Null (and Not Null) parameters to ensure data validity. The minimum standard will be measured against the instructor’s example and will be based upon rules associated with primary and foreign keys and integrity constraint rules. 
+
+The assignment must make appropriate use of constraint clauses to ensure the referential integrity of the relations in the schema. The minimum standard will be measured against the instructor’s example and will be based upon rules associated with primary and foreign keys and integrity constraint rules. NOTE: the unary relationship that we defined for the Doctor relation is NOT required as part of this assignment. 
+
+The assignment must make appropriate use of keys including the automatic generation of key values where appropriate
+
+
+ANSWER:
+
+
+create table_speciality (
+ speciality_ID VarChar(2) not null,
+ speciality_name VarChar(100) not null,
+ primary_key (speciality_ID)) ;
+
+
+create table doctor (
+ doctor_id int(10) not null  auto_increment,
+ doctor_name varchar(100) not null,
+ speciality_id varchar(2) not null,
+ status varchar(1) not null,
+ date_of_joining date not null,
+ primary key(doctor_id), 
+ constraint fk_doc_specid FOREIGN KEY (speciality_ID)  references speciality(speciality_ID)) ;
+
+
+create table patient (
+ patient_id int(10) not null auto_increment,
+ patient_name varchar(10) not null,
+ gender VarChar(1) not null,
+ created_date date not null,
+ last_visited_date date not null,
+ primary key(patient_ID));
+
+
+
+
+create table_appointment (
+ patient_id int(10) not null,
+ doctor_id int(10) not null,
+ appointment_date date not null,
+ appointment_time varchar(10) not null, 
+ constraint fk_appointment_patient FOREIGN KEY(patient_ID)
+  references patient(patient_ID) ,
+ constraint fk_appointment_doctor FOREIGN KEY(doctor_ID)
+  references doctor(doctor_ID) 
+) ;
+
+
+create table medicine ( 
+ medicine_ID int(10) not null auto_increment,
+ medicine_name VarChar(100) not null,
+ price_perunit Double(10,2) not null,
+ availabile_quantity int(10) not null, 
+  primary key(medicine_ID));
+
+
+create table_patient_medicine (
+ patient_ID int(10) not null,
+ medicine_ID int(10) not null,
+ quantity int(3) not null,
+ issued_date date not null, 
+ constraint fk_patient_medicine foreign key (patient_ID) references patient(patient_ID),
+ constraint fk_patientMedicine foreign key (medicine_ID) references medicine(medicine_ID)) ;
+
+
+
+
+ create table_allergy ( 
+ allergy_code VarChar(3) not null, 
+ allergy_description VarChar(10) not null,
+ primary key (allergy_code)) ;
+
+
+
+create table_patient_allergy (
+ patient_ID int(10) not null,
+ allery_code VarChar(3) not null,
+  constaint fk_patientAlerg_patID foreign key (patient_ID) references patient (patient_ID),
+  constaint fk_patientAlerg foreign key (allergy_code) references allergy (allergy_code));
+
+
+
+

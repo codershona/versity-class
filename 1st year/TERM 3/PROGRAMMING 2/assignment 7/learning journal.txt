@@ -1,0 +1,36 @@
+The Learning Journal is a place where you can reflect on your learning throughout the course. There will also be assigned tasks to complete in your Learning Journal, for example, compiling vocabulary lists of unfamiliar words in required readings, summarizing articles, and engaging in self-reflection on assignments.
+
+
+The Learning Journal comprises 10% of your Final Grade. You will be assessed on the consistency with which you update the journal, the quality of your self-reflection, and whether you complete assigned tasks. For this reason, it is necessary that you date each entry and use clear titles and sub-headings. Note that only you and your instructor will have access to the Learning Journal.
+
+
+ANSWER:
+
+In the beginning, I am going to illustrate about my programming 2 courses what I had been faced throughout in the course. This week, I need to complete UNIT 7: Actions and Buttons; Complex Components, and MVC chapter. The tasks I got assigned were I had studied the learning guide unit seven at first and read the lab 11 unit 7 as well as code unit 7. Then I had to complete the self-quiz where 10 out of 10 and I submitted it on Submitted Sunday, 14 March 2021, at 6:37 PM and there was a total of 8 multiple choices. After that, I had started working on my programming assignment unit 7. Well, this week I need to provide a solution for Lab 11: “A Web Server” and I had submitted my work on Saturday, 13 March 2021, at 7:14 PM. Next, I start working on a discussion forum post in which I had submitted my work on Sunday, 14 March 2021, at 7:36 PM. In my task I need to complete and discuss the Model-View-Controller design pattern decouples data access, business logic, data presentation, and user interaction.
+
+
+
+
+
+
+
+This week I did not face any problem completing my work and I enjoy completing the discussion post assignment because it was a very interesting topic to discuss. I had discussed because I had learned before my course and I know how the MVC works in Java Code. 
+
+
+
+
+
+
+
+On the other hand, I had also learned many new things while writing my assignments. By working on is helping me to become more confident and independent thinking. Actually, a self-reflection-learning strategy makes a person think critically. BY completing programming assignments my coding experience is improving and I could able to understand the advanced level uses of Java. 
+
+
+
+Moreover, many people think that virtual learning is not good but in my opinion, studying from home and doing online classes is helping me to achieve a better educational strategy which would be very helpful for my professional life as well. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. DOI: 10.2307/j.ctt46mtwb.
+

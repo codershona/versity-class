@@ -1,0 +1,89 @@
+Which of the following statements are true?
+A: 
+a. A socket is a kind of opening.
+b. A socket represents one endpoint of a network connection.
+c. A program uses a socket to communicate with another program over the network.
+d. Data written by a program to the socket at one end of the connection is transmitted to the socket on the other end of the connection, where it can be read by the program at that end.
+
+
+What does this code do?
+
+import java.io.*;
+// (TextReader.class must be available to this program.)
+public class TenLinesWithTextReader {
+
+   public static void main(String[] args) {
+      try {
+         TextReader in = new TextReader( new FileReader(args[0]) );
+         for (int lineCt = 0; lineCt < 10; lineCt++)) {
+            String line = in.getln();
+            System.out.println(line);
+         }
+      }
+      catch (Exception e) {
+         System.out.println("Error: " + e);
+      }
+   }
+  
+}  // end class TenLinesWithTextReader
+
+A: b. This code displays the first ten lines from a text file. The lines are written to standard output.
+
+The class named URL resides in the java.io package. Which of the following statements describe URL?
+
+A: a. A URL is an address for a web page (or other information) on the Internet.
+c. A URL object represents a Universal Resource Locator.
+d. Once you have a URL object, you can call its openConnection() method to access the information at the url address that it represents.
+
+
+The server listens for a connection request from a client using the following statement:
+
+
+A: b. Socket s = serverSocket.accept()
+
+
+Which of the following statements describe a client/server model ?
+
+A: a. Computer transactions using the client/server model are very common.c. Although the client/server idea can be used by programs within a single computer, it is a more important idea in a network.
+d. In a network, the client/server model provides a convenient way to interconnect programs that are distributed efficiently across different locations.
+e. Client/server computing or networking is a distributed application architecture that partitions tasks or work loads between service providers (servers) and service requesters, called clients.
+
+
+To create an InputStream to read from a file on a Web server, you use the class __________.
+
+A: a. URL
+
+
+Consider the following code:
+
+BufferedImage OSC = new BufferedImage(32,32,BufferedImage.TYPE_INT_RGB);
+
+A: a. A BufferedImage is a region in memory that can be used as a drawing surface.
+b. In this statement, the image that is created is 32 pixels wide and 32 pixels high, and the color of each pixel is an RGB color that has red, green, and blue components in the range 0 to 255.
+c. The picture in a BufferedImage can easily be copied into a graphics context g by calling one of the g.drawImage methods.
+d. The image drawn here is so small, it seems likely that is going to be used to define an ImageIcon.
+
+
+Which of these statements describe the FontMetrics class?
+
+A: b. The FontMetrics(Font font)constructor creates a new FontMetrics object for finding out sizes of characters and strings that are drawn in a specific font.
+c. The font is specified when the FontMetrics object is created.
+d. If fm is a variable of type FontMetrics, then, for example, fm.stringWidth(str) gives the width of the string str and fm.getHeight() is the usual amount of vertical space allowed for one line of text.
+
+Interaliasing ….
+
+A: b. Is the smoothing of the image roughness caused by aliasing
+c. Is achieved by adjusting pixel positions or setting pixel intensities so that there is a more gradual transition between the color of a line and the background color.
+
+
+How is the ButtonGroup class used?
+
+A: a. A ButtonGroup object is used with a set of radio buttons (or radio button menu items), to make sure that at most one of the radio buttons in the group can be selected at any given time.
+b. To use the ButtonGroup class, you have to create a ButtonGroup object, grp. Then each radio button, rb, that is supposed to be part of the group is added to the group by calling grp.add(rb). Nothing further needs to be done with the ButtonGroup object.d. Typically a button group contains instances of JRadioButton, JRadioButtonMenuItem, or JToggleButton.
+
+
+
+
+
+
+

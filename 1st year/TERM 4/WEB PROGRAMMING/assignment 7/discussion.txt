@@ -1,0 +1,30 @@
+What is the most popular server programming language? 
+
+Can you find which web application or online systems are programmed with PHP?
+
+Why do you think that most web pages today require server-side programming?
+
+Why must a web developer learn more than just client-side technologies?
+
+
+
+ANSWER:
+
+In the beginning, I am going to discuss about the most popular server programming language which is known as PHP. Nowadays maximum websites are built uses of PHP server side programming languages. If anybody tells that PHP is less popular programming language that will be wrong to says this. 
+
+
+
+In my second point of the view, we could also find the web application in the online systems available which are used by PHP. Many renowned companies for example, Facebook, Wikipedia, slack as well as WordPress are also has uses of PHP programming languages.   Very few companies do not use PHP as a backend by it is very hard to find those companies. Day by day PHP uses are increasing as a most popular backend programming language. 
+
+
+In my third point of view, I think the most web pages require server side programming in todays life. Because it has become more general that web pages the reason of scaling in the web applications it also requires to make well operated.  While if any website do not use any kind of server side programming language there websites will not last longer and will not perform stability. It could crash all the data. For example, if you make a websites where many users will use it you must need to use server side language to make it perform stable and it could store all the users data in the server.  
+
+
+In my forth point of the view, I must say that if a web developer wants to learn more then I want to suggest to learn PHP server side language deeply so that we can use it for or clients side technologies. But I also think if we want to discuss more deeply the server side technology needs to be much scalable to continue in the web applications as well as it also needs much supports to detect a large number of traffic. As a result, client side technologies could enable us to make our web applications more efficient as well as viable by losing any number of computational possibilities. 
+
+
+
+
+
+
+

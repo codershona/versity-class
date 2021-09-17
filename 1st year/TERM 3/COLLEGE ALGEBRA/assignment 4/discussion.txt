@@ -1,0 +1,39 @@
+What happens if we graph both f and f^{-1} on the same set of axes, using the x-axis for the input to both f and f^{-1} ? 
+
+[Suggestion: go to www.desmos.com/calculator and type y=x^3 {-2 < x < 2}, y=x^{1/3} {–2 < x < 2}, and y = x {–2 < x < 2}, and describe the relationship between the three curves.] Then post your own example discussing the difficulty of graph both f and f^{-1} on the same set of axes. 
+
+Suppose f:R \rightarrow R is a function from the set of real numbers to the same set with f(x)=x+1. We write f^{2} to represent f \circ f and f^{n+1}=f^n \circ f. Is it true that f^2 \circ f = f \circ f^2? Why? Is the set {g:R \rightarrow R l g \circ f=f \circ g} infinite? Why? 
+
+Your Discussion should be a minimum of 250 words in length and not more than 750 words. 
+
+
+A: 
+
+
+In the beginning, here the outcome of the graph has an inverse of the function which also has a mirror for the original graph by means of the plot y = x while the F(x) = y = x³ as well as after that, x = y =  x³, or, F1(x) = y = x1/3. Whether I could imagine that, I had inverted the former function, tried to change the x or, y, once again the new function would be F-1(x) = y = x1/3. In consequence of the graph, the domain might be representing -2 < x < 2. But if we could able to observe in the graph that, F-1(x) = y = x1/3 will be the reflection of the F(x) = y = x³. 
+
+
+
+
+
+
+
+In my second point of the view, in case, F(x) = x + 1,
+
+Then, F(F(x)) = F(x)+1,
+
+Or, f2(x) = F 0 F(x) = F(F(x)) = x + 2,
+
+Or, f20 F(x) = = f2(F(x)) = F(x)-2 = x+3,
+
+Thenceforth, F 0 F2(x) = F(f2(x)) = x+2+1 = x+3
+
+Explanation, forasmuch as, these functions were called inverses. 
+
+Under the circumstances, if, G O F = F O F,
+
+then, G( x + 1 ) = G(x)  + 1,
+
+or, G(x) = x + a, a <- IR,
+as a result, G(x + 1) = G(x) + 1
+Without any cause, we could say that the set would be, { G: IR -> IR: G OF = F O G } will be the maximum of the infinite.  The reason is that it has been minus the total result.  

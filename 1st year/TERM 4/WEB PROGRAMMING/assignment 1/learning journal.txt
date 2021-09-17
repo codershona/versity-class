@@ -1,0 +1,63 @@
+Learning Journal Instructions
+
+Why do it?
+
+Maintaining a journal serves several purposes:
+
+1. A means of communication, conversation (e.g., between material and yourself, yourself and instructors).
+
+2. Provides regular feedback between you and the instructors and helps to match expectations.
+
+3. Platform for synthesis of knowledge and ideas
+
+4. Help develop critical thinking
+
+5. Helps to elicit topics of interest, challenging topics that need improvement, etc.
+
+What to write?
+
+First write a brief summary of the contents of a lecture, lab activity, group discussion or reading material. Then reflect upon these activities. Record your own thoughts, ideas, responses and reactions to any of the above activities. Make notes about concepts, questions you have, and any confusion that may arise. Use the journal to explore possible solutions to problems being raised in class or alternative activities to the ones presented in class. Record new insights and problem solving strategies realized during discussions with fellow students and instructors. The journal reflects your own thoughts and ideas. Be as original and critical (constructive) as you can. 
+
+Some additional ideas:
+
+Describe any feedback you received or any specific interactions you had.
+
+Discuss how they were helpful Describe your feelings and attitudes What surprised me or caused me to wonder?
+
+What happened that felt particularly challenging? Why was it challenging to me?
+
+What skills and knowledge do I recognize that I am gaining?
+
+What am I realizing about myself as a learner?
+
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+
+What not to do:
+
+Do not copy and paste any material from the discussion forum, your own assignment, or any other source.  The entries in the journal must be your own words. 
+
+When do I use the journal?
+
+You are expected to use the journal for each week of the course.
+
+How will it be graded?
+
+Each weekly journal must be at least 300 words long.  Please use proper grammar and keep your writing on the class topic.  Deductions from a full credit on this assignment would be taken if you copy and paste content.  As long as you write down your own reflection about the learning activities, deductions will not be taken.  You will receive a single grade for each week and the grades will count toward your final grade in the course.
+
+
+ANSWER: 
+
+In the beginning, I am going to describe my maintenance of my journal in my first week of the web programming course.  By communication with instructors asking the learning materials is a kind of soft skills. I had read all the materials which Instructor provides me in the learning guide. Besides this, I had to receive regular feedback from my instructor and peers about my work which helps me to improve my journal. Platform like discussion post programming assignment is great ways to learn collaborative skills by review peers work. I could gain more knowledge and ideas when I review my peers' work, because I can learn different ways to answers one question as different mentality explanation. Besides this, it assists me to develop my critical thinking skills as a computer science student.  By completing each week challenge of the assessment helps me to make an improvement in my writing and thinking skills. 
+
+
+
+   Moreover, this week as I already define in the beginning that it was the first week for me in the web programming course. At first I had complete self quiz where was 10 multiple choice questions. Next I had to complete the discussion posts where I instructor said us to talk about the internet global network advantages and how can we improve our privacy of the data. He also define us to write in APA style and put the references from where ideas we use to write the assessment.  After that, I had to complete the programming assignment where there was three questions which were about the HTML validation. I need to identify the any three website from the history last day I had visited and to validate using validation online services tools to find the errors of the HTML. I got first and second website ten to eleven errors and third website I did not get any errors because the developer to validate and use clean code. Next I had to discuss the comments of the website performance and then finally I had discussed about the improvement of my websites. Those assessment was very helpful for me as a self learner because I had gained a lot of ideas and as a computer science student self learning strategy helps me to become more confident. Because I can solve my problem myself. 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Which of the following SQL command is used for creating a database?
+
+A: a. create schema
+
+Structured Query Language (SQL) is not a complete programming language.
+
+A: True
+
+
+The standards for SQL has been maintained by The American National Standards Institute (ANSI).
+
+A: True
+
+Which of the following includes a set of commands used to control access to the data within the database, including security?
+
+A:  a. DCL
+
+Which of the following data types used in SQL could be used to define a fixed-length text field of 20 characters?
+
+A: a. char(20)
+
+Assume that you are dealing with money and you do a lot of calculations that you want them to be exact. Which of the following data types is the best option to store this in a relation?
+
+A: b. decimal(10,2)
+
+
+Which of the following SQL command is used for adding one or more new columns to a table?
+
+A:  c. alter table 
+
+Which of the following SQL command can’t be used to create the Student relation below:
+
+A: d. CREATE TABLE Student(
+   Student_ID boolean,
+   Student_Name char(100),
+   Dept_Name char(100),
+);
+

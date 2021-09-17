@@ -1,0 +1,12 @@
+True or False: In a "root cause analysis" you only diagnose the cause of the issue, but do not suggest possible solutions.
+ans: False
+
+
+True or False: Critical thinking improves language and presentations skills.
+
+ans: True
+
+True or False: The Ladder of Inference helps us to stop ourselves from jumping to conclusions about situations.
+
+
+ans: True

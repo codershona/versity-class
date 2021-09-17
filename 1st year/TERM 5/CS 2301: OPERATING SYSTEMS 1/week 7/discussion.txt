@@ -1,0 +1,36 @@
+In unit 7, we are introduced to the concepts of physical memory.
+
+For your Discussion Forum:
+
+Using one of the referenced website articles or an article of your choice, discuss how to reduce the cost of paging to disk because frequent paging is prohibitive. 
+
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts. 
+
+
+
+ANSWER:
+
+
+  In the beginning, here I am going to discuss about the way to reduce the cost of paging to disk. The pros of the paging as well as it can exists to swiftly by expanding the memory requirements to perform multi-tasking. Otherwise, it can had a computer system which has multi-user. This can also build a system efficiently and improving the total performance which can also reduce the effects of the paging. If the paging has the external decentralization.  Moreover, it requires to get the paging size in the file which is hard to get otherwise, the system can be cause some issues. Moreover, to have the smaller page files it might cause some trouble into system to boost the fixedly that one may compensate the increases of the paging activity to lead another situation which causes the entire system that also has some experience the excessive page faults.  There is another problem which can begin the thrashing causes into the system to allocate in more time of the paging which also can execute the apps. It can also reduce the costs of the paging of the disk which can be done that is given below, 
+
+1. To make a upgrade in the size of the RAM which is known as physical memory.  
+2. The page file size can be increase by not making the system. 
+3.The paging file can configure properly if we change the monitors memory system.  
+4. By minimizing the number open windows to sit into the task tray. Otherwise, it can also utilize the memory.
+
+  As a result,  if the employ has a simple tactics to make a improvement in paging it can be placed again by the page file in each local physical disk to make a separate from the OS. 
+
+
+References,
+Toncich, J., D. (1994). Computer Architecture and Interfacing to Mechatronic Systems. Retrieved May
+23rd, 2020 from
+https://www.doctortee.net/compmech.html
+Gardinier, K. (1998). Paging Performance. Retrieved May 22, 2020 from
+https://www.itprotoday.com/cloud-computing/paging-peformance
+Bigelow, J.,S.(2013). Tips and tricks to improve memory paging on servers. Retrieved May 23rd, 2020
+from
+https://searchitoperations.techtarget.com/tip/Tips-and-tricks-to-improve-memory-paging-on-servers
+
+
+
+

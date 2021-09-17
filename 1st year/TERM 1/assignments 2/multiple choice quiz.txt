@@ -1,0 +1,148 @@
+What do we call the value provided to a function when the function is called (which is assigned to the corresponding parameter in the function)?
+
+Answer: argument
+
+What output will the following Python statements produce?
+
+>>> print ((1+1)**(5-2))
+
+Answer: 8
+
+What output will the following Python statements produce?
+
+>>> n = 17
+>>> print (n)
+
+ANSWER: 17
+
+What is the output of the following statements?
+
+pi = int(3.14159)
+print (pi)
+
+ANSWER: 3
+
+What output will the following Python statements produce?
+
+>>>percentage = ( 60.0 * 100.0 ) / 55.0
+>>>print (percentage)
+
+ANSWER: 109.0909090909091
+
+Using Python keywords for variable names will result in a ________________
+
+ANSWER : syntax error
+
+An expression is a combination of values, variables, and operators. If you type an expression on the command line, the interpreter evaluates it and displays the result.
+
+ANSWER: true
+
+When a Python function is called, inside the function, the arguments are assigned to variables called parameters.
+
+ANSWER: true
+
+A script usually contains a sequence of statements. If there is more than one statement, the results appear one at a time as the statements execute.
+
+
+ANSWER: true
+
+
+What is the output of the code below assuming that global variable x has value 2 and global y has value 3?
+def f1():
+
+    return "ab"
+
+ def f2():
+
+    return f1() * x
+
+ def f3():
+
+    return f2() + f1() * y
+
+ print(f3())
+
+
+ ANSWER: ababababab
+
+
+
+ As programs get bigger and more complicated, they get more difficult to read. This is one reason why programmers should use comments in their code.
+
+ ANSWER:true
+
+ When defining a Python function that has no parameters, the parentheses that follow the function’s name are optional.
+
+Answer: false
+
+
+
+In a script, an expression all by itself is a legal statement, but it does not do anything.
+
+
+ANSWER: true
+
+
+
+In Python, the ‘+’ operator can be used with numbers and with strings. What is a property that number addition has, but string concatenation does not?
+
+
+ANSWER : expression value does not depend on the order of numeric addition operands
+
+Python functions may or may not take arguments and may or may not return a result.
+
+ANSWER: True
+
+ In Python, the expression “a ** (b ** c)” is the same as “(a ** b)
+
+ Answer: false
+
+What is the output of the following statements?
+
+pi = float(3.14159)
+print (pi)
+
+ANSWER: 3.14159
+
+What output will the following Python statements produce?
+
+>>> print (2*(3 - 1))
+
+ANSWER: 4
+
+An error that is detected while the program is running is referred to as:
+
+ANSWER: a syntax error
+
+
+
+A statement that creates a new variable and gives it a value.	Answer 1
+assignment statement
+Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program.	Answer 2
+comment
+The ability to combine simple expressions and statements into compound statements and expressions in order to represent complex computations concisely.	Answer 3
+composition
+To join two operands end-to-end.	Answer 4
+concatenate
+What the Python interpreter does to an expression to find its value.	Answer 5
+evaluate
+A combination of variables, operators, and values that represents a single result value.	Answer 6
+ expression
+A Python data type that stores floating-point numbers.	Answer 7
+float
+A Python data type that holds positive and negative whole numbers.	Answer 8
+int
+A reserved word that is used by the interpreter to parse programs.	Answer 9
+keyword
+One of the values on which an operator operates.	Answer 10
+operand
+A special symbol that represents a simple computation like addition, multiplication, or string concatenation.	Answer 11
+operator
+A unit of code that the Python interpreter can execute.	Answer 12
+statement
+A Python data type that holds a string of characters.	Answer 13
+str
+A number or letter that can be stored in a variable or evaluated in an expression.	Answer 14
+value
+A name that refers to a value.	Answer 15
+variable

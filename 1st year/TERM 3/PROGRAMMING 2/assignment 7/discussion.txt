@@ -1,0 +1,47 @@
+The Model-View-Controller design pattern decouples data access, business logic, data presentation, and user interaction. Discuss.
+
+ANSWER:
+
+In the beginning, the MVC(model view controller) usually used to make a separation in the functionality. The Model will always try to show an object and it would put down the logic to update the controller. The view will focus on the visualization in the data which has the model to catch the logic. The controller will have a function in both models as well as in the view that controls the flow of the data within the model object or try to make an update in the data. 
+
+
+
+
+
+
+
+It helps to maintain productivity which is an important reason to develop the systems. The information for the systems needs to deliver the information as well as intelligence which needs to improve the innovation. The cost of the reduction, collaboration, and customer service are also necessary.
+
+The model is always responsible for retrieve or manipulates the data in the database. The view is essential for the end-users interface so that users can interact with the program. The controller needs to receive the request from the users so that it could view or pass the request in the model which needs to underlying the data in the data store. 
+
+
+
+Here the design patterns must need to be pretested so that could reuse to prevent the general problem which can create software called MVC(Model-View-Controller) and Observer Patterns.
+
+
+
+We also need to utilize the separation which has a principle uses to decouple any application interdependencies or functions from the other part which also creates the various layers in the application modular. The modularity always creates the application to make easy in the construct and helps to maintain if it is able to allow the flexibility which could create changes or additions in the business logic. Thus, this could also allow making an easy collaboration code development.
+
+
+
+
+
+
+References, 
+
+
+
+Gentleman, R., & Ihaka, R. (2000). Java and Dylan. Journal of Computational and Graphical Statistics, 9(3), 452-458. doi:10.2307/1390939
+
+
+
+
+
+
+
+
+
+
+
+
+

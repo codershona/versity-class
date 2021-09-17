@@ -1,0 +1,225 @@
+According to some study, the height for Northern European adult males is normally distributed with an average of 181 centimeter and a standard deviation of 7.3 centimeter. Suppose such an adult male is randomly chosen. Let X be height of that person. The next 3 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value.
+
+The probability that the person is between 160 and 170 centimeters is
+
+
+Answer:
+
+0.0635,0.1093
+
+Step-by-step explanation:
+
+Given that according to some study, the height for Northern European adult males is normally distributed with an average of 181 centimeter and a standard deviation of 7.3 centimeter.
+
+Suppose such an adult male is randomly chosen.
+
+Let X be height of that person.
+
+X is N*(171,7.3)
+
+a) The probability that the person is between 160 and 170 centimeters is
+
+=
+
+Take any std normal table where prob are given from 0 to 3
+
+Since symmetrical we take the prob for 1.51 and 2.88 and find the difference
+
+= 0.4980-0.4345
+
+=0.0635
+
+
+
+2. The probability that the person is higher than 190 centimeter is
+
+A: 
+= 0.5-value corresponding to 1.23
+
+= 0.5-0.3907
+
+=0.1093
+
+
+
+
+The middle 60% of heights fall between what two values?
+
+
+A: c. (174.9, 187.1)
+
+The distribution of X is Normal(181,(7.3)2). The central region that contains 60% ofthe distribution is the region between the 0.2-percentile and the 0.8-percentile>qnorm(0.2,181,7.3) [1] 174.8562 > qnorm(0.8,181,7.3) [1] 187.1438
+
+
+
+Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5 mile lap (in a 7 lap race) with a standard deviation of 2.28 seconds . The distribution of her race times is normally distributed. We are interested in one of her randomly selected laps. The next 4 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value:
+
+
+The proportion (a number between 0 and 1) of her laps that are completed in less than 125 seconds is
+Answer: 0.01942418
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The Probability of beingless or equal than 125 is> pnorm(125,129.71,2.28) [1] 0.01942418
+
+
+The fastest 10% of her laps are completed under how many seconds?
+Answer: 126.7881
+
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The fastest 10% of thelaps are completed under the 0.1-percentile of the given probability. This percentileis> qnorm(0.1,129.71,2.28) [1] 126.7881
+
+
+
+
+The middle 90% of her laps are from a seconds to a seconds. Then a is equal to
+Answer: 125.9597
+
+
+The distribution of a random lap is Normal(129.71,(2.28)2). The central region thatcontains 90% is [a,b], where a is equal to the 0.05-percentile of the distribution>qnorm(0.05,129.71,2.28) [1] 125.9597
+
+The middle 90% of her laps are from a seconds to b seconds. Then b is equal to
+Answer: 133.4603
+
+Suppose that Ricardo and Anita attend the same college. Ricardo's GPA is better than 30% of his school mates but worse than the other 70%. Anita's GPA is 0.60 standard deviations below her school average. All the students that were at least one standard deviation above the mean obtained an "A" or an "A+" score, which corresponded to about 16% of the students. Assume GPA are Normally distributed. For each of the following sentences mark one of the options:
+
+
+Ricardo's GPA is lower than Anita's GPA.
+Select one:c. Always False
+
+
+Ricardo's z-score is below zero.
+A: c. Always False
+
+
+The standard deviation of the GPA is approximately equal to 0.16.
+A: c. Always False
+
+
+Some measurement on a population has a Normal distribution with expectation of 1000 and standard deviation of 150. We denote de difference between the 0.75-percentile and the 0.25-percentile the Interquartile Range. Identify a measurement value as outlier if it is larger than the 0.75-percentile plus 1.5 times the interquartile range or it is smaller than the the 0.25-percentile minus 1.5 times the interquartile range. The next 5 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value:
+
+The 0.25-percentile of the measurement is
+Answer: 898.8265
+
+FeedbackThe distribution of the measurement is Normal(1000,(150)2). The 0.25 percentile of the measurement is > qnorm(0.25,1000,150) [1] 898.8265 The correct answer is: 898.8265
+
+
+
+The 0.75-percentile of the measurement is
+Answer:  1101.173
+
+he distribution of the measurement is Normal(1000,(150)2). The 0.75-percentile of the measurement is >qnorm(0.75,1000,150) [1] 1101.173 The correct answer is: 1101.173
+
+
+The interquartile range of the measurement is
+Answer: 202.3469
+
+The inter-quartile range is the difference between the 0.75-percentile (Q3) and the 0.25-percentile (Q1). That is, 1101.173 - 898.8265 = 202.3465The correct answer is: 202.3469
+
+
+The probability that a random measurement will be identified as outlier is
+Answer: 0.006976603
+
+
+
+The upper threshold for the identification of an outlier is Q3 + 1.5*(Q3 - Q1). The probability of being above this threshold is equal to the probability of being below the lower threshold. The probability of identifying an outlier twice the probability of being above the upper threshold > u <- 1101.173 + 1.5*202.3465 > 2*(1-pnorm(u,1000,150)) [1] 0.006976757 This is the same probability that we found in Subsection 6.2.4The correct answer is: 0.006976603
+
+
+
+Denote the probability of an outlier that was computed in the previous question by p. Consider a different Normal measurement that has a different mean and different standard deviation than the measurement that was considered before. In the context of the current measurement, the probability of a random measurement to be identified as and outlier is:
+Select one: a. Necessarily the same as p.
+
+
+The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days. The next 4 questions correspond to this information.
+
+
+What is the inter-quartile range of the recovery time? (Choose the closest possibility.)
+Select one: 
+
+
+The distribution is Normal with expectation of 5.3 and standard deviation of 2.1. Theinter-quartile range is the difference between the 0.75-percentile (Q3) and the 0.25-percentile (Q1).> qnorm(0.75,5.3,2.1) - qnorm(0.25,5.3,2.1) [1] 2.832857
+
+
+What is the z-score for a patient who takes 6 days to recover? (Choose the closest possibility.)
+Select one: 0.3
+
+
+The distribution is Normal with expectation of 5.3 and standard deviation of 2.1. The z-score of the value 10 is equal to (6 - 5.3)/2.1 = 0.3333333
+
+What is the probability of spending less than 2 days in recovery? (Choose the closest possibility.)
+Select one: a. 0.0580
+
+
+The distribution is Normal with expectation of 5.3 and standard deviation of 2.1. Theprobability of being below 2 is> pnorm(2,5.3,2.1) [1] 0.05804157
+
+
+The 32th percentile for recovery times is?
+A: d. 4.32
+
+The distribution is Normal with expectation of 5.3 and standard deviation of 2.1. The32th percentile for recovery times is> qnorm(0.32,5.3,2.1) [1] 4.317833
+
+Let the distribution of X be Binomial(150,0.8). The next 4 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value:
+
+The probability P(121 < X ≤ 129) is equal to
+Answer: 0.3645757
+
+The probability P(121 < X ≤ 129) is equal to the difference P(X ≤ 129) - P(X ≤ 121). Thedifference is equal to> pbinom(129,150,0.8) - pbinom(121,150,0.8) [1] 0.3645757
+
+
+
+
+
+The Normal approximation (without continuity correction) of the probability P(121 < X ≤ 129) is equal to
+Answer: 0.3860320
+
+
+The probability P(121 < X ≤ 129) is equal to the difference P(X ≤ 129) - P(X ≤ 121). Inthe Normal approximation we substitute the Binomial distribution with the Normaldistribution that has the same expectation and variance. The expectation of theBinomial is 150*0.8 and the variance is 150*0.8*0.2. The approximation produces> mu<- 150*0.8 > sig <- sqrt(150*0.8*0.2) > pnorm(129,mu,sig) - pnorm(121,mu,sig) [1]0.3860320
+
+
+
+
+The Normal approximation (with continuity correction) of the probability P(121< X ≤ 129) is equal to
+Answer: 0.3534917
+
+
+
+The Poisson approximation of the probability P(121 < X ≤ 129) is equal to
+Answer:0.2478270
+
+
+The probability P(121 < X ≤ 129) is equal to the difference P(X ≤ 129) - P(X ≤ 121). In the Poissonapproximation we substitute the Binomial distribution with the Poisson distribution that has the sameexpectation. The expectation of the Binomial is 150*0.8. The approximation produces> lam <- 150*0.8> ppois(129,lam) - ppois(121,lam) [1] 0.2478270
+
+
+
+Let the distribution of X be Binomial(15,0.8). The next 4 questions correspond to this information. The answer may be rounded up to 3 decimal places of the actual value:
+
+The probability P(13 < X ≤ 16) is equal to
+Answer: 0.1671258
+
+The probability P(13 < X ≤ 16) is equal to the difference P(X ≤ 16) - P(X ≤ 13). The difference is equal to>pbinom(16,15,0.8) - pbinom(13,15,0.8) [1] 0.1671258
+
+
+The Normal approximation (without continuity correction) of the probability P(13 < X ≤ 16) is equal to
+Answer: 0.2543909
+
+The probability P(13 < X ≤ 16) is equal to the difference P(X ≤ 16) - P(X ≤ 13). In the Normal approximationwe substitute the Binomial distribution with the Normal distribution that has the same expectation andvariance. The expectation of the Binomial is 15*0.8 and the variance is 15*0.8*0.2. The approximationproduces> mu <- 15*0.8 > sig <- sqrt(15*0.8*0.2) > pnorm(16,mu,sig) - pnorm(13,mu,sig) [1]0.2543909
+
+The Normal approximation (with continuity correction) of the probability P(13 < X ≤ 16) is equal to
+Answer
+
+ 0.164623
+
+
+ The Poisson approximation of the probability P(13 < X ≤ 16) is equal to
+Answer: 0.2171734
+
+
+
+
+
+
+
+
+
+
+
+
+

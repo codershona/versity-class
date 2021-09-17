@@ -1,0 +1,12 @@
+
+Learning Journal Unit 2
+The Learning Journal is a tool for self-reflection on the learning process. In addition to completing directed tasks, you should use the Learning Journal to document your activities, record problems you may have encountered and to draft answers for Discussion Forums and Assignments. The Learning Journal should be updated regularly (on a weekly basis), as the learning journals will be assessed by your instructor as part of your Final Grade. 
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did, what you learned, your weekly activities, in what ways are you able to apply the ideas and concepts gained , and finally, describe one important thing that you are thinking about in relation to the activity
+
+
+ANSWER:
+
+In the beginning, I am going to talk about what I had accomplished in this week. It was second for me and the chapter I need to study was unit 2 Software Requirements and Architecture. So I had to study these topics which are Requirements Engineering, Functional, and Nonfunctional Requirements and Software Architecture. I had also study Understand Software Requirements, Define functional and nonfunctional requirements, Understand the Software Architecture, Create software requirement specifications. Then after completing my study following the learning guide. I had immediately move to attempt my this week self quiz. I had to complete the self-quiz next I start working on Discussion pots where I need to talk about the software elicitation activity and I used references also. Next I had to give three peer on there work review and rated their work. Then, I start working on my this week programming assessment. I had explained about the reason of it is not testable and write some acceptance tests. Now I am writing my this week learning journal. Overall I had to learn a lot of new things and gain new knowledge of a new topic. Currently I am taking preparation of my next week grade quiz exam. 

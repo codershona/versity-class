@@ -1,0 +1,39 @@
+// discussion
+
+In your implementation of the ALU there is no need to detect or handle overflow.  However, it's a good mental exercise to think about when/how an overflow might occur.  When adding numbers with different signs, overflow cannot occur because the sum must be no larger than one of the numbers.
+
+What happens when the signs of the numbers are the same? What happens in the case of subtraction?
+
+How do we detect when an overflow does occur?
+
+
+A:
+
+  In the beginning I am going to discuss about the  implementation of the ALU there is no need to detect or handle overflow. 
+
+Example: 
+1      11 carry
+135    10000111
++210          + 11010010
+Total         345 01011001
+
+  Here, when we add the two numbers in a once it will show the same sign such as, 135 as well as 210. But the two numbers are able to correspond using 8-bit without mentioning the notation. As a result, the sum would not shows the overflow cause. So, in this case, the sum will be in two numbers in each example, in this point it would become visible within 89. But it would carry the MSB that has only correspond to build the uses of the other bit. 
+
+  In my second point of the view, when we substract altogether within the two important number it will show the signs for example, the total result of the same sign. Not only that, the overflow can be arisen in this type using the requirement such as, by adding the total two negative numbers as well as the yield positive result. By adding altogether the two positive numbers has the yield including within the negative result.
+
+     In the third point of the view,  we can also unsigned the binary addition by carrying the production of the column which shows the MSBs. It will need the other bit to shows each overflow that has been caused. The limitation of the space that could be given the overflow causes of the ALU results in the operations which will not be shown. Moreover, it only has two ways to detect the whole overflow for the 2's necessary such as it could able to make a comparison with the inputs as well as outputs. It can make a well comparison which has carry bits.  
+   For Instance, 232-bit numbers that could be needed for the 33 bits that has the overflow which occur in positive side or maybe in the negative side. This overflow has its own two positive numbers that shows the end of the negative numbers. We had two positive number so that it could has a bit of the zero that will has a large positive number which also can be changed by the 1 that will be negative. It can also detect with two input incoming as well as by seeing the both positive or negative outputs including the adder into the similar size. By there is also some differences in the overflow that we already had. 
+
+
+
+Reference,
+Tarnoff, D. (2007). Computer organization and design fundamentals.
+http://faculty.etsu.edu/tarnoff/138292/
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+In Unit 4, we discussed cache and memory:
+
+  
+
+Explain cache coherency. 
+What is the benefit of using sparse addresses in virtual memory?
+Name and describe the different states that a process can exist in at any given time.
+Describe two general approaches to load balancing.
+Describe the differences between physical, virtual, and logical memory.
+ Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion should be your thoughts. 
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+ANSWER:
+
+
+ANSWER 1: In the beginning, I am going to explain about the cache coherency. If we have a multiprocessor environments we can have two copies which has the similar data that can be located in the local cache which has one CPU in every environments. In this point, one CPU could also have a adjustment in the data or in the cache with the alternative CPU. But it also require the refreshment of the version in the data. This has a guarantee in the cache coherency which has a many caches to be stored or it can also fetch by refreshing the updated version to keep stored the data in the server.
+
+
+
+ANSWER 2: 
+
+Here, I am going to discuss about the benefits of the uses of the sparse address in virtual memory. If the virtual address has the space which consist with the holes that is among the heap or the stack that is called sparse address space. It has utilize each sparse address in the space that has many advantages due to the holes that could be filled as the stack as well as heap segments. This could also created and make a kinks with the library that could also has shared the objects while the execution in the program. 
+
+
+
+ANSWER 3: 
+
+Here, if there were any possibilities with the state in the system those are running, waiting, ready as well as terminated. The whole system needs to be built by the new state. It can also run and wait the state and it has the system to execute and wait any event to happen step by step. This state also has the causes of the while actions to be ready or wait with consist with a processor. But this movement does not has the similar thing due to waiting state before we demonstrate it. But furthermore it also has the operation with the executing of the code that enters the termination with state.
+
+ANSWER 4:
+Here, if we push the migration specifically the task could check the loads of the every processor that could be found in an imbalance. This also could had distribution in the load to move the technique that could be overloaded to make idle or less busy processors. As a result, we can push or pull the migration which is often has the implementation in the same direction on the load balancing systems.
+
+ANSWER 5:
+Here, we had a physical memory that has available memory in the machines to make a execution in the operations. Such as, cache, random access, memory and so on. The virtual memory has the process to the users to run the programs which is greater than the actual physical memory to utilize the disk of the memory and its needs to backup the store in the main memory. The logical memory has some abstraction in the computer that has different types in the memory which also allows us for the programmers specially. In the applications we can also simplified the view in the memory or it liberates those if we check the memory storage that could had some limitations. 
+
+
+References:Rouse, M. (2005, June).Cache Coherence. Retrieved from https://whatis.techtarget.com/definition/cache-coherenceAnkit Bisht. (n.d). Logical vs Physical Address in Operating System. Retrieved from https://www.geeksforgeeks.org/logical-vs-physical-address-in-operating-system/What is a Process?(n.d). Retrieved from https://www.studytonight.com/operating-system/operating-system-processesLysis. (n.d).What Is the Difference Between Virtual Memory & Physical Memory? Retrieved from https://www.techwalla.com/articles/difference-virtual-memory-physical-memory_
+
+
+
+

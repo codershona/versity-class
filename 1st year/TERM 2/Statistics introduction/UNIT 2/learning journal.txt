@@ -1,0 +1,136 @@
+1. Learning Journal Reflective Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+* when you completed each step in the Learning Guide during the week,
+
+* any problems or unexpected events that occurred during the week (including problems understanding new or old material), and
+
+* any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+a) Define the word frequency as it was used in Chapter 2 (include an APA citation).
+
+b) Define the phrase relative frequency as it was used in Chapter 2 (include an APA citation).
+
+c) What is the difference between frequency and relative frequency?
+
+3. More practice with R
+
+a) Run interactive R and then run this command:
+
+getwd()
+
+b) Run the following command and paste the output into your learning journal to demonstrate that you have the file:
+
+ex.1 <- read.csv('ex1.csv')
+summary(ex.1)
+
+
+ANSWER:
+
+
+  ANSWER 1: In the beginning, I had complete my all assignment during this week at last I am writing the learning journal. I had a complete discussion post which is about factor and numeric data. I had to answer four questions and answers. For the first time, I had to write statistics assignments which were peer assignments. I had all complete fifteen-grade question and answers which was about Cumulative Frequency and Cumulative Relative Frequency. I had able to understand all the materials but it also takes some time for me but after researching from textbooks and notes about sampling and data structures I could able to understand how the frequency work. By writing the assignment and answering all self-quizzes I had learned a lot as I am studying statistics is for the first time. I had a noteworthy that might affect my performance in this class, I had I need to take more time to learn the materials and try to understand how the sampling data actually works. But I have positively affected my ability to focus on the classwork is solving the problem and try to think critically.
+
+
+
+ANSWER 2:  Definition of the frequency: As we know that frequency means the rate at which something occurs or is repeated over a particular period of time or in a given sample. Besides, the rate at which a vibration occurs that constitutes a wave, either in a material. In this case, in the number of times, a given data has occurred in a data set. For example, if there are 4 employees and who work 2 hours in the office and 8 employees who work 3 hours full-time, in here the whole frequency would show 20 which is the total numbers of employees in the sample. In the R language, frequencies could be delimitated as Absolute Frequency and the frequency always shows the table of a data vector which could be made by  table(y)  function. Here, ' y' is the data vector. 
+
+  An example is given below:
+
+# Defining vector 
+y <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10") 
+  
+# Absolute frequency table 
+bx <- table(y) 
+  
+# Printing frequency table 
+print(bx) 
+  
+# Check the class 
+class(bx) 
+     Console output:
+
+y
+ 1 10  2  3  4  5  6  7  8  9 
+ 1  1  1  1  1  1  1  1  1  1 
+[1] "table"
+
+
+
+  Defining the Relative Frequency:   As Relative frequency means the ratio of the number of observations in a statistical category to the total number of observations. It is a value of the data which occurred in the set of all outcomes to the number of all outcomes. It is an event divided by the whole number of events and also shows the proportion of a special individual data category which gave in the data vector. In the R language,  table(y)/length(y) is the syntax of the frequency data.  
+
+An example is given below:
+
+# Defining vector 
+y <- c("1", "1", "2", "1", "1", "1", "2", "2", "2", "1") 
+  
+# Relative frequency table 
+yf <- table(y)/length(y) 
+  
+# Printing frequency table 
+print(yf) 
+  
+# Check the class 
+class(yf) 
+
+
+   Output :
+
+y
+  1   2 
+0.6 0.4 
+[1] "table"
+ 
+
+  I am going to explain the difference between frequency and relative frequency which is given below:
+
+ Frequency is a measurement of the value of the raw datum. For example, 12 boys are playing basketball. Relative frequency always makes the balance in the frequency of the total number of the sample data and generally it is a percent. For example, 15% of all boys are playing basketball(0.15 * 100=15).  
+Frequency gives a result that might be recollected the number of times.  The relative frequency always divided or separated by the number of times in the experiment and always return the value with a percentage. 
+The frequency could be independent by conducting an easy experiment and also notify how many the events occur.
+Frequency needs a calculation but relative frequency does not need any calculation.
+Frequency is always definite by using hard division, it actually shows total results, and relative function is always defined by using simple division. 
+
+
+ANSWER 3:  I had run interactive R and then run this command and get this output in the console:
+
+getwd()
+  OUTPUT :
+
+[1] "/home/ren/Desktop/rextester_linux_2.0/usercode/1761797927"
+ 
+
+Explanation: This command actually represents the current working directory to use the getwd() function.
+
+       I am going to explain and run the following command and paste the output into my learning journal to demonstrate that I have the file.
+
+ex.1 <- read.csv('ex1.csv')
+summary(ex.1)
+  OUTPUT in the console:
+
+       id              sex                height     
+ Min.   :1538611   Length:100         Min.   :117.0  
+ 1st Qu.:3339583   Class :character   1st Qu.:158.0  
+ Median :5105620   Mode  :character   Median :171.0  
+ Mean   :5412367                      Mean   :170.1  
+ 3rd Qu.:7622236                      3rd Qu.:180.2  
+ Max.   :9878130                      Max.   :208.0  
+> head(ex.1)
+
+
+After running this command head(ex.1) I got this result in the console:
+
+       id    sex height
+1 5696379 FEMALE    182
+2 3019088   MALE    168
+3 2038883   MALE    172
+4 1920587 FEMALE    154
+5 6006813   MALE    174
+6 4055945 FEMALE    176
+> 
+

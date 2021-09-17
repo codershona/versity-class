@@ -1,0 +1,24 @@
+Operating systems are in use everywhere in our society:
+
+Discuss the weeks activities and your observations
+Discuss how the use of virtual machines has impacted you personally
+* In Your Own Words (with references as needed), very briefly in 2 paragraphs.
+
+
+
+A:
+
+   In the beginning, I am going to discuss about this week activities and my observations. This week I had accomplished many new learning and reading materials of unit three. I had at first complete the grade quiz where I had achieved 100/100 marks . Then I had assessed last week unit 2 peer  assessment where I had review my peer works. Before taking grade quiz I had read the learning guide of this week.  In the textbook the topic was about the three easy pieces that was topic direct execution, CPU Scheduling and Multi level feedback, Lottery Scheduling. Those topic was very interesting. In schedule process topic I had learn the way it works in the beginning and how it allocated resources and the priorities to revisited again in the system. Next I had moved in the discussion posts where I had discuss about the process operating system works and implementation of the switch context differences in process. The way OS makes a confirmation to make shut down its processes and restart again in other way. The working full process of the context switching and uses of the timesharing mechanism as well as by making a schedule policy to maintain the five important process.  Next I will make a review of my peer works after writing the learning journal. Because the time I am writing the learning journal I did not finish my three peer review. Because in the discussion forum only two of us submitted our work now. So tomorrow hopefully my rest of the peer will submit their work and I will give feedback in their work. Well it was a great week for me overall by achieving a good marks in the grade quiz.
+
+    In the second point of the view, here I am going to discuss about the uses of the virtual machines which has been impact in our personal life also. The virtual machine nowadays has given a great opportunity to try and learn new operating systems and in this case LINUX is a great example to discuss. All works we cannot do in the windows. But Linux distribution is a great open source operating system which make software engineers life so easy. As I know Ubuntu, Linux Mint, CentOS is a very popular operating systems for developers and engineers to work in backend section of the software development. I always use and try the latest Linux open source package to learn programming skills and uses of Linux . I enjoy using virtual box and I hasd also try VM workstation but this workstation is for only windows users.
+
+
+
+References,
+Arpaci-Dusseau, R. & Arpaci-Dusseau, A. (2012). Operating systems: Three easy pieces.
+Madison, WI: University of Wisconsin-Madison. Retrieved September 15, 2020 from
+http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+
+

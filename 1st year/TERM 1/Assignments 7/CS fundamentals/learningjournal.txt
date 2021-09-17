@@ -1,0 +1,97 @@
+UNIT 7: Dictionaries and Tuples
+
+
+Create a Python dictionary that returns a list of values for each key. The key can be whatever type you want. 
+
+Design the dictionary so that it could be useful for something meaningful to you. Create at least three different items in it. Invent the dictionary yourself. Do not copy the design or items from some other source. 
+
+Next consider the invert_dict function from Section 11.5 of your textbook. 
+
+# From Section 11.5 of: 
+# Downey, A. (2015). Think Python: How to think like a computer scientist. Needham, Massachusetts: Green Tree Press. 
+
+def invert_dict(d):
+     inverse = dict()
+     for key in d:
+          val = d[key]
+          if val not in inverse:
+               inverse[val] = [key]
+          else:
+               inverse[val].append(key)
+     return inverse 
+
+Modify this function so that it can invert your dictionary. In particular, the function will need to turn each of the list items into separate keys in the inverted dictionary. 
+
+Run your modified invert_dict function on your dictionary. Print the original dictionary and the inverted one. 
+
+Include your Python program and the output in your Learning Journal submission. 
+
+Describe what is useful about your dictionary. Then describe whether the inverted dictionary is useful or meaningful, and why. 
+
+
+
+
+
+ANSWER: 
+
+     In the beginning, I want to demonstrate about dictionaries and tuples in python. In python, there are two additional data structures that could able to keep stored multiple objects that are defined as dictionaries and tuples. As dictionaries are builder by key and pair of values. Lists and Tuples are always emerged by the position that can keep organized.  Sometimes a pair of keys and values are kept composed by the location in dictionaries. Curly braces  { } are usually defined as dictionaries but something commas, are also separately defined as a key-value pair. By putting colon: could also be related to each key pair value. On the other hand, by enclosing elements in parenthesis  ( )  and separating with elements with commas, usually describe as tuples, as well as these, are immutable lists. Here is my method: 
+
+list_shellter = {
+  "Tuples_1": ["list",4,"item"],
+  "Tuples_2": ["list",1,"item"],
+  "Tuples_3": ["list",5,"item2"],
+  "Tuples_4": ["unlist",3,"item"],
+  "Tuples_5": ["sublist",10,"item"],
+  "Tuples_6": ["sublist",8,"item"],
+}
+
+print(list_shellter)
+print("")
+
+def invert_dict(d):
+  inverse = dict()
+  for key in d:
+    val = d[key]
+    for item in val:
+      if item not in inverse:
+        inverse[item] = [key]
+      else:
+        inverse[item].append(key)
+  return inverse 
+
+inverted_tup = invert_dict(list_shellter)
+print(inverted_tup)
+   Here is also my console output:
+
+
+{'Tuples_1': ['list', 4, 'item'], 'Tuples_2': ['list', 1, 'item'], 'Tuples_3': ['list', 5, 'item2'], 'Tuples_4': ['unlist', 3, 'item'], 'Tuples_5': ['sublist', 10, 'item'], 'Tuples_6': ['sublist', 8, 'item']}
+{'list': ['Tuples_1', 'Tuples_2', 'Tuples_3'], 4: ['Tuples_1'], 'item': ['Tuples_1', 'Tuples_2', 'Tuples_4', 'Tuples_5', 'Tuples_6'], 1: ['Tuples_2'], 5: ['Tuples_3'], 'item2': ['Tuples_3'], 'unlist': ['Tuples_4'], 3: ['Tuples_4'], 'sublist': ['Tuples_5', 'Tuples_6'], 10: ['Tuples_5'], 8: ['Tuples_6']}
+ 
+
+
+
+    Explanation: In my method, I had modified my functions into an inverted dictionary. In this case, my function inverted_dict needs to turn each list of items with separated keys and values into an invert dictionary.  I had run the modified inverted_dict function and print the main and inverted dictionary which is included with the python dictionary and output of my method. 
+
+    As a result, the keys and values are not essential for an inverted dictionary anymore. While, there are also large list items with lists, unlists, and sublists that have a single key into original dictionaries and also have the same value. 
+
+ def invert_dict(d):
+  This actually creates an inverted dictionary to keep stored the inverse. 
+
+inverse = dict()
+   Usually, the loop has been already starting as a traverse into the dictionary.  
+
+for key in d.keys():
+    Basically, this method has to keep stored the list in the current key. 
+
+   for value in values:
+     This creates a new key only and this method does not create any value in the inverted dictionary.
+
+inverse[value] = [key]
+    else:
+ inverse[value].append(key)
+    If the value does not present inverse this append the value of the present keys. 
+
+
+
+
+

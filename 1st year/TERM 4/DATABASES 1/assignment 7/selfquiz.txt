@@ -1,0 +1,40 @@
+The JDBC API is a Java API that can access any kind of tabular data, especially data stored in a relational database.
+
+A:  True
+
+In JDBC, what represents a single instance of a particular database session? 
+
+A:  a. a thread
+
+ODBC stands for:
+
+A:  b. Open Database Connectivity
+
+
+Which of the following is an incorrect statement?
+
+A: 
+
+
+ODBC requires manual installation of the ODBC driver manager and driver on all client machines. JDBC drivers are written in Java and JDBC code is automatically installable, secure, and portable on all platforms. 
+
+
+A: True
+
+
+If we write a program in a programming language and switch to SQL when we require to use the database, then the SQL environment in use is known as _______ SQL.
+
+
+A: d. Embedded
+
+
+Which of the following is a definition of Embedded SQL?
+
+
+A: a. Hard-coded SQL statements in a programming language such as Java.
+
+
+
+Which of the following supports both static and dynamic modes of execution?
+
+A: b. SQLJ

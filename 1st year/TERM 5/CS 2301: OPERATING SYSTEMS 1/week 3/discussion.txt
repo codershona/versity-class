@@ -1,0 +1,34 @@
+// discussion
+
+In unit 3, we are introduced to the concepts of scheduling in operating systems
+ 
+For your Discussion Forum:
+
+Using one of the referenced website articles discuss how operating systems Switch Between Processes And/or how the OS decides to stop one process and start another.
+You must post your initial response (with references) before being able to review other student’s responses.  Once you have made your first response, you will be able to reply to other student’s posts.  You are expected to make a minimum of 3 responses to your fellow student’s posts and rate three posts. 
+
+
+A:  In the beginning, I am going to discuss about the instance of the differences among mechanism as well as policy. It has two parts including CPU scheduler which was given in the operating system. On the other hand, we will talk about the mechanism in our operating system that is used in the CPU switch which processes with the multitasking. It also need to know about the operating system scheduler which takes decision of the system that need to be stop or it will run the policy after this.  The switch also needs a process of its current systems that could be blocked by the multiprogramming. This switch will run another process in instance to be confirmed by the equal progress that is called Time-Sharing. This multiprogramming as well as Time-sharing needs to assist of the context of the switching. The context switching needs the switch of the CPU from one systems to another task. So that the operating system could able to get back the each process in the current running state with some other state such as, ready state or wait/block state.  I am illustrating an example. The process actually had wish to run the performance of the I/O operation that had taken away of the system of the running state. Next the place needs to be process by the I/O queue. This process needs to be switch by the achieved of the Context Switch. Now we can prevent the other process to be starved in the CPU run time.
+
+  These Process has five running program and process states which are:
+1. NEW
+2. READY
+3. RUNNING
+4. Waiting
+5. Terminated
+
+  Now I am going to discuss the two components that is given below, 
+    1. Each kernel object has the process control block which has the operating system to use the administer of the process. PCB is also has the system to stored the statistical information in the process.
+   2. Each address has a space which needs to be contain by executing maybe dynamic links in the library module to code or in the data. This also contains the memory with dynamic allocations like thread stacks or heap allocations.
+
+  As a result, if we implement the process which has context switch that needs to be designed or developed by the important feature that could be multitask in the operating systems. This issue could solve the problem of the divide or switching the CPU that has difference between each process. It could also keep all the process in unused.
+
+References,
+AfterAcademy (2019). What is Context Switching in Operating System? Retrieved April 24, 2020 from
+https://afteracademy.com/blog/what-is-context-switching-in-operating-system
+
+
+
+
+
+

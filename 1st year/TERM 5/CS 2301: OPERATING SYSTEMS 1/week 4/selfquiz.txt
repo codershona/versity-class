@@ -1,0 +1,45 @@
+True or False: If you have a single CPU, hardware caches will help the processor run programs faster.
+
+A: True
+
+The fundamental difference between single-CPU hardware and multi-CPU hardware?
+
+
+A: c. Caches
+
+Which is not a goal of virtual memory (VM)?
+
+A: d. Isolation
+
+The address can be used by all of the following except:
+
+A: c. Registers
+
+True or False: Adding more CPUs will make a single application run faster.
+
+A: False
+
+True or False: Interactivity refers to single users on the same system
+
+A: False
+
+Putting all jobs that need to be scheduled into a single queue is called:
+
+
+A: a. Single queue multiprocessor scheduling
+
+True or False: Multithreaded applications can spread work across multiple CPUs and thus run faster when given more CPU resources.
+
+A: True
+
+True or False: Cache coherency involves ensuring that multiple caches store the most updated version of the stored data.
+
+
+A: True
+
+
+Which of the following statements are false with regards to the Linux CFS scheduler?
+
+A:  c. There is a single, system-wide value of vruntime.
+
+

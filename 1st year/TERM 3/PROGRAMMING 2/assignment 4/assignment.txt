@@ -1,0 +1,195 @@
+For this week’s assignment, you are required to provide a solution for Lab 8: “Buggy Search and Sort”.
+
+ANSWER:
+
+
+In the beginning, by running the program this is the following output of my terminal,
+
+<terminated> BuggySearchAndSort[Java Application] C:\Program Files\
+The array is : 9 4 2 7 1 3 3 2 2 5
+This array DOES NOT contain 5.
+Sorted by Arrays.sort(): 1 2 2 2 3 3 4 5 7 9
+Here the vastly will differ from the expected output for example,                                      
+
+The array is: 4 3 6 9 3 9 5 4 1 9
+This array DOES contain 5.
+Sorted by Arrays.sort(): 1 3 3 4 4 5 6 9 9
+9
+Sorted by Bubble Sort: 1 3 3 4 4 5 6 9 9 9
+Sorted by Selection Sort: 1 3 3 4 4 5 6 9 9
+9
+Sorted by Insertion Sort: 1 3 3 4 4 5 6 9 9
+9
+ 
+
+As a result, the program has some bugs that prevent the correct output from being shown. In my above example from executing the program for the first time, we see that the array does contain a 5. As such, it should print out that the array contains 5.
+
+ 
+
+The first issue, Using the debugger, the code from line 57 is referred to as dead code. The if statement contains an else statement, which prevents the statement from looping. This would mean that the for statement would execute for the 0th element in the array, check the value, and if the value does not equal 5, it would jump out of the loop and return false (mistake bolded and underlined).
+
+public static boolean contains(int[] array, int val) {
+  for (int i = 0; i < array.length; i++) {
+    if (array[i] == val) return true;
+    else return false;
+  }
+  return
+  false;
+}
+ 
+
+I also need to solve this issue, simply delete the else statement,
+
+public static boolean contains(int[] array, int val) {
+  for (int i = 0; i < array.length; i++) {
+    if (array[i] == val)
+    return true;
+  }
+  return false;
+}
+ 
+
+Sample output:
+
+The array is: 10 6 9 8 6 5 1 7 8 1
+This array DOES contain 5.
+Sorted by Arrays.sort():   1 1 5 6 6 7 8 8 9 10
+ 
+
+ The second issue, if the next issue is found in the bubbleSort() method. The nested for statement uses the parent for statement’s variable ‘i’ instead of using its own variable ‘j’ in the update statement as shown below (mistake bolded and underlined).
+
+public static void bubbleSort(int[] array) {
+  for (int i = 0; i < array.length; i++) {
+    for (int j = 0; j < array.length - 1; i++) {
+      if (array[j] > array[j + 1]) { // swap elements j and j+1
+        int temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+      }
+    }
+  }
+}
+ 
+To solve this issue, simply change the variable in the update statement of the nested for loop, 
+
+public static void bubbleSort(int[] array) {
+  for (int i = 0; i < array.length; i++) {
+    for (int j = 0; j < array.length - 1; j++) {
+      if (array[j] > array[j + 1]) { // swap elements j and j+1
+        int temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+      }
+    }
+  }
+}
+ 
+
+Sample output:
+
+The array is: 3 6 6 5 7 5 9 10 8 7
+This array DOES contain 5.
+Sorted by Arrays.sort():   3 5 5 6 6 7 7 8 9 10
+Sorted by Bubble Sort:     3 5 5 6 6 7 7 8 9 10
+Sorted by Selection Sort:  3 6 5 7 5 9 10 8 7 6
+Sorted by Insertion Sort:  5 6 6 7 8 8 9 9 10 10
+ 
+
+ 
+
+The third issue, if we can be seen from the above sample output. The array was not sorted using the selectionSort() method (mistake bolded and underlined).
+
+
+ public static void selectionSort(int[] array) {
+  for (int top = array.length - 1; top > 0; top--) {
+    int positionOfMax = 0;
+    for (int i = 1; i <= top; i++) {
+      if (array[1] > array[positionOfMax])
+      positionOfMax = i;
+    }
+    int temp = array[top]; // swap top item with biggest item
+    array[top] = array[positionOfMax];
+    array[positionOfMax] = temp;
+  }
+}
+ The if statement has array[1] instead of array[i] which is the correct code.
+
+ public static void selectionSort(int[] array) {
+  for (int top = array.length - 1; top > 0; top--) {
+    int positionOfMax = 0;
+    for (int i = 1; i <= top; i++) {
+      if (array[i] > array[positionOfMax])
+      positionOfMax = i;
+    }
+    int temp = array[top]; // swap top item with biggest item
+    array[top] = array[positionOfMax];
+    array[positionOfMax] = temp;
+  }
+}
+Sample output:
+
+The array is: 5 4 9 5 5 4 6 1 1 3
+This array DOES contain 5.
+Sorted by Arrays.sort():    1 1 3 4 4 5 5 5 6 9
+Sorted by Bubble Sort:     1 1 3 4 4 5 5 5 6 9
+Sorted by Selection Sort:  1 1 3 4 4 5 5 5 6 9
+Sorted by Insertion Sort:  3 9 9 9 9 9 9 9 9 9
+ 
+
+ 
+
+ 
+
+The fourth issue, The last issue is with the insertionSort() method. It does not correctly sort the array (mistake bolded and underlined). With the variable pos not being able to equal to 0 in the while loop, it will not affect the 0th element, which is wrong. In addition, array[pos] = temp should be array[pos + 1] = temp, to prevent the ArrayIndexOutOfBoundsException.
+
+
+
+public static void insertionSort(int[] array) {
+  for (int top = 1; top < array.length; top++) {
+    int temp = array[top]; // copy item that into temp variable
+    int pos = top - 1;
+    while (pos > 0 && array[pos] > temp) {
+      // move items that are bigger than temp up one position
+      array[pos + 1] = array[pos];
+      pos--;
+    }
+    array[pos] = temp; // place temp into last vacated position
+  }
+}
+
+To solve the issue:
+
+ public static void insertionSort(int[] array) {
+  for (int top = 1; top < array.length; top++) {
+    int temp = array[top]; // copy item that into temp variable
+    int pos = top - 1;
+    while (pos >= 0 && array[pos] > temp) {
+      // move items that are bigger than temp up one position
+      array[pos + 1] = array[pos];
+      pos--;
+    }
+    array[pos + 1] = temp; // place temp into last vacated position
+  }
+}
+Sample output:
+
+The array is: 4 8 7 5 6 10 7 8 6 1
+This array DOES contain 5.
+Sorted by Arrays.sort():   1 4 5 6 6 7 7 8 8 10
+Sorted by Bubble Sort:     1 4 5 6 6 7 7 8 8 10
+Sorted by Selection Sort:  1 4 5 6 6 7 7 8 8 10
+Sorted by Insertion Sort:  1 4 5 6 6 7 7 8 8 10
+ 
+
+ 
+
+Reference,
+
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
+
+ 
+
+
+
+ 
+

@@ -1,0 +1,36 @@
+The Learning Journal is a tool for self-reflection on the learning process. The Learning Journal will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful
+Describe your feelings and attitudes
+Describe what you learned
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources. 
+
+
+
+ANSWER:
+
+
+  In the beginning, I had been learned Java control structures. I had been completed discussion posts, write programming assignments, and complete self-quizzes.  I had to learn a lot from these assessments. At first, I had complete discussion assessments where I had been written about Java while loop examples, do-while loop, and for loop own examples and show differences about the disadvantages and advantages of each looping structure. Working on this assignment I had learned to able to create my own examples and also collaborate with my peers also. I had also reviewed my other peer's works and also learn how they had illustrated their examples. After that, I had complete the programming assessments. I had created a file and complete my all question which was provided and also submit screenshots of the console output. Currently, I am waiting for my peer reviews. After that, I had read self-quizzes and complete those taking help from the textbook. When I was completing my self-quizzes my reactions were I was very curious to learn the control structures multiple choice. I had also received reviews from my peer about my discussion posts which was very useful for me. When I receive any feedback I felt very happy that I will get a review which will help me to learn new things from my mistakes. This week I had learned a clear definition of Java while loop, for loop and do..while loop works and how could I write the Java code and complete the programming assignment. 
+
+   In my second point, I was really surprised when I was working on my programming assignments. I had how the input dialog works.  I had able to understand how the main method has one or more String assignment statements that create a multiple-choice question String.  I had learned how to use the uppercase for the main method to convert the answer String. It was very challenging for me to complete because it was quite hard and difficult to understand. But after a lot of research and read the textbook I had able to solve the problem.  I had been recognizing that I am gaining problem-solving skills and collaboration skills which are great soft skills. As a self-learner, I had been realizing that I need to handle a lot of problems while writing codes and also need to solve that problem. This habit would help me to be more creative and think technically in my real-world life also. As a self-learner, I also need to maintain more time management also. I am able to apply the ideas and concepts gained to my own experience by working on more examples. By creating my own example I am able to know how the code really works and how I could able to solve my errors while writing codes. 
+
+  Finally, in my view, I am going to describe one important thing that you are thinking about in relation to the activity. Self-reflection methods are a great learning system for a computer science student. By learning as a self-directed learner I could able to understand more complex works and slove my own. This process will help me to think more visually way.
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.7

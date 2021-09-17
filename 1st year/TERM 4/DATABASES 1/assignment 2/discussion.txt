@@ -1,0 +1,29 @@
+Creating an efficient conceptual data model requires specific steps to follow (Sharma, et al., 2010, p. 68):
+
+Develop an Entity-Relationship Diagram
+Determine integrity constraints
+Final model review
+Discuss why it is important to review the final model. Consider the cases to make changes in the later stages of database development
+
+There are several issues to consider when reviewing the final model. One of the issues is M:N relationships. M:N relationships should be removed while reviewing the final model. Discuss the problem/s of M:N relationships and how they should be resolved. Support your discussion with examples.
+Your Discussion should be at least 250 words in length, but not more than 750 words. Use APA citations and references for the textbook and any other sources used.
+
+
+
+References:
+
+Sharma, N., Perniu, L., Chong, R. F., Iyer, A., Nandan, C., Mitea, A. C., Nonvinkere, M. & Danubianu, M. (2010). Database fundamentals. 
+
+
+ANSWER:
+
+   In the beginning, I want to discuss about the design review because this is very important for the database system design process where we need to check the validation for the design. SO, we need to take decisions and make a correction for those errors in the application before the databases goes to promotion for the production status. This strategy is the primary stage for the all types of databases applications for its size and it could be reviewed by the to make sure that the application has been design correctly. The most efficient coding techniques is going to be used for the databases to make a access or needs to be modify without causing any wrong efficiency. 
+
+  In my second point of the view, databases development is a kind of process which needs to be developed by the software and also needs a proper maintenance.  If we aspect that the the development system has subdivision process which has a series for the phases that needs to be focus for the database development. Their also another process which define as development of the life cycle. Besides this, if the maintenance get involves in the dealing for the changes there will be also some requirements or a implementation for the bug to get fixed as well as needs a porting for the system for any operating systems which could be UNIX also that might get migrate into the database system. 
+
+
+
+  In my third point of the view, in M:N relationships it defines as many to many relationships that has different records in a relation which was between multiple records with another relation. Because many to many table relationships was no longer supportive for the relational model. This also needs to be resolved to split the original M:M relationship. This is was setup into two of the 1:M relationships sets. 
+
+
+

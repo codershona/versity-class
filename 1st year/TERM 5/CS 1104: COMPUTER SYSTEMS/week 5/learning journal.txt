@@ -1,0 +1,38 @@
+Learning Journal Unit 5
+The Learning Journal is a tool for self-reflection on the learning process. In addition to completing directed tasks, you should use the Learning Journal to document your activities, record problems you may have encountered and to draft answers for Discussion Forums and Assignments. The Learning Journal should be updated regularly (on a weekly basis), as the learning journals will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful
+Describe your feelings and attitudes
+Describe what you learned
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+Your Learning Journal should be a minimum of 500 words.
+
+
+ANSWER:
+
+   In the beginning, I am going to talk about what I had accomplished in this week. This week I am studying UNIT 5: Computer Architecture chapter. The topic was about the Stored Program Concept, the von Neumann Architecture, memory, central processing unit, Registers, Input and Output. From the textbook I had study  the way to build the Hack computer platform, culminating in the top-most Computer chip and build the Hack computer platform, culminating in the top-most Computer chip. 
+
+   In my second point of the view, at first I had start working on self quiz. This week self quiz is a quite difficult for me and I had research from internet and check our computer systems course learning materials. After studying the online learning materials I had able to complete the multiple choice. My reactions was a much better because next week in my grade week and this self quiz I need to practice more to understand the difficult level multiple choice. 
+
+    In my third point of the view, I had complete the written assessment of this week. There I had been describe and wrote an explanation of ALU (Arithmetic Logic Unit), Instruction Decoder, Clock and Program Counter, Control Codes, Control Unit. My had attached my work into MS word document format. Next I had give review of my last week written assessment work. Then I had moved to complete my this week discussion posts and submit my work into discussion forum. I had got some of my peer review and I had also give review in their work. My peer review well which encourage me to write more good discussion posts in the future. It is a great feeling getting positive feedback from my peers. I had learned how to answers with a proper explanation makes easy to understand any kind of explanation. 
+
+   In my fourth point of the view, here I was surprised to see this week written assessment. Because I thought I need to make a circuit. But this week written assessment was about explanation for those topics. It was not that much challenging for me because I was familiar with those topics and because for this reason it had become easy for me to give a proper explanation of it. I had recognize that I am growing the understanding level day by day. Studying any topics early that really helps because when I need to face challenge I had quite easy to complete the challenge because it was my earlier known topic. 
+
+   As a result, I must want to say that as a self learner I had realize that, sometimes if you get any challenge to face which you now earlier and you had study that topic and familiar with it that would help you and make you more comfortable while completing your challenges. 
+
+   In my own opinion the things I had been learned the ideas and concepts when I apply my own gained experience it helped my a lot to know the real world experience challenges.
+
+
+

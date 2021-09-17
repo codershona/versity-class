@@ -1,0 +1,52 @@
+// self quiz
+
+Channel logging tokens can be set to all but:
+
+A: c. Both versions
+
+
+Computers not joined to the domain can use event forwarding in conjunction with:
+
+A: d. SSL/TLS
+
+
+True or False: Collected events are almost always malicious.
+
+A: False
+
+
+In the process of application whitelisting events are collected for all except:
+
+A: d. EMET
+
+
+
+True or False: The Windows operating system has a built-in network based firewall.
+
+A: False
+
+
+
+For Windows Defender event ID 3002 means?
+
+A:  c. Real time protection failed
+
+
+True or False: Mobile devices create a log whenever they enter and leave a wireless network.
+
+A:  True
+
+
+True or False: The event log file is set to 1G of storage and one should overwrite it rather than allocate more space or start a new log file of 1G.
+
+A:  False
+
+
+This command “winrm id –remote:TARGET” will:
+
+A: identifies remote machine TARGET
+
+
+When troubleshooting the target machine the local host name should be set to:
+
+A:

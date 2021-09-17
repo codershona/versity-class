@@ -1,0 +1,78 @@
+Describe the difference between a chained conditional and a nested conditional. Give your own example of each. Do not copy examples from the textbook.
+
+Deeply nested conditionals can become difficult to read. Describe a strategy for avoiding nested conditionals. Give your own example of a nested conditional that can be modified to become a single conditional, and show the equivalent single conditional. Do not copy the example from the textbook.
+
+
+answer:     In the beginning,  I am going to describe the difference between a chained conditional and s nested conditional. As we know, A Chained Conditional is a condition which usually combines or chain the multiple conditions by using and, or, not three combined conditional keywords. Explaining my own thoughts and methods in the example which is given below:
+
+def else_if(nested_output):
+    if nested_output > 4000000:
+        print('explaining conditional and nested statement')
+    elif nested_output < 2:
+        print('assuming nested conditional statement')
+    else:
+        print("This is called a Conditional Statement in python.")
+else_if(800000)
+print('\n')
+In my console the output is going to be:
+
+This is called a Conditional Statement in python.
+ 
+      On the other hand, A nested conditional is that explain (if/else if/else, or elif is an abbreviation of else if ) by using the flow controls, as well as by creating a more nuanced sequence of conditionals the conditionals which are very in-depth.  It is used for using code inside the other code. Suppose, by putting if statement inside of the code which was already existing if statement. 
+
+  The example is described below:
+
+
+ans = input("What is your weight? ")
+
+if int(ans) >= 40:
+    ans = input("Do you maintain a keto diet? ")
+    if ans == "yes":
+        print("Before following the keto diet please check your weight!")
+    else:
+        print("Oh, Ok i will check my weight, Don't worry!")
+The output in my console:
+
+What is your weight? 40
+Do you maintain a keto diet yes
+Before following the keto diet please check your weight!
+ 
+OR, 
+What is your weight? 40
+Do you maintain a keto diet no
+Oh, Ok i will check my weight, Don't worry!
+ 
+
+
+   Secondly, by avoiding a nested conditional statement we could face many difficulties in our work which is really fruitless and unnecessary. In this case, we need to differ the nesting situations by using the invert if statements method. 
+
+
+def case_one(x1, y2):
+    if len(x1) > 3:
+        if len(y2) > 3:
+            print(f"{x1} are measure to {y2}")
+        else:
+            print(f"{x1} are not measure to {y2}")
+    else:
+        print('The measurement might not be exact! Sorry!')
+
+def case_two(a1, b2):
+    if len(a1) > 3 and len(b2) > 3:
+        print(f"{a1} output would be {b2}")
+    else:
+        print(f"{a1} output not would be {b2}")
+case_one('Lima', 'Anny')
+case_one('Robin', 'Rohit')
+print('----!!!!!!!---This is the case one output----!!!!\n')
+case_two('Lisa', 'Bobby')
+case_two('Pinky', 'Brown')
+print('----!!!!!!!---This is the case two output----!!!!\n')
+
+  The output is going to be :
+Lima are measure to Anny
+Robin are measure to Rohit
+----!!!!!!!---This is the case one output----!!!!
+Lisa output would be Bobby
+Pinky output would be Brown
+----!!!!!!!---This is the case two output----!!!!
+ 

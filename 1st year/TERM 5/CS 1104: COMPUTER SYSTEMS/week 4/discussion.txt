@@ -1,0 +1,35 @@
+D-Latch is a simple clocked memory element in which the output is equal to the stored state inside the element.
+
+In D-Latch the state is changed whenever the appropriate inputs change and the clock is asserted. A D-Latch has two inputs and two outputs.
+
+The inputs are the data value to be stored and a clock signal that indicates when the latch should read the value on the data input and store it. The outputs are simply the value of the internal state and its complement.
+
+When the clock input is asserted, the latch is said to be open, and the value of the output becomes the value of the data input. When the clock input is de-asserted, the latch is said to be closed, and the value of the output is whatever value was stored the last time the latch was open.
+
+What is the difference between DFF and D-Latch?
+
+Can one chip be used for constructing the other? Explain.
+
+
+
+
+
+ANSWER:
+
+
+  In the beginning, I am going to discuss about Latches. Generally it is the combination of the logic gates that has the flip-flops. This flip-flop also can able to illustrate the creation of the latches. There are another variety between the working process of the latch which are asynchronously. But this has no clock. So in this case, the flip-flop needs a synchronous which produce a results including that could had a clock also. 
+
+  In my second point of the view, here, D latches was identify which has been triggered by a level that is also needs the logics of the level. This was also available in the data line. But it would be high if the clock input has the data line which is easy to accessible. D flip-flop also needs to be identified by the edge triggering the device that could be engage same as the D latches. This could also expects to shows the current state in the input that could be positive or negative . But in the clock pin it could be positive. 
+
+  In the third point of the view, here, the D flip-flop has been build up by the gate of the S R flip-flop. It has each inverter that is been added among the S as well as R input. This also assist to allow a single inputs in D. As a result, this could also make a connection in the beginning with the flip-flop so that it could formulate the latches. Finally, each D types has latches that would not able to establish from a D type flip-flops.
+
+
+
+
+References,
+Electronics Tutorials. (n, d). The D-type Flip Flop. Retrieved from https://www.electronics-
+tutorials.ws/sequential/seq_4.html
+Tarnoff, D. (2007). Computer organization and design fundamentals.
+http://faculty.etsu.edu/tarnoff/138292/
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press.
+http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf

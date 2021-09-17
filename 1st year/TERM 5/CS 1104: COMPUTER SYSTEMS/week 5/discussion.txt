@@ -1,0 +1,40 @@
+The Hack architecture partitions the address space, and does not allow both data and instructions to be stored in the same space.
+
+ What are the implications of this architecture?
+Explain and discuss in your own words.
+This will require outside research:
+
+ Discuss is the difference between RISC and CISC architecture. What are the advantages and disadvantages of each architecture?
+
+
+
+ANSWER:
+
+
+  In the beginning, here we can see that, the instruction and data has been used for both each single space. In this case, the hacks of architecture makes separation in the address space within two individual parts. As a result, if it is being allowed by each of the single-instruction -fetch-execution. Finally, in operation indicate the way of the program that could not be dynamically returned.
+
+ In the second point of the view, here I am going to illustrate differences, advantages and disadvantages of RISC and CISC could be describe that is given below:
+
+CISC
+
+In this design, we can use the implementation of the large numbers which has been illustrated in the instructions.
+The encoding of the instruction has variable of length.
+IT has an array which was supportive.
+The machine level of the programs has implementation which are hidden.
+The implementation has the conditional code structures.
+
+
+
+RISC
+
+Here in this design, the implementation can able to reduced number of instructions.
+The encoding of instruction has fixed length.
+The array does not supportive.
+In the machine level instruction the implementation are not hidden.
+The conditional codes were not been supportive.
+
+References,
+Tarnoff, D. (2007). Computer organization and design fundamentals.
+http://faculty.etsu.edu/tarnoff/138292/
+Aishwarya Agarwal. (8, 2019). Differnece between RISC and CISC processor Set 2 Retrieved
+from https://www.geeksforgeeks.org/difference-between-risc-and-cisc-processor-set-2/

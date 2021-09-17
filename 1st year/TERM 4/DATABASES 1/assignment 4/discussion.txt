@@ -1,0 +1,38 @@
+Databases are used to store different kinds of data such as names, currency, text, graphics, etc. Determining the appropriate data type for each attribute is important for database performance, storage size, and conducting accurate analysis on databases. As with other programming languages, SQL supports many data types. However, you will mostly use two categories while writing SQL queries: Characters, and numbers.
+
+Consider the following standard SQL data types:
+
+Characters
+char
+varchar
+
+Numbers
+integer
+decimal
+float
+Different data types could be used for the same attribute. For example, both char and varchar could be used to store “names” in a database. Examine the attributes for the Characters and Numbers data types.
+
+Using specific examples, compare data types for each category. For example, why you should choose char rather than varchar or opposite
+
+
+
+ANSWER:
+
+
+  In the beginning, if the databases has all the attribute that needs to be data type which is being specify the values. If we decide that the suitable data types needs a database developer while the development system. If the SQL has the type of the data supposing could be stored that could be a specific attribute for the table. But if we try to make possible the SQL  data which is understandable for the interactions. Now I am going to make a difference between the character or the number of the data types. So, this roles could to be preferable or not be preferable. 
+
+  Here I am going to discuss about the character data types which is called char and varchar that is given below, 
+
+If a variable has a length during the varchar had a fixed length that is basically the char of data type. There is also another comparison between the char variable and the varchar. That is if we needs to make more space in the char it could had a difference with a length of the properties which is varchar. Such as, I had char a variable which is 50 as well as varchar will be 50 my clients want to keep the string stored for example that could be a my clients "Project". The char 50 needs to be stored by the 1 byte but if there is a letter in the string the each of those letters needs to be stored in the 47 which is still continuing in spite of the string in the length. The varchar 50 also needs to be stored because the all the letter needs a string so that the other 2 bytes could made a total 5 bytes in the varchar 50. So this is the reason why the varchar could able to selected the  save spaces as well as try to make expansion in the functionality. The char in the data type we could not choose it because we could able to use the fixed length in the character. For instance, SE in the database which is actually called SWEDEN. Here this actually gives explanation of the fixed length in the char value that is char 2 and the fixed length in each of the product codes. Not only that the single letters has a strings in the middle name in the char 1. Thus, we need to stored it as an attribute in the type of the char. 
+
+
+ The numbers of the data type has the database in the SQL. It could also depends in the size that basically we called byte sizes. If the data type needs to be stored in the specific attributes and the type also needs to be stored in the data that was known as float, integer as well as decimal. The integers data types consists with bit, Tinyint, smallint, int and bigint.
+
+The decimal data type define the decimal which needs to be taken the values from 20 ^ 58 + 1 to 20 ^ 58 - 1 as well as the store needs to be 9-27 bytes. The parameter which is known as p could has a maximum total calculation of the number with the digits. This could also be stored in the left or in the right. But before that we needs to point out the decimal at first. So, the p has each value with the 1 to 58 but it could be default of 18 also. On the other hand, the s parameter has the maximum number on its digit that is also needs to be stored in the right. But after that the decimal has a point with s of the each value from 0 to p as well as 0 will be the default value. 
+
+   The Float of the data type has float(n) that has a precision number in the data if we store  form  -1.79E + 308 to 1.79E + 308 as well as 8 bytes. Sometimes it could also 4 bytes also. The real floating has a number of the precision in the data of the number from -3.40E + 38 to 3.40E + 38 as well as we need to keep it stored using 4 bytes only here we cannot stored the 8 bytes. 
+
+  As a result, this database process actually dependent in the types of the data. If we want to keep it stored in our database system we must need to be ensured that it could works perfectly. Otherwise, the big data needs to be stored and the uses of the varchar of the data types has a length in the variable. This could be stored in the larger storage that could be numeric types.
+
+
+

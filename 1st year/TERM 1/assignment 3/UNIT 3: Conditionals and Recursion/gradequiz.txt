@@ -1,0 +1,49 @@
+Using keywords for variable names will result in a ________________
+
+
+ans: c. syntax error
+
+A program is a sequence of instructions that specifies how to perform a computation.
+
+ans: True
+
+
+In Python, the expression "a**(b**c)" is the same as "(a**b)**c".
+
+ans: False
+
+Consider the following text from a Python interpreter.
+
+>>> print(2 + 2)
+4
+
+What is the text "print" called?
+
+ans: a statement
+
+In Python, the ‘+’ operator can be used with numbers and with strings. What is a property that number addition has, but string concatenation does not?
+
+ans: c. The expression value does not depend on the order of numeric addition operands.
+
+Programmers generally choose names for their variables that are meaningful and document what the variable is used for.
+ANS: True
+
+Learning to debug can be frustrating, but it is a valuable skill that is useful for many activities beyond programming.
+ans: True
+
+Consider the following text from a Python interpreter.
+
+>>> print(2 + 2)
+4
+
+What is the text "+" called?
+ans: b. an operator
+
+What output will the following Python statements produce?
+
+>>> percentage = ( 60.0 * 100.0) / 55.0
+>>> print (percentage)
+
+ans: c. 109.0909090909091
+
+

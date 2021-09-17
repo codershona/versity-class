@@ -1,0 +1,68 @@
+Compare ATM (Asynchronous Transfer Mode) and ETHERNET on the following aspects:
+
+ 
+
+Bandwidth
+
+Scalability
+
+Interoperability
+
+Quality of Service
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates.
+
+ 
+
+Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+
+ANSWER:
+
+  In the beginning, I am going to discuss about the difference between ATM (Asynchronous Transfer Mode) and ETHERNET. 
+
+Point 1: Asynchronous Transfer Mode (ATM)
+
+The asynchronous transfer mode, basically has a specific packet oriented mechanism which can has a variation of the digital information. This was established to utilize the cells so tat the constant length can had a payload field which had header. It also made known in 90's time and by seeing that time it has recycled in the point of resolution of the technical knowledge. This way it can move  various types of the network traffic. The ATM also passes the adjustable shift of the capacity which was the general broad range services plus the traffic patterns had the larger range as well as it could be engaged it different transmission media that can had a large rate to operate.  
+
+ 
+Point 2: Quality of Service
+Here, the quality of the ATM service had been developed by the contained voice as well as video traffic. As, the ATM has been connected with the oriented quality of the maintenance.
+This could be given due consideration where it was very relevant for the networks. 
+considered very important for networks. This service does not have higher priority for the Ethernet 
+as this traffic transport need to be developed.
+
+
+Point 3: Ethernet
+Here, this technology needs to be connected with the wired local area of the network (LANs) as well as it can be implement the general network language into the device to make a communication with each other via protocol.  This is also known as new technology which can be accepted to transfer the 
+various types of the traffic which can be cheap and budget. This helps to transmits and receives data via cables.
+
+Point 4: Scalability
+Here, the ATM needs to establish the LAN as well as WAN architecture, in contrary the Ethernet are 
+the ultimate accepted and able to used by the LAN networks. 
+It has the scalability which has large bandwidth.
+The ATM can provide the additional choices for the network management.
+The Ethernet connection can be overburden. In this case, it has a two choices. The first one is correct the link to a higher bandwidth ad the second choice is it can be restructure  the network  decrease the load.
+
+Point 5: Interoperability
+Here, it has some disadvantages for the  ATM, the reason is hi-tech can be more complication as well as has bigger amount than the ethernet.  
+ATM has a larger range of interoperability and compatibility problems, which the Ethernet dose not have gigabit troubles 
+
+Point 6: Bandwidth
+The ATM networks needs bandwidth which has a great performance and it can also retain the servie which is known as qos for the clients. 
+
+
+Reference
+
+Dordal, P. (2019). An introduction to computer networks. Retrieved from
+https://my.uopeople.edu/pluginfile.php/1276990/mod_book/chapter/284604/ComputerNetworksText.
+pdf
+Nortel Networks. (n.d.). Gigabit Ethernet and ATM A Technology Perspective. Retrieved from
+https://doc.lagout.org/network/Cisco/CCIE/Service%20Provider%20Networks/Gigabit%20Ethernet
+%20And%20Atm%2C%20A%20Technology%20Perspective

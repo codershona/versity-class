@@ -1,0 +1,911 @@
+Which one of the following types is not allowed for the expression in a switch statement?
+
+
+A: b. float
+
+
+Which one of the following claims about Java is INCORRECT?
+
+A: d. An object is a type.
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+"System" is which of the following?
+
+
+A: a. a class
+
+
+Consider the following Java program. What is the superclass of "MouseWhisperer"?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+b. JFrame
+
+
+Consider the following Java method, which term best describes "String[] args"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+
+A: a. formal parameter
+
+
+What is output by the following Java program?
+Zap {
+    static boolean zap() { return true; }
+    static int zap(boolean x) { return 0; }
+    static double zap(int x) { return 0.5; }
+    static String zap(double x) { return "Zap!"; }
+    static boolean zap(String x) { return false; }
+    public static void main(String[] args) {
+        System.out.println(zap(zap(zap(zap(1)))));
+    }
+}
+
+
+A: 0
+
+Which one of the following terms does NOT describe a desirable interface to a black box?
+
+
+A: b. implementation
+
+
+
+Which of the following keywords is useful for getting out of an infinite loop?
+
+
+A: a. break
+
+Which one of the following is used in Java programming to handle asynchronous events?
+
+
+A: a. event handlers
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static int doSomething(int[] a) {
+    int b = a[0];
+    for (int c : a) if (b < c) b = c;
+    return b;
+}
+
+
+A: a. maximum
+
+
+
+Consider the following Java program, what starts on line 4?
+
+
+1 public class HelloWorld {
+2     // My first program!
+3     public static void main(String[] args) {
+4         System.out.println("Hello, World!");
+5     }
+6 }
+
+
+A: b. a statement
+
+
+Consider the following Java program, which one of the following best describes "Food()"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: b. a constructor
+
+
+
+What is the output of the following Java program?
+
+
+class Food {
+     void flavor() { System.out.println("bland"); }
+ }
+ class Pepper extends Food {
+     void flavor() { System.out.println("spicy"); }
+ }
+ public class Lunch {
+     public static void main(String[] args) {
+         Food lunch = new Pepper();
+         lunch.flavor();
+     }
+ }
+
+
+ A: d. spicy
+
+
+
+ Which of the following is NOT a valid identifier in Java?
+
+ A: c. public
+
+ Consider the following Java program. Which object registers event listeners?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+
+A: c. this
+
+
+
+
+
+Consider the following Java method, which term best describes "'("Hello, World!")"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+
+
+A: a. actual parameter or argument
+
+
+Assume "test" is a boolean variable. Which of the following expressions is equivalent to "test == true"?
+
+A: test
+
+What is the output of the following Java program?
+
+
+class Food {
+    String flavor = "bland";
+    void printFlavor() { System.out.println(flavor); }
+}
+class Pepper extends Food {
+    String flavor = "spicy";
+    void printFlavor() { System.out.println(flavor); }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+        lunch.printFlavor();
+    }
+}
+
+
+A: d. spicy
+
+
+
+What is the output of the following Java program?
+
+
+class Food {
+    Food() { System.out.println("bland"); }
+}
+class Pepper extends Food {
+    Pepper() { this("spicy"); }
+    Pepper(String flavor) { System.out.println(flavor); }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+    }
+}
+
+
+A: b. bland
+spicy
+
+
+
+A class that implements a listener interface does which of the following?
+
+
+A: b. It handles events.
+
+
+
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        Integer[] a = new Integer[5];
+        System.out.println(Arrays.toString(a));
+    }
+}
+
+
+A: d. [null, null, null, null, null]
+
+
+
+
+What is the output of the following Java program?
+
+
+class Food {
+    Food() { System.out.println("bland"); }
+}
+class Pepper extends Food {
+    Pepper() { System.out.println("spicy"); }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+    }
+}
+
+
+A: b. bland
+spicy
+
+
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        for (int i = 0; i < 5; i++) a.add(i);
+        System.out.println(a.toString());
+    }
+}
+
+
+A: a. [0, 1, 2, 3, 4]
+
+
+Which one of the following does NOT describe an ArrayList?
+
+
+A: d. Its elements can be a primitive type.
+
+
+
+Consider the following Java program, which one of the following best describes "count"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: a. a class variable
+
+
+
+Consider the following Java program, which one of the following best describes "pepper"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: a. an object
+
+
+Consider the following Java statements.
+int x = 3;
+x = x++;
+What is the value of x after these statements are executed?
+
+
+A: 3
+
+
+What is output by the following Java program?
+
+
+class Compute {
+    static int compute() { return 42; }
+    static int compute(int i) { return i+1; }
+    public static void main(String[] args) {
+        System.out.println(compute(compute()));
+    }
+}
+
+
+
+A: e. 43
+
+
+What is the output of the following Java program?
+
+
+class Food {
+    Food() { printFlavor(); }
+    void printFlavor() { System.out.println("bland"); }
+}
+class Pepper extends Food {
+    void printFlavor() { System.out.println("spicy"); }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+    }
+}
+
+
+A: d. spicy
+
+Which of the following can a class NOT be used for?
+
+
+c. a primitive type
+
+
+Consider the following class definition. Which variables can be used in the missing "println" expression on line 8?
+
+
+1  public class PrintStuff
+2  {
+3      public static void main()
+4      {
+6          {
+7              int i = -1;
+8              System.out.println(_____);
+9          }
+10         int j = 1;
+11         for (j = 0; j < 10; j++) {
+12             System.out.println(_____);
+13         }
+14         {
+15             int k;
+16             for (k = 0; k < 10; k++) {
+17                System.out.println(_____);
+18             }
+19         }
+20        System.out.println(_____);
+21     }
+22 }
+
+
+A: a. Only "i"
+
+
+
+Consider the following Java program, what starts on line 2?
+
+
+1 public class HelloWorld {
+2     // My first program!
+3     public static void main(String[] args) {
+4         System.out.println("Hello, World!");
+5     }
+6 }
+
+
+A: d. a comment
+
+
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static int doSomething(int[] a) {
+    int b = 0;
+    for (int c : a) b += c;
+    return b;
+}
+
+
+A: a. sum
+
+
+Consider the following first line from a Java method definition.
+public static boolean compute(int n, float x) {
+Which one of the following lines could begin a method that legally overloads the above method?
+
+
+A: d. public static boolean compute(float n, int x) {
+
+
+Consider the following Java program:
+
+
+1 public class HelloWorld {
+2     // My first program!
+3     public static void main(String[] args) {
+4         System.out.println("Hello, World!");
+5     }
+6 }
+
+What is on line 1?
+
+
+A: e. a class definition
+
+
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static void doSomething(int[][] a) {
+    int n = a.length;
+    for (int j = 0; j < n; j++) {
+        for (int i = j+1; i < n; i++) {
+            int aij = a[i][j];
+            a[i][j] = a[j][i];
+            a[j][i] = aij;
+        }
+    }
+}
+
+
+A: e. transpose
+
+
+
+Consider the following block of Java code. How many times will it output "Hello"?
+for (int i = 1; I < 10; i++) ;
+{
+    System.out.println("Hello");
+}
+
+
+A: b. 1
+
+
+Which one of the following values can a Java variable NOT have?
+
+A: c. an object
+
+
+Consider the following class definition. Which variables can be used in the missing "println" expression on line 12?
+
+1  public class PrintStuff
+2  {
+3      public static void main()
+4      {
+6          {
+7              int i = -1;
+8              System.out.println(_____);
+9          }
+10         int j = 1;
+11         for (j = 0; j < 10; j++) {
+12             System.out.println(_____);
+13         }
+14         {
+15             int k;
+16             for (k = 0; k < 10; k++) {
+17                System.out.println(_____);
+18             }
+19         }
+20        System.out.println(_____);
+21     }
+22 }
+
+
+A: b. Only "j"
+
+
+What is the output of the following Java program?
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        for (int i = 1; i <= 5; i++) a.add(i);
+        System.out.println(a.get(a.get(2)));
+    }
+}
+
+
+A: d. 4
+
+
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5};
+        System.out.println(a[4]);
+    }
+}
+
+
+A: e. 5
+
+
+Consider the following Java method, which term best describes "public"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+
+}
+
+
+A: a modifier
+
+
+Consider the following Java program. Which line gives the "Clicker" class access to the "JButton" class definition?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: c. import javax.swing.*;
+
+
+Which of the following keywords is useful for processing lists of menu options?
+
+A: d. switch
+
+
+What is the output of the following Java program?
+
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        pepper.setFlavor("spicy");
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: c. spicy
+
+
+Consider the following Java declaration and assignment statement.
+float x = y;
+Which one of the following types is "y" NOT allowed to be?
+
+
+A: a. double
+
+In a while loop, how many times does the continuation condition run?
+
+a. At least once, at the beginning of each iteration.
+
+
+
+In a do-while loop, how many times does the continuation condition run (if the loop has no break, return, or System.exit calls)?
+
+
+A: b. At least once, at the end of each iteration.
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+The full line of code is which of the following?
+
+A: 
+
+
+
+
+Consider the following Java program. Which one of the following is an interface?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+A: d. MouseListener
+
+
+
+Consider the following block of Java code. How many times will it output "Hello"?
+for (int i = 1; i < 10; i++)
+{
+    System.out.println("Hello");
+}
+
+A: 1
+
+
+Which one of the following Java technologies eliminates memory leaks?
+
+A: a. garbage collection
+
+
+Which one of the following is an event handler?
+
+
+A: b. an event listener
+
+
+A class can _____ multiple interfaces.
+
+A: 
+
+
+
+
+A subclass will _____ one superclass.
+
+
+A: 
+
+
+
+Consider the following Java program. Which statement displays a window with a button on the screen?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+
+A: d. setVisible(true);
+
+
+Which one of the following does NOT describe an array?
+
+A: 
+
+
+
+Which one of the following lines is a Java method call?
+
+A: 
+
+
+
+
+Consider the following class definition. Which variables can be used in the missing "println" expression on line 20?
+
+1  public class PrintStuff
+2  {
+3      public static void main()
+4      {
+6          {
+7              int i = -1;
+8              System.out.println(_____);
+9          }
+10         int j = 1;
+11         for (j = 0; j < 10; j++) {
+12             System.out.println(_____);
+13         }
+14         {
+15             int k;
+16             for (k = 0; k < 10; k++) {
+17                System.out.println(_____);
+18             }
+19         }
+20        System.out.println(_____);
+21     }
+22 }
+
+
+A: 
+
+
+
+Where in a Java file can the text "int x" NOT appear?
+
+A: 
+
+
+
+Consider the following Java program, which one of the following best describes "setFlavor"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: 
+
+
+
+
+In a for loop, how many times does the continuation condition run?
+
+
+A: 
+
+
+
+
+
+Consider the following Java program. Which statement updates the appearance of a button?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: b. button.addActionListener(this);
+
+
+
+Which of the following should be used to compare the contents of two String objects in Java?
+
+
+A: d. equals
+
+Consider the following line of Java code.
+System.out.println("Hello, World!");
+Which one of the following does NOT describe '"Hello, World!"'?
+
+A: 
+
+
+
+Consider the following Java method, which term best describes "void"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+
+A: 
+
+
+
+A Java method gets executed when it is...
+
+
+A: 
+
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static double doSomething(int[] a) {
+    int b = 0;
+    for (int c : a) b += c;
+    return (double)b/(double)a.length;
+}
+
+
+A: 
+
+
+Where in a Java file can the text "int x" NOT appear?
+
+
+A: 
+
+
+
+
+
+

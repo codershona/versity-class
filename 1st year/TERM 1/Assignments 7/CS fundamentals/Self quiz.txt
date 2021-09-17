@@ -1,0 +1,67 @@
+What is the output of the Python code below?
+
+ print(dict().get("no", "help!"))
+
+
+ANSWER: d. help!
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+
+d.items()
+
+
+ANSWER: b. an inverted dictionary
+
+Python tuples are immutable.
+
+ANSWER: True
+
+What is the output of the Python code below?
+
+my_list = [3, 2, 1]
+print(my_list.sort())
+
+
+ANSWER : None
+
+In the following segment of Python code, what do we call the portion of the statement that follows the dot('.capitalize')?
+
+str.capitalize('maryland')
+
+ANSWER : Method
+
+Python dictionaries are mutable.
+
+ANSWER: False
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+
+for k in d:
+    if d[k] == v:
+        return k
+
+
+ANSWER: d. a lookup
+
+
+Python functions can take a variable number of arguments.
+
+ANSWER: False
+
+ If you use a Python dictionary in a for statement, it traverses the _____ of the dictionary.
+
+ANSWER: c. keys and values
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+
+result = dict()
+for key in d:
+    val = d[key]
+    if val not in result:
+        result[val] = [key]
+    else:
+        result[val].append(key)
+
+
+ANSWER: b. an inverted dictionary
+

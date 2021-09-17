@@ -1,0 +1,62 @@
+An automobile producing company operates car dealerships that sell its cars. In order to assess the service costumers get at the dealerships a team from the Customer Relationship Department was assembled. The team was sent to 20 randomly selected dealerships. Each dealership was visited once by the team for an entire working day. During a visit the team interviewed all the customers that arrived at that dealership.
+
+One of the questions that each of the customers were asked is: "Do you currently possess a car made by our company?" The answers were marked down as "Yes", "No", or "Refuse to Answer", depending on the customer's response.
+
+Select the correct answer in each of the following 4 questions:
+
+
+The population in this survey is:
+
+ANSWER: b. Customers that arrive at dealerships of the company.
+
+
+The sample in this survey is:
+
+ANSWER: d. Customers that arrive at the selected dealerships during the day of visit.
+
+A parameter that may be targeted by this survey is:
+
+ANSWER: a. The percentage of costumers that possess a car made by the company.
+
+A statistic that may be used to summarize the outcome of the survey is:
+
+ANS: b. The percentage, among costumers that were interviewed, of those that do not possess a car made by the company
+
+
+The Customers Service Center of a large bank receive calls from customers. The number of incoming calls between 8:00 AM and 8:10 AM in consecutive days were recorded. The number of incoming calls during the working days of the month of September were:
+
+8, 10, 6, 7, 12, 7, 8, 7, 8, 6, 9, 4, 6, 14, 10, 10, 10, 10, 6, 10, 12, 7
+
+The number of incoming calls during the working days of the month of February were:
+
+9, 11, 14, 6, 4, 6, 7, 3, 3, 2, 5, 6, 6, 5, 6, 7, 5, 4, 3, 5.
+
+Create two R objects, one by the name "Sep", and the other by the name "Feb". The first object should contain the first data and the second object should contain the second data. Produce a frequency table (with the function "table") for each of the objects and a bar plot (with the combination of the function "plot" and the function "table"). For comparison, bar plots like the one you should obtain are presented in Figure 1.6. and Figure 1.7.
+
+In light of the description given above, and based on the tables and/or the plots, select the correct answer in each of the following 6 questions:
+
+
+The data used to produce the tables and plots is:
+
+ANS: b. A sample.
+
+The average number of calls that arrived between 8:00 AM and 8:10 AM during the working days of any month is:
+
+ANS: c. A parameter.
+
+The average number of calls recorded in the object "Feb" is 5.85. The average in the object "Sep" is 8.5. The difference between these two numbers is:
+
+ANS: c. A statistic.
+
+
+In which of the months the number of incoming calls between 8:00 AM and 8:10 AM tends to be smaller?
+
+ANS: b. February.
+
+The height of the fourth bar from the left of the bar plot for the month of February represents the fact that?
+
+ANS: a. In 4 of the days of the month of February there were 5 incoming calls.
+
+The location of the highest bar of the bar plot for the month of September represents the fact that?
+
+ANS: d. 10 incoming calls came during 6 days of the month of September.

@@ -1,0 +1,21 @@
+Operating systems are in use everywhere in our society:
+
+Discuss where memory is being used in everyday aspects of your life this week.
+Discuss the weeks activities and your observations.
+*In Your Own Words (with references as needed), very briefly in 2 paragraphs.
+
+
+ANSWER:
+  In the beginning, here I am going to discuss about the memory which I had been using in my daily life. Basically, memory has many technologies which is more advanced in the computing technologies. There are some types of memory like RAM, ROM, Cache, DRAM, SRAM, flash or video memory and so on. This are being widely used for personal computers like laptops or desktops. It can be also used in printers, mobile phones, PDAs, Game console and so on. Currently in my daily I always use the laptop and mobile phones memory. This memory size and space is always important for me. I also has 8GB RAM in my laptop that actually more advance and fast processing in the program it could able to execute. Besides this, frozen process and slow speed OS for example windows 10 is sometimes runs a malware attachment.
+
+   In my second point of view, here I am going to talk about my this week activities and observations. Learning resources and materials are most important to gather for my unit 5 chapter. So, I had downloaded the whole process explorer utility from the Microsoft which was also require to execute the programming assessment. In this week task I had complete the reading assessment which I had study the chapter memory-api, address translation and segmentation. I had also study the free space management. In this week I had also learn the types of the memory and system calls to make address to translate the physical within virtual memory. I had also learned the way to maintain OS to allocate or re-allocate the memory. This learning materials which I followed help me to complete my this week written assessment. Next I had complete the discussion post where I had talk about the way we have a big mess in our free space memory to allocate. There I had discuss the big mess and the process it actually fail and it could link with the free list. I had review my peers discussion posts also and rated there work after submitting my work. I had also receive my peer feedback too. Finally I was taking preparation of my next week grade quiz. For this I practice complete the self quiz. 
+
+
+References,
+University of the People (n.d): Learning Guide. Retrieved May 7th, 2020 from
+https://my.uopeople.edu/mod/book/view.php?id=205036
+Tyson, J. (n.d). How Computer Memory Works. Retrieved May 13, 2020 from
+https://computer.howstuffworks.com/computer-memory.htm
+
+
+

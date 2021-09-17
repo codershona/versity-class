@@ -1,0 +1,34 @@
+For the unit 4 assignment, you must create a circuit using Logism that implements a memory register capable of storing a 4 bit binary number.   You should investigate the different circuits that can be used to store a bit of memory and then utilize the one that meets the following requirements. 
+
+Your register circuit must be able to support the inputs detailed in the following diagram:
+
+registerbit.jpg
+
+Each bit of the register circuit must support a data in, a data out, and a control.  The control functions such that the data value will only be changed when the control bit is toggled on.
+
+The value in the register must be persistent and can only be changed when the control bit has been toggled. 
+
+You should develop and test the 4 bit register using logism. 
+
+When you have successfully developed a functioning 4 bit register, you should duplicate the circuit and add it to the two inputs of the ALU circuit that you developed in the previous unit.
+
+Complete and test all of your circuits using Logism and submit the following materials.
+
+Using the export image feature in Logism (Use File-Export Image from menu), export your basic 4 bit register circuit in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image.
+Using the export image feature in Logism (Use File-Export Image from menu), export your registers added to your ALU from last week in jpeg format include it as part of your post.  Moodle has the ability to insert a jpeg image.
+Save both of the logism models (4 bit register and the registers added to the ALU circuit) as circ fiels and and attach the file to your assignment posting.
+
+
+
+ANSWER:
+
+
+In the beginning, I am going to illustrate the schematic of the 4-bit memory register. We can also built it by D Flip-Flops. An D-Flip-Flop needs an enable input that has corresponding in our control input which has been illustrate in our problem statement. Here, The CLOCK needs a signal that is general in every 4 flip flops as well as we also has control signal. But in the outside of there there are 4 data including inputs that is known as D3, D2, D1 as well as D0. This brought us the information to stored these 4 bit in the memory register. The 4 bit memory register has been stored in this information that are describe below,
+
+ The Control' input needs to be HIGH that is define as  logic '1'.
+The CLOCK signal also requires to show the risen edge in the pass from '0' to '1'.
+The Logisim schematic (screen capture) is presented below:
+
+
+
+

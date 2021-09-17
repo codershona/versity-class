@@ -1,0 +1,196 @@
+The file "flowers.csv" file contains information on measurements of the iris flowers. Create an R data frame by the name "flower.data" that contains the data in the file.
+
+The following R code shows an example of how to round a vector of numbers to zero decimal places and then calculate some statistics using the rounded numbers.  You might need some of the calculations for this assignment, but you might not need others. You would replace example$years with the name of the R object that you want to analyze (in other programming languages, you might call example$years a variable).  
+
+> x <- round(example$years, 0)
+> freq <- table(x)
+> rel.freq <- freq/sum(freq)
+> cumsum(rel.freq)
+
+Cumulative Frequency Table for Petal Length
+
+Use the following table to answer tasks 2-4.
+
+Value:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Cumulative Relative Frequency:
+
+.16
+
+.33
+
+.35
+
+.58
+
+.81
+
+.97
+
+1.00
+
+Tasks
+
+1. Sometimes it is difficult to understand data if you do not know what the numbers represent. Provide short definitions of two words: sepal, and petal (be sure to cite your sources even if you paraphrase):
+
+sepal:_____________________
+
+petal:_____________________
+
+2. There is a cumulative relative frequency table printed above for petal lengths (using rounded values for petal length).  Below the number 3 in that table is the number .35.  What does .35 represent? (multiple choice)
+
+a. Three of the flowers had petal length of 0.35.
+b. There were 0.35 observations that had petal length of 3 (after rounding the petal lengths).
+c. Of all the flowers measured in this sample 35% had a petal length of 3 (after rounding the petal lengths).
+d. Of all the flowers measured in this sample 35% had a petal length of 3 or less (after rounding the petal lengths).
+e. A study of all flowers on the planet would show that about 35% had petal lengths of 3 or less (after rounding the petal lengths).
+
+3. Using only the cumulative relative frequency table printed above combined with some simple paper-and-pencil calculations, which petal length occurs most frequently ?
+
+4. Describe how you determined your answer to the previous question (describe the calculations that you used). Do not show R code for this task--it will not be counted as an answer.__________________
+
+--------------------------------------------------------------------------------------------------------
+
+5. Assuming that you read the flowers.csv file into an R object called flower.data, run the following R code (do not paste the ">” character into R) and paste both the command and the output into your answer (you should see five names, each of which should be enclosed in quotes--if you do not see this, try again or contact your instructor):
+
+> names(flower.data)
+
+6. The number of observations in the "flower.data" data frame is: ____.
+
+7. List the variables in the data frame (you can do this by entering the name of the R object that holds that data that you read using the read.csv command--you should have called it flower.data).  If you do not see five columns of data, then there was a problem reading the input file--try again or contact your instructor.  For each variable identify the type of the variable (factor or numeric).
+    The name and type of the 1st variable:________________
+    The name and type of the 2nd variable:________________
+    The name and type of the 3nd variable:________________
+    The name and type of the 4nd variable:________________
+    The name and type of the 5nd variable: ________________
+
+8. Round the data for the variable Sepal.Length so that it contains integers, then find the frequency of the value 7 (not the relative frequency): ____.
+
+-----------------------------------------------------------------------------------------------------------
+
+Assuming that you read the flowers.csv file into an R object called flower.data, run the following R code (do not paste the ">” character into R).  Note that we are not rounding the numbers here. Use the output for the next five tasks:
+
+> table(flower.data$Sepal.Width)
+> plot(table(flower.data$Sepal.Width))
+
+9. What is the sum of the first three frequencies in the frequency table for sepal width? _____ 
+
+10. What does your answer to the previous question represent (in terms of sepal width and frequency and the percentage of all sepal measurements) ____
+
+11. What is the sum of the last three frequencies in the frequency table for sepal width? _____ 
+
+12. How many flowers in the sample had sepal widths less than 4 (do NOT round the sepal width numbers for this, but you can round your final answer to 3 decimal places)? _________
+
+13. What does the tallest bar in the plot represent?  (multiple choice)
+
+a. mean
+b. mode
+c. median
+
+----------------------------------------------------------------------------------------------------------
+
+14. Create a frequency table that shows the frequencies for each species of flower in the sample.  Paste your R command and output into your answer (do NOT display data from a data frame, display data using the table() command)_________
+
+15. Explain two things about the table that you created for the previous task:
+
+Why did the frequency table for flower species contain words in the first row as opposed to numbers?______
+What is the meaning of the numbers in the second row of the table? ___________________
+
+
+
+ANSWER:
+
+  ANSWER 1:  Sepal means each of the parts of the calyx of a flower which enclose by the petals as well as generally green and leaflike. It also used to modify leaves by building a calyx. For example: If the roots, stems, leaves, sepals, petals need to be collected and frozen inside the liquid nitrogen. 
+
+Petal means each of the segments of the corolla of a flower that could be modified for leaves as well as usually those are colored. For example:  In several species, the flowers never close, as the petals abscise when the flower is still open. 
+
+References,
+
+La Rota, C., Chopard, J., Das, P., Paindavoine, S., Rozier, F., Farcot, E., . . . Monéger, F. (2011). A Data-Driven Integrative Model of Sepal Primordium Polarity in Arabidopsis. The Plant Cell, 23(12), 4318-4333. Retrieved November 20, 2020, from http://www.jstor.org/stable/41433925
+
+Bhushan, B., & Nosonovsky, M. (2010). The rose petal effect and the modes of superhydrophobicity. Philosophical Transactions: Mathematical, Physical and Engineering Sciences, 368(1929), 4713-4728. Retrieved November 20, 2020, from http://www.jstor.org/stable/25753437
+
+
+
+ANSWER 2: d. Of all the flowers measured in this sample, 35% had a petal length of 3 or less (after rounding the petal lengths).
+
+ANSWER 3:  I am using only the cumulative relative frequency table printed above combined with some simple paper-and-pencil calculations, which petal length occurs most frequently. I had used the relative frequency which is rounded for 0 decimal. Please check the graph and rational which I had given below:
+
+ values: 1 2 3 4 5 6 7
+The cumulative relative frequency(CRF): 0.16 0.33 0.35 0.58 0.81 0.97 1.00
+when arrived at RF 0.16 0.33-0.16 = 0.35-0.33 = 0.58-0.35 = 0.81-0.58 = 0.97-0.81= 1.00-0.97 = relative frequency (RF): 0.16 0.17 0.02 0.23 0.23 0.16 0.03
+This gives us results of the two 2 petals with the length which arrives most frequently that has values 4 and 5.
+
+
+
+ANSWER 4: I had to begin with, value 7 of the cumulative relative frequency with 1.01 and subtract the cumulative relative frequency again with value 6. If the used 1.00-0.97=0.03 it defines relative frequency for the 7 value with 0.003 of the complete examination of the variables.
+
+
+
+ANSWER 5: When I try to run the command I get the following result which is given below:
+
+>names(flower.data)
+
+
+Result:
+[1] “Sepal.Length” “Sepal.Width” “Petal.Length” “Petal.Width” “Species”
+
+
+ANSWER 6: The number of observations in the “flower.data” data frame is 150 observations.
+
+ANSWER 7:     The name and type of the 1st variable:  Sepal.Length Numeric
+
+   The name and type of the 2nd variable:  Sepal.Width Numeric
+
+    The name and type of the 3rd variable: Petal.Length Numeric
+    The name and type of the 4th variable:  Petal.Width Numeric
+    The name and type of the 5th variable:  Species Factor
+
+
+
+ANSWER 8:  The result is given below:
+
+>datasepal=round(data$Sepal.Length,0)
+>table(sepal)
+Sepal
+4 5 6 7 8
+5 47 68 24 6
+    Explanation: The result is going to find that is 24 with the frequency of the value 7.
+
+
+
+ANSWER 9: The sum is edifying by adding 1 + 3 + 4 = 8. Here, in table 8 is the volume of the first three frequencies.
+
+ANSWER 10:  This could imagine the number of examination frequency of the variable which is called sepal width between the sample of the population. It seems like 8 is the observation and the width of the sepal is equal to 2.3 but sometimes it could be less than 2.3 also.
+
+ANSWER 11:  The sum of the last three frequencies in the frequency table for sepal width  1 + 1 + 1 = 3. Here, in table 3 represents the sum of the last 3 frequencies.
+
+ANSWER 12: 145 flowers in the sample had sepal widths less than 4.  That means 145 flowers have sepal widths which are going to be less than 4. This is the calculation:  3+4+3+8+5+9+14+10+26+11+13+6+12+6+12+6+4+3+6+2 = 145. 
+
+ANSWER 13: b. mode. Which defines the relative frequency which arrives most. For example, 26 observation on the sample has size 3 as well as the most common number is sepal's width that is explained in the sample. 
+
+ANSWER 14:  My R command is given below: 
+
+>table(flower.data$Species)
+setosa versicolor virginica
+50 50 50
+
+
+ANSWER 15:  The frequency table for flower species contain words in the first row, as opposed to numbers, has variable that is going to be a factor or qualitative data that would be described as a factor or data in the respect of the observation made of the sample between the population.
+
+     Secondarily,  The meaning of the numbers in the second row of the table is due to numeric data shows how many of the observations made of the sample among the population illustrated the individual species. As a result, each of the species had recounted with 1/3 of the whole population  50 + 50 + 50 = 150. Here, the observations made of 150 was the whole number.
+

@@ -1,0 +1,30 @@
+For your discussion question response, please provide a response to each of the following questions.  Make sure that you include the question followed by your answer to the question in your posting.
+
+Why do Boolean functions play a central role in hardware architectures?
+Describe Composite Gates.
+Describe Multiplexors and Demultiplexors? What is the importance of the use of the selection bit and the data bits?
+
+
+
+ANSWER:
+   In the beginning, I am going to discuss about the Boolean function the role it plays in a central in hardware architectures. It actually performed into binary such as inputs as well as the return into binary outputs thereon. For instance, if the binary has a value with 1/10 or true or false or on/off or yes/no options and many more. Moreover, the binary value has computer hardware which was based on the characterization as well as guidance. Not only that, it has a digital system which can start and show's how to contingent on each series of the actions to gain the success as a result in the data or this could be beginning to make the computer architecture. 
+
+
+
+In my second point of view, each logic of the gates has presents the similar input or output semantic that has O's as well as I's. It can also chained altogether by creating in composite gates of this arbitrary of the complexity. Furthermore, it has much more complex gates as well as if also has the elementary in the primitive one of it. Further to this, the parallel between the input or in the output has some logical port which could be express in the truth table. Finally, the logic gates the main building in the blocks which has the digital electronic into it. 
+
+ 
+In the third point of the view, Multiplexor has been adopted from the communication of the system which has a same devices to use the serialize in the multiplex in the several inputs signals in each of the single output. Multiplexer are also known as mux. Moreover, we can know that in our data selection or in our device we can also  select the middle from two points such as, each analog or in the digital input signals. This can also forward in the single output line. The mux also can able to inputs into selected in the lines which has been used to select in the input line. It can also send into the output. It has a signal by giving into one device in the resources maybe the one analog can also has the digital converter. 
+  
+   Demultiplexors can also be performed by the contrary function in the multiplexor. Because it has a single input and channels in those two outputs as stated in the each selectors in the bits which has been specified by the output to chose. Demultiplexors are also known as demux. The demux has a electronic device which needs to be separate by the multiple signal in the components parts. Furthermore, in the data distributor it can also combine into the logic circuit to represent the switches in the each frequent in the input line. But in the several individual output it can be seen same. As a result, it can also accept the only one of the input to contribute lots of output.
+
+  In my forth point of the view, multiplexor or mux is basically, has three input gate which has been used by the input that is also known as the selection of the bit which can select as well as the output of the one and another other two inputs that is known as the data bits.  The bits are also known as binary digits which has the most fewest unit measurement by using to make a measurement in the computer data. Furthermore, a bit can be stands as 1 or 0. It can also apply each types of the hardware in every types of the logic in the CPU. But it has some limitation in the bit of the cycle which can hold generally to make refer of the word size. It can also has some bits to apply to check the width register or word size or maybe address with integers in the computer stuff. This storage in the data can also involves to collect as well as by putting the first data in the bits position in the multi-bit analog memory cell on that. 
+
+
+
+Reference,
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press.
+http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+
+
+

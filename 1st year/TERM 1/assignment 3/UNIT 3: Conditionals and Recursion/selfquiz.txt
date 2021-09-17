@@ -1,0 +1,76 @@
+The correct answer is: The order in which statements are executed during a program run. → flow of execution, The first part of a compound statement begins with a keyword and ends with a colon ( : ) → header, A statement that executes a function. It consists of the name of the function followed by a list of arguments enclosed in parentheses. → function call, A variable defined inside a function that can only be used inside its function. → local variable, A graphical representation of functions, their variables, and the values to which they refer. → stack diagram
+
+
+
+What is the output of the following statements?
+
+pi = float(3.14159)
+print (pi)
+
+ans: 3.14159
+
+
+What output will the following python command produce:
+
+>>> percentage =  float ( 60 * 100) / 55
+>>> print (percentage)
+
+
+ans: 109.0909090909091
+
+How many different values can a Boolean expression have?
+
+ans: b. 2
+
+What is the output of the following Python program?
+
+pi = float(3.14159)
+print (pi)
+
+ans: 3.14159
+
+
+One way to generalize a function is to replace a variable with a value.
+
+ans: false
+
+
+What output will the following python commands produce:
+
+x = 5
+if x % 2 == 0:
+    print (x)
+else:
+    print (x, x%2)
+
+
+ANS:  5 1
+
+
+What is the output of the following Python statements?
+
+def recurse(a):
+    if (a == 0):
+        print(a)
+    else:
+        recurse(a)
+
+recurse(1)
+
+
+ans: 1
+
+
+Functions allow the programmer to encapsulate and generalize sections of code.
+
+ans: true
+
+
+True/False: The % or modulus operator returns the remainder present when two integers do not divide evenly into one another
+ans: True
+
+
+If you assign the result a void function to a variable in Python, you get:
+
+ans: the special value None
+

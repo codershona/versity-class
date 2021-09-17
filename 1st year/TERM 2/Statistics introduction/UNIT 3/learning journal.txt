@@ -1,0 +1,192 @@
+1. Learning Journal Reflective  Comments:
+
+Write short reflective comments or notes about your learning activities during the week. It is highly recommended that you make these entries on a daily basis. You will be assessed on the completeness of your Learning Journal, and the quality of your self-reflection.
+
+You should date each entry, and use clear titles and sub-headings.  These entries should be brief, direct sentences indicating quick comments or notes such as:
+
+* when you completed each step in the Learning Guide during the week,
+
+* any problems or unexpected events that occurred during the week (including problems understanding new or old material), and
+
+* any other noteworthy that might affect your performance in this class.
+
+There is no need to include personal information or details of family events, but be sure to mention the existence of any situations that will positively or negatively affect your ability to focus on the classwork.
+
+2. Vocabulary and R functions
+
+a) Enter the following command in R to read a simple help page about the length() command:
+
+ ?length
+
+What does the length function tell you?
+
+b) Read section 3.4 about Measures of the Spread of Data.  In your own words, give a rough description of what variance is (we will go into more detail in the next few weeks).  Include an APA citation.
+
+3. Task
+
+Estimate how many hours you spent on this class in the past week, then list the days and times when you will spend an extra 3 hours to study during week 4 and beyond.  Units 4 and beyond often require more study than the first few weeks did, but if you prepare your schedule, you can improve your chance of success.
+
+
+
+ANSWER:
+
+    ANSWER 1:  In the beginning, I had complete this week's Descriptive Statistics chapter assessments. I had complete Grade Quizzes, discussion Posts, self-quizzes, and learning journals. First of all, I was having a problem understanding the self-quizzes because it was too hard to complete and get good marks. After completing I again attempt new self-quizzes and start learning again how to solve the problem. After that, I became prepared to give grade quizzes which were very important for my final grade. I  had attended the graded quiz and I had got 100/100 marks in my final grade. I was so happy. Then I had a complete discussion post where my peers also give positive feedback for my writing. After working hard I think I am able to get understand how statistics works. First of all, I was having some problems understanding the “normal” range of values of the rest of the observations but with more topics related to this, I had able to understand the topics. Anything does not noteworthy that might affect my performance in this class. 
+
+
+
+ANSWER 2: I am going to write Vocabulary and R functions. I had entered the following command in R to read a simple help page about the length() command:
+
+
+
+ ?length
+
+
+In my console this result shows me:
+
+
+length                  package:base                   R Documentation
+
+_L_e_n_g_t_h _o_f _a_n _O_b_j_e_c_t
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Get or set the length of vectors (including lists) and factors,
+     and of any other R object for which a method has been defined.
+
+_U_s_a_g_e:
+
+     length(x)
+     length(x) <- value
+     
+_A_r_g_u_m_e_n_t_s:
+
+       x: an R object.  For replacement, a vector or factor.
+
+   value: a non-negative integer or double (which will be rounded
+          down).
+
+_D_e_t_a_i_l_s:
+
+     Both functions are generic: you can write methods to handle
+     specific classes of objects, see InternalMethods.  ‘length<-’ has
+     a ‘"factor"’ method.
+
+     The replacement form can be used to reset the length of a vector.
+     If a vector is shortened, extra values are discarded and when a
+     vector is lengthened, it is padded out to its new length with
+     ‘NA’s (‘nul’ for raw vectors).
+
+     Both are primitive functions.
+
+_V_a_l_u_e:
+
+     The default method for ‘length’ currently returns a non-negative
+     ‘integer’ of length 1, except for vectors of more than 2^31 - 1
+     elements, when it returns a double.
+
+     For vectors (including lists) and factors the length is the number
+     of elements.  For an environment it is the number of objects in
+     the environment, and ‘NULL’ has length 0.  For expressions and
+     pairlists (including language objects and dotlists) it is the
+     length of the pairlist chain.  All other objects (including
+     functions) have length one: note that for functions this differs
+     from S.
+
+     The replacement form removes all the attributes of ‘x’ except its
+     names, which are adjusted (and if necessary extended by ‘""’).
+
+_W_a_r_n_i_n_g:
+
+     Package authors have written methods that return a result of
+     length other than one (‘Formula’) and that return a vector of type
+     ‘double’ (‘Matrix’), even with non-integer values (earlier
+     versions of ‘sets’). Where a single double value is returned that
+     can be represented as an integer it is returned as a length-one
+     integer vector.
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) _The New S
+     Language_.  Wadsworth & Brooks/Cole.
+
+_S_e_e _A_l_s_o:
+
+     ‘nchar’ for counting the number of characters in character
+     vectors, ‘lengths’ for getting the length of every element in a
+     list.
+
+_E_x_a_m_p_l_e_s:
+
+     length(diag(4))  # = 16 (4 x 4)
+     length(options())  # 12 or more
+     length(y ~ x1 + x2 + x3)  # 3
+     length(expression(x, {y <- x^2; y+2}, x^y))  # 3
+     
+     ## from example(warpbreaks)
+     require(stats)
+     
+     fm1 <- lm(breaks ~ wool * tension, data = warpbreaks)
+     length(fm1$call)      # 3, lm() and two arguments.
+     length(formula(fm1))  # 3, ~ lhs rhs
+     
+
+     In Statistics, The length( ) is a function that counts the number of characters in the string, with any spaces, as well as returns the number.  The length() function syntax is :
+
+LENGTH(string)
+
+
+     For example, if the trailing spaces were counted as characters we can create a computed field to display the length of the values in a field. But if we would not use trailing spaces to count we can remove the function to use the TRIM( ) or ALLTRIM( ).
+
+LENGTH(TRIM(Vendor_Street))
+
+     In my second point, I had read section 3.4 about Measures of the Spread of Data. In my view, giving a rough description of what variance is an easy and simple statistic which would give a highly rough idea of how we could able to spread out a data set. If we measure the spread it might weak also. For example, If the is a large population was 22,0000 people. This information will not describe the real data about the spread datasets. But here the most necessary matter is if the variance exists to find the standard deviation, this might be a square root of the variance. Example, 
+
+s
+2 =
+Sum of the squares of the deviations
+Number of values in the sample − 1
+.
+ var(x)
+0.5215
+
+
+ sum((x - x.bar)^2)/(length(x)-1)
+0.5129
+sqrt(sum((x - x.bar)^2)/(length(x)-1))
+ 0.715895
+References,
+
+Kenney, J. F. and Keeping, E. S. Mathematics of Statistics, Pt. 2, 2nd ed. Princeton, NJ: Van Nostrand, 1951.
+Papoulis, A. Probability, Random Variables, and Stochastic Processes, 2nd ed. New York: McGraw-Hill, pp. 144-145, 1984.
+
+
+
+ANSWER 3:  Estimate how many hours you spent on this class in the past week, then list the days and times when you will spend an extra 3 hours to study during week 4 and beyond.  Units 4 and beyond often require more study than the first few weeks did, but if you prepare your schedule, you can improve your chance of success.
+
+
+
+   I had spent 30 hours on this class in the past week, then I had listed the days and times when I will spend an extra 3 hours to study during week 4 and beyond.  During, units 4 and beyond often require more study than the first few weeks did, but if I prepare my schedule, I can improve my chances of success. 
+
+Monday – Thursday
+Class: 8-12 (Introduction to Statistics and Programming 1)
+Lunch: 12-1pm
+Working out: 1-1:30
+Virtual Library: 2- 7
+Dinner: 7-9
+Study time: 9-11
+Friday
+Virtual Library: 8-12
+Lunch: 12-3
+Assesment finish: 4-10
+Saturday
+Virtual Library: 8-12
+Lunch: 12-3
+Virtual Library: 3-6
+Dinner: 6-8
+Study time: 8-10
+Sunday
+Virtual Library: 8-12
+Lunch: 12-3
+Virtual Library: 3-6
+Dinner: 6-8
+Study time: 8-10

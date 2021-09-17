@@ -1,0 +1,55 @@
+The Learning Journal is a tool for self-reflection on the learning process. The Learning Journal will be assessed by your instructor as part of your Final Grade.
+
+Your learning journal entry must be a reflective statement that considers the following questions:
+
+Describe what you did. This does not mean that you copy and paste from what you have posted or the assignments you have prepared. You need to describe what you did and how you did it.
+Describe your reactions to what you did.
+Describe any feedback you received or any specific interactions you had. Discuss how they were helpful.
+Describe your feelings and attitudes.
+Describe what you learned.
+Another set of questions to consider in your learning journal statement include:
+
+What surprised me or caused me to wonder?
+What happened that felt particularly challenging? Why was it challenging to me?
+What skills and knowledge do I recognize that I am gaining?
+What am I realizing about myself as a learner?
+In what ways am I able to apply the ideas and concepts gained to my own experience?
+Finally, describe one important thing that you are thinking about in relation to the activity.
+
+The Learning Journal entry should be a minimum of 400 words and not more than 750 words. Use APA citations and references if you use ideas from the readings or other sources.
+
+
+
+ANSWER: 
+
+     At the beginning, this week I had studied about Static Methods and Member Variables. I had complete the Grade quiz, Self-quiz, Discussion Assignment, Programming Assignment, and finally wrote a learning journal.  I had a complete self-quiz which was very easy for me. But when I was giving a graded quiz my reactions were horrible. In my discussion post, I had received a lot of feedback from my peers which was very helpful. By writing discussions and sharing with my peer I had learned a lot of things. But when I was completing the Grade quiz for the final exam my feelings were very sad because my score was 70/100 and the exam quiz was very hard for me.  In forty minutes I had to complete nearly 21 multiple choice which was very hard for me. But from mistakes, I had learned a lot of things. Maybe in the future, I will work hard to achieve a good score in my quizzes. I also learn about how the parameters work and the differences between formal and actual parameters. I also write some of my own created examples also which help me to learn many new methods of the parameters.
+
+  In my second point, I was very surprised when I was starting writing a programming assignment. Because It was the same as my previous programming assignment. I had again completed another quiz game assessment but some methods and logic were a bit different. It was also very challenging for me when I was completing programming assessments. Because most of the method was similar to my previous work. But the biggest surprise for me was the graded quiz. By solving programming assessments I recognized that my problem-solving skills are improving. In many ways, I could able to apply the ideas and concepts gained to my own experience. I can research how to think critically. I also can gain more technical skills and knowledge by writing my own examples or programming logic.  
+
+
+
+    Finally, describe one important thing that you are thinking about in relation to the activity.
+
+ANSWER:  In my opinion, for a computer science student the most important thing s is to tackle more programming problem-solving works. Because in professional life, we need to deal with many technical issues and solve them in a convenient time. 
+
+   Moreover, we must also follow our time management and project management skills. Completing assessments in time also helps us to learn to manage work on time. 
+
+
+
+References,
+
+Verhoeff, N. (2012). Self-Reflection. In Mobile Screens: The Visual Regime of Navigation (pp. 51-72). Amsterdam: Amsterdam University Press. doi:10.2307/j.ctt46mtwb.7
+
+“Self-Reflection.” Mobile Screens: The Visual Regime of Navigation, by Nanna Verhoeff, Amsterdam University Press, Amsterdam, 2012, pp. 51–72. JSTOR, www.jstor.org/stable/j.ctt46mtwb.7. Accessed 1 Dec. 2020.
+
+
+
+
+
+
+
+
+
+
+
+

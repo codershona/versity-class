@@ -1,0 +1,419 @@
+Consider the following Java program, which one of the following best describes "setFlavor"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: b. a setter method
+
+
+What is the output of the following Java program?
+
+
+interface Food {
+    public void printFlavor();
+}
+class Pepper implements Food {
+    public void printFlavor() { System.out.println("spicy"); }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food pepper = new Pepper();
+        pepper.printFlavor();
+    }
+}
+
+
+A: a. spicy
+
+What is the output of the following Java program?
+
+
+class Food { String flavor = "bland"; }
+class Pepper extends Food {
+    String flavor = "spicy";
+    Pepper(String flavor) { this.flavor = flavor; }
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Pepper pepper = new Pepper("sweet");
+        System.out.println(pepper.flavor);
+    }
+}
+
+
+A: a. sweet
+
+
+What is the output of the following Java program?
+
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { s = flavor; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        pepper.setFlavor("spicy");
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: c. sweet
+
+
+
+Consider the following Java program. Which line declares an instance object variable?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+A: c. JButton button;
+
+
+
+Consider the following Java program. Which line implements an interface method?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+
+A: d. public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+
+
+
+
+A subclass method can _____ a superclass method with the same name and parameter types.
+
+
+A: b. override
+
+
+
+
+What is the output of the following Java program?
+
+
+abstract class Food {
+    void printFlavor() {}
+}
+class Pepper extends Food {}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+        lunch.printFlavor();
+    }
+}
+
+
+A: c. no output
+
+
+
+
+
+What is the output of the following Java program?
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food(String s) { flavor = s; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food("spicy");
+        Food chile = new Food("spicy");
+        System.out.println(pepper == chile);
+    }
+}
+
+
+A: e. false
+
+
+A subclass will _____ from its superclass.
+
+
+A: e. inherit
+
+
+
+What is the output of the following Java program?
+
+
+class Food {
+    Food() { System.out.println(flavor); }
+    String flavor = "bland";
+}
+class Pepper extends Food {
+    String flavor = "spicy";
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+    }
+}
+
+
+A: e. bland
+
+
+
+An object that registers listener objects does which of the following?
+
+
+A: e. It generates events.
+
+
+
+Consider the following Java program. Which one of the following does NOT describe "Clicker"?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: b. A "Clicker" object can be assigned to an "ActionEvent" variable.
+
+
+
+Consider the following Java program. Which statement sets the title of a window?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+
+A: d. super("Click Me");
+
+
+
+What is the output of the following Java program?
+
+
+class Food {
+    String flavor = "bland";
+}
+class Pepper extends Food {
+    String flavor = "spicy";
+}
+public class Lunch {
+    public static void main(String[] args) {
+        Food lunch = new Pepper();
+        System.out.println(lunch.flavor);
+    }
+}
+
+
+
+
+A: e. bland
+
+
+
+Consider the following Java program, which one of the following best describes "main"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A:a. gets executed when the program runs
+
+
+
+What is the output of the following Java program?
+
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food(String s) { flavor = s; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food("spicy");
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A:c. spicy
+
+
+
+Consider the following Java program. Which object registers event listeners?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: a. button
+
+
+
+What is the output of the following Java program?
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food(String s) { flavor = s; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food("spicy");
+        Food chile = pepper;
+        pepper.setFlavor("smoky");
+        System.out.println(chile.getFlavor());
+    }
+}
+
+
+A: c. smoky
+
+
+
+Consider the following Java program, which one of the following best describes "flavor"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+A: b. an instance variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

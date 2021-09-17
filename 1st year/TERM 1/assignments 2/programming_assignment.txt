@@ -1,0 +1,112 @@
+    In the beginning, I had already implement new_line, three_line s, nine_lines, and clear_screen functions and also in the section I had also called the function which is given below :
+
+def new_line():
+  print()
+def three_lines():
+  new_lines()
+  new_lines()
+  new_lines()
+def nine_lines():
+  three_lines()
+  three_lines()
+  three_lines()
+print("first line has been explained.") 
+print("its time for total nine blank lines....!")
+print("second line also been described.")
+def clear_screen():
+  nine_lines()
+  nine_lines()
+  three_lines()
+  three_lines()
+  new_line()
+print("line one ")
+print("here is twenty-five blank lines has been added...!")
+print("this is last line")
+
+
+    Secondly, in my assignment, I had already demonstrated the uses of nested function calls which is known as clear_screen in the function definition. 
+
+
+
+   Thirdly, in my assignments, my output has  been executed which is given below:
+
+first line has been explained.
+its time for total nine blank lines....!
+second line also been described.
+line one 
+here is twenty-five blank lines has been added...!
+this is last line
+ 
+     In my output when I used this method I do not have any error in my console, but when in try to add clear_screen at last and try to run its this method would cause an error,
+
+
+
+def new_line():
+  print()
+def three_lines():
+  new_lines()
+  new_lines()
+  new_lines()
+def nine_lines():
+  three_lines()
+  three_lines()
+  three_lines()
+print("first line has been explained.") 
+print("its time for total nine blank lines....!")
+print("second line also been described.")
+def clear_screen():
+  nine_lines()
+  nine_lines()
+  three_lines()
+  three_lines()
+  new_line()
+print("line one ")
+print("here is twenty-five blank lines has been added...!")
+clear_screen()
+print("this is last line")
+Output:
+
+first line has been explained.
+its time for total nine blank lines....!
+second line also been described.
+line one 
+here is twenty-five blank lines has been added...!
+Traceback (most recent call last):
+  File "main.py", line 26, in <module>
+    clear_screen()
+  File "main.py", line 19, in clear_screen
+    nine_lines()
+  File "main.py", line 10, in nine_lines
+    three_lines()
+  File "main.py", line 5, in three_lines
+    new_lines()
+NameError: name 'new_lines' is not defined
+ 
+ Because I am not printing clear_screen and I am not getting 25 lines and 9 line script print properly as it cause a syntax error. When removing that line my output does not show any syntax error.
+
+   Fourthly, Now I am going to add comments in the appropriate place in my program,
+
+
+def new_line(): # this is testable 
+  print()
+def three_lines(): # defining 3 lines
+  new_lines()
+  new_lines()
+  new_lines()
+def nine_lines(): # defining 9 line
+  three_lines()
+  three_lines()
+  three_lines()
+print("first line has been explained.") 
+print("its time for total nine blank lines....!")
+print("second line also been described.")
+def clear_screen(): #trying to print 25 line clear_screen
+  nine_lines()
+  nine_lines()
+  three_lines()
+  three_lines()
+  new_line()
+print("line one ")
+print("here is twenty-five blank lines has been added...!")
+# clear_screen()
+print("this is last line")

@@ -1,0 +1,91 @@
+Part 1
+
+Write a Python program that does the following. 
+
+Create a string that is a long series of words separated by spaces. The string is your own creative choice. It can be names, favorite foods, animals, anything. Just make it up yourself. Do not copy the string from another source. 
+
+Turn the string into a list of words using split. 
+
+Delete three words from the list, but delete each one using a different kind of Python operation. 
+
+Sort the list. 
+
+Add new words to the list (three or more) using three different kinds of Python operation. 
+
+Turn the list of words back into a single string using join. 
+
+Print the string. 
+
+Part 2
+
+Provide your own examples of the following using Python lists. Create your own examples. Do not copy them from another source. 
+
+Nested lists 
+The “*” operator 
+List slices 
+The “+=” operator 
+A list filter 
+A list operation that is legal but does the "wrong" thing, not what the programmer expects 
+Provide the Python code and output for your program and all your examples. 
+
+Part 3
+
+Describe your experience so far with peer assessment of Programming Assignments.
+
+How do you feel about the aspect assessments and feedback you have received from your peers?
+How do you think your peers feel about the aspect assessments and feedback you provided them?
+
+
+
+ANSWER: 
+ANSWER:     In the beginning, I am going to demonstrate lists by creating a string that is a long series of words separated by spaces and the string is its own creative choice. My method is given below:
+lists_string = 'apple orange grape pomegranate blueberry blackcherry strawberry banana pear avacado custardapple apricot almond peanuts cashew chestnut ambrella argan'
+'''Adding a string to item list'''
+items_list = lists_string.split()
+'''Removing orange from items lists'''
+items_list.remove('orange')
+items_list.pop(-1)
+del items_list[1]
+'''Accessing the sort items list'''
+items_list.sort()
+'''Creating and adding those items elements'''
+items_list.append('atemoya')
+items_list.insert(5,'babaco')
+items_list.extend(['bacuri', 'dates'])
+'''Listing to String'''
+access_string = ' '.join(items_list)
+print(access_string)
+   Here is my console output:
+
+
+almond ambrella apple apricot avacado babaco banana blackcherry blueberry cashew chestnut custardapple peanuts pear pomegranate strawberry atemoya bacuri dates
+ 
+
+    Explanation of my method:  Here I had made my own string which is called a list string which is including nearly 18 fruit items names with a space between and I did not use any comma. Ather that, I had converted my list string into items_lists by using the split() method and added a string into the string lists. Thirdly, I used three methods to remove those elements from the items list which are called remove() which actually removes a specific item, pop() method actually removes a specific index from the list, and del this method deletes all items list completely. Fourthly, I used the sort() method to access and sort the items list. Fifthly, I put append(), insert(), and extend() these three methods to add the elements into the items list. As a result, I had used the join() method to convert my items list into the string. On the other hand, I also create a space between the list without putting any comma. 
+
+ANSWER 2:  
+
+    I am going to write my own python lists examples by using nested lists,  the “*” operator, list slices, the “+=” operator, a list filter, a list operation that is legal but does the "wrong" thing, not what the programmer expects. Here my example is given below:
+
+'''Nesting the list'''
+numbers_of_list = [1,2,3,4,[5,6],7]
+'''*this is a operator elements'''
+thislist = ['pineapple','jackfruit','cherry']*3
+'''Listing the slices'''
+this_slice = thislist[4:6]
+'''this is a += operator method'''
+thislist += ['grapes', 'banana']
+'''Listing the filter'''
+boolean = [True, False, False, True]
+list(filter(None,boolean))
+x = [4, 5, 7, 6, 12, 14]
+x = x.append(27)
+print(x)
+
+   Here is my output which is given below:
+
+None
+ 
+   Explanation: In my example, I had nested a list which is numbers of the lists which include, [1,2,3,4,[5,6],7]. After that, I had used the “*” operator with three of this list elements. Thirdly, I had listed the slices with thislist string. Fourthly, I used the “+=” operator method to lists my fruit name. Finally, I had listed a filter using the boolean method and append() and trying to print x. As a result, A list operation that is legal but does the "wrong" thing and the output gives None result. 
+
+ANSWER 3:  Firstly, I am going to describe my experience with peer assessment of Programming Assignments. The aspect assessments and feedback which I had already received from my peers that are intentionally negative which I feel very bad. I had written my all hard to prepare my programming assignments and then submitted them. In my assessment, one of my peers only gave a good review and he had read all my assessments which I had solved but my other two peers, unfortunately, did not review and check my all work. Without checking my script file which I had already attached they intentionally gave me bad grades and feedback as I had already attached a script file of my works with output. I think my peers feel about the aspect assessments and feedback which I  provided them are well. Because when I review my peer assessment I review their hard work if there is any problem I just suggest them to improve their solution with the feedback so that they can improve their work the future and gave them the grade. 

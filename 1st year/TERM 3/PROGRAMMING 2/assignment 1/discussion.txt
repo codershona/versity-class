@@ -1,0 +1,17 @@
+Who should be responsible for catching and handling exceptions: the computer or the computer program?
+
+ANSWERS:
+
+  In the beginning, an Exception is a thing that needs to excluded from a general statement or does not follow the rule. These actually refer to the types for the errors that need to be handle by try...catch. This is the flow for the normal control Java program. Basically, it is used for attachment to error as in many ways these could be an exception which might not need to consider because in other ways it could organize the errors. If the computer program takes responsibility for the handling as well as catching the exceptions. Java needs to take steps for a clean code that has many structures with alternative concepts or logic to maintain the errors in the code which cause while running the code in the console. This process is called exception handling. 
+
+
+An exception system example is given below,
+
+Exception in thread "main" was java.lang.Arithmetic_Exception: / which is zero for the exception_Demo.main(exception_Demo.java:6)
+ exception_Demo : This is called class name
+ 'main' : This is the main method name
+ exception_Demo.java : This was a filename
+ java:6 : the numbers for the line
+
+
+Explanation, here this outcome shows the user cannot understand that what was going wrong in the code which we write in java. Because I am trying to handle the exceptions. If I handle the conditions statement or try to print the warning outcome for the user, I can able to let my program know that this is the correct method for the error of the time exceptions which causing while for the wrong data which I had given for the user. Besides this, there are many reasons which cause exceptions on the computer program which we try to run in the console. For instance, by trying to open the nonexisting file in our program but for the network connection problem, the wrong input data throw which we had given for our users. 

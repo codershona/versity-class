@@ -1,0 +1,120 @@
+In Unit 2, we discussed API:
+
+ 
+
+Write a program that calls fork(). Before calling fork(), have the main process access a variable (e.g., x) and set its value to some-thing (e.g., 100). What value is the variable in the child process? What happens to the variable when both the child and parent change the value of x?
+
+ 
+
+Write out the code to your program.
+Run the program and show your result.
+What value is the variable in the child process?
+What happens to the variable when both the child and parent change the value of x?
+ 
+
+Your response must be a complete APA lab report (title page, conclusion and references page) and your own work. The conclusion is your thoughts about the assignment.
+
+Purdue OWL APA guide help. Retrieved from: https://owl.english.purdue.edu/owl/
+
+
+
+A:
+
+Answer 1: I am going to write out the code in C++ the below in our program,
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+
+int main(int argc, char * argv[]) {
+   int x = 130;
+   int a = 200;
+   int b = 550;
+   int n = fork();
+   if (n == 0) {
+      // this is child (new process)        
+      printf("C++ child is quite easy to learn  (pid:%d)\n", 
+      (int) getpid());
+      printf("The child process that is going to be = %d\n", a);
+      printf("The first child process that is going to be = %d\n", x);
+      printf("This is second child process which is going to be = %d\n", b);
+      printf("After converting the value will be \n");
+      a++;
+      b++;
+      x++;
+      printf("But again the Child process will be = %d\n", a);
+      printf("But first again the Child process will be = %d\n", x);
+      printf("This is second which will again give Child process result that will be = %d\n", b);
+
+   } else if (n < 0) {
+      // we can now fork fail.       
+      printf("fork() fail.");
+   } else {
+      printf("In C++ the parent will be = %d\n", a);
+      printf("In C++ the first parent will be = %d\n", x);
+      printf("In C++ this is another parent which will be = %d\n", b);
+      printf("If you want to convert it will be a\n");
+      printf("If you want to convert it will be x\n");
+      printf("If you want to convertagain second time it will be b\n");
+      a++;
+      b++;
+      x++;
+      printf("Next we need to convert it, so that the parent process will be = %d\a", a);
+      printf("But we need to convert it, so that the parent process will be = %d", x);
+      printf("Next we need to convert it for the second time, so that the parent process will be = %d\b", b);
+      printf("The parent process is going to be (pid:%d)\a",
+         (int) getpid());
+         printf("The parent first process is going to be (pid:%d)x",
+         (int) getpid());
+         printf("The parent process second time is going to be (pid:%d)\b",
+         (int) getpid());
+   }
+   return 0;
+}
+
+The output will be: 
+/tmp/gpolmtGtJO.o
+In C++ the parent will be = 200
+In C++ the first parent will be = 130
+In C++ this is another parent which will be = 550
+If you want to convert it will be a
+If you want to convert it will be x
+If you want to convertagain second time it will be b
+Next we need to convert it, so that the parent process will be = 201But we need to convert it, so that the parent process will be = 131Next we need to convert it for the second time, so that the parent process will be = 551The parent process is going to be (pid:46)The parent first process is going to be (pid:46)xThe parent process second time is going to be (pid:46)C++ child is quite easy to learn  (pid:47)
+The child process that is going to be = 200
+The first child process that is going to be = 130
+This is second child process which is going to be = 550
+After converting the value will be 
+But again the Child process will be = 201
+But first again the Child process will be = 131
+This is second which will again give Child process result that will be = 551
+
+If we want to identify the parent or child process we have to show the process identifier that is called PID in my program. Unfortunately I was unable to compile the program in my Linux machine. In this case I had use C++ Online Compiler Tool where I had run my program. This is the online C++ Compiler tool link: https://www.programiz.com/cpp-programming/online-compiler/
+
+
+
+ANSWER 2: I had run the program and showing my result in the below,
+
+
+
+
+
+
+ANSWER 3: Now I am going to demonstrate the value which has the variable in the child process. In this case, it can ran the code in the child process which would initially has 200 stored into the variable a and the 130 will be x.   Next when we had convert the a increment the a is going to be 201 and x is going to be 131
+
+
+
+ANSWER 4:  The variable when both the child and parent change the value of x and in the a also. Here I had try to increment the value of x as well as a also from the child and parent process both will be give result after the x will be 132 and a will be 202. Suddenly, I got surprised when I convert it into both parent or child process in x and a value which is currently showing 131 or 201. Because it has fork() in the system call which is going to be build a copy of the parent process to create a new child process. But those 2 process would now had its own address space.  Now we are going to change the value of x and a which we are converting into the two different values in two different spaces inside the memory.  
+
+  As a result, the child process is going to build another two active processes in the system which could be seen there which is known as parent and child. The value x or a will need to convert twice in a time but it had two contrary address spaces into the memory and we can also see that the final value of x and a we have written in the statement which was outside in all the if else statements which we can prints in the final value of x or a in the parent process. 
+
+
+References,
+Operating Systems: Three Easy Pieces. (n.d.). Pages.Cs.Wisc.Edu. Retrieved February
+8, 2021, from https://pages.cs.wisc.edu/%7Eremzi/OSTEP/
+
+
+
+
+

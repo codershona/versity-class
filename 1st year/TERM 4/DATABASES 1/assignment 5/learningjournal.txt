@@ -1,0 +1,63 @@
+The E-R diagram above is the solution to the Unit 4 Programming Assignment. Using the E-R diagram as the main reference point, complete the following prompts:
+
+Describe cardinalities between each relation 
+Describe connections between each relation
+Explain why the PatientMedicine and PatientAllergy relations were created
+The figure below shows an example for how you can describe cardinalities and connections between relations.
+
+ An example for how you can describe cardinalities and connections between relations. Reprinted from Database design (p. 54) by A. Watt, 2014
+
+Reprinted from Database design (p. 54) by A. Watt, 2014
+
+An example of how you can write descriptions of cardinalities and connections between relations:
+
+Doctor – Patient
+A doctor can admit many patients or doesn’t need to admit a patient.  
+A patient must be associated with just one doctor and when a patient comes to the hospital, the patient must be assigned to a doctor.
+
+
+
+ANSWER:
+
+
+In the beginning, I am describe cardinalities between each relation which is given below as a diagram also,
+
+Doctor and Patients
+
+
+
+
+
+Explanation: Here if the relation has a cardinality with 1 to many(1:M) including the patient also so that a doctor needs to had more patients. Thus a patient also could only had one doctor. 
+
+DOCTOR and APPOINTMENT 
+
+
+Explanation: Here if the relation needs to have a cardinality of 1 to many (1: M) to the patient so that a doctor could also has many appointments with their patients. As a result, one of the appointment could be associated by only one doctor.
+
+Specialty and  Doctor Relation
+
+Explanation: If there has a cardinality with 1-to-many so that this means the cardinality could had only one specialty with many doctors. For instance, we could had 5 doctors specializing in a dermatology in the hospital and here the relationship between the specialty and the doctor has a extension. Other child has relations between this database where it needs to be created to removed the redundancy by the data to improve the functionality and we can also normalize this with the relations and maintain the integrity in the data. 
+
+
+
+
+Appointment and  Patient
+
+Explanation: The cardinality has 1: m which actually define one patient could have one than more appointment in case, if there is any wrong with it this relation could change into one to one (1:1) and it will has only one appointment.
+
+
+
+
+The decomposition of the relation  between Allergy and Patient_Allergy.
+Allergy and Patient_Allergy
+
+
+
+
+
+
+Explanation: Here the relationships between the cardinality between the Allergy as well as Patient_Allergy has a 1:M because the extension needs to has a patient which has many to many relationship as a result, the patient could have some  allergies problem. Thus, this make sense that, the valid decompositions of the patient has relation with the allergy and the patient allergy. The form will be 1:M relationships with patient as well as patient_Allergy as well as 1:M relations has a allergy or patient_allergy. 
+
+Last but not least, I am going to explain the Patient Medicine and Patient Allergy relations were creation, here if the patient has medicine as well as patient_Allergy the relationships between it will be created by to remove the data duplication so that the data tables needs to other side. For this reason, we need to remove this directly to many to many relationship. We can make a establishment in a 1:m relationship because of making the valid of the M:N relationships theory via decomposition. Besides this, if we want to reduce the occupation this will be unnecessary memory to increase the performance. 
+

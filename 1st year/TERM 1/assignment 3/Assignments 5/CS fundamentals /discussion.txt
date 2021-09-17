@@ -1,0 +1,109 @@
+This assignment is based on Exercise 8.4 from your textbook. Each of the following Python functions is supposed to check whether its argument has any lowercase letters.
+
+
+For each function, describe what it actually does when called with a string argument. If it does not correctly check for lowercase letters, give an example argument that produces incorrect results, and describe why the result is incorrect.
+
+# 1
+
+def any_lowercase1(s):
+     for c in s:
+          if c.islower():
+               return True
+          else:
+               return False
+
+
+# 2
+
+def any_lowercase2(s):
+     for c in s:
+          if 'c'.islower():
+               return 'True'
+          else:
+               return 'False'
+
+
+# 3
+
+def any_lowercase3(s):
+     for c in s:
+          flag = c.islower()
+     return flag
+
+
+# 4
+
+def any_lowercase4(s):
+     flag = False
+     for c in s:
+          flag = flag or c.islower()
+     return flag
+
+
+# 5
+
+def any_lowercase5(s):
+     for c in s:
+          if not c.islower():
+               return False
+     return True
+
+
+
+
+ANSWER: 
+
+   In the beginning, I am going to demonstrate assignment is based on Exercise 8.4 from your textbook which is detailed about String Slices. 
+
+# 1
+def any_lowercase1(s):
+     for c in s:
+          if c.islower():
+               return True
+          else:
+               return False
+  In the first example, when we try to run the method the output shows the incorrect method. By checking each method in the word the function gives incorrect results in the console. In this case, the letter should not be lower or the letter, thus the function returns False but if the letter is lower in this case, the function would return into True.
+
+
+
+# 2
+def any_lowercase2(s):
+     for c in s:
+          if 'c'.islower():
+               return 'True'
+          else:
+               return 'False'
+    In the second example, the function is also not printing correctly because for 'c' which means odd comments and semicolons in the code method. This issue causes errors that could check the function to work correctly. 
+
+
+
+# 3
+def any_lowercase3(s):
+     for c in s:
+          flag = c.islower()
+     return flag
+     
+
+            In the third example, the function was working correctly in my console because it has taken its per letter in the word and mark out with the variable flag. So in this case, the flag might return "true" or "false" and the functions return variable for the flag for each letter. 
+
+
+
+# 4
+def any_lowercase4(s):
+     flag = False
+     for c in s:
+          flag = flag or c.islower()
+     return flag
+     
+
+           In the fourth example, I had checked the function while there was a bit lowercase letter that might be given in the string as well as it would return boolean.
+
+# 5
+def any_lowercase5(s):
+     for c in s:
+          if not c.islower():
+               return False
+     return True
+
+
+       In the fifth example, by checking all letters this method was not been used any lowercased, and thus it has returns boolean. While others of the letters are in the string which was might be lowercase or not.

@@ -1,0 +1,69 @@
+Explain what is meant by the syntax and the semantics of a programming language. Give Java examples to illustrate the difference between a syntax error and a semantics error. Use different examples than those found in the textbook. 
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+
+ANSWER: 
+
+  In the beginning, the syntax error of the programming language means a character or string that performs incorrectly placed in a command that gives a fail results in execution.  For example, if any parser of the dreaded syntax error occurs that means it could be looking at the stream of the tokens to verify the syntactic correctness. This might ever able to compile a program because it needs to convert into a machine code or a lower-level form in which the syntax error program could not be able to execute it. Suppose, if there is any semicolon or dash is missing in the logic in this case the output would show syntax error in the console because it had found the error and report to the console and thus is unable to show the result. 
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("This is Java")
+	}
+}
+            The console shows this result:
+
+Compilation failed due to the following error(s).
+
+Main.java:12: error: ';' expected
+		System.out.println("This is Java")
+		                                  ^
+1 error
+ 
+    Explanation: Here I had miss semicolon to write in this case I am getting a syntax error.  Because  we need to write semicolon which example is given below:
+
+System.out.println("This is Java");
+ 
+ Another Example:
+
+
+A = ( 4 + 8;  // Here we are missing closing parenthesis ')'
+B = 4 + * 8;   // Here we are missing argument between '+' and '*'
+  Explanation: In this example, we are getting the error because there are expressions missing. But if we put the logic and run this:
+A = ( 4 + 8 ); 
+B = 4 + 3 * 8;
+    Here we will get no more syntax error in the console. Because I had put ')' to close the parenthesis as well as I had put a value between '+' and '*' argument.  A syntax error is easy to find the error and takes less time to fix the bug as well as it is a single digits error. 
+
+
+
+   On the other hand, the Semantics error of a programming language is a kind of error in the logic or arithmetic method which needs to be detected at the same runtime.  The semantic error could able to compile but in the output, it would show incorrect results. For example, In case there is an X integer of the variable which had the statement "frac = 1/X;" is possibly a semantic error. As a result, this cause indicates improper use of Java statements. The example is given below:
+
+int x;
+x++;  
+
+        Here the variable x is not initialized and it had used the non-initialized variable. I am showing another example:
+
+int x;  
+void y (int z)   
+{  
+      z=b;  
+}  
+   Here if I try to compile my program my console shows me this output:
+
+Compilation failed due to the following error(s).
+Main.java:9: error: class, interface, or enum expected
+int x;  
+^
+Main.java:10: error: class, interface, or enum expected
+void y (int z)   
+^
+
+  Explanation:  Because in my logic b was undeclared as a result it shows the semantic error.  In this case, most of the semantic error causes patchy types of operands and could not able to acknowledged or undeclared the variables as a result it would not able to match the actual agreement by means of the formal agreement.  An undeclared or multiple declared identifiers are semantic errors. Semantic error could able to show the issues by implementing the false variable or using the unnecessary operator or writing an operation in the incorrect order.
+
+
+

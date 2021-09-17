@@ -1,0 +1,23 @@
+f(x) is a quadratic function with vertex (1, −2), opens up.
+
+A: a. X2 – 2x – 1
+
+What is the equation of a line through (-1, 4) and (-2, 7)?
+
+A: b. y = -3x + 1
+
+
+What is the vertex of f(x) = x2 + 3x + 2?
+
+A: c. (-3/2, -1/4)
+
+What the equation of the line passing through (1, 4) and parallel to y = 2x + 1?
+
+A: c. y = 2x
+
+An equation for a line perpendicular to p(t) = 3t + 4 and passing through the point (3, 1) is:
+
+A: 
+
+
+

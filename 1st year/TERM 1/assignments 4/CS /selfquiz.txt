@@ -1,0 +1,103 @@
+What output will the following Python script produce?
+
+def function2(param):
+    print (param, param)
+
+def function1(part1, part2):
+    cat = part1 + part2
+    function2(cat)
+
+chant1 = "See You "
+chant2 = "See Me "
+function1(chant1, chant2)
+
+ans: See You See Me  See You See Me 
+
+A function that returns an integer value grater than 0 is called a boolean function.
+
+ANS: False
+
+"Dead code" is code that performs calculations but never displays the results.
+ANS: False
+
+A development approach that that is intended to avoid a lot of debugging by only adding and testing small amounts of code at a time is called.
+
+ans: b. incremental development
+
+
+What output will the following statements produce using Python IDLE in interactive mode?
+
+>>>  n = 2
+>>>  n += 5
+>>>  n
+ANS: a. 7
+
+
+What output will the following code produce?
+
+def area(l, w):
+    temp = l * w;
+    return temp
+
+l = 4.0
+w = 3.25
+x = area(l, w)
+if ( x ):
+  print (x)
+
+  ans: 13.0
+
+
+
+Boolean expressions control _________________
+
+ans: a. recursion
+b. conditional execution
+c. alternative execution
+d. all of the above
+
+What will the output of this program be when it is executed?
+
+def test_function( length, width, height):
+    print ("the area of the box is ", length*width*height)
+    return length*width*height
+
+l = 12.5
+w = 5
+h = 2
+test_function(l, w, h)
+
+print ("The area of the box is ", length*width*height)
+
+
+
+ans: a. A NameError because a variable not defined
+
+
+
+The following Python script will generate an error when executed.  What is the cause of the error?
+
+def function2(param):
+    print (param, param)
+    print (cat)
+
+def function1(part1, part2):
+    cat = part1 + part2
+    function2(cat)
+
+chant1 = "See You "
+chant2 = "See Me "
+function1(chant1, chant2)
+
+
+ans:  The variable cat is local to function1 and cannot be used in function2
+
+
+
+Encapsulation is the process of wrapping a piece of code in a function
+
+ans:  False
+
+
+
+

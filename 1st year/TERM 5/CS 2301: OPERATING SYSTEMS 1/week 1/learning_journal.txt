@@ -1,0 +1,25 @@
+Operating systems are in use everywhere in our society:
+
+ Discuss where virtualization is being used in everyday aspects of your life.
+Introduce yourself and discuss the week's activities and your observations.
+* In your own words (with references, as needed), very briefly in 2 paragraphs
+
+
+
+ANSWER:
+
+  In the beginning,  I am currently pursuing Associate of Science in Computer Science from University Of the People. I just a self taught programmer. While I was looking for credit based degrees. And this computer science as a major was my great choice to study. This is my fifth semester in university and this course was our proctor course. In my everyday life I spent 6-7 hours to study my university learning materials and complete my assessments.  This was my first week assessment. In my first class day I had carefully read the syllabus at first and checked all the learning materials.  
+
+  Moreover, Virtualization is a kind of system where in any operating system it can compile with other operating system. Any one can able to share the resources in available system. As a consequence of, each server contribute any kind of method actively by using the accessible resources. It can also provide the virtual environment for the execution of each tasks. It can also minimize the prices of compiling many servers including Organization. 
+
+   But if we use the virtualization in our daily life on the internet. We could also use google services, google cloud or amazon cloud. But if anyone use platforms supply the base of virtualization. But Amazon as well as Google can also demonstrated massive data with the centers if they run many types of the servers for example, it could be DNS or HTTP or FTP. It can also specify each virtual machine with every single registered of the users in cloud services. The users could also make use of the virtual system in the physical system as well as it could performed most important tasks in the system. Stadia is a service for streaming video game which Google has implementation to allows its users to play games directly from the google servers. This might also no need for any kind of downloads. Finally, we also need the chrome browser as well as for the internet connection which I believe this is kind of first sign to witness the virtualization of the process in the gaming industry.
+
+
+References,
+
+Arpaci-Dusseau, A. (2012). Operating Systems: Three Easy Pieces.
+
+University of Wisconsin-Madison. Retrieved from http://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+

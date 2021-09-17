@@ -1,0 +1,23 @@
+Solve for x: e2x + 1 = 10.
+
+A: c. 0.6
+
+
+If $10,000 is invested at 8%, compounded monthly, how is the investment worth after 5 years? Choose the closest answer.
+A: c. $15,000
+
+
+To obtain $15,000 how much should be invested at 8%, compounded monthly, after 10 years? Choose the closest answer.
+A: c. $7,000
+
+
+What, approximately, is log3 18? Choose the closest answer.
+
+A: d. 4
+
+The best answer for x: ln (e10) = 3x – 2 is:
+
+A: c. 4.0
+
+
+

@@ -1,0 +1,262 @@
+
+Give an example of a while loop, then provide the equivalent do-while loop and for loop.  Then give a different example of a do-while loop, along with the equivalent while loop and for loop. Finally, give an example of a for loop, along with the equivalent while loop and do-while loop. Use your examples to illustrate the advantages and disadvantages of each looping structure, and describe those advantages and disadvantages.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+
+ANSWER:
+
+    In the beginning, I am giving an example of a while loop, then provide the equivalent do-while loop and for a loop. Usually, loops are applied to observing a set of statements which always continuous until a particular condition has contended. The syntax of while loop is 
+while(condition)
+{
+   statement(s);
+}
+
+Or,
+
+while (condition) {
+    // loop body
+}
+
+
+My own example is given below:
+
+public class whileloop {
+    public static void main(String args[]){
+         int x=20;
+         while(x>2){
+              System.out.println(x);
+              x--;
+         }
+    }
+}
+
+
+ Here is the output in my console:
+
+
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+
+
+
+   In my second point, I am going to give a different example of a do-while loop, along with the equivalent while loop and for a loop. Generally, the do-while loop condition has always shown its value after the execution of the loop’s body. This is the syntax of the do-while loop,
+
+do
+{
+   statement(s);
+} while(condition);
+
+
+      Please check below:
+
+public class dowhileloop {
+    public static void main(String args[]){
+         int y=30;
+         do{
+              System.out.println(y);
+              y--;
+         }while(y>3);
+    }
+}
+
+ 
+
+Here is my console output is given below:
+
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+
+
+
+   In my third point, I am giving an example of a for loop, along with the equivalent while loop and do-while loop. Here I had been give my example:
+
+public class forloop {
+    public static void main(String args[]){
+         for(int b=0; b<120; b++) {
+      System.out.println(b);
+    }
+    }
+}
+
+
+This is the console output:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+
+
+
+  In my fourth point, I am going to use my examples to illustrate the advantages and disadvantages of each looping structure, and describe those advantages and disadvantages.
+
+    The "While" Loop was always applied to make a redo in a specific block of code which is called an unknown number of times. It had a condition that is to meet with these unknown numbers. For example, if I say a user for a number to select between 2 and 20,  the user can not that how many times the user might need to enter in a larger number, in this case, I can able to keep saying "while the number was not demonstrated between 2 and 20".
+
+     The “do while” loop usually needs a control flow statement that executes a block of code at least once, and then continuously executes the block, or not, might need to depend on a particular boolean condition which has represented at the end of the block.
+
+       Here the difference between the While loop and the Do while loop is that the while loop could able to finish the compilation without executing any statement and the Do while loop would able to terminate only after executing one statement.
+
+   As a result,  the for-loop (or simply for loop) is also defined as a  control flow statement for specifying iteration, that could be allowed by a code to be executed again and again. If I try to run how many times to execute a section of code, I need to use a for-loop.
+
+References,
+
+Narasimhamurthy, U., & Shawkani, K. (2010). Dynamic Learning Objects to Teach Java Programming Language. Educational Technology, 50(3), 34-36. Retrieved November 24, 2020, from http://www.jstor.org/stable/44429802

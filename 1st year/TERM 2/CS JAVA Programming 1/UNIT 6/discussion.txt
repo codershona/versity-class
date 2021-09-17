@@ -1,0 +1,72 @@
+Consider the following Java program. Describe what it does in response to specific operations of the mouse, and how it does it. (You are encouraged to run the program for yourself to test its behavior. Then read through the program carefully to understand how that behavior arises.)
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+ANSWER:
+
+ In the beginning, I want to describe my opinion which is related to the operations of the mouse. When I try to run the Java code and test the code program behavior I get this result in my console output,
+
+Exception in thread "main" java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at java.desktop/java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:208)
+	at java.desktop/java.awt.Window.<init>(Window.java:548)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:423)
+	at java.desktop/javax.swing.JFrame.<init>(JFrame.java:224)
+	at MouseWhisperer.<init>(MouseWhisperer.java:5)
+	at MouseWhisperer.main(MouseWhisperer.java:16)
+
+
+   Here I had got some anonymous event handling errors. In this case, We need to k ow how we can able to handle the event handling. In our code, we had to use anonymous nested classes and need to define the listener objects. As, a result, a special form needs a new operator to illustrated and make an object which consists of the class of an anonymous. 
+
+ For Instance, a mouse event listener has an object which includes an expression of the form. 
+
+new mouse_listener() {
+   public void mouse_pressed(mouse_event evt) {
+ . . .
+}
+   public void mouse_released(mouse_event evt) {
+ . . .
+}
+   public void mouse_clicked(mouse_event evt) {
+. . .
+}
+   public void mouse_entered(mouse_event evt) {
+. . .
+}
+   public void mouse_exited(mouse_event evt) {
+ . . .
+  }
+}
+
+
+    Finally, the anonymous inner classes need the uses of a reason which generally works besides these event handlers. Suppose, if we want to use a subclass of the JPanel to highlights the drawing surfaces but the subclass needs to use only one time. Actually, it needs to give an exact definition of the setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)  logic which will never make any kind of changes. 
+
+
+
+
+
+
+
+
+
+
+

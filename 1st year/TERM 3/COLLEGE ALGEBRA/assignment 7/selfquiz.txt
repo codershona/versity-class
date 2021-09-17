@@ -1,0 +1,23 @@
+What is the exact value of sin (-11π/2)?
+
+A: c. 1
+
+
+What is the exact value of the cot (-3π/4)?
+
+A: a. 1
+
+
+From the formula for cos (t + t) find cos (2t) in terms of sin t.
+
+A: b. 1 – 2 sin2 (t)
+
+
+In radian measure, what is 210 degrees?
+
+A: e. 7π/6 radians
+
+
+A particular right triangle has an acute angle of π/6 radians, and the side opposite this angle has measure 8. What is the hypotenuse of this triangle?
+
+A: d. 16

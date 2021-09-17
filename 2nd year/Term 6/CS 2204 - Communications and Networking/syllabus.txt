@@ -1,0 +1,221 @@
+CS 2204 COMMUNICATIONS AND NETWORKING
+
+Syllabus
+
+Prerequisites: CS 1104 Computer Systems
+
+
+Course Description:
+
+Communications and Networking is a course where you will get to know and understand the basics of networking and electronic communication. Throughout the course, we will mainly be focusing on the two most prevalent reference models of network definition, OSI and TCP/IP. We will be studying these in detail and will explore every layer of these models. By the end of the course, you will be having a fair understanding of data is transferred from one computer to another, in a classroom or in a college campus or across the cities or over the internet.
+
+Required Textbook and Materials:
+
+UoPeople courses use open educational resources (OER) and other materials specifically donated to the University with free permissions for educational use. Therefore, students are not required to purchase any textbooks or sign up for any websites that have a cost associated with them. The main required textbook for this course is listed below and can be readily accessed using the provided link. 
+
+Dordal, P. (2019). An introduction to computer networks. This book is licensed under Creative Commons Attribution-NonCommerical-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0). Download the pdf.
+Tanenbaum, A. S., &n Wetherall, D. J. (2011). Computer networks (5th edition). Pearson Education, Inc. (Chapter 2, only.) 
+Learning Objectives and Outcomes:
+
+By the end of this course students will be able to:
+
+Identify and Assess the OSI and TCP/IP models and their various layers
+Contrast wire-based and wireless methods of data transmission
+Compare data error detection and correction techniques
+Explain routing of data packets in a network and between networks
+Examine flow control and congestion handling in a network 
+Course Schedule and Topics
+
+This course will cover the following topics in eight learning sessions.
+
+Week 1: Unit 1- Introduction to Communication & Networks
+
+Week 2: Unit 2- The Physical Layer
+
+Week 3: Unit 3- The Physical Layer (continued) and the Data Link Layer
+
+Week 4: Unit 4- The Network Layer (IPv4 and IPv6)
+
+Week 5: Unit 5- The Network Layer (Routing)
+
+Week 6: Unit 6- The Transport Layer (UDP)
+
+Week 7: Unit 7- The Transport Layer (TCP)
+
+Week 8: Unit 8- The Application Layer and Network Security
+
+Week 9: Unit 9- Course Review and Final Exam
+
+Learning Guide:
+
+The following is an outline of how this course will be conducted, with suggested best practices for students.
+
+Unit 1: Introduction to Communication & Networks
+
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Unit 2: The Physical Layer
+
+Peer-assess Unit 1 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Unit 3: The Physical Layer (continued) and the Data Link Layer
+
+Peer-assess Unit 2 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Take and submit the Graded Quiz
+Unit 4: The Network Layer (IPv4 and IPv6)
+
+Peer-assess Unit 3 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Unit 5: The Network Layer (Routing)
+
+Peer-assess Unit 4 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Unit 6: The Transport Layer (UDP)
+
+Peer-assess Unit 5 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Take and submit the Graded Quiz
+Unit 7: The Transport Layer (TCP)
+
+Peer-assess Unit 6 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Written Assignment
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Unit 8: The Application Layer and Network Security
+
+Peer-assess Unit 7 Assignment
+Read through the Learning Guide and the Reading Assignment
+Complete the Discussion Assignment by posting in the Discussion Forum
+Respond to and rate three of your fellow classmates’ posts in the Discussion Forum
+Complete and submit the Learning Journal Task
+Take and submit the Self-Quiz
+Take the Review quiz
+Complete and Submit the CS 2204 Course Evaluation
+Unit 9: Course Review and Final Exam
+
+Read the Learning Guide and take the Review Quiz, if you haven't already done so
+Prepare for, take, and submit the Final Exam
+The Final Exam will take place from the Thursday to the Sunday of Week/Unit 9 (UoPeople time); exact dates, times, and other details will be provided accordingly by your instructor
+ 
+
+Course Requirements:
+
+
+Assignments
+There is an Assignment to be completed for each of the study units in this course except for Unit 8. You will be required to upload your assignments by the indicated deadline. Failure to submit assignments may result in failure of the course.
+
+
+Discussion Forum
+There are Discussion Forum questions to be completed for each study unit in this course. In each unit, you will be required to post your response to the question in the forum. In addition, you must provide constructive commentary on at least three of your peers’ postings and rate their work between one and five according to the guidelines provided.
+
+
+Discussion Forums are only active for the relevant learning week and it is not possible to contribute to a discussion forum once the learning week has come to an end. Failure to participate in the Discussion Forums may result in failure of the course
+
+Course Forum
+The Course Forum is the place to raise issues and questions relating to the course. It is monitored by the instructor. It is a good place to meet fellow students taking the same course. While it is not required to participate in this forum, it is highly recommended.
+
+Learning Journal
+The Learning Journal is a tool for self-reflection on the learning process. In addition to completing directed tasks, you should use the Learning Journal to document your activities, record problems you may have encountered and to draft answers for Discussion Forums and Assignments. The Learning Journal should be updated regularly (on a weekly basis), as the learning journals will be assessed by your instructor as part of your Final Grade.
+
+Graded Quizzes
+
+There will be two graded quizzes in this course, one in Unit 3 and the other in Unit 6. As opposed to the self-quizzes, which can be found in each unit and are non-graded, the graded quizzes do count towards your final grade.
+
+Final Examination
+The Final Exam will take place during the Thursday and Sunday of Week/Unit 9, following the completion of eight units of work. The format of the Final Exam is similar to that of the quizzes and may contain a combination of different question types. You will have one attempt to take the exam, and it will be graded electronically. Specific instructions on how to prepare for and take the Final Exam will be provided during Week 8 (located inside the Unit 9 Learning Guide). Final Exams must be taken without the use of course learning materials (both those inside and outside the course). If particular materials are allowed for use during the exam, these will be noted in the exam’s instructions.
+
+
+
+Policies
+
+Grading
+The University has established the following grading scale. All faculty members are expected to comply with this scale:
+
+
+Grade Scale	Grade Points
+A+	98-100	4.00
+A	93-97	4.00
+A-	90-92	3.67
+B+	88-89	3.33
+B	83-87	3.0
+B-	80-82	2.67
+C+	78-79	2.33
+C	73-77	2.00
+C-	70-72	1.67
+D+	68-69	1.33
+D	63-67	1.00
+D-	60-62	0.67
+F	Under 60	0.00
+
+Grades will be based on a standard 100-point scale with the following values and ranges:
+
+Grading Components and Weights
+
+Learning Journal	10%
+Written Assignments	25%
+Discussion Forums
+
+Graded Quizzes
+
+20%
+
+20% (10% each)
+
+Final Exam	25%
+
+Grade Appeal
+Final Grades may be appealed when you believe that the grade you have been assigned for a course is unjust or unfair. For more information on the Grade Appeal procedure, please refer to the Student Handbook.
+
+Participation
+Non-participation is characterized by a lack of assignment submission and/or inadequate contribution in discussion forum postings.
+
+Assignments must be submitted on or before the deadline. A course timeline is provided in the course schedule. The instructor will specify the deadline for each assignment.
+Occasionally there may be a legitimate reason for submitting an assignment late. Late assignments will not be accepted, and there will be no make-up assignments. Students should review the Late Assignment Policy appearing in the Student Handbook.
+Any student showing non-participation for 2 weeks (consecutive or non-consecutive) is likely to automatically fail the course.
+
+All students are obligated to inform their instructor in advance of any known absences which may result in their non-participation.
+
+Academic Honesty and Integrity
+
+Unless otherwise stated, any materials cited in this course should be referenced using the style guidelines established by the American Psychological Association (APA). The APA format is widely used in colleges and universities across the world and is one of several style and citation formats required for publication in professional and academic journals. Purdue University’s Online Writing Lab (OWL) is a free website that provides excellent information and resources for understanding and using the APA format and style. The OWL website can be accessed here: 
+
+Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+ 
+Code of Conduct
+University of the People expects that students conduct themselves in a respectful, collaborative and honest manner at all times. Harassment, threatening behavior, or deliberate embarrassment of others will not be permitted.
+
+Any conduct that interferes with the quality of the educational experience is not allowed and may result in disciplinary action, such as course failure, probation, suspension, or dismissal. Please see the Student Handbook for more information.

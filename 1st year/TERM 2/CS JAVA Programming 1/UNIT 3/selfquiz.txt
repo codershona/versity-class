@@ -1,0 +1,98 @@
+What is output by the following Java program?
+Zap {
+    static boolean zap() { return true; }
+    static int zap(boolean x) { return 0; }
+    static double zap(int x) { return 0.5; }
+    static String zap(double x) { return "Zap!"; }
+    static boolean zap(String x) { return false; }
+    public static void main(String[] args) {
+        System.out.println(zap(zap(zap(zap(1)))));
+    }
+}
+
+
+ANS: 0
+
+
+A Java method gets executed when it is...
+
+
+A: a. called
+
+
+Where in a Java file can the text "int x" NOT appear?
+
+A: in a method call
+
+
+
+What is output by the following Java program?
+class Zap {
+    static boolean zap() { return true; }
+    static int zap(boolean x) { return 0; }
+    static double zap(int x) { return 0.5; }
+    static String zap(double x) { return "Zap!"; }
+    static boolean zap(String x) { return false; }
+    public static void main(String[] args) {
+        System.out.println(zap(zap(zap(zap()))));
+    }
+}
+
+
+A: d. Zap!
+
+
+Which one of the following is NOT part of the signature of a Java method?
+
+A: c. names of formal parameters
+
+
+Consider the following Java method, which term best describes "String[] args"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+ 
+
+ A: a. actual parameter or argument
+
+
+ Consider the following Java method, which term best describes "void"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+
+A: e. return type
+
+
+Consider the following Java method, which term best describes "public"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+
+}
+
+A: d. modifier
+
+
+Consider the following Java method, which term best describes "'("Hello, World!")"?
+
+
+public static void main(String[] args) {
+    System.out.println("Hello, World!");
+}
+
+A: c. method call
+
+Which one of the following terms does NOT describe a desirable interface to a black box?
+
+A: c. public
+
+
+

@@ -1,0 +1,146 @@
+Complete the 4 sections of the Control Structures - Loops and Conditional Statements on the PHP exercises page: https://www.phpexercises.com/php-exercises-control-structures.html
+
+Once you complete the exercises, write an original code using one of the control structure statements and submit it as your programming assignment.
+
+
+ANSWER: 
+
+ANSWER 1:  PHP Control Structures Ex. #1: If-Else Statement :
+
+<!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<title>PHP Control Structures If-Else Statement</title>
+</head>
+ 
+<body>
+<h2>This is called PHP Control Structures If-Else Statement</h2>
+ 
+<?php
+ 
+$currMonth=date('F', time());
+if ($currMonth == 'August'){
+  echo "<p>Learning PHP Beginner Level</p>";
+}else{
+  echo "<p>PHP is a server-sdie programming Language.</p>";
+}
+ 
+?>
+ 
+</body>
+</html>
+
+
+ANSWER 2:  PHP Control Structures Ex. #2: Simple Loops
+
+<!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<title>PHP Control Structures Simple Loops</title>
+</head>
+ 
+<body>
+<h2>PHP Control Structures Simple Loops</h2>
+ 
+<?php
+ 
+echo "<p>\n";
+ 
+$counter = 1;
+while ($counter < 10){
+  echo 'web programming ';
+  $counter++;
+}
+ 
+echo "</p>\n";
+echo "<p>\n";
+ 
+$counter = 1;
+do{
+  echo 'PHP ';
+  $counter++;
+} while ($counter < 10) ;
+ 
+echo "</p>\n";
+ 
+for ($x=2; $x<20; $x++){
+  echo "$x ";
+} 
+//Generate ordered list.  
+echo "\n<ol>";
+for ($x='D'; $x<'Y'; $x++){
+  echo "<li>COURSE $x</li>\n";
+  }
+echo "\n</ol>"; 
+?>
+ 
+</body>
+</html>
+
+
+
+ANSWER 3:  PHP Control Structures Ex. #3: Simple For Loop
+
+<!DOCTYPE html>
+ 
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<title>PHP Control Structures Simple For Loop</title>
+</head>
+ 
+<body>
+<h2>PHP Control Structures Simple For Loop</h2>
+ 
+<?php
+ 
+for ($y=4; $y<=42; $y++){
+  $outputs = $y * $y;
+  echo "$y * $y = $outputs <br />\n";
+}
+ 
+?>
+ 
+</body>
+</html>
+
+
+
+ANSWER 4:  PHP Control Structures Ex. #4: Nested For Loops
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<title>PHP Control Structures Nested For Loops</title>
+</head>
+ 
+<body>
+<h2>PHP Control Structures Nested For Loops</h2>
+ 
+<?php
+//Generate an HTML table
+echo "<table border=\"1\">";
+//starting with the rows. 
+for ($row=22; $row<=99; $row++){
+  echo "<tr>\n";
+  for ($col=22; $col<=99; $col++){
+    $x=$col * $row;
+    echo "<td>$x</td>\n";
+  }
+  echo "</tr>";
+}
+echo "</table>";
+?>
+ 
+</body>
+</html>
+
+
+NOTE: I request my peer to check my attachment where I had been added complete the exercises, write my original code using one of the control structure statements. Please do not grade with out checking my attachments. 
+

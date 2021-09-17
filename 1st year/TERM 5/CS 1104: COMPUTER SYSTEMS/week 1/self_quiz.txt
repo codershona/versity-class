@@ -1,0 +1,67 @@
+// self quiz
+Name an unary Boolean function:
+
+A: NOT
+
+What is the most basic element of every computer system?
+
+A: c. Logic Gate
+
+Every Boolean function can be constructed from only:
+
+A: c. Nand function
+
+Which Two-Input Boolean function will return 0 for every input it receives?
+
+A:  a. Constant 0
+
+Match the following gates to their description.
+
+A:  And
+
+Answer 1
+If a=b=1 then out=1 else out=0
+Not
+
+Answer 2
+If in=0 then out=1 else out=0
+Nand
+
+Answer 3
+If a=b=1 then out=0 else out=1
+Or
+
+Answer 4
+If a=b=0 then out=0 else out=1
+
+
+Given the following logic gate, select the truth table from below that is NOT valid given the format A - B - Output:
+
+
+A:  b. 0 - 1 - 1
+
+
+Given the following logic gate, select the truth table from below that is NOT valid given the format A - B - Output:
+
+A:  c. 1 - 1 - 1
+
+
+The boolean expression A · B represents which of the following:
+
+
+A:  a. A AND B
+
+
+The boolean expression \frac{}{A+B}   represents which of the following:
+
+
+A: a. A NOR B
+
+
+True/False: According to DeMorgan's Theorem, inverting the output of an AND gate yields the same output as an OR gate with inverted inputs?
+
+A:  True
+
+
+
+

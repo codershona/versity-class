@@ -1,0 +1,55 @@
+Describe how tuples can be useful with loops over lists and dictionaries, and give Python code examples. Create your own code examples. Do not copy them from the textbook or any other source. 
+
+Your descriptions and examples should include the following: the zip function, the enumerate function, and the items method.  
+ 
+  
+ 
+ANSWER:
+
+   In the beginning, tuples are very important to use with loops on dictionaries in the subsequent process. By iterating up all dictionaries elements each could be used as method d.items() that return into a compilation of tuples of a similar method with key and value original dictionary. My example has been demonstrated below:
+
+d={'List':'Item1','Item2':'Item3','Item4':'Item5'} 
+Z = list(d.items())
+print('d.items() = ',Z)
+print('Differences of d.items() value is ',type(Z[1]))
+for j,w in d.items(): 
+    print('The keys are ', j, ', the values are ',w)
+  The output is:
+
+d.items() =  [('List', 'Item1'), ('Item2', 'Item3'), ('Item4', 'Item5')]
+Differences of d.items() value is  <class 'tuple'>
+The keys are  List , the values are  Item1
+The keys are  Item2 , the values are  Item3
+The keys are  Item4 , the values are  Item5
+ 
+   Explanation: This is my method of the dictionary. Here the lists of keys and values of the pairs are called Tuples and on the other hand, the loop of the dictionary has been used as a key and a value of tuples.
+
+     In my second point, The loops are used accordingly over lists with the Tuples. By iterating two lists simultaneously on one loop that could be used as the function zip() which return the compilation of tuples (x,y) where the difference of the keys  'x' is in the first of the lists and 'y' is another element of the second components of the lists. Here is my method:
+
+X = [100,200,300] 
+Y = [400,500,600] 
+zipped = list(zip(X, Y)) 
+print('zipped = ',zipped)
+print('Differences of zipped values is ',type(zipped[1]))
+for x,y in zipped:
+    print(x,y)
+  Here is the output is given:
+
+zipped =  [(100, 400), (200, 500), (300, 600)]
+Differences of zipped values is  <class 'tuple'>
+100 400
+200 500
+300 600
+ 
+   Explanation: Here 'x' is the first item of the lists and 'y' is the second item of the lists. In the list of tuples with the X and Y are the elements of the list and the loops were over the lists at the same method. 
+
+
+
+
+
+
+
+
+
+
+

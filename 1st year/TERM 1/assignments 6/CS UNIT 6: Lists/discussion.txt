@@ -1,0 +1,62 @@
+Describe the difference between objects and values using the terms “equivalent” and “identical”. Illustrate the difference using your own examples with Python lists and the “is” operator.  
+
+Describe the relationship between objects, references, and aliasing. Again, create your own examples with Python lists.
+
+Finally, create your own example of a function that modifies a list passed in as an argument. Describe what your function does in terms of arguments, parameters, objects, and references. 
+
+Create your own unique examples for this assignment. Do not copy them from the textbook or any other source.
+
+
+
+
+
+
+ANSWER :
+
+
+     In the beginning, I am going to demonstrate the python lists. By creating a variable list in python describes the '=' in the part of the left variables and the name of the right variable which is nearly the same concepts. 
+
+x = 3
+id(x)
+1407502272
+x = 3
+id(x)
+1407502272
+x = 6
+id(x)
+1407502272
+     This actually explains two types of objects with unchangeable such as numerical data, lines, trains. By creating the same variable for the new value create identifier changes and new object also.
+
+  Answer 2:
+
+    Python lists and dictionaries are changeable objects. This would appropriate logic in the lists with 'x' value as well as equate the recent variable 'y' into 'x'. Thus the output prints the 'an' and  'y' to see that identical method.
+
+x= [1.9]
+y=x
+print (id(x), id(y))
+59042120 59042120
+
+  Here is the output which is printing in the console:
+
+139936659375424 139936659375424
+ 
+
+   Otherwise, this process would add an element or value of 'y', and the list of 'x' to change is also the same way. In this case, I need to create the lists again by using the 'z' variable and the list 'y' variable would refer to 'an' and 'w' which is not an equivalent variable. 
+
+is y
+True
+w =list(y)
+ an is with
+False
+
+     
+
+def add_value(x):
+  x.append(7)
+  y = [1, 0]
+  add_value(y)
+  print(y)
+
+     Explanation :
+
+    The variable has creates [1, 0, 7]  in my method which defines the sign "=", here on the left side this process would be 'x' name of a variable by using the append() method as well as on the right part values of a variable. Finally, in the variable 'y'  has an object in a python which is almost similar to concepts or methods.

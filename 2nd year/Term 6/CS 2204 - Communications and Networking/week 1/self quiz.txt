@@ -1,0 +1,53 @@
+// self quiz
+
+In datagram switching, packets are addressed by destination. In virtual-circuit switching, packets are “addressed” by a connection ID. So, datagram switching and virtual-circuit switching are examples of:
+
+A: b.
+Connectionless, connection-oriented services respectively
+
+What is the fundamental alternative to datagram stateless forwarding?
+
+
+A: d.
+Virtual circuits
+
+In the context of data networking, a protocol is a formal set of rules and conventions that governs how computers exchange information over a network medium. A protocol implements the functions of one or more of the OSI layers.
+
+
+
+A: True
+
+Which of the following is not a key element of a protocol
+
+A: b.
+Entities
+
+
+A store-and-forward switch or router begins forwarding a packet before it has fully arrived.
+
+A: False
+
+The Wi-Fi 5 GHz band (vs. 2.4 GHz) has increased ability to penetrate walls, often resulting in a higher effective range.
+
+A: False
+
+The term “frames” normally refers to data packets at which layer?
+
+A: c.
+Data Link (e.g. Ethernet)
+
+A virtual private network, or VPN, supports creation of virtual links that join far-flung nodes via:
+
+A: b.
+The Internet
+
+ATM packets are often called cells which are of the following size:
+
+A: a.
+Fixed-size 53 bytes
+
+The Internet protocols use big-endian byte order (also referred to as network byte order).
+
+
+A: True
+

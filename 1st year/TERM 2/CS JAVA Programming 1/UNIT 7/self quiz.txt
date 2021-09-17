@@ -1,0 +1,67 @@
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        for (int i = 1; i <= 5; i++) a.add(i);
+        int n = 3;
+        a.remove(n);
+        System.out.println(a.toString());
+    }
+}
+
+ANSWER: c. [1, 2, 3, 5]
+
+Which one of the following does NOT describe an array?
+
+ANSWER: the number of its elements can change.
+
+Which one of the following does NOT describe an ArrayList?
+ANSWER: Its elements can be a primitive type.
+
+
+
+Consider the following Java method. Which term best describes what this method computes?
+
+static int doSomething(int[] a) {
+    int b = a[0];
+    for (int c : a) if (b > c) b = c;
+    return b;
+}
+
+
+ANSWER: maximum
+
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5};
+        for (int i = 1; i < a.length; i++) a[i] = a[i-1];
+        System.out.println(Arrays.toString(a));
+    }
+}
+
+
+
+ANSWER: b. [1, 1, 1, 1, 1]
+
+
+
+What is the output of the following Java program?
+
+
+import java.util.*;
+class ArrayGames {
+    public static void main(String[] args) {
+        int[] a = {1,2,3,4,5};
+        System.out.println(a[4]);
+    }
+}
+
+
+ANSWER: e. 5

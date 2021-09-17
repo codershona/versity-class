@@ -1,0 +1,28 @@
+Ethernet-like collision detection is no longer feasible over radio communications:
+
+A: TRUE
+
+Bluetooth is a low-power network; for many applications the working range is about:
+
+A: 10m
+
+The preferred Wi-Fi encryption standard is Wired-Equivalent Privacy, or WEP.
+
+A: False
+
+
+If Wi-Fi error rates or collision rates are high, a sender can send a large packet as multiple fragments, each receiving its own link-layer ACK.
+
+A: True
+
+Wi-Fi WPA2 uses the presumptively stronger encryption system called:
+
+A: b.
+Advanced Encryption Standard (AES)
+
+What are the frequency bands used by Wi-Fi  802.11n?
+
+A: c.
+2.4 GHz and 5 GHz
+
+

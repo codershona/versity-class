@@ -1,0 +1,76 @@
+QUESTION:
+
+Please provide the following explanations and answers in a single document and submit it using the Assignment activity below.
+
+1. Identify 3 web sites, which you've visited in the past.  Run the HTML validating software against each site. You can select any of the validating tools available online.
+
+2. Provide comments on results of your exercise for each web site.  Make sure to list any problems identified. Also provide a link to the validation tool you used.
+
+3. For each site answer: What works well on this site?  What could be improved?
+
+
+
+
+
+ANSWER:
+
+
+
+
+ANSWER 1:  I had identify 3 websites which I had already visited in the past days. Those are given below,
+
+1. www.w3schools.com
+
+2. www.tutorialspoint.com
+
+3. www.learn-html.org
+
+
+
+I had run the html validating software which was against each of these sites. I had select (W3 Markup Validation Service
+https://validator.w3.org/#validate_by_input website to validate my codes. 
+
+ANSWER 2:  I am going to provide of the results for the each websites. 
+
+For www.w3schools.com website I had found 11 errors by using validator tools. 
+
+Most of the errors and warnings are given below,
+
+ERROR 1: The type attribute is unnecessary for JavaScript resources.
+
+ERROR 2:  The CSS for the mxargin-top: Property mxargin-top doesn't exist.
+
+ERROR 3: The element for the style not allowed as child of element div in this context. (Suppressing further errors from this subtree.)
+
+
+
+For www.tutorialspoint.com website I had found 10 errors by using validator tools. 
+
+ERROR 1: The element a must not appear as a descendant of the button element.
+
+ERROR 2:  Duplicate ID vu.
+
+ERROR 3: The type attribute is unnecessary for JavaScript resources.
+
+WARNING 1:  The first occurrence of ID vu was here. 
+
+
+
+For www.learn-html.org website I had found 10 errors by using validator tools. 
+
+NOTE : Document checking completed. No errors or warnings to show.
+
+
+
+This website does not have any html errors. That means all html codes were validate codes. 
+
+
+
+TOOLS I had used : https://validator.w3.org/
+
+
+
+ANSWER 3:  My first and second websites has 10 to 11 errors because those html codes were not been validate by the developers or not works well for few bugs problem and my third website has no errors  and works perfectly because the developer of the website has validate all code and prettify the code.  So in this case, if the website developer want to improve the site the developer must needs to be validate the html code and find the bugs from the code and try to solve it . Next, the developer must needs to check the navigation of the websites and make it mobile friendly site without causing any user interface problems. 
+
+
+

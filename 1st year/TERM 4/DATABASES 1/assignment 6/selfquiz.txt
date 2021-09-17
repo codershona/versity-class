@@ -1,0 +1,132 @@
+Which SQL statement is used to return only different values?
+
+A: d. SELECT DISTINCT
+
+An athletics meeting involves several competitors who participate in a number of events. The database is intended to record who is to take part in which event and to record the outcome of each event. As results become available the winner attribute will be updated with the cid of the appropriate competitor.
+
+ Competitor(cid, name, nationality) Event(eid, description, winner) Competes(cid, eid)
+
+Competitor
+cid	 name  	 nationality  
+01	Pat	British
+02	Hilary	British
+03	Sven	Swedish
+04	Pierre	French	
+Event
+eid	 description  	 winner  
+01	running	
+02	jumping	
+03	throwing		
+Competes
+      cid       	     eid      
+01	01
+02	01
+03	02
+04	02
+04	03
+
+
+Identify the result of the following SQL statement:
+
+SELECT eid FROM Competes, Competitor WHERE Competes.cid=Competitor.cid AND nationality = 'Swedish'
+
+Select one:
+
+
+
+A:  a.
+01
+
+
+
+Which of the following is a UNION query?
+
+A: c. Combines the output from multiple queries and must include the same number of columns.
+
+
+
+
+Which SQL keyword is used to sort the result-set?
+
+A: c. ORDER BY
+
+
+Students Table
+ Surname 	 First_Name 	 Student_No 	 Dept_No 	 Year 
+Duke	Fitzroy	1	4	2
+Al-Essawy	Zaid	2	4	2
+Ayton	Phil	3	3	1
+Patel	Mahesh	4	2	1
+Jones	Gareth	5	2	1
+Scott	Gavin	6	2	2
+CREATE VIEW Freshman
+     AS Select * From Students Where Year = 2;
+
+Considering the above Students table and Freshman view, what will be the result of the following SQL query:
+
+Select * From Freshman Where Dept_No=2;
+
+Select one:
+
+
+A: a.
+ Surname 	 First_Name 	 Student_No 	 Dept_No 	 Year 
+Duke	Fitzroy	1	4	2
+Al-Essawy	Zaid	2	4	2
+
+
+
+
+With SQL, how can you return all the records from a table named "Persons" sorted descending by "FirstName"?
+
+A: b. SELECT * FROM Persons ORDER BY FirstName DESC
+
+Consider the following database:
+
+MOVIE(id,title,yr)
+ACTOR(id,name)
+CASTING(movieid,actorid)
+
+Identify the SQL command which will return the titles of all 1959 Marilyn Monroe films.
+
+Option 1.	The following SQL...
+
+SELECT title FROM movie,casting,actor
+ WHERE movieid = movie.id<> AND name = 'Marilyn Monroe' ; 
+
+Option 2.	The following SQL...
+
+SELECT title FROM movie,actor
+ WHERE name = 'Marilyn Monroe'
+ AND yr = 1959 ; 
+
+Option 3.	The following SQL...
+
+SELECT title FROM movie,casting,actor
+ WHERE movieid = movie.id
+ AND actor.id = actorid
+ AND name = 'Marilyn Monroe'
+ AND yr = 1959 ; 
+
+Option 4.	The following SQL...
+
+SELECT title FROM movie,casting,actor
+ WHERE movieid = movie.id
+ AND actor.id = actorid
+ AND movie.yr = casting.yr
+ AND name = 'Marilyn Monroe'
+ AND yr = 1959 ; 
+
+
+ A: c. Option 3
+
+
+ Which of the following statements is true concerning subqueries?
+
+
+ A: a. Involves the use of an inner and outer query
+
+
+
+
+

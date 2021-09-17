@@ -1,0 +1,68 @@
+An important practice is to check the validity of any data set that you analyze. One goal is to detect typos in the data, and another would be to detect faulty measurements. Recall that outliers are observations with values outside the “normal” range of values of the rest of the observations.
+
+Specify a large population that you might want to study and describe the type numeric measurement that you will collect (examples: a count of things, the height of people, a score on a survey, the weight of something).  What would you do if you found a couple outliers in a sample of size 100? What would you do if you found two values that were twice as big as the next highest value?
+
+You may use examples from your area of interest, such as monthly sales levels of a product, file transfer times to different computer on a network, characteristics of people (height, time to run the 100 meter dash, statistics grades, etc.), trading volume on a stock exchange, or other such things.
+
+There is no requirement to use sources from the Internet, but if you use an idea or a quotation from any source, it should be cited (such as putting the author and year at the end of the sentence and then adding a reference at the end to describe the source).
+
+
+
+ANSWER:
+
+   In the beginning, there is an important practice is to check the validity of any data set that you analyze and one goal is to detect typos in the data, and another would be to detect faulty measurement which has a recall that outliers are observations with values outside the “normal” range of values of the rest of the observations.
+
+    In my view, these descriptive statistics, this is a guideline for Removing and Handling Outliers in Data. The outlier is a thing that is situated away from or detached from the main system. It has an unusual value in the dataset which could able to distort the statistical analyses and break their assumptions. Unluckily, most of the analysts would tackle outliers that need to be forced to make the right decisions about what can be done by them?  By showing the cause it could have problems to remove this from the data set but this not need always in this case. To remove outliers is only needs for a specific reason. In Data Entry and Measurement Errors and Outliers, only errors could cause during the measurement and data entry. By data entry, typos could disclose and create weird values. For example, if we thought that by measuring the heights o the adult women need to gather the datasets which are given below:
+
+Height M
+1.5895
+1.6508
+1.7131
+1.7212
+1.7296
+1.8018
+1.8869
+1.9357
+1.9482
+2.1038
+10.8135
+
+
+        Explanation: In my datasets, the value of 10.8135 is going to be an outlier. This only stands out, also it is an impossible height value.  By researching the numbers were more closely, we could put an end to the zero which might be incidental. 
+
+These types of errors were able to understand because it easy reasons.  If we determine that an outlier has errors which need to be correct the value when is possible. This could be involved to fix those typos or needs a possible to again measure this person. If there is any possibility we can use it to delete the data from the dataset at this point to know the incorrect value.
+
+
+
+  Specify a large population that you might want to study and describe the type of numeric measurement that you will collect (examples: a count of things, the height of people, a score on a survey, the weight of something).  What would you do if you found a couple of outliers in a sample of size 100? What would you do if you found two values that were twice as big as the next highest value?
+
+
+
+
+
+ANSWER: If I could imagine that, I am studying about the annual income of the person. In this case, this could be a quantitative dataset. Currently, it needs to take 100 samples for the income from the datasets and arrange them in order. In accordance with, by arranging them in order to find these two it has income which was very high with respects to others and has twice as bigger as the next highest value. Under the circumstances, including the data in our analysis that would change the consequence of the analysis, for example, an average and the standard deviation. 
+
+I am writing two options to divide with this data:
+
+ By removing these data which point out the outliers.
+ By replacing these data including the average value of remaining data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

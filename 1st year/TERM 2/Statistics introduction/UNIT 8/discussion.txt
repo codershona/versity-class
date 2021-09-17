@@ -1,0 +1,24 @@
+In past courses, some students have had trouble with the main topics of Chapter 7, so let's review it here.
+
+Imagine that you had to explain the law of large numbers and the central limit theorem to a person who has never heard of these things.  Write an explanation to help this person understand these concepts.  If you use a technical term, be sure to explain it.
+
+Do not cut and paste anything from the Internet, but if you get ideas from a book or Internet source, be sure to cite it in the text and add a reference entry at the end (and put the ideas into your own words). 
+
+
+ANSWER: In the beginning, if I could imagine that a person who had never know about the law of the large numbers and the central limit of the theorem now I am going to help him to understand this concept by using statistics thinking. 
+
+   The law of large numbers is a kind of state that basically shows a sample size that has the mean that is nearly average of the total population. Usually, this points out the large presence of which is growing swiftly and as a result, this may not able to have a growth step to the end of the chapter. If we analyze these concepts statistically it is a practical method that has different subjects. This is also not that effective way to lists each given the population data which we collect but each additional data could be pointed out to increase the collecting data which shows the results of the mean. If we think in business terms the LLN is always applied to the growth of the rate that could any data, for example, the growth of the salary rates that might be explained in percentage. It could be recommended that if we want to expand any business if need to make sure that our the growth of our percentage should be increased which would be hard to maintain. 
+
+For example, if we imagine that in  March 2019, the eBay eCommerce company had generated revenue that was filed into 433.7 billion dollars,s on the other hand, Wish eCommerce company also generate 180.99 billion dollars on the same month and year. Here, the eBay eCommerce company wants to earn more than 60 percent that could be nearly 368.99 billion. On the other side of the coin, the Wish eCommerce company wants to income more than 60 percent which could be 249.77 billion approximately. If we think statistically by using LLN terms and concepts, the increases of the 60 percent of the will need to take into consideration that it might be harder for eBay to increase their revenue and achieve than Wish eCommerce company. 
+
+
+
+The Central limit of the theorem is the sampling of distribution which has the means of the sample that access the distribution of normal which had a larger sample size that gets into the population of the distribution. Basically, its sample size is 30 which has held the true fact. This has a component that is very essential which has the average of our sample means would be the mean of the population. If we try to use the mean from whole samples we could find the average, as well as this average, could be with the real population of the mean. Likewise, while we would able to found the middling of the standard deviations in our sample which has really the standard deviation for our population sample. These concepts are very helpful to count the exact population. 
+
+For example, if we make small student groups in the classroom randomly it is a kind of sample. On that group, if we make many samples of the groups and each group has 40 students here we can get a huge amount of data where we can calculate every means of these samples and also compute the mean of those samples of the means and from this value, we could show the average range of the mean that has the weight of the students in the art department. Finally, this sample mean of the weights of the students would be double a curve of the bell which is called the normal distribution.
+
+
+
+References, 
+
+Law Large of the Numbers. (20202, November 16).In INVESTOPEDIA STAFF.https://www.investopedia.com/terms/l/lawoflargenumbers.asp

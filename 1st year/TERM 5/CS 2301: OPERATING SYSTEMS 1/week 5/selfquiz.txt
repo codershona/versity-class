@@ -1,0 +1,52 @@
+// self quiz
+
+_______ occurs when you forget to free memory.
+
+A: a. Memory leak
+
+Consider a 32-bit address for a two-level paging system with an 8 KB page size. The outer page table has 1024 entries. How many bits are used to represent the second level page table?
+
+A: d. 9
+
+True or False: calloc() allocates memory and also zeroes it before returning.
+
+A: True
+
+Segment	Base	Size
+Code	32k	2k
+Heap	34k	2k
+Stack	28k	2k
+True or False: The stack has been relocated to physical address 28KB in the diagram, but with one important difference: it grows forward in physical memory.
+
+A: False
+
+Which of the following data structures is appropriate for placing into its own segment?
+
+A: d. all of the above
+
+
+Assume the value of the base and limit registers are 1200 and 350 respectively. Which of the following addresses is legal?
+
+
+A: b. 1200
+
+
+Basic strategies to memory allocates does not include:
+
+A: a. Worst Fit
+
+The data structure free list is used to track?
+
+A: c. Ranges of the physical memory which is not currently in use
+
+Which of the following techniques are correct for physical address?
+
+A:  
+
+
+With segmentation, a logical address consists of _____.
+A: a. segment number and offset
+
+
+
+

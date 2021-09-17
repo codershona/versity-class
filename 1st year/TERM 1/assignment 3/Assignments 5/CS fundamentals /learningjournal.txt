@@ -1,0 +1,149 @@
+1. Consider the loop from Section 8.3 of your textbook.
+
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
+
+for letter in prefixes:
+     print(letter + suffix)
+
+Put this code into a Python script and run it. Notice that it prints the names "Oack" and "Qack".
+
+Modify the program so that it prints "Ouack" and "Quack" but leaves the other names the same.
+
+Include the modified Python code and the output in your submission.
+
+2. Give at least three examples that show different features of string slices. Describe the feature illustrated by each example. Invent your own examples. Do not copy them for the textbook or any other source.
+
+
+
+ANSWER: 
+     ANSWER 1: In the beginning, we are considering the loop from Section 8.3 of your textbook, and I had already put this code into a Python script and run it. After that, I had print the names "Oack" and "Qack" the output which is given below:
+
+prefixes_fruits = "JKLMNOPQ"
+suffix = "ack"
+for index in prefixes_fruits:
+    if index not in "OQ":
+        print(index + suffix)
+    else:
+        print(index + suffix)
+
+   The output is also given below:
+
+Jack
+Kack
+Lack
+Mack
+Nack
+Oack
+Pack
+Qack
+
+    Here, this method is a traversal is with a for loop.  In here, there is a lot of computation that processes with a string one character with time. Besides this, this method had a function which has been taken by a string with an argument as well as it also shows the index as a backward each per line. by modifying the program to fix this error, I had cut index + "u" + suffix and write index + suffix and then I print it, as a result, it prints this names "Oack" and "Qack". 
+
+
+
+      ANSWER  2: 
+
+          In the beginning, I am going to demonstrate three examples that show different features of string slices. There are many ways we can write Iterations and Strings in python with the for loop method. 
+
+      My first example would iterate the string, By using for loop to traverse a string is the most noticeable and remarkable way and technique to iterate the strings. My own method is given below:
+
+"""
+Python Program:
+ Managing my code with for loop to iterate over a string.
+"""
+str_to_iterate = "Learning CS Fundamentals"
+for chr in str_to_iterate:
+   print(chr)
+
+     The result of the above coding snippet is as follows:
+
+L
+e
+a
+r
+n
+i
+n
+g
+ 
+C
+S
+ 
+F
+u
+n
+d
+a
+m
+e
+n
+t
+a
+l
+s
+ 
+       
+
+       In my second example, I am going to demonstrate the python range to iterate the string and this method is also an easy way to access the string element. Also very helpful to use the index. By traversing the string is going to be used for python range function. My Example is given below: 
+
+"""
+Python Program:
+Running the method range() to iterate over a string.
+"""
+str_to_itr = "Iterations and Strings..."
+for chr_letter in range(len(str_to_itr)):
+   print(str_to_itr[chr_letter])
+
+     The output of the above coding snippet is as follows:
+
+I
+t
+e
+r
+a
+t
+i
+o
+n
+s
+ 
+a
+n
+d
+ 
+S
+t
+r
+i
+n
+g
+s
+.
+.
+.
+ 
+       In my third example, I am going to demonstrate the traverse string backward by working with the slice operator. For example, If I try to pass the -ve steps which are called value as well as try to skip the process of starting to end indices.  This method could help to iterate the backwardness of the direction of my code. My method is given below:
+
+"""
+Python Program:
+ Applying the slice [] operator method to iterate string backward
+"""
+str_to_itr = "Learning CS"
+for chr in str_to_itr[ :  : -1]:
+   print(chr)
+   The output is going to be:
+
+S
+C
+ 
+g
+n
+i
+n
+r
+a
+e
+L
+ 
+    As a result, three of these examples described the traverse string backward using the slice operator, the range to iterate over a string, and the use of a loop to traverse a string method. 

@@ -1,0 +1,59 @@
+
+For the Unit 5 assignment, I want you to assume that you are writing an instructional paper in which you must describe the processing and interdependencies of the following components of computer architecture.    
+
+ALU (Arithmetic Logic Unit)
+Instruction Decoder
+Clock and Program Counter
+Control Codes
+Control Unit
+Your paper must be informative and instructional it should rely upon and cite research but should be expressed in YOUR OWN WORDS. 
+
+The specifics of the paper include:
+
+It must be at least 2 typewritten pages not including a title page and a page for works cited.
+You must cite at least 3 references using APA format and list the sources in a Works Cited page. Information on APA formatting can be found on  the OWL page which is a service of Purdue university at http://owl.english.purdue.edu/owl/resource/560/01/
+Of the three references that you cite only two of them can be the textbooks of this course.
+You can use the University of the People library, Directory of Open Journal Access at doaj.org, Google Scholar for research. If necessary you may also use the Internet.
+Note grade on a five point scale where if 1 topic was addressed  the paper should receive 1 point and if all 5 topics were addressed it should receive 5 points.
+
+Submit your paper as this weeks assignment.  Your paper should be attached as either a Microsoft word document formatted as either Word 97 or Word 2003 but NOT a later version.  You can also submit your assignment in RTF (rich text format).  Do NOT submit your paper in Office 2007, 2010 or later versions. 
+
+
+ANSWER:
+
+
+Arithmetic Logic Unit (ALU): 
+
+In the beginning, I am going to discuss about the arithmetic logic unit which has combinational digital electronic circuit as well as it performs the arithmetic or bitwise operation. Here the integer of the binary numbers performs the circuit. I can demonstrate that, ALU works together with Control Unit as well as Memory Unit in the CPU. It can also handle the logics in computations with reference to input to receive the AND Gates or OR gates or Subtraction and addition. 
+
+Instruction Decoder 
+
+In the second point of the view, if we start a program in the computer, it can be able to send each address into RAM to start with recovering the program as instruction wise with its binary. This can also be done by the processing of the CPU appropriately. However, in advance of this instructions it needs to be crack the code. As a result, the instruction of the decoder can be able to perform the task clearly.  
+
+Clock and Program Counter 
+
+In the third point of the view, the clock could be able to write up the understanding of the CPU. This is basically important because we can wire by turning on or off the exact constant rate. Because of this, entire devices are being built upon the process to hold back the pull together. The modern CPUs clock could be able to turn on each off millions or even billion of these times within each second. Another thing is overclocking known as set upping the clock into turning it on or off as faster rate as it can be resolved in those factory settings. The clock signal can also transmit in to entire the CPU as well as motherboard via the bus. This bus has a bundle of the wires in the altogether which was connecting with the micro controllers as well as in various parts in the computer and the driver needs the task in the program counter.  
+
+Control Codes 
+
+In the fourth point of the view, all the CPU has its own advantage of the instructions in all over the separate CPU models which could be share by the instruction set. The instruction set make allowance for instruction for load, add, store, compare or input and output or jump if the condition. Machine language is understandable by the written language in the CPU. It can make a control code which consist of with ROM. ROM means Read Only Memory. It can be call for the CPU the process of Instruction Decode which can be able to crack the code. 
+
+Control Unit 
+
+In the fifth point of the view, here we can see that the instructions can be received by the CPU through the Control Unit, and it can break down the clear-cut commands within the other components. This also terminated the decoding process in all several instructions within series of following within the series of instructions step by step. This hardware also requires pulling off each step to make possible or impossible by fetching the decoder execute cycle.    
+
+References, 
+
+Quora, What is the function of the ALU and CU in a CPU, retrieved from  
+
+https://www.quora.com/What-is-the-function-of-the-ALU-and-CU-in-a-CPU 
+
+Wikibooks, Microprocessor Design/Program Counter, retrieved from  
+
+https://en.wikibooks.org/wiki/Microprocessor_Design/Program_Counter 
+
+Science Direct, Instruction Decoder, retrieved from  
+
+https://www.sciencedirect.com/topics/engineering/instruction-decoder 
+
+https://www.d.umn.edu/~gshute/mips/svg/single-cycle-datapath.svg 

@@ -1,0 +1,64 @@
+Which one of the following claims about Java is INCORRECT?
+
+A: d. An object is a type.
+
+
+Which one of the following Java technologies eliminates memory leaks?
+
+A: a. garbage collection
+
+Consider the following Java program, which one of the following best describes "setFlavor"?
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+A: a method
+
+What is the output of the following Java program?
+
+
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food() { count++; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food();
+        pepper.setFlavor("spicy");
+        System.out.println(pepper.getFlavor());
+    }
+}
+
+
+
+A: c. spicy
+
+
+
+What is the output of the following Java program?
+public class Food {
+    static int count;
+    private String flavor = "sweet";
+    Food(String s) { flavor = s; }
+    void setFlavor(String s) { flavor = s; }
+    String getFlavor() { return flavor; }
+    static public void main(String[] args) {
+        Food pepper = new Food("spicy");
+        Food chile = pepper;
+        pepper.setFlavor("smoky");
+        System.out.println(pepper == chile);
+    }
+}
+
+
+A: a. true

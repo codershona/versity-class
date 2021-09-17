@@ -1,0 +1,118 @@
+1. Copy the countdown function from Section 5.8 of your textbook.
+
+def countdown(n):
+     if n <= 0:
+          print('Blastoff!')
+     else:
+          print(n)
+          countdown(n-1)
+
+Write a new recursive function countup that expects a negative argument and counts “up” from that number. Output from running the function should look something like this:
+
+>>> countup(-3)
+-3
+-2
+-1
+Blastoff!
+
+Write a Python program that gets a number using keyboard input. (Remember to use input for Python 3 but raw_input for Python 2.)
+
+If the number is positive, the program should call countdown. If the number is negative, the program should call countup. Choose for yourself which function to call (countdown or countup) for input of zero.
+
+Provide the following.
+
+The code of your program.
+Output for the following input: a positive number, a negative number, and zero.
+An explanation of your choice for what to call for input of zero.
+2. Write your own unique Python program that has a rWrite a new recursive function countup that expects a negative argument and counts “up” from that numbeuntime error. Do not copy the program from your textbook or the Internet. Provide the following.
+
+The code of your program.
+Output demonstrating the runtime error, including the error message.
+An explanation of the error message.
+An explanation of how to fix the error.
+
+
+
+ANSWER 1:     In the beginning, writing a new recursive function count up that expects a negative argument and counts “up” from that number. I am going to discuss recursion which I had to follow according to my textbook. Recursion is one kind of function which legal to call another function. That means when a function process of executing and calls itself is recursive is known as Recursion.  
+
+import sys
+
+def count_down(x):
+  if x <= 1:
+    print("BLAST OFF!")
+  else:
+    print(x)
+    count_down(x-1)
+
+def count_up(y):
+  if y >= 2:
+    print("BLAST OFF!")
+  else:
+    print(y)
+    count_up(y+1)
+if sys.version_info[0] == 3:
+  number = input('Please write down number here ')
+else:
+  number = input('Please write down number here ')
+number = int(number)
+if number > 2:
+  count_down(number)
+elif number < 4:
+  count_up(number)
+else:
+  print("BLAST OFF!")
+
+In here the output would be :
+
+Please write down number here 3
+3
+2
+BLAST OFF!
+ 
+    First of all, by importing sys will allow me to access the module of variables through interpreter also the functions mainly perform strongly as an interpreter. 'sys' means System specific of the Parameters and Functions.
+  In my method, def count_down is a function that prints blastoff. Besides, if the x defines less than or equal to 1. That means it would be less than or equal to true this logic be if which is the left operand is less than as equal to the right. Otherwise, if it else statements it will print x variables. 
+
+   Secondly, count_down defines the execute function of begins with y which is greater than or equal to 2. This is called python comparison operators. 
+
+    Thirdly, number = int(number) defines the number which is going to convert the string. As a result, if the count_down function is it will provide the same output and if the count_up is a negative number it will also give the same output. In this case, there is no difference between count_up and count_down function that might help to call the function as well as 0 and both functions will print "BLAST OFF!".
+
+  ANSWER: 2:Firstly, I am going to write a coding method for my program which is given below:
+
+code1 = input("Please write your local country code: ") 
+code1 = int(code1) 
+print("+1")
+  The output would be:
+
+Please write your local country code 1
++1
+ 
+    Secondarily, the third line of my code is printing a +1 country code which has the value of its code1 variable that might need to be converted into an integer. So, by mistake if you write any words or sentence in "number" place you will get an error that is given below: 
+
+  Please write your local country code s
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    code1 = int(code1) 
+ValueError: invalid literal for int() with base 10: 's'
+ 
+      In my third point,  This causing runtime error because a number can not ever able to convert into any words or sentences. This logical error is a kind of program which will crash and console and detailed the error to fix it.   
+
+   Fourthly, If we want to fix any kind of error in our code you must need to check our code errors or handle the exception. We need to check the syntax of our code, run the code to check the runtime error. and the logical errors which are also difficult to fix.
+
+ 
+try: 
+   country_code = int(country_code) 
+   print("+02") 
+except: 
+   print("Please check again before writing3!!!!") 
+try: 
+    case1 = input("Write your country code number: ") 
+    case2 = int(case1) 
+    print("Your country number has been added successfully!!!!", case2) 
+except ValueError: 
+    print("OOPs! please write your country code????") 
+ The output is :
+
+Please check again before writing3!!!!
+Write your country code number: +22
+Your country number has been added successfully!!!! 22
+ 

@@ -1,0 +1,38 @@
+How can De Moivre's theorem be described? What is the scope of this theorem? Give two examples for roots and two examples for powers.
+
+Your Discussion should be a minimum of 250 words in length and not more than 750 words.
+
+ANSWER: In the beginning,  De Moivre illustrates the theorem in the method called ±nding for the complex number of the root by given power and an integer. Such as, Moivre's theorem represented that (cosx+isinx)n=cosnx+i(sin)(nx). If we have any complex number that defines z and it would obviously show the angle of θ as well as the radian for the unit circle by imaging the part of the square root which was the equal of -1. Also, 0 will be the number or integer n going to demonstrate the DE Moivre's theorem in the algebra formula. Here z = (cos θ+ i sin θ)= cos(n*θ) + i sin(n*θ).
+  In this case, the expression could be (cos x + i sin x) which needs to be interpreted as cis x. But if the formula shows the so it will be defined as z= (cis θ)= cis (n*θ).
+
+
+
+First example for powers:
+[cos(45) + isin(45)]= cos(2*45) + isin(2*45 )
+Or, [cos(45) + isin(45)]= cos(90) + isin(90 )
+Or, [cos(45) + isin(45)]= 0 + i(1)[cos(45) + isin(45 )]= i
+
+
+Second example for powers:
+[cos(30o) + isin(30)]= cos(5*30) + isin(5*30 )
+[cos(30) + isin(30)]= cos(150) + isin(150 )
+[cos(30) + isin(30)]= -√3/2 + i(1/2)[cos(30) + isin(30)]= (-√3 + i)/2
+
+
+
+First example for roots:[cos(90) + isin(90)]= cos(90/2) + isin(90 /2)
+[cos(90) + isin(90)]= cos(45) + isin(45 )
+[cos(90) + isin(90 )]= √2/2 + i(√2/2)
+[cos(90) + isin(90)]= (√2 + i√2)/2l 
+Second example for roots:
+[cos(270) + isin(270)]= cos(270/3) + isin(270 /3)
+[cos(270) + isin(270)]= cos(90) + isin(90 
+)[cos(270) + isin(270)]= 0 + i(1)[cos(270) + isin(270 )]= i
+
+
+
+
+
+
+
+

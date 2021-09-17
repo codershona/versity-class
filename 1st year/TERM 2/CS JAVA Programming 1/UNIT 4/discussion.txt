@@ -1,0 +1,68 @@
+Give an example of a class and an example of an object. Describe what a class is, what an object is, and how they are related. Use your examples to illustrate the descriptions.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+ANSWER:
+
+  In the beginning, I am going to demonstrate an example of a class which I had given below,  
+
+   Class is a set of functions that develop a specific type of object. This class is a kind of basic concepts and logic which is also known as Object-Oriented Programming (OOP). It actually works how the java class works and how the object actually contains. The class basically defines variables and the methods of the functions which is general to all java objects. It is a statement of an entity.
+
+This is a class Syntax,
+
+public class <class-name>{  
+    fields;  
+    methods;  
+  } 
+  I had illustrated the example,
+
+// this is a class  of declaration
+public class Testing {
+    // Instance Variables
+    String state;
+    String keyword;
+    int obj;
+    String name;
+    public String getMethod() {
+        return ("The Java has classes declaration : "+state+" Modifier is: "+keyword+" Body was: "+obj+" Class name is: "+name);
+    }
+    
+    public static void main(String[] args) {
+        Testing maltese = new Testing();
+        maltese.state="components";
+        maltese.keyword="public or has default access";
+        maltese.obj=2;
+        maltese.name="a initial letter";
+        System.out.println(maltese.getMethod());
+    }
+}
+  Here is my console output,
+
+The Java has classes declaration : components Modifier is: public or has default access Body was: 2 Class name is: a initial letter
+
+
+  The object is a kind of example of a class. In java oops is an object which is a self-contained component that is composed with methods and properties to create an individual type of data. In this case, we can say that an object could embody a function, variables as well as a data structure.  The syntax is given below,
+
+Classes_Name reference_variable = new Classes_Name();
+  I had illustrated my own exmaple,
+
+// this is a class  of declaration
+public class Main {
+  boolean isOn;
+  void ObjOn() {
+    isOn = true;
+    System.out.println("This is and Java Object " + isOn);
+  }
+  public static void main(String[] args) {
+    Main function = new Main();
+    function.ObjOn();
+  }
+}
+
+
+Here is my console output,
+
+This is and Java Object true
+
+

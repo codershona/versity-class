@@ -1,0 +1,337 @@
+For the Unit 7 assignment, you will be provided with a series (four to be precise) of pseudo code  segments that represent typical code and data structures that one might implement with a language such as Java or Python. 
+
+For your assignment you must devise a strategy to implement these code and data structures using only the Hack assembler.    You will be able to use the following assembler codes or symbols to complete this assignment.
+
+instlist.png
+
+ In addition you can take advantage of the jump and dest functionality that is represented in the following two tables:
+
+jump.jpg
+
+dest.jpg
+
+ The following 4 problems are the pseudocode routines that you must implement in the Hack assembler.  You should develop the code for your assembler program, compile and test it using the CPU Simulator and then submit as your assignment.  Please submit your assembler code by pasting it directly into the moodle form.  Do not attach as a separate file.   You should document your code using the // symbol as a comment to describe what part of the pseudo code is being implemented by your assembler code in the assignment so that we can understand how you implemented the code in assembler. The four problems that you must code include.   Comments should not be included in your code when you compile and test it ... only the completed version that you submit as your assignment. 
+
+A couple of tips that might be useful as you develop your program:
+
+ 
+
+Comparisons:  Your program will need to compare two numbers to determine if one is larger than the other.  In assembler we do not have an ‘if’ expression that allows us to test the equality or inequality of two variables.  The way that this capability can be implemented is by subtracting the second  number form the first number and then jumping based upon the result.    For example if A and B are our two numbers then the rules for A-B are as follows:
+
+If A-B = 0, then A=B.
+If A-B > 0, then A > B.
+If A-B < 0, then A < B.
+
+If the result of the operation is 0 then we can execute a JEQ which means jump if the output of the operation is equal to zero (see the jump table above). 
+
+In the algorithm we need to be able to test  if a variable is less than, greater than, or equal to either another variable or a constant value.  Each of these tests can be accomplished by subtracting the two numbers and the using the appropriate jump instructions such as:
+
+ JLT – jump less than 0
+JGT – jump greater than 0
+JEQ – jump equal to 0
+
+For this exercise you should develop your solution to the exercise and test it using the CPU emulator.   Your completed assignment should be shared with your peers by posting it to the unit forum.
+ 
+
+// Problem 1
+// for loop
+
+J=5
+for(i=1; i<5; i++) {
+                j--
+}
+
+
+// Problem 2
+// if - then  - else
+
+i=4
+if (i < 5) then
+                j = 3
+else
+                j = 2
+
+ 
+
+// Problem 3
+//while loop
+i = 0
+j = 0
+while(i==0) {
+    j++
+   if j = 5 then
+                i = j
+}
+
+
+// Problem 4
+// load and  traverse an array
+
+A[0] =5
+A[1]=4
+A[2]=3
+A[3]=2
+A[4]=1
+A[5]=0
+
+for (i=0; i<=5; i++) {
+                if A[i] == 0 then
+                                A[i] = 5;
+}
+
+Please submit your assembler code by pasting it directly into the moodle form.  Do not attach as a separate file.   You should document your code using the // symbol as a comment to describe what part of the pseudo code is being implemented by your assembler code in the assignment so that we can understand how you implemented the code in assembler. The four problems that you must code include.   Comments should not be included in your code when you compile and test it ... only the completed version that you submit as your assignment.
+
+
+
+
+ANSWER:
+
+Problem 1 Answer:
+//The Problem Number 1 - for the  loop
+//
+// J=5
+// for(i=1;i,<5;1++) {
+//     j--
+// }
+//
+//
+// The program 
+// Counter
+//
+// It is initialize j variable with value of 5 
+//
+@5               //00  It load value of 5 into A register 
+D=A  //01  It move about to A to D register
+@0  //02  It load the memory address 0 
+M=D  //03  It move about to D register to address 0
+  //  It initialize the i variable with value of 1
+@1  //04  It load the value of 1 into A register
+D=A  //05  It move about to A to D register
+@1  //06  It load to memory address 1
+M=D               //07  It move about to D register to address 1
+//
+// The test i to make sure it is still in less than to 5
+@1  //08  It load up the address 1
+D=M  //09  It move about to value in address to D register
+@5  //10  It load up to value of 5 into A register
+D=D-A  //11  It subtract to D register from A register and store in D
+@25  //12  It load up the program counter 8
+D;JGE  //13  It execute a jump if i is 5
+              // 
+              // The increase the value of i variable 
+@1               // It is 15 load the memory to an address 1
+D=M+1              // It is 16 decrease memory address and store in D
+@1               // It is 17 load memory address 1
+M=D               // It is 18 Store D in address 1 
+            //
+            // It decrement the value of j variable 
+@0             // It is 19 load memory address 0
+D=M-1             // It is 20 decrease memory address and store in D
+@0             // It is 21 load memory address 0
+M=D             // It is 22 Store D in address 0 
+           //
+           // It is perform to an unconditional jump to beginning of the loop
+@8            // It is 23 load program counter address 8
+D;JMP            // It is 24 perform a jump to 8 
+          //
+          // Unless loop for end of the program 
+@25           // It is 25 Load program counter address 25
+D;JMP           //26
+Answer
+Problem 2 : 
+It describe the execution of the  if-then-else this kind of  the conditional 
+assembly. 
+//  The Problem 2  is if then else 
+//
+  //  i=4
+  //  if (i<5) then
+  //  j=3
+//  else
+//  j=2
+// 
+// The Program
+  // It counter
+  //  The initialize i variable with value of 4
+ @4  //00  It load up value of 4 into A register
+ D=A  //01  It move  about the A to D register
+ @0  //02  It load up the  memory address 0
+ M=D //03  It move  to D register to address 0
+//
+// The test i to determine if it is less than 5
+ @0  //04  It load  up address 1
+ D=M  //05  It move the  value in address to D register
+ @5  //06  It load  up the value of 5 into A register
+ D=D-A  //07  It subtract the D register from A register and store in D
+ @16 //08  It load  up the program counter with 16
+ D;JLT  //09  It perform a jump if i < 5
+  //
+  // Else initialize variable j to the value 2
+@1              //10  It load up the value of 2 into A register
+ D=A  //11  It move  about the  to A to D register
+ @1  //12  It load  up the memory address 1
+ M=D  //13  It store up the D in address 1
+ @20  //14  It load up the program counter with x
+ D;JMP  //15  It perform an unconditional jump to end of routine 
+//
+  // It initialize the variable j to the value of 3
+ @3  //16  It load  up the value of 3 into A register
+ D=A  //17  It move  about the A to D register
+ @0  //18  It load  up the memory address 1
+ M=D  //19  The store up in  D in address 1
+// The loop for end of program
+ @21  //20  It load   up the program counter address 25
+ D;JMP  //21
+Answer
+Problem 3
+It executes a while loop along with in within for the while loop then if expression viewing it make use of
+complex nested in the code executed make use of an Hack assembler. 
+//  The problem 3 - while loop
+  //
+         //  i = 0
+  //  j = 0
+         //  while(i==0) {
+  //  j++
+  //  if j == 5 then
+  //  i = j
+  //  }
+  //
+         // The program counter
+         //
+  //  It is initializing an i variable with value of 0
+ @0  //00  To load up the value of 0 into A register
+ D=A  //01  It move up an  A to D register
+ @0  //02  To loading memory address 0
+ M=D          //03  To move  up the D register to address 0
+         //
+          // It is initializing an j variable with value of 0
+ @0  //04  To loading the value of 0 into A register
+ D=A  //05  It moveuo the A to D register
+ @1  //06  It loading the memory address 1
+M=D  //07  To move  up the D register to address 0
+//
+// It is ananysis an i to determine if it is equal to 0
+ @0  //08  It loading the value of 0 into A register
+ D=A  //09  To move up the A to D register 
+@0  //10  It is loading the memory address 0
+ D=D-M  //11  It an subtract  the D register from A register and store in D
+ @31  //12  It is loading the program counter 31
+ D;JNE  //13  It perform the jump if i is not equal to 0 (jump out of loop)
+  //
+  // It is increase the value of j variable
+ @1  //14  It is loading the memory address 1
+ D=M+1  //15  It increase an memory value and store in D
+ @1  //16  It is loading the memory address 1
+ M=D  //17  It store  up the D in address 1
+  //
+  // It is analysis the j to determine if it is equal to 5
+ @5 //18  It is loading the value of 0 into A register
+ D=A  //19  To move up the  A to D register
+ @1  //20  It is loading the memory address 1
+ D=D-M  //21  It is subtract the D register from A register and store in D
+ @8  //22 It is loading the program counter 30
+ D;JNE  //23  It is perform a jump if i is equal to 0 (jump out of loop)
+  //
+  // It is allocate the value of variable j to variable i
+ @1  //24  It is loading the memory address 1
+ D=M  //25  It is move up memory to D register
+ @0  //26  It is loading the memory address 0
+ M=D  //27  It is moving in the D register to Memory
+ @8  //28  It is loading the program counter 8
+ D;JMP  //29  It has jumpt to the  8  in beginning of the while loop.
+  //
+  //
+ @31  //30  It is loading the program counter 31
+ D;JMP  //31  It is perform the jump which creates continuous loop
+
+
+Answer
+Problem 4
+    //  The problem 4 - is load along with traverse an array
+            //
+         //  A[0]=5
+    //  A[1]=4
+    //      A[2]=3
+   //  A[3]=2
+  //  A[4]=1
+  //  A[5]=0
+  //
+  //  for (i=0; i<=5; i++) {
+  //  if A[i] == 0 then
+         //  A[i] = 5;
+//  }
+              //
+  //
+  // The program counter
+  //
+  //  It is boost up the array with 5 values
+ @5  //00  Its is loading the value of 5 into A register
+ D=A  //01  To move  up the A to D register
+ @0  //02  It is loading the memory address 0
+ M=D  //03  To move up to the D register to address 0
+ @4  //04  It is loading the value of 4 into A register
+ D=A  //05  It is Moving on A to D register
+ @1  //06  It is loading the memory address 1
+ M=D  //07  It move up the D register to address 1
+ @3  //08  It is loading the value of 3 into A register
+ D=A  //09  To move up the A to D register
+ @2  //10  It is loading the memory address 2
+ M=D  //11  It is move  the D register to address 2
+ @2  //12  It is loading the value of 2 into A register
+ D=A  //13  To move up A to D register
+ @3  //14  It is loading the memory address 3
+ M=D  //15  It is move up the D register to address 3
+@1  //16  It is loading the value of 1 into A register
+ D=A  //17  It move up in A to D register
+ @4  //18  It is loading the memory address 4
+ M=D  //19  It is move up the D register to address 4
+ @0  //20  It is loading the value of 0 into A register
+ D=A  //21  It is move up A to D register
+ @5  //22  It is loading the memory address 5
+ M=D  //23  It is move up to D register to address 5
+  //
+  //  It is boost up the i variable with value of 1
+ @0  //24  It is loading in the value of 0 into A register 
+ D=A  //25  It is move up A to D register
+ @10  //26  It is loading the memory address 10
+ M=D  //27  It is move  up the D register to address 10
+//
+// Analysis the i to make sure it is still less than 6
+ @10  //28  Loading the address 10
+ D=M  //29  Move up the value in address to D register
+ @6  //30  Load up the value of 6 into A register
+ D=D-A  //31  It is subtract  the D register from A register and store in D
+ @48  //32  Loading the program counter 48 - end of loop
+ D;JGE  //33  Perform a jump if i is 6
+  //
+  // Analysis the A[i] to see if it is == 0
+@10  //34  It is load  uo the address 10
+ A=M  //35  It is move up the value in address 10 to A register
+ D=M  //36  To Move up the Memory to D register where we test for 0
+ @44  //37  Its is Loading the program counter with
+ D;JNE  //38  It is Jump if not equal to 0
+  //
+              // If the value of A[i] == 0 then assign 5 to it
+ @5  //39  Load up the value of 5 to A register
+ D=A  //40  Move up to the D register
+ @10  //41  Load up the address 10 (location of variable i)
+ A=M  //42  Move up to the value in address 10 to A register
+ M=D  //43  Move  up to the D register to memory
+  //
+         // Increase the value of i variable
+ @10  //44  Loading the memory address 10
+ M=M+1  //45  Increase the Memory address and store in D
+ @28  //46  Loading the address 28 (beginning of loop)
+ D;JMP  //47  It is Jump to beginning of the loop
+ @48  //48  Loading the address 53
+ D;JMP  //49  Perform unconditional Jump
+
+
+
+
+
+
+
+
+
+
+

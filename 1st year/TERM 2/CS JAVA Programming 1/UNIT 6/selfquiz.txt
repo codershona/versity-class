@@ -1,0 +1,132 @@
+A class that implements a listener interface does which of the following?
+
+A: b. It handles events.
+
+Consider the following Java program. Which one of the following is a package?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+
+A: a. java.awt.event
+
+
+
+
+Consider the following Java program. What is the superclass of "MouseWhisperer"?
+
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseWhisperer extends JFrame implements MouseListener {
+    MouseWhisperer() {
+        super("COME CLOSER");
+        setSize(300,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        addMouseListener(this);
+        setVisible(true);
+    }
+    public void mouseClicked(MouseEvent e) { setTitle("OUCH"); }
+    public void mousePressed(MouseEvent e) { setTitle("LET GO"); }
+    public void mouseReleased(MouseEvent e) { setTitle("WHEW"); }
+    public void mouseEntered(MouseEvent e) { setTitle("I SEE YOU"); }
+    public void mouseExited(MouseEvent e) { setTitle("COME CLOSER"); }
+    public static void main(String[] args) { new MouseWhisperer(); }
+}
+
+
+A: JFRame
+
+
+
+
+Consider the following Java program. Which statement updates the appearance of a button?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: button.setText(String.valueOf(count));
+
+
+
+
+Consider the following Java program. Which statement displays a window with a button on the screen?
+
+import java.awt.event.*;
+import javax.swing.*;
+public class Clicker extends JFrame implements ActionListener {
+    int count;
+    JButton button;
+    Clicker() {
+        super("Click Me");
+        button = new JButton(String.valueOf(count));
+        add(button);
+        button.addActionListener(this);
+        setSize(200,100);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    public void actionPerformed(ActionEvent e) {
+        count++;
+        button.setText(String.valueOf(count));
+    }
+    public static void main(String[] args) { new Clicker(); }
+}
+
+
+A: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

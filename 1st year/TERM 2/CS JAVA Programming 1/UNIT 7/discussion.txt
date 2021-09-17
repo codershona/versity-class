@@ -1,0 +1,99 @@
+What are wrapper classes and why are they useful for ArrayLists? In your answer, include examples of autoboxing and unboxing.
+
+Your Discussion should be at least 250 words in length, but not more than 750 words. Once you’ve completed your initial post, be sure to respond to the posts of at least 3 of your classmates.
+
+
+ANSWER:
+
+ In the beginning, the wrapper classes are is a type of wrapper that has encapsulate with eight primitive data types between an object of the classes. Basically, it encloses in a set of codes which was around primitive data types as well as that also shows an object issue. This primitive data type has an object of the type and this type of wrapper could also be used.  It was including the methods into unwrapping with an object, besides this, it presents back the data types and this type of wrapper also has classes with the part of the java. lang of the package. So, every primitive type has a type of similar counter of the wrapper class. 
+
+    The primitive types are:
+
+double
+boolean
+int
+short
+float
+byte
+char 
+long
+  The Wrapper classes are given below,
+
+Double
+Long
+Integer
+Character
+Float
+Boolean
+Short
+Byte
+
+
+  The wrapper classes are very useful for ArrayLists. Firstly, when we try to use two concepts that refer to a similar example of a primitive type and we can also try to pass the wrapper for the classes with the logic of an argument. But in Java, there are generic works that only have an object as well as this also does not assist the primitive types.  These collections also need to deal with an object because we need to store the primitive types with each of these classes, we could able to wrap the primitive type for each class. So, if we want to refer to the null on account of data types that also needs an object because this primitive type does not have any null which is kind of a value.
+
+
+
+ I am going to include an example for autoboxing which is given below,
+
+   This had an automatic conversion with the primitive types by resembling the wrapper class. int and char is a primitive type and Integer and Character is a wrapper class. 
+
+Character ch =  'x';
+   list<Integer> Intergerlist - new Arraylist<>();
+       for (int n = ; n < 2; n++) {
+        intergerlist.add(n);
+}
+
+
+import java.util.ArrayList;
+import java.util.List;
+import org.w3c.dom.TypeInfo;
+public class autoBoxing {
+    public static void main(String[] args) {
+        List<Integer> lists = new ArrayList<>();
+        int y = 7;
+        lists.add(7);
+        lists.add(9);
+        System.out.println(lists.get(0).getClass());
+        System.out.println(lists.toString());
+    }
+}
+ 
+
+    Here is the console output,
+
+class java.lang.Integer
+[7, 9]
+
+
+
+   Now I am going to include the example with unboxing,
+
+Basically, unboxings always occur the change of the states to switch the variation of wapper classes which corresponding the primitive type. This actually assigned with the wrapper with an object for the reason of receiving the primitive types. 
+
+public static int Sumsforeven(List<Integer> IntegerList) {
+   int sums = 0;
+for (integer y: IntegerList) {
+    if (y % 3 == 0)
+      sums  += y;
+  }
+  return sums
+ }
+
+
+public class unBoxing {
+    public static void main(String[] args) {
+         Integer WrapperInteger = new Integer(200);
+        WrapperInteger.getClass();
+        int y = WrapperInteger;//Unboxing
+        System.out.println(y);
+    }
+}
+
+
+ Here is the console output,
+
+
+
+200
+
+
