@@ -13,5 +13,46 @@ You may need to use some additional outside sources.  Be sure to properly cite a
 ANSWER:
 
 
+  In the beginning, I am going to talk about the G which was standing on Generation because it is known as total concluded of the network standard phone. We can say that the implement by the tech can have a specific mobile phone system. We need to mainly focus on wireless communication to give the high quality of the service. It can have reliable communication such as wired communication which is also known as optical fiber. But several years ago, the mobile phone of the wireless tech needs to be reveling in 4 generations of the revolution as well as evolution. This is also can be called as 0g or 4G. 
+
+0G Wireless technology:
+
+  In my second point of the view, 0G begins with wireless telephone. 0G needs to be recognized as pre-cell as it has mobile phone together with radio telephones. In pre-cell days, cellphone operator setup the available channel and calls. But the change of channel frequency was not supported by the handover features. The technologies can be utilized by the 0G systems that have PTT (Push to talk) or IMTS (Improved Mobile Technologies Service) and so on so forth. Basically it would be used for voice communication purpose. 
+
+1G: Analog Cellular Networks:
+
+  In the third point of the view, the cell-phone tech was for the first generation. Because that time people used to use analog phones that was 80's time. 1G has an analog tech and the phone battery life have a lot of weakness with low-quality voice and security reveal problem. The main disadvantages were the in Europe only two analog cell phone was popular, which is known as NMT and TACS.
+
+The 2G: Digital Networks:
+
+  In the fourth point of the view, the cell phone can be received by the initial major upgrade in the 1G or 2G. The difference of this two generation is 1G has radio signals which are used by the network analog. On the other hand, 2G had digital networks. 2G was established in Finland at 1991 where it can able to provide the services like sending text messages and MMs and picture messages. 
+
+The 3G: High speed IP data networks:
+
+ In my fourth point of the view, the 3G is the mobile phone standards generation where it can be superseding 2G and preceding in 4G. The high connection of the technology has speed on 3G tech which an be used for the transformation in the industry for the first time. The major leap of 2G and 3G was wireless networks, which was lower than 2.5 G and 2.7G.
+
+4G - Fourth Generation:
+
+   In the fifth point of the view, 3G can be to make a comparison with 4G, which is kind of different from other tech. The reason behind this is, it has high speed quality and capacity for the user to improve the security with cheap budget voice and data service. This tech is for the next generation to make wireless networks to replace 3G networks. is for next generation to make wirelss networks to replace 3G networks.
+
+
+
+
+
+REFERENCES:
+
+Chinavasion (2008). The Evolution of Wireless Generations. Retrieved from
+https://support.chinavasion.com/index.php?/Knowledgebase/Article/View/284/42/1g-2g-3g-4g---the-
+evolution-of-wireless-generations
+
+Chen, Yue (2003). “Soft Handover Issues in Radio Resource Management for 3G WCDMA Networks”,
+Queen Mary, University of London. Retrieved from
+www.elec.qmul.ac.uk/research/thesis/YueChen2003.pdf
+
+
+ITU (2009). Measuring the Information Society; The ICT Development Index. Retrieved from
+http://www.itu.Int/ITU D/ict/publications/idi/2009/material/IDI2009_w5.pdf
+
+
 
 
