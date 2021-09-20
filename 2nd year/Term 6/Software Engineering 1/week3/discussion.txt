@@ -1,0 +1,67 @@
+
+Hello Class,
+
+What is the difference between a scenario and a use case? When do you use each construct? 
+
+Explain with the help of 1-2 suitable examples.
+
+
+ANSWER:
+
+
+
+ In the beginning, the UML can be utilized by the developers to visualize the specific documents  which could be constructed using software. 
+ 
+ It can be also used in the case of the usage in each of the external entity or in the software to be. It can alo utilize the UMl diagram in the fundamental function requirement which can be familiar in any software. 
+ 
+ This is being used as a use of diagram case which can be illustrate the actors activites which is being based on stream of the user in actions.
+
+  The uses of the Pseudo-code can be created by the necessary part to tilize the cases in the diagrams which can be show by the pseudo-code to use to represent any kind of scenario. This dagram can had a activites or their interactions.   
+ 
+ The uses of the case of the diagram is going to illustrate below where its going to show the devlopment process,
+
+ * The main objective can be solved for the skills to develop the mathematical knowledge. 
+
+ * The english grammer knowldeg can be developed by the platform macOS, Unix.
+
+ The functionality is only for the students.  
+ 
+ * The teacher can be Choose any tasks to assigned.
+ * The tasks can be provided by any solution. 
+
+ 
+(b) Considering the teacher.
+ 
+ 
+ * The students can be setup by the tasks of each block.
+ 
+ * The system of any student adding with.
+ 
+ * The student can be viewed for the performance. 
+ 
+The scenario is if the grammer task needs input any student can give input to login by the credential as possible in the system which comes in the online. 
+
+
+The Student Registration has User Case,
+ 
+The actor are Teacher.
+
+The main goal is to add each student which had any problem to login into the systems credentials. 
+
+The teacher needs to logged into precondition. 
+ 
+The flow of events,
+ 
+1. The main menu needs to be selected to add students options of the teacher.
+
+2. The next buttons as well as the previous can be login by using username or pasword into the field to add students window or give in the fields in the system.
+
+3. The process can be notified successfully for the teacher if the student add into the system. 
+
+
+References: 
+Ivan Marsic. (2012). Software engineering. Rutgers University, Electrical & Computer Engineering. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf
+
+Amit. (2020, February 26). All you need to know about UML diagrams: Types and 5+ examples. Tallyfy. Retrieved February 12, 2021, from https://tallyfy.com/uml-diagram/
+
+
