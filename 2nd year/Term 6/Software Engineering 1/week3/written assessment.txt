@@ -25,3 +25,40 @@ Show the operation contracts for the operations of the use case selected in (d)
 ANSWER:
 
 
+a. Identify the actors for the system and their goals.
+
+  Here is many types of actors which we can use to achieve our goals in the valid way or imperative for the normal structure as well as the system of the flow. 
+
+  1) The garage to visit the owner or person:
+
+  The main goal: It is possible to make necessary for us to make ability whether it is remotely or it could be manually in the physically way to make a control to open or close the door of the garage. 
+
+  2) The component for the motion detector:
+
+  The main goals: The role is going to be the motion detector to make a ensure whether it is synchronized or not otherwise, the normal functionality can had an electric eye. Finally, the motion could be detected by the beginning of the sensor. 
+
+  3) The timer:
+
+  The main goal: The timer can be easily countdown to a limited amount of the time and if there is no activity the motion or the door switch can be automatically get into light attached.
+
+  4) Electric Eye: 
+
+  The main goal : The closing door can be detected by the halt of the process which work collectively. It can also closed the beginning command to start the reopened of the door. We can also able to execute the moment for each person where the ibject can be detectable.
+
+  Moreover, we can also make a opinion that, the three actors can be followed by the owner and would be encompassed of the entire actor which is called Garage System.   
+     
+  
+  b. Derive only the use cases relevant to the system objective and write brief or casual text description of each.
+
+  1) The open can be remotely: The control can be pressed into the radio transmitter to the button to open the door utilize cass in the door. 
+
+  2) The closed can be remotely: This can be done by the uses of the case to see whether the door is successfully closed or not. The pressed radio trnasmitter in the button can be closed. 
+    
+
+
+   d. For the use case that deals with the remote-controlled garage door opening, write a fully dressed description. 
+
+   In the beginning, in the field range the remote can be get into radio trnasmitter. But it is necessary in the range to achieve if the user might wants to clickto open the button. We can also excute each command to occur the garage door to unlocked or rotate the motor and able to allow the garage door which could be opened. The light also possible to switch on. The passage of the way in the ground needs to be confirmed. It is also possible to click the button once more and start the door closing. The lght also can be turned off. 
+   
+ 
+
