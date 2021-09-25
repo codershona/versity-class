@@ -1,0 +1,13 @@
+
+Hello Students,
+
+Explain why it is important to model the context of a system that is being developed. 
+
+Give two examples of possible errors that could arise if software engineers do not understand the system context
+
+
+ANSWER:
+
+
+
+
