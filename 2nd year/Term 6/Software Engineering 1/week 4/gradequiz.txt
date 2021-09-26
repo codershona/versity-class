@@ -1,0 +1,48 @@
+Coupling is a qualitative indication of the degree to which a module
+
+A: is connected to other modules and the outside world.
+
+In UML diagrams, relationship between object and component parts is represented by
+
+A: b.aggregation
+
+Coupling is a qualitative indication of the degree to which a module
+
+A: is connected to other modules and outside world
+
+The developer should not create a software artifact (a system requirement, a UML diagram, or source code) unless they know how it will be tested. This kind of development is known as ?
+
+A: c.
+Test Driven Development
+
+Requirements analysis determined how users will interact with system-to-be (external behavior) where as Domain modeling determines how elements of system-to-be interact (internal behavior) to produce the external behavior.
+
+
+A: True
+
+System Sequence Diagrams considered interactions between the ------------
+
+
+A: Actors
+
+An interface is a set of functional properties (services) that a software object provides or requires.
+
+
+A: True
+
+
+In Domain analysis, we consider the system as a “black box”. In Use Case analysis, we consider the system as a “transparent box."
+
+
+A: False
+
+Because Use Cases represent recipes for user achieving 'goals', each use case name must include a 'verb' capturing the goal achievement. True or False?
+
+
+A: True
+
+System Sequence Diagrams considered interactions between the actors.Object Sequence Diagrams consider interactions between the objects.
+
+
+A: True
+
