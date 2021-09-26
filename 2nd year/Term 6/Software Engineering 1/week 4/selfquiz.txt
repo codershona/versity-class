@@ -1,3 +1,33 @@
 self quiz
+Domain models represents real - world concepts, not the software components.
 
+A: True
+
+
+This traceability property is critical for a good development method (process), because the design elaboration progresses systematically, without great leaps that are difficult to grasp and/or follow
+
+
+A: True
+
+
+Analysis phase is concerned about the ________ aspect of software engineering where as Design is more focused on __________ aspect.
+
+A: What, how
+
+
+A popular approach to micro-level design is known as responsibility-driven design (RDD). We know the types of responsibilities that objects can have:
+
+Type 1 responsibility (knowing): Memorizing data or references, such as data values, data collections, or references to other objects, represented as a _____________.
+ Type 2 responsibility (doing): Performing computations, such as data processing, control of physical devices, etc., represented as a ____________
+ Type 3 responsibility (communicating): Communicating with other objects, represented as __________ sending (method invocation).
+
+
+ A: 
+b.
+Property, Method, Message
+
+
+Organizations are often fronted by a point-of-contact person. A common pattern is to have a specialized worker to take orders from the clients and orchestrate the workings of the workers inside the system. This type of object is known as Controller.
+
+A: True
 
