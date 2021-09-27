@@ -1,0 +1,56 @@
+Answer the following questions (Dordal P., 2014) in your own words:
+
+1.  For each IPv4 network prefix given (with length), identify which of the subsequent IPv4 addresses are part of the same subnet.
+
+(a). 10.0.130.0/23: 10.0.130.23, 10.0.129.1, 10.0.131.12, 10.0.132.7
+
+(b). 10.0.132.0/22: 10.0.130.23, 10.0.135.1, 10.0.134.12, 10.0.136.7
+
+(c). 10.0.64.0/18: 10.0.65.13, 10.0.32.4, 10.0.127.3, 10.0.128.4
+
+(d). 10.0.168.0/21: 10.0.166.1, 10.0.170.3, 10.0.174.5, 10.0.177.7
+
+(e). 10.0.0.64/26: 10.0.0.125, 10.0.0.66, 10.0.0.130, 10.0.0.62
+
+ 
+
+2.  Convert the following subnet masks to /k notation, and vice-versa:
+
+(a). 255.255.240.0
+
+(b). 255.255.248.0
+
+(c). 255.255.255.192
+
+(d). /20
+
+(e). /22
+
+(f). /27
+
+ 
+
+3.  Suppose an Ethernet packet represents a TCP acknowledgment; that is, the packet contains an IPv4 header with no options and a 20-byte TCP header but nothing else. Is the IPv4 packet here smaller than the Ethernet minimum packet size, and, if so, by how much? What if the packet is IPv6 with no extension headers?
+
+ 
+
+4. In newer implementations, repeat ARP queries about a timed out entry are first sent unicast, in order to reduce broadcast traffic. What would have to happen to create a situation where the repeated unicast query for a given IP address fails, but a follow-up broadcast query for that same IP address succeeds?
+
+Paper Guidelines
+
+2-3 pages in length, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+Assessment Criteria
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+
+A:
+
+
