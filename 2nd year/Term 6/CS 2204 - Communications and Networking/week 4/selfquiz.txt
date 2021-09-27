@@ -1,0 +1,52 @@
+self quiz
+
+The number of bits in the network part of IPv4 class A, B, C addresses are:
+
+A: 
+
+An essential feature of IPv4 (and IPv6) addresses is that they can be divided into 2 parts:
+
+A: c.
+network part and host part
+
+A possible Internet compatibility issue is that a packet is too large for a given network. IPv4 handles this by supporting:
+
+A: 
+c.
+fragmentation
+
+Which of the following IPv4 addresses is NOT a private address?
+
+A: 
+b.
+24.4.202.93
+
+What enables an Internet site to appear to the outside world as a single IP network, but further IP-layer routing to be supported inside the site?
+
+A: c.
+subnets
+
+Which one of the following IPv4 addresses can be used as a valid host IP address?
+
+A: 
+c.
+10.0.0.80/24
+
+The checksum field in the IPv4 packet header is the “Internet checksum” applied to:
+
+A: b.
+the header only
+
+The IPv6 address ::1 (i.e. 127 0-bits followed by a 1-bit) is called the:
+
+A: b. loopback address
+
+
+The IPv4 Time-to-Live (TTL) header field is incremented by 1 at each router; if it reaches 10, the packet is discarded.
+
+A: False
+
+The subnet mask for an IPv4 147.126.16.0/20 subnet would be 255.255.224.0.
+
+A: false
+
