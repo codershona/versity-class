@@ -17,4 +17,39 @@ You may need to use some additional outside sources.  Be sure to properly cite a
 ANSWER:
 
 
+The differences between IPv4 as well as IPv6 had the main points which are given below,
+
+
+==== The IPv4 ====
+
+1. It could be addressed by the holding 32 bits.
+
+2. The represented addresses need the binary numbers which can be utilized by the decimal number. 
+
+3. The field needs a header for the checksum.
+
+4. The option field is necessary for the present utilization.
+
+5. It can also be used by the Static as well as Dynamic configuration.
+
+6. There is also availability of the broadcast message services.
+
+7. The multicast membership group needs to be managed by the internet group management protocol.
+
+8. The ipv4 through mac can be used by the ARP protocol.
+
+9. The tricks can be given by the sender fragmentation. 
+
+==== The IPV6 ====
+
+1. The IPv4 take in the length which needs 32 bits on the other hand, 128 bits can able to contribute the address of the IPv6.
+
+2. The IPv6 is applicable of the multicast operation services.
+
+3. The method has no checksum for the IPv6.
+
+4. The automatic configuration address only in ipv6 on the other hand, can have both configuration which is acceptable into ipv4. 
+
+5. The binary numbers can be also utilize with hexadecimal number to represent the IPv6 address. 
+
 
