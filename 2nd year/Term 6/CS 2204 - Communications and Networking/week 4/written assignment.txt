@@ -51,6 +51,110 @@ Grammar (10%)
 Spelling and Punctuation  (10%)
 
 
-A:
+Answer:
+
+
+                            Written Assignment 
+
+                                 Unit 4
+
+                      CS 2204: Communications and Networking
+
+                          University of the People
+
+                             September 28th, 2021
+
+
+EXERCISES 
+
+ANSWER 1: 
+
+ Here I am going to discuss about the for each IPv4 network prefix given (with length), identify which of the subsequent IPv4 addresses are part of the same subnet, which are given below,
+
+(a). 10.0.130.0/23: 10.0.130.23, 10.0.129.1, 10.0.131.12, 10.0.132.7 
+
+10.0.130.0/23: 00001010.00000000.10000010.00000000/23
+
+The range would be: 10.0.130.0 – 10.0.131.855
+
+As a result, 10.0.130.23 and 10.0.131.12 these two parts were the similar with the subnet and the others does not include with it. 
+
+
+
+(b). 10.0.132.0/22: 10.0.130.23, 10.0.135.1, 10.0.134.12, 10.0.136.7
+
+10.0.132.0 = 00001010.00000000.10000100.00000000 
+
+The range would be: 10.0.132.0 – 10.0.135.255
+
+As a result, 10.0135.1 and 10.0.134.12 were has the similar subnet but other does not had. 
+
+(c). 10.0.64.0/18: 10.0.65.13, 10.0.32.4, 10.0.127.3, 10.0.128.4
+
+10.0.64.0 = 00001010.00000000.01000000.00000000
+
+The range would be: 10.0.64.0 – 10.0.127.255
+
+As a result, 10.0.65.13 and 10.0.127.3 were has the similar subnet but other does not had. 
+
+(d). 10.0.168.0/21: 10.0.166.1, 10.0.170.3, 10.0.174.5, 10.0.177.7
+
+10.0.168.0 = 00001010.00000000.10101000.00000000
+
+
+The range would be: 10.0.168.0 – 10.0.175.255
+
+As a result,, 10.0.170.3 and 10.0.174.5 were has the similar subnet but other does not had. 
+
+(e). 10.0.0.64/26: 10.0.0.125, 10.0.0.66, 10.0.0.130, 10.0.0.62 
+
+10.0.0.64 = 00001010.00000000.00000000.01000000
+
+The range would be: 10.0.0.64 – 10.0.0.127
+
+As a result, 10.0.0.125 and 10.0.0.66 were has the similar subnet but other does not had.
+
+
+ANSWER 2:
+
+(a). 255.255.240.0 = /20
+
+(b). 255.255.248.0 = /21
+
+(c). 255.255.255.192 = /26
+
+(d). /20 = 255.255.240.0
+
+(e). /22 = 255.255.252.0
+
+(f). /27 = 255.255.255.224
+
+
+
+
+ANSWER 3:
+ 
+ In my opinion, it is Yes, the IPv4 packet has the lower than the ethernet which has minimum size of the packet. The 20-bytes has no options in the header of the IPv4 that enclose the packet. Moreover, the 20-byte TCp has header and made up the entire 40-byte packet. The 64 bytes also has the ethernet which has least possible packet size. 
+
+  As a result, the 24 bytes is lower packet on the IPv4. It could be 64 bytes - 40 bytes. The 40 bytes has headers with no other extension packet IPv6. The minimal packet size was still lower than the ethernet minimal packet size.  
+
+ANSWER 4:
+
+  We can use the ARP to broadcast to figure out the MAC address which has comaprison with any IP address. This can be prepare with the completing first order in the packets to ordered with the unicast. The latest implementation needs the unicasts to transmitted with the first and next the query to provide the IP address which could be falied. Moreover, while the broadcast could be dispatched first and it could successfully had the query. 
+
+
+References,
+
+
+Lee, G. (2014). Data Center Evolution—Mainframes to the Cloud. Retrieved February 24, 2021, from https://www.sciencedirect.com/topics/computer-science/minimum-frame-size
+
+Pearson. (2012, June 15). Understanding the ipv6 header. Retrieved February 24, 2021, from https://www.microsoftpressstore.com/articles/article.aspx?p=2225063&seqNum=3
+
+Schudel, G. (2008, January 30). Chapter 1: Internet Protocol OPERATIONS Fundamentals. Retrieved February 24, 2021, from https://www.networkworld.com/article/2283224/chapter-1--internet-protocol-operations-fundamentals.html?page=3
+
+
+Stahl, D. (2009, August 28). Address resolution protocol (arp). Retrieved February 24, 2021, from https://www.globalknowledge.com/us-en/resources/resource-library/articles/address-resolution-protocol-arp/#gref
+
+
 
 
