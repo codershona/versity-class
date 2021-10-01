@@ -1,0 +1,100 @@
+Q1. A router has the following CIDR entries in the routing table:
+
+ 
+
+Address/Mask
+
+Next Hop
+
+135.46.56.0/22
+
+Interface 0
+
+135.46.60.0/22
+
+Interface 1
+
+192.53.40.0/23
+
+Router 1
+
+Default 
+
+Router 2
+
+
+For each of the following IP addresses, what does the router do if a packet with that address arrives?
+
+135.46.63.10
+135.46.57.14
+135.46.52.2
+192.53.40.7
+192.53.56.7
+
+Q2. A Large number of consecutive IP address are available starting at 198.16.0.0. Suppose four organizations, A, B, C, D request 4000, 2000, 4000, and 8000 addresses, respectively. For each of these organizations, give:
+
+the first IP address assigned
+the last IP address assigned 
+the mask in the w.x.y.z/s notation
+ 
+
+Q3. A router R has the following distance-vector table:
+
+ 
+
+Destination
+
+Cost
+
+Next hop
+
+ A
+
+ 2
+
+ R1
+
+ B
+
+ 3
+
+ R2
+
+ C
+
+ 4
+
+ R1
+
+ D
+
+ 5
+
+ R3
+
+ 
+
+R now receives the following report from R1 (the cost of the R–R1 link is 1):
+
+<dest: A, cost: 1>, <dest: B, cost: 1>, <dest: C, cost: 4>, <dest: D, cost: 4>.
+
+ 
+
+Give R’s updated table after it processes R1’s report. For each entry, give a brief explanation.
+
+Answer all questions, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+Assessment Criteria
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+
+ANSWER:
+
+
