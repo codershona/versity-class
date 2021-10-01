@@ -11,4 +11,12 @@ You may need to use some additional outside sources.  Be sure to properly cite a
 ANSWER:
 
 
+The Distance Vector Routing was been a model to demonstrate where is the target on the exactnetwork as well it would transmit to a whole routing table straightforwardly to connect to aneighbor device. Moreover, it would be established into the shortest path first protocols, into aLink   State   it   would   be   able   to   solve   in   this   kind   of   hindrance   through   transmitting   theinformation exactly been attach links in each router it would be attached into the network.
 
+Furthermore,   the   Distance   Vector   Routing   has   some   concern   by   making   a   routing   loop.Nevertheless, the distance vector protocols typically create an unhurried convergence either theslow reaction time into network changes along with it would be referring to the count to infinitymatter; in addition the occurrence, then when any crossing point was been goes down either twoelsewhere more routers transmit in the packets instinctively. However, this kind of matter wassolved through link-state routing protocols by making speedy convergence along with the highconsistency.
+
+
+
+Reference,
+
+Stelios A. (2007) Dynamic Routing Protocols: Distance Vector and Link State Protocols.Retrieved as at March, 2019 from https://www.pluralsight.com/blog/it-ops/dynamic-routing-protoco
