@@ -7,4 +7,31 @@ What is the fundamental difference between a Layer 2 switch and a Layer 3 router
 
 ANSWER:
 
+In the beginning, I am going to talk about the Layer 2 term and Layer 3 which can be unoriginal that has been taken away of the OSI. OSI abbreviation is Open System Interconnect. It had a model that needs a reference for the model to describe the communications of the network. 
 
+ In my second point of the view, Layer 2 can be switched commonly to use only MAC address entirely of the Layer 3. It can have a router to use the both IP address and MAC table of the address.  
+
+ In my third point of the view, latest layer 2 can be switched so that it can not be able to make perform in the NAT. NAT abbreviations is Network Address Translation. During this time it can have layer 3 router and it is also possible to translate the network address.
+
+ In my fourth point of the view, the layer 2 can be switched to utilize CAM table and CAm abbreviation is Content Accessible Memory. It can have a table to make storage as well as with Layer 3 which can be stored in the router including the IP address in each routing table.
+
+ In my fifth point of the view, Layer 2 can be switched to use the LAN. LAN abbreviations are Local Area Network. During the layer 3 router needs to be used in local area network and in the wide-area network. 
+
+ In my sixth point of the view, the packets can be used in the layer to make the switch for the frames during the Layer 3 routes. 
+
+ In my seventh point of the view, the Vlan can be tagging which is based on IP address but it is not possible in the layer 2 which is the switch during the latest layer 3 router. It was also possible to make tagging each Vlan established the IP address.
+
+ In my eighth point of the view, the layer 2 can be switched to make functionally ASCIs and typically nearly new to forward the decision during the layer 3. It can have routers to use the logic of the software.  
+
+
+
+References,
+
+Guru99.(n.d). Retrieved from https://www.guru99.com/layer-3-layer-2-switch.html
+
+Morris. (2017, November 8). Retrieved from https://community.fs.com/blog/layer-2-switch-vs-layer-3-switch-which-one-do-you-need.html
+
+Sheldon.(2018, June 14). Retrieved from https://community.fs.com/blog/layer-3-switch-vs-router-what-is-your-best-bet.html
+
+
+Rashmi,B.(2020). Retrieved from https://ipwithease.com/difference-between-router-and-layer-3-switch/
