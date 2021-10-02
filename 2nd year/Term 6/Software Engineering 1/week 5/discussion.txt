@@ -1,0 +1,11 @@
+
+Hello Everyone,
+
+If you could select only three test case design methods to apply during unit testing, what would they be and why? 
+
+Try to support your answer with example/ scenarios.
+
+
+ANSWER:
+
+
