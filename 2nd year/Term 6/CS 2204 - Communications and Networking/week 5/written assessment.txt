@@ -96,5 +96,66 @@ Spelling and Punctuation  (10%)
 
 
 ANSWER:
+Question 1 Answer:
+
+a) 135.46.63.10
+
+By taking the first 22 bits of 135.46.63.10 becuase of the network address, which can had 135.46.60.0.
+
+The bit pattern of 135.46.63.10 are 10000111.00101110.00111111.00001010.
+
+Here, we can able to perform the bit as well as operation with 22 leading bit 1s or 10 bit 0s, the same difference between by building the last 10 bit zero. It is also possible to presently the network address bit pattern which are given below,  10000111.00101110.00111100.00000000. The first two bytes was not swapped. The 3rd type reveresed from 63 to 60 during the 4th byte alter to zero.
+
+The rounting table needs to match the network address. But the second row can match by forwarding the router of the packet to interface 1. 
+
+(b) 135.46.57.14
+
+Considering the first 22 bits of the above IP address as network address to obtain 135.45.56.0, which correspond to the network address of the first row. The packet will be forwarded to interface 0.
+
+(c) 135.46.52.2
+
+We had 135.45.52.0 becuase if we take the first 22 bits the above IP address needs this network address. This first three rows can not be matched in the network. Router 2 can had a packet forwarded to the default gateway. 
+
+
+(d) 192.53.40.7
+
+Here we can take the first 23 bits which is above IP address in the network address that had 192.53.40.0. It can also matched the network address in the third row. Router 1 packets needs to forwarded. 
+
+(e) 192.53.56.7
+
+By taking the first 23 bits had the above IP address in the network address which os 192.53.56.0.
+
+The first three rows needs netowrk address which is not matching and the packet can be forwarded to the default gateway that is Router 2. 
+
+
+Question 2 ANSWER:
+
+The address starts and ends with the following mask,
+
+A: 198.16.0.0 – 198.16.15.255 written as 198.16.0.0/20. The number of address 4096
+
+B: 198.16.16.0 – 198.16.23.255 written as 198.16.16.0/21. The number of address 2048
+
+C: 198.16.32.0 – 198.16.47.255 written as 198.16.32.0/20. The number of address 4096
+
+D: 198.16.64.0 – 198.16.95.255 written as 198.16.64.0/19. The number of address 8192
+
+Question 3 ANSWER:
+
+The A destination can be cost from R1 which are 1 as well as R from R1 but this is also needs to be entry woth 1 so that it can remain the similar cost 2 from hop R1.
+
+R - R1 linked woth 1. 
+
+RR1 = 1 
+
+The R needs to be updated into routing table but it needs R1 to added into distance 1. 
+
+The B Destination, The total distance R has ued R1 will be 1 + 1 = 2 and the cheaper than the earlier cost to use R2. It can also break R1 route.
+
+In the cost the destination C can be reported by the R1 to increase.
+
+R’s next_hop to C is R1, and so R must increase its cost to C to 4+1 = 5.
+
+For destination D, R’s total cost by using R1 is 4+1 = 5, similar cost as using R3, as a result it had no change.
 
 
