@@ -1,0 +1,7 @@
+The Classic Triangle Testing Problem, (Myer's Triangle): A program reads three integer values. The three values are interpreted as representing the lengths of the sides of a triangle. The program prints a message that states whether the triangle is scalene, isosceles, or equilateral. Develop a set of test cases (at least 6 ) that you feel will adequately test this program. (This is a classic testing problem and you could find numerous explanations about it on the internet. I would recommend that you try to submit your own answer, based on your understanding of the topic)
+
+
+ANSWER:
+
+
+
