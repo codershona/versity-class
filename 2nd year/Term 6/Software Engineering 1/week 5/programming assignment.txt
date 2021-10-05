@@ -3,5 +3,47 @@ The Classic Triangle Testing Problem, (Myer's Triangle): A program reads three i
 
 ANSWER:
 
+   Here all the test is going to start with similar way where three numbers can be assigned by the whole angles of the triangle. Moreover, the angle can be added that could be equal into 180 degree and it could not ever lesser or greater than 180 degrees. We can not correct while all the angles because the input of those values needs to be coded in that program. Three of the test case can be minimal to make determination for the program functions because of it could be intended to determine the type of the triangle. While the length of the each sides of the triangle can not match with each other and the program continuously return the triangle which is scalene. The only no more than two sides can be matched the program which can be return the triangle if it is isosceles. All the sides matches because the program can be return into the triangle which is equilateral. The most probably, fault might be expected to come up the program which could be reported by the triangle were isosceles needs to be equilateral. The performance can be needed the only report isosceles were the condition can be equilateral can't be found. The entry issues of three to five additional test cases can be tested by the beginning of the design to account the user for example, if the input of the letter has only numbers which can be expected or again inputting the vary sizes of the decimal. The long numbers also can be input by the negative numbers also as well as with a mixture of the decimal or integer numbers. 
 
+  Moreover, the constraints should be implemented so that letters cannot be input, none of the numbers can individually be 0 or equal to or greater than 180, very large decimal numbers should not be used (maybe limit to 5 decimal places unless limiting to integers?), negative numbers cannot be used, and integer numbers should either be converted to decimal numbers for processing or (for the purpose of determining the triangle's type) the numbers should be compared to determine if their values are the same, but not so far as them being 'deeply equal' to each other (integer compared to a matching decimal may not be deeply equal).
+
+Summary of test cases:
+
+   Test case 1:
+
+a) Enter three integer or decimal for each length of all sides of the triangles do not match.
+b) The program should return that the triangle is scalene.
+  
+Test case 2:
+
+a) Enter three integer or decimal for each length such that only two sides of the triangles match.
+b) The program should return that the triangle is isosceles.
+  
+Test case 3:
+
+a) Enter three integer or decimal for each length such that all three sides of the triangles match.
+b) The program should return that the triangle is equilateral.
+
+
+Using in conjunction with the steps for any of the above test cases:
+
+  Test case 4:
+
+a) Input letters where only numbers are expected
+b) The program should remove and ignore the letters or it should return that a fault has occurred due to the incorrect data type.
+  
+Test case 5:
+
+a. Input decimals of mismatching lengths.
+b. The program should correctly assess the triangle type if the numbers are equal to each other but decimal sizes do not match (IE. 1.05 == 1.0500 is true).
+  
+Test case 6:
+
+a. Input very long numbers (at least greater than 180).
+b. The program should either restrict the entry of the long number or it should return that a fault has occurred due to a number being out of bounds.
+  Test case 7:
+
+a. Input a mixture of integers and decimals.
+b. Identical numbers (IE. 5 == 5.00) should not be recognized by the program as not being equal.
+c. The program should correctly assess the triangle type.
 
