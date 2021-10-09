@@ -1,3 +1,53 @@
 self quiz
 
+If the TFTP client changes its port number on a subsequent connection, but the server does not, what prevents an old duplicate data packet sent by the server from being accepted by the new client?
+
+A: c.
+the old dup packet has the wrong client UDP port number
+
+In the context of Sun RPC’s at-least-once semantics, duplicate request execution is a possibility.
+
+A: True
+
+UDP ports are considered a shared namespace with TCP ports. Therefore, 2 processes cannot share the same port number even if one process is using UDP and the other is using TCP.
+
+
+A: False
+
+If an 8 KB block of data is sent as a single UDP send operation over Ethernet (without jumbo frames), IP fragmentation is just avoided.
+
+
+A: False
+
+
+UDP (like TCP) avoids IP fragmentation by relying on the Path MTU Discovery mechanism.
+
+
+A: False
+
+Suppose a Sun RPC read() request ends up executing twice. In between successive read() operations, the block of data is updated by another process. So different data is returned. This is failure of idempotence.
+
+
+A: False
+
+
+The most common binary data encoding on the Internet – at least below the application layer – is big-endian encoding.
+
+
+A: True
+
+In Sliding Windows, once a full timeout has occurred, there are usually no packets remaining in flight and this is referred to as:
+
+
+A: d. pipeline drain
+
+The Real-time Transport Protocol (RTP) is built on top of UDP because of its packet loss intolerance.
+
+A: False
+
+In Sliding Windows, if a sender chooses window size larger than the bandwidth x RTT product, then the RTT simply grows until the bandwidth x RTT matches the chosen window size. RTT increase is due to:
+
+
+A: b. queueing delays
+
 
