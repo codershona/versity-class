@@ -1,0 +1,18 @@
+Consider a simple application-level protocol built on top of UDP that allows a client to retrieve a file from a remote server residing at a well-known address. The client first sends a request with a file name, and the server responds with a sequence of data packets containing different parts of the requested file. To ensure reliability and sequenced delivery, client and server use a stop-and-wait protocol. Ignoring the obvious performance issue, do you see a problem with this protocol? Think carefully about the possibility of processes crashing.
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates.
+
+ 
+
+Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+ 
+
+ ANSWER:
+
+
+ 
