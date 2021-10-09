@@ -1,0 +1,15 @@
+Learning Journal Unit 6
+Answer the following in your own words:
+
+In the TFTP protocol:
+If the client changes its port number on a subsequent connection, but the server does not, what prevents an old-duplicate data packet sent by the server from being accepted by the new client?
+If the server changes its port number on a subsequent connection, but the client does not, what prevents an old-duplicate data packet sent by the server from being accepted by the new client?
+ 
+
+2. In an RPC-like protocol in which multiple requests can be outstanding, and replies can be sent in any order: Assume that requests are numbered and that ACK[N] acknowledges reply[N]. Should ACKs be cumulative? If not, what should happen if an ACK is lost?
+
+
+ANSWER:
+
+
+
