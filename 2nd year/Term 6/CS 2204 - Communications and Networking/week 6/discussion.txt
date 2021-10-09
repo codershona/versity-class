@@ -12,7 +12,12 @@ You may need to use some additional outside sources.  Be sure to properly cite a
 
  
 
- ANSWER:
+ANSWER:
+
+  In the beginning, I am going to talk about the simple application level for the protocol which can be made by the uppermost. The UDP abbreviation is User Datagram Protocol. Moreover, the clients of the server has the protocol which would be available to retrieve the files. On the other hand, clients can send a request to make available so that it can retrieve the files from the remote servers. The servers can reply many times, which is important to make the sequence of the data packets during the request files via clients together with the server to make well use to stop or wait for the protocol and make specific trusty for the data delivery. 
+
+   In the second point of the view, the issue would cause via uses of the accessible level of the application of the protocol. It can also organize the highest UDP which is equal to show the above situation to create the possibilities for the client system to access incorrect files. Moreover, we can imagine that, if there between two clients X together with Y is available and the client X can send off the request in the file such as F1 together with to acquire the crashes. So that the client's Y can able to use the same protocol and make demand on various more file otherwise it can call F2. On the contrary, there are more reasons for client Y which can run on the same machine or it the client X can run along or not below to make both uses for the same IP addresses. As a result, the client Y can make a combination of the UDP socket and had the same port customer X to use earlier.  
+
 
 
  
