@@ -22,4 +22,36 @@ Spelling and Punctuation  (10%)
 ANSWER:
 
 
+1. ANSWER:
+
+Answer: Certainly, the end will probably be 2 fragments. It depends on the implementation, though, at which level fragmentation happens. That is the IP is aware of the limitations of the link and physical layers beneath. Is there an LLC or PPP instance? The IP can accommodate 65 kilo Bytes of user data in a single packet. Then on top IPv6 will not allow fragmentation of packets, so the other layers will have to adapt. The IPv4 header = 20 bytes, payload of ethernet size 1500B, therefore: 1500 – 20 Bytes. In the two fragments, the data is sent through it, effect = 0 At 1496 – 20; 1496/8 = 187
+
+
+
+2. ANSWER:
+
+Answer: They are as follows:  a. Security – RPC is executing code on a remote system, we need to have a means to ensure that the person executing this code has rights to do so, RPC does not specifically define any means of securing the communication and thus our RPC procedures need to authenticate and authorize.   b. Communication handling: We can use any of the transport protocols or even construct our own to communicate, further to this, if we use a connectionless protocol how does the client-server handle the situation where a request or response goes missing?   c.  Protocol Requirements – As each procedure being called could have its own unique specification in regard to parameters, and perhaps even the format of the input and output that is different between the client and server. For instance, even a numeric value such as an integer could be a 32 bit number on one system and a 64 bit number on the other.
+
+
+
+3. ANSWER:
+
+
+Answer: Time stamping is used for synchronization as well as discarding old invalid packets. As the receiver processes the frames sent, any packets which had an older time stamp would obviously mean those packets were delayed in transmission. Imagine if this was a voice application, if a few bits of audio go missing, you would not want those to suddenly reappear in the middle of the stream, it would become in audible and create problems. Thus, the timestamps can be used to drop packets that no longer have relevance.
+
+
+4. ANSWER:
+
+
+Answer: UDP exists to support real time applications, applications where data packets are time-sensitive and would prefer to drop the data than wait, and for applications that handle error checking and correction thus removing the need for this overhead at the transport level. While it could be argued that essentially, we are allowing application to nearly talk direct, and thus could allow them to just send raw IP packets, the truth is that UDP still performs functions that the transport layer provides such as adding the port number to the service which is crucial for talking to the right process.
+
+
+
+
+5. ANSWER:
+
+
+Answer: QUIC was created by Google in order to support the HTTP protocol to provide security to the connections which is similar to TLS/SSL in UDP connection endpoints. QUIC eliminates a couple of RTTs usually needed at the start of a secure web connection such as QUIC eliminates the first RTT which is required for setting up the TCP connection. This allows the data delivery with the first packet of the message. This has adverse effects on the security of the network where the attacker can take advantage of the window of time and try replaying spoofed packets. QUIC also eliminates the second and the third RTT which is required for negotiating TLS encryption.  However, the QUIC eliminates a couple of RTTs usually needed at the start of a secure web connection.
+
+
 
