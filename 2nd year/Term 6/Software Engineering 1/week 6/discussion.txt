@@ -6,15 +6,11 @@ Explain why it is difficult to validate the relationships between internal produ
 
 ANSWER:
 
+In the beginning, I am going to talk about the two important quality of attributes which have product validation it could be internal or external. But the usability as well as the quality of this software can have both programmer and user in different views. Any system admin could like without having any problem and make it accessible to utilize the software without compatibility problems. During any formal user it could want each rather refined positive and accessible to utilize the polished product.
 
-The two major quality attributes for product validation are internal and external attributes, where the useability and quality of software from both developer and user perspective are different, A system admin would prefer a no complication easy to use software with no compatibility issues while a regular user would prefer a rather refined, reliable and easy to use finished product. (Wüst, n.d., para. 1)
-
-The internal attributes can be measured during and after the development stage, it is rather difficult to detect these attributes but others depend on its features while external attributes can be observed outside of the system and these are measurable in the development process. (Wüst, n.d., para. 3)
-
-Maintainability is an important non-functional requirement. This makes it easy for issues related to performance to be solved due to the complexity of changing different components. Cyclomaticcomplexity is for the measurement of the complexity of a system and it provides reliability and improvement information. (Ivan Marsic, 2012, p. 98)
-
-maintainability is complex because systems with higher internal qualities is modifiable when tested subsequently, it’s safe to say that cyclomatic complexity can be employed in measurement of maintainability of systems, that depends on so many factors. We can use different metric-based software for the calculation of the external attributes of a system.
-
+ Moreover the internal attributes are qualifying to measure at the time or later development stage but it is complex to detect the attributes because it depends on its own features during the external attributes it also possible to detect outside system. It is also measurable to develop the system.
+  
+  It can also necessary to maintain the ability of the non-functional requirement. It is quite accessible to create the problem which is related to the performance to figure out because for the hard changes in the different components. Then, Cyclomaticcomplexity can be measured the complex of this system which can be provided to improve the information.
 
 References:                                 
 
