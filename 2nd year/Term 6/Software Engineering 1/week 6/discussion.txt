@@ -1,0 +1,9 @@
+Hello Everybody,
+
+Explain why it is difficult to validate the relationships between internal product attributes, such as cyclomatic complexity and external attributes, such as maintainability.
+
+
+
+ANSWER:
+
+
