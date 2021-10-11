@@ -7,3 +7,17 @@ Explain why it is difficult to validate the relationships between internal produ
 ANSWER:
 
 
+The two major quality attributes for product validation are internal and external attributes, where the useability and quality of software from both developer and user perspective are different, A system admin would prefer a no complication easy to use software with no compatibility issues while a regular user would prefer a rather refined, reliable and easy to use finished product. (Wüst, n.d., para. 1)
+
+The internal attributes can be measured during and after the development stage, it is rather difficult to detect these attributes but others depend on its features while external attributes can be observed outside of the system and these are measurable in the development process. (Wüst, n.d., para. 3)
+
+Maintainability is an important non-functional requirement. This makes it easy for issues related to performance to be solved due to the complexity of changing different components. Cyclomaticcomplexity is for the measurement of the complexity of a system and it provides reliability and improvement information. (Ivan Marsic, 2012, p. 98)
+
+maintainability is complex because systems with higher internal qualities is modifiable when tested subsequently, it’s safe to say that cyclomatic complexity can be employed in measurement of maintainability of systems, that depends on so many factors. We can use different metric-based software for the calculation of the external attributes of a system.
+
+
+References:                                 
+
+Ivan Marsic. (2012). Software engineering. Rutgers University, Electrical & Computer Engineering. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf   
+
+Wüst, J. (n.d.). Principles of quality modeling with internal and external attributes. SDMetrics - the design quality metrics tool for UML models. https://www.sdmetrics.com/QModel.html
