@@ -1,0 +1,13 @@
+
+Hello Class,
+
+Consider the online auction site described in Problem 2.31 (Chapter 2, Page no 165). Suppose you want to employ the Publish-Subscribe (also known as Observer) design pattern in your design solution for Problem 2.31. Which classes should implement the Publisher interface? Which classes should implement the Subscriber interface? 
+
+Explain your answer. (Note: You can introduce new classes or additional methods on the existing classes if you feel it necessary for solution.).
+
+
+
+ANSWER:
+
+
+
