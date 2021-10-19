@@ -1,0 +1,32 @@
+Answer the following in your own words.  
+
+
+Why does the maximum packet lifetime have to be large enough to ensure that not only the packet but also its acknowledgments have disappeared?
+Give one potential disadvantage when Nagle's algorithm is used on a badly congested network.
+Give two examples of cases where TCP sends data-less packets on an established connection (which is not being torn down).
+Exercise 5.0 from section 12.24 of the textbook:
+Suppose you see multiple TCP connections on your workstation in state FIN_WAIT_1. What is likely going on? Whose fault is it?
+What might be going on if you see connections languishing in state FIN_WAIT_2?
+
+
+Paper Guidelines
+
+
+2-3 pages in length, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+Assessment Criteria
+
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+ANSWER:
+
+
