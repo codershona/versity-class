@@ -1,0 +1,6 @@
+What TCP message will be generated for an incoming SYN request for which there is no matching LISTENING port? What error will be given to the application that requested the connection?
+
+ANSWER:
+
+
+At this situation, the client application will send the first packet with “SYN” flag.Normally, when this happens, the server listens on the specified port and respond with SYN-ACK packet in order to acknowledge the “SYN”packet requested by the client application. The client application replies with ACK packet responds which ends the established connection.Secondly, the server receives the “SYN” packet from the client application, then if it is not listening on the specified port, the connection will be refused with “RST” flag, which will output an error message (“Connection Refused”). This error (“Connection Refused”) are caused if; the server is not listening on the right port, if the serveris offline or if you are trying it on the wrong port.This error can be corrected by making sure that the server is listeningon the right port and that the server is online.
