@@ -15,3 +15,13 @@ You may need to use some additional outside sources.  Be sure to properly cite a
 ANSWER:
 
 
+
+Initially, POP3 is an interface network protocol that describes data transmission over wire but notthe location or description of data storage. POP3 is concerned with the messages sent, back and forth between the mail server and the mail client (Dordal, 2019). The internal format of the mailbox files on the server is directed to the POP3 server application, which needs to read the mailbox files so that it can be able to send the actual messages to the POP3 client for email transfer. Certainly, some concepts like sender, mail subject, recipient and body have to be made available on the mailbox in some form, as long as the POP service is able to extract this information from the remote mailbox using some conversion. In addition, an advantage of POP3 is that it can help read the emails from anywhere on the internet provided the user can run POP3client without having to dial in to demon connection. To make use of this feature, the user will first set up a POP3 password, which must be done within private Demon dial-up host. In case of absence of this set up, the user will not be able to use POP3 (E-mailsetting, n.d.). So far, when using POP3 the entire email for the Demon host will arrive in the same mailbox. POP3 client like Turnpike, allows users to automatically route the email to different mailboxes based on the “To” and “From” lines in the message header.
+
+References,
+
+Dordal, P. (2019). An introduction to computer networks. This book is licensed under Creative 
+
+Commons Attribution-NonCommerical-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0). https://my.uopeople.edu/pluginfile.php/924208/mod_page/content/18/ComputerNetworksText.pdfE-mailsetting. (n.d.) 
+
+Demon email settings for android. https://www.e-mailsettings.com/android/demon-mail-setup
