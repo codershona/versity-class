@@ -1,0 +1,17 @@
+Learning Journal Unit 8
+1. DNS uses UDP instead of TCP. If a DNS packet is lost, there is no automatic recovery. Does this cause a problem, and if so, how is it solved?
+
+2. Suppose that someone sets up a vacation reply and sends a message before logging out. Unfortunately, the recipient has also set up a vacation reply message. What will happen in this case? Will the canned replies keep on going back and forth until someone returns?
+
+3. When web pages are sent out, they are prefixed with MIME headers. why?
+
+4. Does VoIP have same the problems with the firewall that streaming audio has?
+
+This Assignment will be instructor-assessed and is intended for your own practice and preparation for the Final Exam.
+
+
+ANSWER:
+
+
+
+
