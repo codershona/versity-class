@@ -15,7 +15,21 @@ ANSWER:
 
 
 
-1. DNS uses UDP instead of TCP. If a DNS packet is lost, there is no automatic recovery. Does this cause a problem, and if so, how is it solved?Initially, DNS can be classified as an idempotent, which means that its operation can be repeated withoutany additional effect with the same input parameters. DNS has something called “Time to Live” (TTL), which starts whenever a process makes a DNS request and if the timer expires, it just makes a new request again.2. Suppose that someone sets up a vacation reply and sends a message before logging out. Unfortunately, the recipient has also set up a vacation reply message. What will happen in this case? Will the canned replies keep on going back and forth until someone returns?Normally, message sent before logging out will generate a canned reply, then its arrival will generate a canned reply too. Most email programs keep track of each person that sends them email and always respond to the first email it receives from that sender.3. When web pages are sent out, they are prefixed with MIME headers. why?The reason is that web pages are internet document that contains varieties of information (pictures, hyperlink, text etc.). Usually, when a user wants to view a page, the needs to input the web address in the browser, triggering the browser to send a request to the web server. The web server in the other hand will process the request and respond back, thereby outputting the requested information on the web browser. Therefore, they are prefixed with MIME header in order to check whether the web page is video, text, graphics etc.4. Does VoIP have same the problems with the firewall that streaming audio has?It depends on the below conditions;VOIP will not go through if the user is following a firewall which does not allow UDP packet out.VOIP will go through if the user is following a firewall that does not interfere with what is permitted in the site.VOIP will go through, if the user utilized the needed ports with the right firewall setup.This Assignment will be instructor-assessed and is intended for your own practice and preparation for the Final Exam
+1. DNS uses UDP instead of TCP. If a DNS packet is lost, there is no automatic recovery. Does this cause a problem, and if so, how is it solved?
+
+Initially, DNS can be classified as an idempotent, which means that its operation can be repeated withoutany additional effect with the same input parameters. DNS has something called “Time to Live” (TTL), which starts whenever a process makes a DNS request and if the timer expires, it just makes a new request again.
+
+2. Suppose that someone sets up a vacation reply and sends a message before logging out. Unfortunately, the recipient has also set up a vacation reply message. What will happen in this case? Will the canned replies keep on going back and forth until someone returns?
+
+Normally, message sent before logging out will generate a canned reply, then its arrival will generate a canned reply too. Most email programs keep track of each person that sends them email and always respond to the first email it receives from that sender.
+
+3. When web pages are sent out, they are prefixed with MIME headers. why?
+
+The reason is that web pages are internet document that contains varieties of information (pictures, hyperlink, text etc.). Usually, when a user wants to view a page, the needs to input the web address in the browser, triggering the browser to send a request to the web server. The web server in the other hand will process the request and respond back, thereby outputting the requested information on the web browser. Therefore, they are prefixed with MIME header in order to check whether the web page is video, text, graphics etc.
+
+4. Does VoIP have same the problems with the firewall that streaming audio has?
+
+It depends on the below conditions;VOIP will not go through if the user is following a firewall which does not allow UDP packet out.VOIP will go through if the user is following a firewall that does not interfere with what is permitted in the site.VOIP will go through, if the user utilized the needed ports with the right firewall setup.This Assignment will be instructor-assessed and is intended for your own practice and preparation for the Final Exam
 
 
 
