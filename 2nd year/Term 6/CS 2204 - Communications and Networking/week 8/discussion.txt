@@ -1,0 +1,17 @@
+POP3 allows users to fetch and download e-mails from a remote mailbox. Does this mean that the internal format of the mailboxes has to be standardized so any POP3 program on the client side can read the mailbox on any mail server? Discuss your answer.
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates.
+
+ 
+
+Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+ANSWER:
+
+
