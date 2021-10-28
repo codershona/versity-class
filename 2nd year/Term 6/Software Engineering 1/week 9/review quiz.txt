@@ -1,0 +1,177 @@
+For a strongly connected graph a real edge is created to connect the END node to the BEGIN node
+
+
+A: False
+
+The only time reengineering enters into work with a legacy system is when it components will be implemented as objects.
+
+
+A: False
+
+Domain models represents real - world concepts, not the software components.
+
+A: False
+
+These documents record the process of development and maintenance. Plans, schedules, process quality documents and organizational and project standards are process documentation. This is called as Product Documentation
+
+A: False
+
+This traceability property is critical for a good development method (process), because the design elaboration progresses systematically, without great leaps that are difficult to grasp and/or follow.
+
+A: True
+
+Analysis phase is concerned about the ________ aspect of software engineering where as Design is more focused on __________ aspect.
+
+
+A: c.
+What, How
+
+
+
+Organizations are often fronted by a point-of-contact person. A common pattern is to have a specialized worker to take orders from the clients and orchestrate the workings of the workers inside the system. This type of object is known as Controller.
+
+
+A: True
+
+Acceptance tests are normally conducted by the developer?
+
+
+A: False
+
+
+-------------------measures the degree to which the specification or code of a software program has been exercised by tests. -------------------measures the degree to which the source code of a program has been tested.
+
+
+
+A: a.
+Test coverage, Code coverage
+
+Which of the following activities is not part of the software reengineering process model?
+
+
+A: 
+c.
+Prototyping
+
+
+Reverse engineering of data focuses on?
+
+
+A: c.
+Both a and b
+
+
+The term ____________is often used to describe modifying the design and/or implementation of a software module without changing its external behavior, and is sometimes informally referred to as “cleaning it up.”
+
+
+A: 
+c.
+Refactoring
+
+
+This is the process of preparing the document for professional printing. It is supported by desktop-publishing packages, artwork packages and type styling programs. This process is Document Polishing
+
+
+A: False
+
+
+Software architecture focuses on ---------------requirements and decomposition of ----------------------requirements.
+
+
+A: 
+b.
+Non Functional, Functional
+
+
+The term FURPS refers to
+
+
+A: b.
+Non functional system properties
+
+
+The association between an actor and a use case is (more than one answer)
+
+A: 
+
+
+
+LOC-based estimation techniques require problem decomposition based on
+
+
+A: c.
+software functions
+
+
+If you are able to anticipate that the components are likely to be reused in future projects then it is not advisable to use the Pub-Sub design pattern.
+
+
+A: False
+
+
+In the RSA system, the receiver does as follows:
+
+Randomly select two large prime numbers p and q, which always must be kept secret.
+Select an integer number E, known as the public exponent, such that (p - 1) and E have no common divisors, and (q - 1) and E have no common divisors.
+Determine the private exponent, D, such that (ExD - 1) is exactly divisible by both (p - 1) and (q - 1). In other words, given E, we choose D such that the integer remainder when ExD is divided by (p - 1)x(q - 1) is 1.
+Determine the product n = pxq, known as public modulus.
+Release publicly the public key, which is the pair of numbers n and E, K + = (n, E). Keep secret the private key, K - = (n, D).
+The above events are mentioned in the correct order as they are performed while writing the algorithm.
+
+A: False
+
+
+
+Which of the following is not an issue to consider when reverse engineering?
+
+
+A: c.
+Connectivity
+
+Hiding the object state , so that it can be observed or affected only via object's methods is known as ----------?
+
+
+A: b.
+Encapsulation
+
+Process models are described as agile because they ?
+
+
+A: 
+
+
+
+The four basic steps in software project estimation are:
+
+Estimate the size of the development product. {either Lines of Code (LOC) or Function Points (FP)}
+Estimate the effort in person-months or person-hours.
+Estimate the schedule in calendar months.
+Estimate the project cost in dollars (or local currency)
+True or False?
+
+
+
+A: True
+
+
+Because Use Cases represent recipes for user achieving 'goals', each use case name must include a 'verb' capturing the goal achievement.
+
+
+A: True
+
+---------------cohesion is difficult to automate
+
+
+A: Semantic
+
+The correct order for all requirement engineering techniques is
+
+
+A: c.
+Gathering, Analysis, Specifications
+
+
+The unit to be tested is also known as the fixture.
+
+
+A: 
