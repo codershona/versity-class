@@ -1,0 +1,24 @@
+Hiding the object state , so that it can be observed or affected only via object's methods is known as ----------?
+
+
+A: b.
+Encapsulation
+
+Process models are described as agile because they ?
+
+
+A: 
+
+
+
+The four basic steps in software project estimation are:
+
+Estimate the size of the development product. {either Lines of Code (LOC) or Function Points (FP)}
+Estimate the effort in person-months or person-hours.
+Estimate the schedule in calendar months.
+Estimate the project cost in dollars (or local currency)
+True or False?
+
+
+
+A: True

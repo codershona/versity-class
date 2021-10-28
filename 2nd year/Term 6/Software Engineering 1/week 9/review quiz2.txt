@@ -1,12 +1,3 @@
-For a strongly connected graph a real edge is created to connect the END node to the BEGIN node
-
-
-A: False
-
-The only time reengineering enters into work with a legacy system is when it components will be implemented as objects.
-
-
-A: False
 
 Domain models represents real - world concepts, not the software components.
 
@@ -109,17 +100,6 @@ If you are able to anticipate that the components are likely to be reused in fut
 A: False
 
 
-In the RSA system, the receiver does as follows:
-
-Randomly select two large prime numbers p and q, which always must be kept secret.
-Select an integer number E, known as the public exponent, such that (p - 1) and E have no common divisors, and (q - 1) and E have no common divisors.
-Determine the private exponent, D, such that (ExD - 1) is exactly divisible by both (p - 1) and (q - 1). In other words, given E, we choose D such that the integer remainder when ExD is divided by (p - 1)x(q - 1) is 1.
-Determine the product n = pxq, known as public modulus.
-Release publicly the public key, which is the pair of numbers n and E, K + = (n, E). Keep secret the private key, K - = (n, D).
-The above events are mentioned in the correct order as they are performed while writing the algorithm.
-
-A: False
-
 
 
 Which of the following is not an issue to consider when reverse engineering?
@@ -127,31 +107,6 @@ Which of the following is not an issue to consider when reverse engineering?
 
 A: c.
 Connectivity
-
-Hiding the object state , so that it can be observed or affected only via object's methods is known as ----------?
-
-
-A: b.
-Encapsulation
-
-Process models are described as agile because they ?
-
-
-A: 
-
-
-
-The four basic steps in software project estimation are:
-
-Estimate the size of the development product. {either Lines of Code (LOC) or Function Points (FP)}
-Estimate the effort in person-months or person-hours.
-Estimate the schedule in calendar months.
-Estimate the project cost in dollars (or local currency)
-True or False?
-
-
-
-A: True
 
 
 Because Use Cases represent recipes for user achieving 'goals', each use case name must include a 'verb' capturing the goal achievement.

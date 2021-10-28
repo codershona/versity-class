@@ -1,0 +1,10 @@
+In the RSA system, the receiver does as follows:
+
+Randomly select two large prime numbers p and q, which always must be kept secret.
+Select an integer number E, known as the public exponent, such that (p - 1) and E have no common divisors, and (q - 1) and E have no common divisors.
+Determine the private exponent, D, such that (ExD - 1) is exactly divisible by both (p - 1) and (q - 1). In other words, given E, we choose D such that the integer remainder when ExD is divided by (p - 1)x(q - 1) is 1.
+Determine the product n = pxq, known as public modulus.
+Release publicly the public key, which is the pair of numbers n and E, K + = (n, E). Keep secret the private key, K - = (n, D).
+The above events are mentioned in the correct order as they are performed while writing the algorithm.
+
+A: False
