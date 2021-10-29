@@ -1,0 +1,16 @@
+// review quiz 4
+
+In Sliding Windows, once a full timeout has occurred, there are usually no packets remaining in flight and this is referred to as:
+
+
+A: 
+d.
+pipeline drain
+
+The TCP TIMEWAIT state is supposed to last for a time equal to:
+
+
+A:c. 
+
+2 x MSL (maximum segment lifetime)
+

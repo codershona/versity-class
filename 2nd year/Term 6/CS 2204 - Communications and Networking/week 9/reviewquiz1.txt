@@ -1,2 +1,10 @@
 // review quiz 1
 
+In the context of data networking, a protocol is a formal set of rules and conventions that governs how computers exchange information over a network medium. A protocol implements the functions of one or more of the OSI layers.
+
+A: True
+
+If an IPv4 address has all 1-bits for the host bits, it is of type:
+
+A: a.
+broadcast

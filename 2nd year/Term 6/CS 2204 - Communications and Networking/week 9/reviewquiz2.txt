@@ -1,2 +1,12 @@
 // review quiz 2
 
+The Split Horizon fix to the slow-convergence problem prevents all linear routing loops.
+
+
+A: True
+
+What is the primary reason for the eventual retirement of IPv4?
+
+A:  c.
+limited addressing capabilities
+

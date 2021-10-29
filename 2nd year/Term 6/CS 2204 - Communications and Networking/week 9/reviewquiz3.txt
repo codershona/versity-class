@@ -1,0 +1,15 @@
+// review quiz 3
+
+In Sliding Windows, the sender is allowed to send up to this many packets (starting with the next packet after the last acknowledged packet):
+
+A:c.
+window size
+
+The IPv6 address ::1 (i.e. 127 0-bits followed by a 1-bit) is called the:
+
+A: b.
+loopback address
+
+c.
+window size
+
