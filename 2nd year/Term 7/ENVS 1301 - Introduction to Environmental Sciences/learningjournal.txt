@@ -12,50 +12,60 @@ Learning Journal Unit 1
 
 
 ANSWER:
+1. ANSWER:
 
-1. Write a brief introduction of yourself in the Learning Journal.
-
-My name is Badri Bista. I am 20 years old. I am from Nepal. Hinduism is my religion. Currently, I am learning computer science student at the University of the People. I am addicted to sports. Cricket is my favorite game and Virat Kohli is my favorite player.
-
-
-2. Explain why you took this course and what you hope to learn from it.
-
-As we all know the Environment is the most important thing for the creatures in the world as all of the requirements are fulfilled by the environment. I am a nature lover and I love to learn about the environment. As being a student of computer science I took this subject because I want to learn about the environment and know the preservative methods to protect the environment. I hope to learn about the factors of the environment, the benefits of the environment, factors affecting the environment, preservative method of environment, etc.
+I am a student of University of the people and currently I am studying Associate of science in computer science. I lived in Sweden. My religion is Islam. I am addicted to learn new things always. Currently building my skills in Linux administration. 
 
 
+2. ANSWER:
 
-3. Please describe, in detail, some of the major environmental issues in your local village/community/town/region/nation. What are they? Why are they an issue? Do you know of any current actions to deal with it?
-
-The environmental issues are nearly the same throughout the world. 
-
-Some of the environmental issues of my local village/community/town/region/nation are;
-
-a. Environmental pollution; The most dangerous issue of the environment is pollution. Due to pollution many environmental factors and components are in danger. All living beings are dying due to environmental pollution. 
-
-b. Deforestation; The environment is directly affected by the act of deforestation. Many creatures lose their habitats due to this act. Many natural calamities occur due to this act which affects the environment.
-
-c. excessive use of natural resources; People are using an excess amount of natural resources which affects the environment.
-
-d. Overpopulation; The major issue of the environment is overpopulation. The population of the world is increasing day by day which results in more requirements of the environmental factors.
-
-The action to deal with these issues are;
-
-a. Environmental pollution should be controlled.
-
-b. Afforestation should be done.
+I hope I can learn more new things from this course and learn many new facts of the environment. I took this course as it was optional beside this learning about the environment in also important for me and this would help me to know the creatures in the world we have and in our environment. I am also a nature lover and the country I live in is also a green city with less population. As a computer science student I want to learn about this subject because we also need to gain knowledge of the environment we live in and know the main preservative methods to protect our environment. 
 
 
-c. The use of natural resources should be controlled.
 
-d. Overpopulation should be controlled.
+3. ANSWER:
 
+There were many environmental issue in the world and near us also. 
 
-4. If you were to implement one, a small, simple project in your local area or family in support of the environment, what would it be? Why?
-
-If I were to implement one, a small, simple project in my area in support of the environment, it would bean afforestation campaign because it maintains the balance in the environment. 
+The environmental issues of my local village/community/town/region/nation are given below,
 
 
-5. One or two sentences of your own personal reflection on something you learned this week.
+a. Environmental pollution:
+
+The most dangerous causes happen in our environment is pollution and the main reasons behind the pollution are many ways and these components are very dangerous for us also. 
+
+b. Deforestation: 
+
+The fact of the deforestation can affect our environment and day by day we are losing many creatures in our habitats. The natural calamities can cause becuase for the deforestation affects in our environment. 
+
+c. Excessive use of natural resources:
+In our environment people are utilizing the excess and large quantity of the natural resources that affect. 
+
+d. Overpopulation: 
+
+The main problem of our environment in the population ratio in increasing day by day. For this Overpopulation we are facing many environment factors.
+
+If we want to deal with these issues are we need to take these actions;
+
+a. It can be controlled to make less environmental pollution.
+
+b. We can stop Afforestation.
 
 
-This week, I learned about the different agencies and rules made by different organizations to protect the environment.
+c. We need to be controlled the uses of the natural resources.
+
+d. The Overpopulation needs to be under control.
+
+
+4. ANSWER:
+
+Here, we can able to implement one of the smallest and simplest project in our local area to support the environment. This will be great Afforestation Campaign. The main reason behind this is we should maintain the balance of our greenery environment. 
+
+
+5. ANSWER:
+
+Well, it was the first week for me and I had learned various agencies as well as the rules which were making of the various organizations to make a protection in our environment. 
+
+
+
+
