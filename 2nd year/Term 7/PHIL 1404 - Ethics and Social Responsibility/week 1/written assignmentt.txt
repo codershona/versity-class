@@ -19,4 +19,49 @@ Paper submitted is well constructed using APA format. The paper should be a mini
 
 ANSWER:
 
+Introduction, Business Ethics & Economic Relevance 
 
+University of the People 
+
+PHIL 1404 – ETHICS & SOCIAL RESPONSIBILITY     
+
+November 15, 2021
+
+In 2017 between the period of May to July, Equifax was faced with a crisis of data theft. Equifax is one of the largest credit check company in the United States. The hackers managed illegally got personal information of about half of the U.S. population was accessed. The company insteadof notifying the public, decided to sell its shares and only announced the matter in September. The company gave free credit check and identity theft security. The company’ s chief security officer and the chief of security retired while the CEO resigned before answering to the congress.
+
+
+1. Which of this case might involve legal compliance?
+
+If anyone’s information has been exposed it is data breach which would have been causedby negligence of employees. The company did not comply with the laws of the federalreserve which instructs organizations to keep its clients’ information safe.
+
+Which elements illustrate acting legally but not ethically?
+
+The elements that illustrate acting legally but not ethically was when the company’s chiefinformation officer and the chief security retired while the CEO resigned also before theyanswered to the congress. What would acting ethically and with personal integrity in this situation look like?Despite offering free credit monitoring and identifying theft protection, it would havebeen   best   if   the   company   suspended   the   suspected   persons   responsible   for   the   databreach.
+
+2. How do you think this breach will affect the Equifax’s position relative to those of itscompetitors?
+
+Equifax   was   not   the   only   company   impacted   with   cyber   theft,   but   other   companiessuffered secondary effects too. According to USA TODAY, eBay suffered a drop of 10points 10 days after the data theft. (Shell, 2017). 
+
+How might it affect the future success of the company?
+
+Equifax would be affected in a negative way and this may result in clients losing theirconfidence  in  the   company  hence  seeking  similar services  from   other company. Thebrand name and  the company’s name would have been tarnished. The  company maystruggle to get trusted persons to fill the positions of the CEO and or for the informationofficer.
+
+3. Was   it   sufficient   for   Equifax   to   offer   online   privacy   protection   to   those   whosepersonal information was hacked?
+
+It   was   not   sufficient   for   Equifax   to   only   offer   privacy   protection   to   those   whoseinformation was hacked.
+
+What else might they have done?
+
+The company  was   supposed   to freeze the accounts  of   the people who  were  affectedimmediately   to   stop   thieves   from   opening   accounts   with   other   peoples’  names.   Theofficials who were allegedly responsible for data theft were supposed to be suspendedwith immediate effect and the company should not have allowed the two officials whoretired and the one who resigned to do so before they answered to the congress.
+
+Conclusion
+
+What happened at Equifax is a lesson to everyone especially credit companies. Theyshould try a much to protect peoples’ information. With  the fast-growing technology,thieves   get   smarter   too.   Companies   should   always   make   sure   that   their   software isprotected
+
+
+
+References:
+
+OpenStax. (n.d). 1.2 Ethics and Profitability-Business Ethics|OpenStax. Retrieved From:https://openstax.org/books/business-ethics/pages/1-2-ethics-and-profitability
+
+Shell, A. (September 18, 2017). Equifax Image is Battered by Data Breach as ConsumersFeel   Violated.   Retrieved   From:https://www.usatoday.com/story/money/2017/09/18/equifax-image-battered-data-breach-consumers-feel-violated/677908001/
