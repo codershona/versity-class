@@ -19,4 +19,31 @@ ANSWER:
 
 
 
+1. What is this report about?
+
+The report of MEA is about assessing the impacts of human activity on the earth's ecosystems and the reciprocal impacts felt by humanity when those ecosystems are brought into imbalance by that human activity.  The focus of the report relates to human health impacts caused by losses in ecosystem services due to human activity.
+
+2. List two new things you learned from reading this report. What are they? Explain them.
+
+I learned the effects of the huge imbalances and disruptions in ecosystem services are difficult to measure. I learned about is the "DALY," which is an acronym for a "disability-adjusted life year."This unit is a metric for assessing the health impacts of ecosystem change. DALYs represent the sum of years of life lost from premature death (e.g. the actual age at death compared with natural life expectancy) and the number of years of life lived with a disability (e.g. the duration of the disease, weighted by a measure of its severity, (World Health Organization, 2005). These measures enable health impacts intimate with as results of multiple causes or through multiple causal pathways to be summed together. For example, the combined effects of global climate change on morbidity and mortality from infectious diseases, malnutrition, and therefore the impacts of natural disasters can be aggregated into one DALY measuring, potentially this enables direct comparisons of the effects of various ecological changes (or the other risk factors) on population health and might act as a guide for rational priority-setting for an action (R16). MEA (2005) P.42The DALY is a sober unit of measurement as it represents an incremental loss of human life. I hope that the use of the DALY will bring more people to realize the reality of our imbalanced ecosystems when that impact is conveyed in terms of loss of human life.Another thing I learned is that there are about 800 million people suffering from malnutrition, typically from poorer countries and that these people represent about 10% of the global disease burden.  Surprisingly, there is a similar number of people in the world suffering from overnutrition who are typically in developed countries.  These overnourished people account for between 10% and 33% of the global disease burden.  Shockingly, if these overnourished people would just give their surplus food to the undernourished people, we could eliminate between 20% and 43% of the global disease burden. 
+
+3. What two actions would you take to reduce the threats to human health and life from one of the infectious diseases listed in Table 1.1 (page 24)?
+
+
+I would choose to fight malaria, which is responsible for regarding 46million DALYs of impact. That is roughly such as one death per minute.US Aid lists primary ways of combating protozoal infection as Indoor Residual Spraying Insecticide-Treated mosquito Nets, intermittent preventative treatment for pregnant women and diagnosing and treatment with rescue medicine. These treatment regimes, I’d select the primary two: IRS and ITNs since they're preventative for the entire population
+
+
+4. List one question that you would like to have answered as a result of reading this report.
+
+I was asking is how, in our diverse world, could we make people responsible for their personal environmental impacts? Very important question.It seems the majority of the damage to our ecosystems is due to the industries and lifestyles in developed nations.  Those nations have developed a great deal of economic and military power by burning through a huge amount of resources.  That process has caused a great deal of ecological damage, but it has also left those countries in a position to ignore the problem and buffer themselves from the impacts of lost ecosystem services.  They can import food and other scarce resources due to their economic power.  Only the poor nations, who are dependent on theirlocal ecosystems for survival are directly impacted by the loss of ecosystem services.
+
+
+
+Reference:
+
+U.S. Aid (2016). Fighting Malaria. Retrieved on 3rd October 2018 1, from https://www.usaid.gov/what-we-do/global-health/malaria
+
+World Health Organization (2005). Ecosystems and Human Well-Being: Health Synthesis - Millennium Ecosystem Assessment (MEA). Retrieved on 3rd October, 2018 from https://my.uopeople.edu/pluginfile.php/157031/mod_book/chapter/110578/Unit04DA.pdf
+
+
 
