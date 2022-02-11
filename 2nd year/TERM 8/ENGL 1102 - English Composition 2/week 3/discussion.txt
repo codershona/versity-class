@@ -5,11 +5,27 @@ This week you will discuss either the Immunization study or the Stanford Prison 
 ANSWER:
 
 
+I think the immunization study led to more harm. More people were directly involved in the prison study, but the Wakefield study had far-reaching harmful effects that are still being feltover twenty years later. The study's ideas became well-known in public, and even today people's mistrust in vaccines still exists. The Centers for Disease Control and Prevention even notes directly on their webpage about Autism Spectrum Disorder, last updated in 2020,that "some people have had concerns that ASD might be linked to the vaccines children receive," ("What is Autism Spectrum Disorder?", 2020). There are two primary ways the study caused harm: by creating mistrust in vaccines and by promoting a fundamental misunderstanding about what autism is and how it develops.
+
+The issues with mistrust in vaccines are relatively obvious. Less people were getting immunized, because parents were afraid of their children becoming autistic, and as a consequence more people became sick, including notable measles outbreaks in the late 2000s (Rao & Andrade, 2011). Immunization not only has a good shot of preventing the immunized person from getting sick, but also provides a barrier of immunized people between the illness and those who cannot get immunized or the few who the vaccination was ineffective for. This is community or herd immunity ("Vaccine Glossary of Terms", 2020), which you've likely heard about in recent times with respect to the COVID-19 pandemic.
+
+For the second point, it's important to have a better understanding of autism. Autism Spectrum Disorder isn't really one thing, but a complex and varied neurodevelopmental disorder that presents differently in different people ("Autism Spectrum Disorder Fact Sheet", 2020). The exact causes of ASD aren't entirely clear, but there are several known risk factors, the latest of which occur immediately after birth ("What is Autism Spectrum Disorder?", 2020). The timing of autism being diagnosed roughly correlates with when children are old enough to get the MMR vaccine (Rao & Andrade, 2011), providing a temporal link between the two. This is misleading, however, as it refers to the time of diagnosis, and the study says that vaccines can cause autism – implying that it is able to develop suddenly due to an external factor, and that it could be prevented in some way. As seen in the example of mistrust of vaccines, treating something according to incorrect information can be dangerous. There are many ineffective treatments for Autism, some of which can be harmful ("Treatment and Intervention Services for Autism Spectrum Disorder," 2019).
 
 
+As for what could have been done to avoid or fix the harms caused, many other scientists did exactly what they should have done: reviewed the study and refuted its ideas, on multiple different occasions. The scientists who preformed the study are another story. This study not only includes ethical problems, such as their failure to disclose financial interests, but also scientific misrepresentation. They picked and chose their data and their sample, disregarding data that didn't support their case and falsifying information to publish a knowingly fraudulent conclusion (Rao & Andrade, 2011). For all the issues with the prison experiment, the Wakefield study was conducted for the express purpose of getting an incorrect message out, and that message caused widespread harm.
+
+The media could also have done something different. A large part of the reason the Wakefield study was so harmful was the publicity it recieved. It has been refuted many times since, but the harm caused by its publicity is still felt. While it has been debunked many times, its message still got out and was believed by people. If it had been handled differently, that might not have happened. The public took a hold of the ideas in the study, but I'm going to give the public at the time the benefit of the doubt to an extent. This was in 1998, and information was harder to come by than it is now. Fear is a powerful motivator, and it's easy for me to see how things happened as they did with the information that was accessible.
 
 
 References,
 
+Autism Spectrum Disorder Fact Sheet. (2020). National Institute of Neurological Disorders and Stroke. Retrieved July 06, 2021, from https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Fact-Sheets/Autism-Spectrum-Disorder-Fact-Sheet
 
+Treatment and Intervention Services for Autism Spectrum Disorder. (2019). Centers for Disease Control and Prevention. Retrieved July 06, 2021, from https://www.cdc.gov/ncbddd/autism/treatment.html
+
+Vaccine Glossary of Terms. (2020). Centers for Disease Control and Prevention. Retrieved July 06, 2021, from https://www.cdc.gov/vaccines/terms/glossary.html
+
+What is Autism Spectrum Disorder? (2020). Centers for Disease Control and Prevention. Retrieved July 06, 2021, from https://www.cdc.gov/ncbddd/autism/facts.html
+
+Rao, T. S., & Andrade, C. (2011). The MMR vaccine and autism: Sensation, refutation, retraction, and fraud. Indian J Psychiatry, 53(2), 95-96. doi:10.4103/0019-5545.82529
 
