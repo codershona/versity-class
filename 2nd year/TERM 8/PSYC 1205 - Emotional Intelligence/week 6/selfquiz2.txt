@@ -18,4 +18,4 @@ A: True
 
 True or False: Disputing your self-talk means forgetting the negative or unhelpful aspects.
 
-A: True
+A: False

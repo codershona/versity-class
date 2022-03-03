@@ -8,7 +8,7 @@ A: False
 
 True or False: Saying: you pounded your fist on the desk for about 10 seconds is an observation.
 
-A: False
+A: True
 
 True or False: Research shows that we have up to 1,000 negative thoughts per day.
 
