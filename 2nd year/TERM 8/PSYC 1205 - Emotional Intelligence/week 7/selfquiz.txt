@@ -8,7 +8,7 @@ A: False
 True or False: SMART methodology stands for: specific, measurable, achievable, relevant, and time-based.
 
 
-A: False
+A: True
 
 True or False: A definition of emotional contagion by Schoenewolf states: "a process in which a person or group influences the emotions or behavior of another person or group through the conscious or unconscious induction of emotion states and behavioral attitudes."
 
