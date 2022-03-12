@@ -11,4 +11,22 @@ The Written Assignment should be 2-3 double spaced pages in length, not includin
 ANSWER:
 
 
+The title of the article is Early life stress is associated with youth-onset depression for some types of stress but not others. https://www.sciencedaily.com/releases/2020/07/200715142326.html
+
+
+
+The study is about the association of early life stress with a major depressive disorder in childhood or adolescence. It examined the association between eight different types of ELS (early life stress) and youth- depression. The study found that some ELS such as emotional abuse have strong relation with major depressive disorder. It concluded that exposure to early life stress can increased the likelihood that some will develop youth-onset depression. It found that as compared to youths who were not exposed to ELS, youth who were exposed to ELS were 2.5 times more likely to develop major depressive disorder (Joelle LeMoult el.t 2020).
+
+The study has contributed significantly in the way we understood major depressive disorder in young adults and adolescence. Generally in understanding the cause of stress, practitioners tend to look at the current state of affairs which the individual is associated with. However, the study shows a significant link between early life stress such as emotional abuse to be associated with depression in the later life. Depressive disorder is one of the common form of disorders faced by youths and by understanding the relation of family situations that can induce early life stress, society can benefit by dealing with abusive parents. It also can help in tackling early life stress such as poverty.
+
+The study has its own limitation in the research method it uses. The findings were based on a meta- analysis of data from  62 journal articles and over 44,000 unique participants. It did not cover all aspects of possible analysis in examining early life stress such as housing, neighborhoods, and income. It also used studies that assessed early life stress and the presence and absence of MDD before the age of 18. The study did not investigate the absence of depressive disorder with people who experienced early life stress. The findings from the study says that it provide evidence of adverse effects of ELS on risk for MDD manifesting early in development, before adulthood, and by showing that it varies by type of ELS. The type of ELS is not well highlighted and also lacks substantial insight as to which type of ELS were more likely to lead to MDD.
+
+Chapter 14 of the textbook talks about stress, lifestyle and health, and I think this research finding adds to the existing understanding of stress among young adult or adolescence. There are different kinds of stress inhibitors as a physiological response or response based and stimulus based stress. The kind of stress highlighted in the article (ELS) falls under the definition given by Lazarus and Folkman as a process whereby an individual perceives and responds to events that he appraises as overwhelming or threatening to his well-being (Lazarus & Folkman, 1984). Stress is then related to the way we response to stressors or a demanding or threatening events. Since early life stress has been shown to have associated with MDD in adolescence, we can say that the kind of stressors that cause them comes under Traumatic events. According to American Psychiatric Association traumatic events includes painful memories of the stressors event, persistent negative emotional states, detachment, angry outbursts, and avoidance of reminders of the event (American Psychiatric Association [APA], 2013). Such stressors could be evident in Early life stress.
+
+
+References, 
+
+Elsevier. (2020, July 15). Early life stress is associated with youth-onset depression for some types of stress but not others. ScienceDaily. Retrieved March 11, 2022 from www.sciencedaily.com/releases/2020/07/200715142326.htm
+
+Joelle LeMoult, Kathryn L. Humphreys, Alison Tracy, Jennifer-Ashley Hoffmeister, Eunice Ip, Ian H. Gotlib. Meta-analysis: Exposure to Early Life Stress and Risk for Depression in Childhood and Adolescence. Journal of the American Academy of Child & Adolescent Psychiatry, 2020; 59 (7): 842 DOI: 10.1016/j.jaac.2019.10.011
 
