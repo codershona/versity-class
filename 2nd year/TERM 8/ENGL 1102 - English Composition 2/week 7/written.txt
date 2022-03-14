@@ -4,4 +4,11 @@ In your own words, write a one paragraph response to this question: What makes a
 
 ANSWER:
 
+Qsn: In your own words, write a one paragraph response to this question: What makes a good abstract? Defend your answer. Clarinda(2013)
 
+An abstract is a brief summary of a research article, thesis, review, conference proceeding, or any in-depth analysis of a particular subject and is often used to help the reader quickly ascertain the paper's purpose. A good abstract must be short but impactful, so make sure every word counts. Each sentence should clearly communicate one main point. It must be precise and not longer than 250 words, retelling an entire research paper and arranged from the points from the research paper. It must be free from unnecessary filler words; obscure jargon, and the abstract should be understandable to readers who are not familiar with your topic. It must also be able to describe the methodology used in gathering the data, processing of the data as well as analyzing of the data used during research work and be able to summarize the results. And why should an abstract be like that. It’s because an abstract is like a movie trailer. People will only consider reading the rest of the manuscript if they find your abstract interesting. However, if your abstract doesn’t grab their attention and make a good first impression, there’s a good chance your research paper will be rejected at the outset. Moreover, even after your research paper is published, your abstract will be the first, and possibly only, thing readers will access through electronic searches. Clarinda  (2013)
+
+
+References:
+
+Clarinda C. (2013). A 10-step guide to make your research paper abstract more effective. Editage Insights. https://www.editage.com/insights/how-to-write-an-effective-title-and-abstract-and-choose-appropriate-keywords?refer=scroll-to-2-article&refer-type=article
