@@ -17,4 +17,22 @@ Aspect 5: Is the results section free from grammar and spelling errors? Are ther
 ANSWER:
 
 
+Thesis Statement:
 
+Effects of Social Media in Our Daily Life.
+
+Abstract:
+
+
+Social media has become an almost indispensable aspect of everyday life in today's culture, particularly among university students, who are avid users of the platform. Multitasking on social media has become more common as well. However, little is known about how university students use of social media and multitasking on social media affects their academic performance. The purpose of this study was to see if and how these two habits affect university students' academic performance. This study found that using social media for academic purposes was not a significant predictor of academic performance as measured by cumulative grade point average in a sample of undergraduate students at a university, whereas using social media for non-academic purposes (video gaming in particular) and social media multitasking were significantly negative predictors of academic performance.
+
+
+
+Keywords:
+
+Social media usage, social media multitasking, Academic performance, University students
+
+
+Reference,
+
+Lau, W. (2017). Effects of social media usage and social media multitasking on the academic performance of university students. Computers In Human Behavior, 68, 286-291. https://doi.org/10.1016/j.chb.2016.11.043
