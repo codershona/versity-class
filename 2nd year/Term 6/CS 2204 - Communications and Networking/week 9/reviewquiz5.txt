@@ -1,0 +1,17 @@
+// review quiz 5
+
+What characteristic of UTP cable helps reduce the effects of interference?
+
+A: c.
+the twisting of the wires in the cable
+
+What is a possible effect of improperly applying a connector to a network cable?
+
+A: c.
+Data transmitted through that cable may experience signal loss.
+
+
+Which HTTP header is used by the server to inform the client about how it agrees to use the persistent connection?
+
+A: c.
+Keep-Alive

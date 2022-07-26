@@ -1,0 +1,8 @@
+The only time reengineering enters into work with a legacy system is when it components will be implemented as objects.
+
+
+A: False
+
+Domain models represents real - world concepts, not the software components.
+
+A: False

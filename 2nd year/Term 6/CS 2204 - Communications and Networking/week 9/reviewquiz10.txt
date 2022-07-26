@@ -1,0 +1,15 @@
+// review quiz 10
+
+ In order to fix the slow-convergence problem, most flavors of the RIP protocol use a value of “infinity” set to:
+
+ A: 
+b.
+16
+
+ Token Ring LAN is a simple multiple-access mechanism that is not only collision-free, but which supports fairness in the sense that if N stations wish to send then each will receive 1/N of the opportunities.
+
+ A: True
+
+ The degeneration of a signal over distance on a network cable is called attenuation.
+
+ A: True

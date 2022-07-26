@@ -1,0 +1,9 @@
+For a strongly connected graph a real edge is created to connect the END node to the BEGIN node
+
+
+A: False
+
+The only time reengineering enters into work with a legacy system is when it components will be implemented as objects.
+
+
+A: False

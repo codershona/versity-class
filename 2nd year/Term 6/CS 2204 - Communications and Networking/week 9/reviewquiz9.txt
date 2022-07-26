@@ -1,0 +1,12 @@
+// review quiz 9
+
+Ethernet LAN-layer addresses are most often called MAC addresses.
+
+A: True
+
+What version of IP is the most common in the world?
+
+A: 
+e.
+IPv4
+

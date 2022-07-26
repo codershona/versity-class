@@ -1,0 +1,10 @@
+
+These documents record the process of development and maintenance. Plans, schedules, process quality documents and organizational and project standards are process documentation. This is called as Product Documentation
+
+A: False
+
+Analysis phase is concerned about the ________ aspect of software engineering where as Design is more focused on __________ aspect.
+
+
+A: c.
+What, How

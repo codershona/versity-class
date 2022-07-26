@@ -1,0 +1,23 @@
+Distance Vector Routing was replaced with Link State Routing mainly because of two primary problems. What are they? Name them and elaborate briefly.
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates. Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+ANSWER:
+
+
+In the beginning, the distance vector route had a scheme to ilustrate the target in the accurate network and this could also transmit the entire route in the table to make a connection between the neighbor device. However, the stable shortest path needs the first protocols within linking state to fix the issue which can hindrance via transmitter and the information can has accurate attached links in a router to make the attachment into the network. 
+
+
+In the second point of the view, it also can create a routing loop so that the distance vector protocols generally can establish an unhurried convergence or the slow time reaction can get into the network changes. It can be also refered to make counting in the infinity reason. In this circumstances, to make a cross point the other two else needs more routers to trnasmit into the packet naturally. As a result, it can be fixed by the link state routing protocols by building speedy and faster convergence likewise the high consistency.  
+
+
+
+Reference,
+
+Stelios A. (2007) Dynamic Routing Protocols: Distance Vector and Link State Protocols.Retrieved as at March, 2019 from https://www.pluralsight.com/blog/it-ops/dynamic-routing-protoco

@@ -1,0 +1,64 @@
+Assuming standard 1500 byte Ethernet max payloads:  how many IPv4 fragments will be needed to transfer 2000 bytes of user data with a single UDP send? And, how do the 2000 bytes get split over the frags?
+Despite its conceptual elegance, RPC (Remote Procedure Call) has a few problems. Discuss any 3 of those in brief.
+Why is timestamping needed in real-time applications? This is in the context of Real-time Transport Protocol (RTP).
+Why does UDP exist? Would it not have been enough to just let user processes send raw IP packets?
+Explain how QUIC eliminates a couple of RTTs usually needed at the start of a secure web connection.
+Paper Guidelines
+
+2-3 pages in length, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+Assessment Criteria
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+
+
+ANSWER:
+
+
+1. ANSWER:
+
+ In the beginning, I am going to end 2 fragments but actually it depends on the implement via the level of the fragmentation to happen. The IP can be aware to make limit of the link or physical layers below. The LLC and PPP instance? Each signle packet can had user data which has IP that can be accommodate with 65 kilo bytes. The adapted layers would had the top IPv6 that would not allowed for the packets of the fragmentation.
+
+ In this case, the IPv4 header = 20 bytes which payload of the ethernet size of 1500B. Accordingly, 1500 - 20 bytes. Those two fragmentation has the data that can be send via effect = At 1496 – 20; 1496/8 = 187. 
+
+
+
+2. ANSWER:
+
+In second point of the view, the following are given below, 
+
+ SECURITY: To make ensure that the person can execute the code means RPC to execute the code of the remote system which would be right to work on but the RPC would not make specific defintion to secure the communication. As a result, RPC make a procedures which is require to authenticate to authorize. 
+
+  
+ COMMUNICATION HANDLING: It can also be used for any transport protocols and able to construct the own communication which is more ale to use of the connectionless protocol if the client of the server can handle the circumstamce to request the response of the missing.  
+
+ 
+ Protocol Requirements:  Each procedure bcan be called that could have its own unique specification related to parameters, as well as perhaps even the format of the input and output has difference between the client and server. For example, even a numeric value such as an integer could be a 32 bit number on one system and a 64 bit number on the other.
+
+
+
+3. ANSWER:
+
+
+Time stamping is used for synchronization as well as discarding old invalid packets. As the receiver processes the frames sent, any packets which had an older time stamp would obviously mean those packets were delayed in transmission. Imagine if this was a voice application, if a few bits of audio go missing, you would not want those to suddenly reappear in the middle of the stream, it would become in audible and create problems. Thus, the timestamps can be used to drop packets that no longer have relevance.
+
+
+4. ANSWER:
+
+
+UDP exists to support real time applications, applications where data packets are time-sensitive and would prefer to drop the data than wait, and for applications that handle error checking and correction thus removing the need for this overhead at the transport level. While it could be argued that essentially, we are allowing application to nearly talk direct, and thus could allow them to just send raw IP packets, the truth is that UDP still performs functions that the transport layer provides such as adding the port number to the service which is crucial for talking to the right process.
+
+
+
+5. ANSWER:
+ QUIC was created by Google in order to support the HTTP protocol to provide security to the connections which is similar to TLS/SSL in UDP connection endpoints. QUIC eliminates a couple of RTTs usually needed at the start of a secure web connection such as QUIC eliminates the first RTT which is required for setting up the TCP connection. This allows the data delivery with the first packet of the message. This has adverse effects on the security of the network where the attacker can take advantage of the window of time and try replaying spoofed packets. QUIC also eliminates the second and the third RTT which is required for negotiating TLS encryption.  However, the QUIC eliminates a couple of RTTs usually needed at the start of a secure web connection.
+
+
+

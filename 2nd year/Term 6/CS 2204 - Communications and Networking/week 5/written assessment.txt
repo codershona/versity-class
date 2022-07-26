@@ -1,0 +1,161 @@
+Q1. A router has the following CIDR entries in the routing table:
+
+ 
+
+Address/Mask
+
+Next Hop
+
+135.46.56.0/22
+
+Interface 0
+
+135.46.60.0/22
+
+Interface 1
+
+192.53.40.0/23
+
+Router 1
+
+Default 
+
+Router 2
+
+
+For each of the following IP addresses, what does the router do if a packet with that address arrives?
+
+135.46.63.10
+135.46.57.14
+135.46.52.2
+192.53.40.7
+192.53.56.7
+
+Q2. A Large number of consecutive IP address are available starting at 198.16.0.0. Suppose four organizations, A, B, C, D request 4000, 2000, 4000, and 8000 addresses, respectively. For each of these organizations, give:
+
+the first IP address assigned
+the last IP address assigned 
+the mask in the w.x.y.z/s notation
+ 
+
+Q3. A router R has the following distance-vector table:
+
+ 
+
+Destination
+
+Cost
+
+Next hop
+
+ A
+
+ 2
+
+ R1
+
+ B
+
+ 3
+
+ R2
+
+ C
+
+ 4
+
+ R1
+
+ D
+
+ 5
+
+ R3
+
+ 
+
+R now receives the following report from R1 (the cost of the R–R1 link is 1):
+
+<dest: A, cost: 1>, <dest: B, cost: 1>, <dest: C, cost: 4>, <dest: D, cost: 4>.
+
+ 
+
+Give R’s updated table after it processes R1’s report. For each entry, give a brief explanation.
+
+Answer all questions, in your own words, properly cite any outside resources.  Use 1" margins and Times Roman Font, 12-point, or something comparable.   The paper should be well organized with proper grammar and spelling. 
+
+Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+Assessment Criteria
+
+Answers all of the questions posed in the assignment (50%)
+Paper Organization (20%)
+Vocabulary (10%)
+Grammar (10%)
+Spelling and Punctuation  (10%)
+
+
+ANSWER:
+Question 1 Answer:
+
+a) 135.46.63.10
+
+By taking the first 22 bits of 135.46.63.10 becuase of the network address, which can had 135.46.60.0.
+
+The bit pattern of 135.46.63.10 are 10000111.00101110.00111111.00001010.
+
+Here, we can able to perform the bit as well as operation with 22 leading bit 1s or 10 bit 0s, the same difference between by building the last 10 bit zero. It is also possible to presently the network address bit pattern which are given below,  10000111.00101110.00111100.00000000. The first two bytes was not swapped. The 3rd type reveresed from 63 to 60 during the 4th byte alter to zero.
+
+The rounting table needs to match the network address. But the second row can match by forwarding the router of the packet to interface 1. 
+
+(b) 135.46.57.14
+
+Considering the first 22 bits of the above IP address as network address to obtain 135.45.56.0, which correspond to the network address of the first row. The packet will be forwarded to interface 0.
+
+(c) 135.46.52.2
+
+We had 135.45.52.0 becuase if we take the first 22 bits the above IP address needs this network address. This first three rows can not be matched in the network. Router 2 can had a packet forwarded to the default gateway. 
+
+
+(d) 192.53.40.7
+
+Here we can take the first 23 bits which is above IP address in the network address that had 192.53.40.0. It can also matched the network address in the third row. Router 1 packets needs to forwarded. 
+
+(e) 192.53.56.7
+
+By taking the first 23 bits had the above IP address in the network address which os 192.53.56.0.
+
+The first three rows needs netowrk address which is not matching and the packet can be forwarded to the default gateway that is Router 2. 
+
+
+Question 2 ANSWER:
+
+The address starts and ends with the following mask,
+
+A: 198.16.0.0 – 198.16.15.255 written as 198.16.0.0/20. The number of address 4096
+
+B: 198.16.16.0 – 198.16.23.255 written as 198.16.16.0/21. The number of address 2048
+
+C: 198.16.32.0 – 198.16.47.255 written as 198.16.32.0/20. The number of address 4096
+
+D: 198.16.64.0 – 198.16.95.255 written as 198.16.64.0/19. The number of address 8192
+
+Question 3 ANSWER:
+
+The A destination can be cost from R1 which are 1 as well as R from R1 but this is also needs to be entry woth 1 so that it can remain the similar cost 2 from hop R1.
+
+R - R1 linked woth 1. 
+
+RR1 = 1 
+
+The R needs to be updated into routing table but it needs R1 to added into distance 1. 
+
+The B Destination, The total distance R has ued R1 will be 1 + 1 = 2 and the cheaper than the earlier cost to use R2. It can also break R1 route.
+
+In the cost the destination C can be reported by the R1 to increase.
+
+R’s next_hop to C is R1, and so R must increase its cost to C to 4+1 = 5.
+
+For destination D, R’s total cost by using R1 is 4+1 = 5, similar cost as using R3, as a result it had no change.
+
+

@@ -1,0 +1,52 @@
+Concept Maps, while representing knowledge about the problem domain, are expressed in terms of 'concepts' and -------, and are used to represent knowledge, beliefs, feelings etc.
+
+A: b.
+Propositions
+
+Symmetric cryptosystems are also known as Public Key systems
+A: False
+
+The Advanced Encryption Standard has a fixed block size of ________bits and a key size of _______ , ________ and _________ bits
+
+A: b.
+128, 128, 192 and 256
+
+7. -------------------measures the degree to which the specification or code of a software program has been exercised by tests. -------------------measures the degree to which the source code of a program has been tested.
+
+A: a.
+Test coverage, Code coverage
+
+We call a function f a trapdoor function if f is easy to compute, but f -1 is very hard, indeed impossible for practical purposes.
+
+A: True
+
+For the given program fragment and its corresponding graph, which of these are valid paths? (2 correct choices)
+
+A: b.
+e1, e2, e4, e5, e4, e6, e7, e8
+
+d.
+e1, e2, e4, e6, e9, e10
+
+
+
+The observer pattern , separates the display of the state of an object from the object itself and allows alternative displays to be provided. When the object state changes, all displays are automatically notified and updated to reflect the change.
+
+A: True
+
+Selects elements from the “edges” of the equivalence class, or “outliers” such as- zero, min/max values, empty set, empty string, and null, confusion between > and >=, etc. This type of testing is known as---
+
+A: b.
+Boundary Testing
+
+To prioritize the work on use cases, we use
+
+A: c.
+Traceability Matrix
+
+Match with the correct choices. In context diagrams, what are the following used for?
+
+
+A:
+c.
+A-3, B-1, C-2

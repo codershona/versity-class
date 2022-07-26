@@ -1,0 +1,17 @@
+// self quiz 7
+
+
+The usual approach to prevent eavesdropping on a communication channel is the use of:
+
+A: b.
+encryption
+
+
+What is the purpose of the preamble in an Ethernet frame?
+
+A: d.
+It is used for timing synchronization with alternating patterns of ones and zeros
+
+Ethernet-like collision detection is no longer feasible over radio communications:
+
+A: True

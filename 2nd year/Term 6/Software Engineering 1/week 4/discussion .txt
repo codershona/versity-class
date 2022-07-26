@@ -1,0 +1,35 @@
+
+Hello Students,
+
+Explain why it is important to model the context of a system that is being developed. 
+
+Give two examples of possible errors that could arise if software engineers do not understand the system context.
+
+
+ANSWER:
+
+ANSWER 1: 
+
+  In the beginning, I am going to discuss about the system which could be define as the internal working system. Moreover, the external enivronment can be also rely on the part of the system. This means the other external process can be depend on the functionality and the present feature also can be known as in our environment system. For instance, if the company is builded by the computer which can be examine to handle the external or manual process that rely on student information in the computer system. It can be also assist by the decision to include the system or not,
+
+   That means it could be identify in the boundaries in the system. If we make a limitation in the note boundaries we need to get the model of the features. The stakeholders or our team can be get better if they do the cost estimation. The environment can be allowed by the stakeholders to view in the system or make a limitations. In the system design the limitation can be made to help and make a scheme if it is required.  
+
+
+
+ ANSWER 2: 
+
+1. The requirements of Missing  functionality :
+
+
+
+In how previous example of creating a computer based examination system we might end up with an incomplete requirement without proper understanding of the boundaries, for example things like the business logic of the exam questions being random or every exam needs to be authorized by the  subject teacher or the result of an exam is automated to going into the student exam records.
+
+
+
+2. The boundaries to make cost more to fix misunderstood :
+
+
+
+Actually it time can be taken more if the cost of the errors resolved suddenly get rise dramatically to make definition in the boundaries and it can be allocate the time or cost. 
+
+

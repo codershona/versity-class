@@ -1,0 +1,48 @@
+self quiz 
+
+On the Ordinal Cohesion Scale, rate the following in the Lowest to Highest order of cohesion.
+
+
+A: c.
+Coincidental, Logical, Temporal, Sequential, Functional
+
+
+The four basic steps in software project estimation are:
+
+Estimate the size of the development product. { either Lines of Code (LOC) or Function Points (FP)}
+Estimate the effort in person-months or person-hours.
+Estimate the schedule in calendar months.
+Estimate the project cost in dollars (or local currency)
+
+
+A:True
+
+
+Cyclomatic complexity measures software complexity from the machine’s viewpoint in terms of how the size of the input data affects an algorithm’s usage of computational resources (usually running time or memory)
+
+
+
+A: False
+
+
+The size estimate for a software product to be built must be based on a direct measure like LOC.
+
+
+A: False
+
+
+LOC-based estimation techniques require problem decomposition based on
+
+
+A: c.
+software functions
+
+
+---------------cohesion is difficult to automate
+
+
+A: 
+b.
+Semantic
+
+

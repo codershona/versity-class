@@ -1,0 +1,19 @@
+// review quiz 6
+
+A common recommendation is to have no more than _____ hosts per LAN or VLAN
+
+
+A: b.
+1000
+
+What OSI layer identifies the communicating applications?
+
+
+A: 
+a.
+Layer 1
+
+Which information is found in the UDP header?
+
+A: e.
+Source and Destination Port

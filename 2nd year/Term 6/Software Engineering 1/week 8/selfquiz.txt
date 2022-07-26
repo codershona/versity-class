@@ -1,0 +1,35 @@
+// self quiz
+
+This is the process of preparing the document for professional printing. It is supported by desktop-publishing packages, artwork packages and type styling programs. This process is Document Polishing
+A: False
+
+End-users use the software to assist with some task. This may be flying an aircraft, managing insurance policies, writing a book, etc. They want to know how the software can help them. They are not interested in computer or administration details.
+
+A: True
+
+Software reengineering process model includes restructuring activities for which of the following work items?
+
+A: a.
+Code
+
+b.
+Documentation
+
+c.
+Data
+
+d.
+all of the above
+
+Product documentation is used after the system is operational but is also essential for management of the system development.
+
+A: True
+
+Documentation standards may be process standards, defining how documents should be produced, product standards, defining document organization or document interchange standards.
+
+A: True
+
+Which of the following activities is not part of the software reengineering process model?
+
+A: c.
+Prototypin

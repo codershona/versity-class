@@ -1,0 +1,18 @@
+// review quiz 8
+
+Starting from the TCP ESTABLISHED state, the side that closes the connection first (active CLOSE) will end up in the TIME WAIT state.
+
+A: True
+
+
+In bridged LANs, the _______ algorithm creates a topology in which each LAN can be reached from any other LAN through one path only.
+
+A: 
+e.
+spanning tree
+
+Which is an important characteristic of UDP?
+
+A: b.
+minimal delays in data delivery
+

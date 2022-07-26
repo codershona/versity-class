@@ -1,0 +1,3 @@
+This traceability property is critical for a good development method (process), because the design elaboration progresses systematically, without great leaps that are difficult to grasp and/or follow.
+
+A: True

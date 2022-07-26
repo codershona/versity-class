@@ -1,0 +1,27 @@
+Learning Journal Unit 8
+1. DNS uses UDP instead of TCP. If a DNS packet is lost, there is no automatic recovery. Does this cause a problem, and if so, how is it solved?
+
+2. Suppose that someone sets up a vacation reply and sends a message before logging out. Unfortunately, the recipient has also set up a vacation reply message. What will happen in this case? Will the canned replies keep on going back and forth until someone returns?
+
+3. When web pages are sent out, they are prefixed with MIME headers. why?
+
+4. Does VoIP have same the problems with the firewall that streaming audio has?
+
+This Assignment will be instructor-assessed and is intended for your own practice and preparation for the Final Exam.
+
+
+ANSWER:
+
+
+ANSWER 1: In the beginning, DNS we could able to classify that each idempotent can be defined as this has operation and it could be repeated by not having any kind of additional effects but in the similar input in the parameters. The DNS can be defined as "TIME TO LIVE" (TTL) and it can be sstartedwhatever the systems can be made by the DNS request as well as whether the timer can be expired and it can make a new request repeatedly. 
+
+
+ANSWER 2: In my second point of the view, the message can be sent before we log out to generate each canned response. It can also have an arrival that would generate a canned response too. The most email programs we can keep it track for each person needs to be sent by the email as well as we can also responds to the initial email and it could be received by the sender. 
+
+
+ANSWER 3: In the third point of the view, the main reasons for the web pages in the internet is the document can contain to the variety of the information of the pictures and hyperlink and text and so on. Basically, each user can want to view each page and it also requires to input the web address into the browser. This trigger in the browser can able to send the request into the web server. This web server would need the other hand to process the request as well as it can reply back to provide output to make request information in the web browser. Finally, it can prefix the MIME header including to make a check if the web page in the video or text or graphics and so on. 
+
+
+ANSWER 4: In the fourth point of the view, Sometimes it actually depends on the below conditions and terms. VOIP would never get the user via the following of each firewall. IT also would not allow the UDP packet out. VOIP would go through while the user needs the following of each firewall that was not interfere whether it can be permitted or not in the site. VOIP would also go through, whether the user needs to utilize the required ports and the right firewall of the setup. 
+
+

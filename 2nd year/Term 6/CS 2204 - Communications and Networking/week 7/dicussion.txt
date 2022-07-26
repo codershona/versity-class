@@ -1,0 +1,23 @@
+
+Discuss the following (exercise 4.0 from section 12.24 of the textbook):
+
+ 
+
+Simultaneous TCP connection initiations are rare, but simultaneous connection termination is relatively common. How do two TCP nodes negotiate the simultaneous sending of FIN packets to one another? Draw the ladder diagram, and label the states on each side. Which node goes into TIMEWAIT state?
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates.
+
+ 
+
+Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+
+ANSWER:
+
+In the beginning, I am going to discuss about the connection termination which is necessary in TCP for a FIM packet which was sent. Generally, The user can be sent by each FIN as well as can wait till by its own FIN which was acknowledged as well as it can be deleted by the connection. Each connection needs the termination to make uses for the four way to handshake the protocol. Each node can be desire to end the half connection and this transmits each FIN packet while the other node was possible to acknowledges an ACK. Most rarely, the simultaneous connection can had the termination which was possible for both TCP nodes to transmit FIN packet simultaneously. The termination connection needs a pair of FIN as well as ACK segments from a TCP at the endpoint. Now the section can be send to began FIN which needs to be responded the final ACK. It can be waited for each timeout before the closing of the connection. While the local ports were unavailable for new connection. The initiator node needs the first to send the first FIN, but before the receiver node. It makes the initiator node to go through the TIMEWAITstate.

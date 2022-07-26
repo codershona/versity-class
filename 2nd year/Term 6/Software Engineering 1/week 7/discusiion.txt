@@ -1,0 +1,45 @@
+
+Hello Class,
+
+Consider the online auction site described in Problem 2.31 (Chapter 2, Page no 165). Suppose you want to employ the Publish-Subscribe (also known as Observer) design pattern in your design solution for Problem 2.31. Which classes should implement the Publisher interface? Which classes should implement the Subscriber interface? 
+
+Explain your answer. (Note: You can introduce new classes or additional methods on the existing classes if you feel it necessary for solution.).
+
+
+
+ANSWER:
+
+In the beginning, The issue needs to be considered as an online auction sites or, with selling, or with bidding as well as purchasing any services. If the users are allowing to purchase any service, it can found each item that can be bid with it or purchase with it. The classes can have online auction site to discuss the issue 2.31 which can be shown in the figure 2-48 and it is also helpful to show as a use case in the diagram in p.65 it can also demonstrate it in the actors. 
+
+
+
+ Here, the provide solved problem shows that, it can apply publish-subscribe in the design pattern. The major idea can be found in behind the publish-subscribe and design the pattern which is quite simple. But the design of the behavior needs to create the pattern in the subscription mechanism and it can also be allowed in each group in the objects to check the response events which can cause the objects. To start with, if we try to develop the generalized pub-sub in the system from the beginning, the result would be the most obvious model which can assist us to realize the features and make possibility issues in each specific implements. The major business system could be the design pattern which is given below,
+ 
+ 1. We can have subscribers to subscribe to the messages.
+ 2. A message can be created by the publisher.
+ 3. In the process a message can be published by the publisher.
+ 4. In the process the message can be stored for some time.
+ 5. The entire process needs to send messages to their subscribers.
+ 6. Subscribers can accept and process the messages.
+
+
+ We can also highlight the participants' business process, which is given below,
+
+ 1. The publisher can have several and the subscriber can had general several.
+ 2. The system can have it own pub-sub system.
+
+
+
+In the second point of the view, if we begin the selling system for the seller and create or publish each item in the ListItem. The ItemInfo class can be shown the entire process. This information of the class can have each item which can start price and seller information or listed the bods. The BidList class can demonstrate the BidForItem in the entire system, which can begin the buyer as well as the reason of the BidList was an interesting for both sellers. 
+
+
+
+In the third point of the view, as I had was discussed above, we had two major actions were one is a buyer and another one is a seller. They can act as a subscriber. The subscriber can have ItemInfo which has a class to represent a buyer for the BuyerInfo class. 
+The ViewBids or BidForItem have buyer which can beat the bid by both seller and buyer to subscribe the BidsList class. The SellerInfo case class as well as BuyerInfo class would act as subscribers for the publishers.
+
+
+References:
+Marsic, I (2012) Software Engineering. Rutgers University, New Brunswick, New Jersey
+
+
+Shvets, A. (n.d.) Observer. refactoring.guru. Retrieved from: https://refactoring.guru/designpatterns/observer

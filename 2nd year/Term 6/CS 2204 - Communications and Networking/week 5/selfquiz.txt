@@ -1,0 +1,58 @@
+// 
+
+The Split Horizon fix to the slow-convergence problem prevents all linear routing loops.
+
+A: True
+
+In link-state routing, each node keeps a maximum amount of network information about of all nodes and all links.
+
+
+A: True
+
+
+In distance-vector routing, each node has a complete view of the network topology.
+
+
+A:  False
+
+Subnetting allows aggregation of IP address blocks in a way that is visible to the Internet backbone.
+
+A: False
+
+
+The CIDR longest-match rule for choosing the routing table entry to be used means
+
+A: c.
+using the most specific matching prefix
+
+In link-state routing implementations, link-state records must be periodically renewed
+
+A: True
+
+BGP speakers exchange with neighbors only the routes they (and thus their AS) use themselves.
+
+A: True
+
+The link-state flooding algorithm avoids the usual problems of broadcast in the presence of loops by:
+
+A: a.
+discarding old or duplicate Link State Advertisements
+
+The Border Gateway Protocol’s primary goal is to provide support for choosing routes based on:
+
+
+
+
+A: c.
+administrative input
+
+
+In order to fix the slow-convergence problem, most flavors of the RIP protocol use a value of “infinity” set to:
+
+
+A: b. 16
+
+
+
+
+

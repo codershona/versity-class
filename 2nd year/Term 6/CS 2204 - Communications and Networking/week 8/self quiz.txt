@@ -1,0 +1,59 @@
+// self quiz
+
+
+Which HTTP header is used by the server to inform the client about how it agrees to use the persistent connection?
+
+A: c.
+Keep-Alive
+
+Overlapping TCP segments raises the possibility of signature-based detection evasion (the attacker might arrange the packets so that the detection reassembles them one way and the target another way).
+
+
+A: True
+
+The Simple Mail Transfer Protocol (SMTP) is used to retrieve email messages from older email servers.
+
+
+A: 
+
+
+The following protocol assumes that all the e-mail will remain on the server indefinitely in multiple mailboxes:
+
+
+A: a.
+POP3
+
+
+WEP Wi-Fi encryption is still considered very strong nowadays.
+
+A: False
+
+Fully qualified domain names (FQDN) are case-sensitive.
+
+A: False
+
+The essence of DNS is a hierarchical domain-based naming scheme and a distributed database system for implementing this naming scheme.
+
+
+A: True
+
+
+Most network intrusion-detection systems (NIDS) detect intrusions based either on traffic anomalies or on pattern-based signatures. Which of the following would fall under “traffic anomalies”?
+
+
+A: d.
+all of the above
+
+
+An attack that keeps changing in relatively trivial ways to avoid signature-based detection is sometimes said to be:
+
+A: c.
+polymorphic
+
+
+
+
+HTTP 1.1 supports persistent TCP connections. A persistent connection is a TCP connection over which a client may send several HTTP requests.
+
+
+A:  True

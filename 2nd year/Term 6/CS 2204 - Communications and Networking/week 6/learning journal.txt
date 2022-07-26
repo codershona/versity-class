@@ -1,0 +1,27 @@
+Learning Journal Unit 6
+Answer the following in your own words:
+
+In the TFTP protocol:
+If the client changes its port number on a subsequent connection, but the server does not, what prevents an old-duplicate data packet sent by the server from being accepted by the new client?
+If the server changes its port number on a subsequent connection, but the client does not, what prevents an old-duplicate data packet sent by the server from being accepted by the new client?
+ 
+
+2. In an RPC-like protocol in which multiple requests can be outstanding, and replies can be sent in any order: Assume that requests are numbered and that ACK[N] acknowledges reply[N]. Should ACKs be cumulative? If not, what should happen if an ACK is lost?
+
+
+ANSWER:
+
+
+ In the beginning, I am going to talk about the simple, trivial file transfer protocol, which is a shortcut called TFTP. This protocol can also transfer data. 
+  
+  1. Basically the changed port number can not be open to stay on the TCP connection. Because the connection can be connected with each other. The port IP source included with the destination of the port of the IP. Moreover, each protocol needs to logical channel that can be established with among the peers but before that the data needs to be exchanged and it could occur in the connection to make tear down to perform the connection while the number of the port can be changed or established with the new connection. 
+
+  2. Subsequently, by accepting the connection on the port number cannot be changed for the server. 
+
+ In the second point of the view, the server can build reply [N] or it can send into the client. But the server can store important cached copy to reply or by awaiting like ACK [N] to receive. Moreover, this is also possible for the ACKs to make cumulative that can send to reply [N]. The server might also able to receive ACK [N] and it can signifies which is better for the server. The reason is it can able to receive [N] over to indicate the reply [N] to make lost. It might be experienced a timeout which was signified to other reply [N] otherwise ACK [N] cannot be lost. 
+
+
+Reference
+
+Riemersma, T. (March 2018). Extending TFTP. Retrieved from: https://www.compuphase.com/tftp.htm
+

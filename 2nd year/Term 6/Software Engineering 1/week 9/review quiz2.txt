@@ -1,0 +1,132 @@
+
+Domain models represents real - world concepts, not the software components.
+
+A: False
+
+These documents record the process of development and maintenance. Plans, schedules, process quality documents and organizational and project standards are process documentation. This is called as Product Documentation
+
+A: False
+
+This traceability property is critical for a good development method (process), because the design elaboration progresses systematically, without great leaps that are difficult to grasp and/or follow.
+
+A: True
+
+Analysis phase is concerned about the ________ aspect of software engineering where as Design is more focused on __________ aspect.
+
+
+A: c.
+What, How
+
+
+
+Organizations are often fronted by a point-of-contact person. A common pattern is to have a specialized worker to take orders from the clients and orchestrate the workings of the workers inside the system. This type of object is known as Controller.
+
+
+A: True
+
+Acceptance tests are normally conducted by the developer?
+
+
+A: False
+
+
+-------------------measures the degree to which the specification or code of a software program has been exercised by tests. -------------------measures the degree to which the source code of a program has been tested.
+
+
+
+A: a.
+Test coverage, Code coverage
+
+Which of the following activities is not part of the software reengineering process model?
+
+
+A: 
+c.
+Prototyping
+
+
+Reverse engineering of data focuses on?
+
+
+A: c.
+Both a and b
+
+
+The term ____________is often used to describe modifying the design and/or implementation of a software module without changing its external behavior, and is sometimes informally referred to as “cleaning it up.”
+
+
+A: 
+c.
+Refactoring
+
+
+This is the process of preparing the document for professional printing. It is supported by desktop-publishing packages, artwork packages and type styling programs. This process is Document Polishing
+
+
+A: False
+
+
+Software architecture focuses on ---------------requirements and decomposition of ----------------------requirements.
+
+
+A: 
+b.
+Non Functional, Functional
+
+
+The term FURPS refers to
+
+
+A: b.
+Non functional system properties
+
+
+The association between an actor and a use case is (more than one answer)
+
+A: 
+
+
+
+LOC-based estimation techniques require problem decomposition based on
+
+
+A: c.
+software functions
+
+
+If you are able to anticipate that the components are likely to be reused in future projects then it is not advisable to use the Pub-Sub design pattern.
+
+
+A: False
+
+
+
+
+Which of the following is not an issue to consider when reverse engineering?
+
+
+A: c.
+Connectivity
+
+
+Because Use Cases represent recipes for user achieving 'goals', each use case name must include a 'verb' capturing the goal achievement.
+
+
+A: True
+
+---------------cohesion is difficult to automate
+
+
+A: Semantic
+
+The correct order for all requirement engineering techniques is
+
+
+A: c.
+Gathering, Analysis, Specifications
+
+
+The unit to be tested is also known as the fixture.
+
+
+A:  A. 

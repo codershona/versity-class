@@ -1,0 +1,25 @@
+POP3 allows users to fetch and download e-mails from a remote mailbox. Does this mean that the internal format of the mailboxes has to be standardized so any POP3 program on the client side can read the mailbox on any mail server? Discuss your answer.
+
+Note any areas where you may want or need some further explanation.  Ask questions of your fellow classmates.
+
+ 
+
+Revisit the Discussion Forum often, responding to at least three other classmates and responding to anyone who responded to your original post.
+
+ 
+
+You may need to use some additional outside sources.  Be sure to properly cite any sources you use using APA format.  You can get some help on APA formatting here: Purdue Online Writing Lab. (n.d.). APA style introduction. Purdue University. https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html
+
+
+
+ANSWER:
+
+ In the beginning, I am going to discuss about the POP3 which has a network interface protocol. It can able to illustrate the data transmission which was over the wire. The location or the description of the data in the storage. We can also identify that the POP3 can be sent by the messages which is back as well as the forth between the mail server and client. This format can be internal with mailbox files in the server, which was directed by the POP3 server. The apps can be needed to read the mailbox where the files can needs to send the correct messages to the client via email transfer by using POP3. Basically, the sender, mail subject, recipient as well as the body can have to make the availability in the mailbox in the form. But the POP service needs to be extracted by the information into the remote mailbox of some conversion. Moreover, the benefits of the POP3 can be assisted by reading the emails from anywhere in the world by using internet. It can also provide the user which could able to run the POP3 client. BY not having the dial within the demon connection. You can also make sure that the feature can be setup the user-initial POP3 password. It can also don including private demon dial-up host and this setup can also able to the user which was not able to use the POP3. Finally, we can also use the POP3 of the whole email for the demon host would arrive by the similar mailbox. For instance, turnpike (POP3) can be allowed by the users automatically route by the email. There are also different mailboxes which was based on the "TO" as well as "FROM" by the message header of the lines.
+
+References,
+
+Dordal, P. (2019). An introduction to computer networks. This book is licensed under Creative 
+
+Commons Attribution-NonCommerical-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0). https://my.uopeople.edu/pluginfile.php/924208/mod_page/content/18/ComputerNetworksText.pdfE-mailsetting. (n.d.) 
+
+Demon email settings for android. https://www.e-mailsettings.com/android/demon-mail-setup

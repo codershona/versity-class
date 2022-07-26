@@ -20,4 +20,118 @@ Grammar (10%)
 Spelling and Punctuation  (10%)
 
 A: 
+ 
 
+  
+
+Written Assignment Unit 3  
+
+Computer Science, University of the People  
+
+CS 2204: COMMUNICATIONS AND NETWORKING  
+
+Franklin Orellana (Instructor)  
+
+[2021-09-19] 
+
+ 
+
+ 
+
+ 
+
+1. What do you understand by The Hidden Node Problem? Describe 2 different  
+
+spatial configurations which exemplify this issue.  
+
+ 
+
+ANSWER:  
+
+ 
+
+ The nodes of the groups can be reached by the hidden node problem to apply the presence of the wireless network. The example, it can be causing the opposite of the point to access the point to have many nodes which can be known as A as well as B to call C. While the nodes also can be positioned by the access point at the range of the limit that can be access in the end of the point. It can also be possible to access the display to involve the arrangement of directional antennas which are in likewise the none specify manner in the contact.  
+
+ 
+
+2. What is the 4B/5B encoding for the 3-byte (ASCII) string “Sun”?  
+
+ 
+
+ANSWER:  
+
+ 
+
+ It can be raised as the 4B/5b to encode being "Sun" ASCII series. In the beginning, it can be translated by the ASCII into hexadecimal withing addressing those queries. We can also make 53 55 4E. The encoded table can be taken by the hexadecimal conversion to use 4b/5B. 
+
+0101 01011  
+
+0011 10101  
+
+0101 01011  
+
+0101 01011  
+
+0100 01010  
+
+1110 11100 
+
+ 
+
+3. What is the 16-bit internet checksum for the 3-byte binary message 00110001  
+
+00110010 00110011?  
+
+ 
+
+ANSWER: 
+
+ 
+
+•  The checksum being the 3-byte binary message 00110001 00110010 00110011 which are 75 7A.  
+
+ 
+
+4. Suppose a message is 11011000. What is the CRC checksum using the polynomial  
+
+corresponding to 1011 to give a 3-bit answer? (Show the solution steps, not just  
+
+the answer).  
+
+ 
+
+ANSWER: 
+
+ 
+
+The polynomial can be used for the corresponding into 1011 to figure out the CRC of the sum control in the message which is 11011000. In begin with, it is required that the message can be translate into polynomial x^7+x^6+x^4+x^3. The reason is if the polynomial like 1011, whatever it can be x^3+x+1 and also it can be detached from the following to receive the x^7+x^6+x^4+x^3 / x^3+x+1. Subsequently, the division can be received by the x4+x3+x2+x+1 for remainder of the 1, or 11111. Because of, each 3 bits can be replying the continuing 1 compared to 001, and the ultimate result is 001. 
+
+ 
+
+5. What is Time Domain Reflectometry?  
+
+ 
+
+ANSWER: 
+
+The electrical line has final characteristics which have been used to reflect the wave form to make an observed in the time-domain reflectometry. In the system, if we reflect the energy as well as the energy can also be pumped into the system. In the transmission system we can also make a comparison between the direction or structure of the waveform. On the other hand, it can enable us to determine the existence to measure reflected energy.  
+
+ 
+
+ 
+
+ 
+
+REFERENCES , 
+
+Kapadia, V., Patel, S., and Jhaveri, R. (2010). Comparative Study of Hidden Node Problem  
+
+and Solution Using Different Techniques and Protocols. Retrieved from https://ai2-s2- 
+
+pdfs.s3.amazonaws.com/028e/d2e0e797c53cc5b6ff8ec73bfa9ba5cf68fc.pdf.  
+
+Kostro, Sylwester & Nowicki, Michał & Szewczyk, Roman & Rzeplińska-Rykała, Katarzyna.  
+
+(2017). Time-Domain Reflectometry (TDR) Square and Pulse Test Signals Comparison. 543.  
+
+512-523. 10.1007/978-3-319-48923-0_55 

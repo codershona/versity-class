@@ -1,0 +1,34 @@
+Selects elements from the “edges” of the equivalence class, or “outliers” such as- zero, min/max values, empty set, empty string, and null, confusion between > and >=, etc. This type of testing is known as
+
+
+A: b.
+Boundary Testing
+
+Boundary testing and Control-flow testing are criteria for ?
+
+A:
+c.
+Code Coverage
+
+7. Look at the two diagrams and identify them.
+
+A:
+
+Equivalence testing divides the input domain into classes of data from which test cases can be derived to reduce the total number of test cases that must be developed.
+
+A: True
+
+
+The unit to be tested is also known as the fixture.
+
+
+A: True
+
+
+2. -------------------measures the degree to which the specification or code of a software program has been exercised by tests. -------------------measures the degree to which the source code of a program has been tested.
+
+
+A: a.
+Test coverage, Code coverage
+
+

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "2nd year/TERM 8/ENGL 1102 - English Composition 2/week2/written.txt": [
+      {
+        "id": "f477dd5b-b02d-4487-9adc-5dd6df4f9123",
+        "line": 65,
+        "version": 235,
+        "index": 4474
+      }
+    ],
+    "2nd year/TERM 8/PSYC 1504 - Introduction to Psychology/week 2/learning.txt": [
+      {
+        "id": "c7c24315-e5b1-46ab-8bc1-7554354aeb9a",
+        "line": 18,
+        "version": 121,
+        "index": 4271
+      }
+    ],
+    "2nd year/Term 6/CS 2204 - Communications and Networking/week 4/learning journal.txt": [
+      {
+        "id": "b17ef023-067b-4814-9e02-e1e3c13a91d1",
+        "line": 20,
+        "version": 787,
+        "index": 1689
+      }
+    ],
+    "2nd year/Term 7/ENVS 1301 - Introduction to Environmental Sciences/week 4/written.txt": [
+      {
+        "id": "8761ab62-f195-4b9f-8cc4-e6225886a6c6",
+        "line": 43,
+        "version": 4184,
+        "index": 5569
+      }
+    ]
+  }
+}
